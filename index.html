@@ -8,12 +8,57 @@
 
 </head>
 <body>
+  <!-- Modern Header -->
+  <header class="modern-header">
+    <nav class="navbar">
+      <div class="nav-container">
+        <!-- Logo -->
+        <div class="nav-logo">
+          <span class="logo-icon">📖</span>
+          <span class="logo-text">Datos Bíblicos</span>
+        </div>
+
+        <!-- Navigation Menu -->
+        <div class="nav-menu" id="navMenu">
+          <a href="#inicio" class="nav-link">Inicio</a>
+          <a href="#empezar" class="nav-link">Empezar</a>
+          <a href="#explorar" class="nav-link">Explorar</a>
+          <a href="#versiculo" class="nav-link">Versículo</a>
+          <a href="#favoritos" class="nav-link">Favoritos</a>
+        </div>
+
+        <!-- Theme Toggle & Mobile Menu -->
+        <div class="nav-actions">
+          <button id="themeToggle" class="theme-toggle-modern" aria-label="Cambiar tema" aria-live="polite">
+            <span class="toggle-icon">🌙</span>
+            <span class="toggle-text">Oscuro</span>
+          </button>
+          <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Abrir menú">
+            <span class="hamburger"></span>
+            <span class="hamburger"></span>
+            <span class="hamburger"></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
   <div class="container">
     <!-- Hero Section -->
-    <div class="hero">
-      <button id="themeToggle" class="theme-toggle" aria-label="Cambiar a modo oscuro" aria-live="polite">🌙</button>
-      <h1>📖 Datos Bíblicos</h1>
-      <p>Explora las estadísticas y curiosidades de las Sagradas Escrituras</p>
+    <div class="hero" id="inicio">
+      <div class="hero-content">
+        <h1>Datos Bíblicos Interactivos</h1>
+        <p>Explora las estadísticas y curiosidades de las Sagradas Escrituras con herramientas modernas e interactivas</p>
+        <div class="hero-cta">
+          <a href="#empezar" class="cta-button primary">Comenzar Ahora</a>
+          <a href="#explorar" class="cta-button secondary">Explorar Libros</a>
+        </div>
+      </div>
+      <div class="hero-decoration">
+        <div class="floating-icon">📚</div>
+        <div class="floating-icon">✨</div>
+        <div class="floating-icon">🕊️</div>
+      </div>
     </div>
 
     <!-- Statistics Grid -->
@@ -27,7 +72,7 @@
     </div>
 
     <!-- Getting Started Section -->
-    <div class="getting-started-section">
+    <div class="getting-started-section" id="empezar">
       <h2 class="section-title">¿Por dónde empiezo?</h2>
       <div class="getting-started-content">
         <div class="intro-cards">
@@ -64,7 +109,7 @@
     </div>
 
     <!-- Navigation Tabs -->
-    <div class="books-section">
+    <div class="books-section" id="explorar">
       <h2 class="section-title">Explorar la Biblia</h2>
       <div class="main-tabs">
         <button class="main-tab-btn active" data-section="books">Libros de la Biblia</button>
@@ -100,7 +145,7 @@
     </div>
 
     <!-- Random Verse Display -->
-    <div class="verse-display" id="verseDisplay">
+    <div class="verse-display" id="versiculo">
       <div class="verse-text" id="verseText">"Porque de tal manera amó Dios al mundo, que ha dado a su Hijo unigénito, para que todo aquel que en él cree, no se pierda, mas tenga vida eterna."</div>
       <div class="verse-reference" id="verseReference">Juan 3:16</div>
       <div class="verse-actions">
@@ -113,7 +158,7 @@
     </div>
 
     <!-- Favorites Section -->
-    <div class="favorites-section" id="favoritesSection">
+    <div class="favorites-section" id="favoritos">
       <h2 class="section-title">Mis Versículos Favoritos</h2>
       <div class="favorites-list" id="favoritesList">
         <p class="empty-favorites">No tienes versículos favoritos aún. ¡Agrega algunos con el botón ⭐!</p>

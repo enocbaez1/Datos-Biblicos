@@ -72,6 +72,10 @@
       // Plan de lectura
       document.getElementById('startReadingPlan').addEventListener('click', showReadingPlan);
       document.getElementById('closeReadingPlan').addEventListener('click', closeReadingPlan);
+      // Menu móvil
+      document.getElementById('mobileMenuBtn').addEventListener('click', toggleMobileMenu);
+      // Navegación smooth scroll
+      initSmoothScrolling();
       // Buscador
       const searchInput = document.getElementById('bookSearch');
       const clearBtn = document.getElementById('clearSearch');
@@ -236,7 +240,15 @@
       document.body.classList.toggle('dark', theme==='dark');
       localStorage.setItem('theme', theme);
       const btn = document.getElementById('themeToggle');
-      if(btn){ btn.textContent = theme==='dark' ? '☀️' : '🌙'; btn.setAttribute('aria-label', theme==='dark' ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro'); }
+      if(btn){
+        const icon = btn.querySelector('.toggle-icon');
+        const text = btn.querySelector('.toggle-text');
+        if (icon && text) {
+          icon.textContent = theme==='dark' ? '☀️' : '🌙';
+          text.textContent = theme==='dark' ? 'Claro' : 'Oscuro';
+        }
+        btn.setAttribute('aria-label', theme==='dark' ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro');
+      }
     }
     function initTheme(){
       const saved = localStorage.getItem('theme');
@@ -418,3 +430,101 @@
         updateFavoriteButton();
       }, 250);
     }
+
+    // === FUNCIONES DE NAVEGACIÓN MODERNA ===
+
+    // Menu móvil
+    function toggleMobileMenu() {
+      const menu = document.getElementById('navMenu');
+      const btn = document.getElementById('mobileMenuBtn');
+
+      menu.classList.toggle('active');
+      btn.classList.toggle('active');
+    }
+
+    // Navegación smooth scroll y highlighting activo
+    function initSmoothScrolling() {
+      // Agregar evento click a todos los links de navegación
+      document.querySelectorAll('.nav-link').forEach(link => {
+        link.addEventListener('click', (e) => {
+          e.preventDefault();
+          const target = document.querySelector(link.getAttribute('href'));
+          if (target) {
+            // Cerrar menú móvil si está abierto
+            const menu = document.getElementById('navMenu');
+            const btn = document.getElementById('mobileMenuBtn');
+            menu.classList.remove('active');
+            btn.classList.remove('active');
+
+            // Scroll suave
+            target.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start'
+            });
+
+            // Actualizar link activo
+            updateActiveNavLink(link);
+          }
+        });
+      });
+
+      // Scroll spy - detectar sección visible
+      const sections = document.querySelectorAll('[id]');
+      const navLinks = document.querySelectorAll('.nav-link');
+
+      const observerOptions = {
+        threshold: 0.3,
+        rootMargin: '-100px 0px -50% 0px'
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const id = entry.target.getAttribute('id');
+            const activeLink = document.querySelector(`.nav-link[href="#${id}"]`);
+            if (activeLink) {
+              updateActiveNavLink(activeLink);
+            }
+          }
+        });
+      }, observerOptions);
+
+      sections.forEach(section => observer.observe(section));
+    }
+
+    function updateActiveNavLink(activeLink) {
+      // Remover clase active de todos los links
+      document.querySelectorAll('.nav-link').forEach(link => {
+        link.classList.remove('active');
+      });
+
+      // Agregar clase active al link actual
+      activeLink.classList.add('active');
+    }
+
+    // Header scroll effect
+    function initHeaderScrollEffect() {
+      const header = document.querySelector('.modern-header');
+      let lastScrollY = window.scrollY;
+
+      window.addEventListener('scroll', () => {
+        const currentScrollY = window.scrollY;
+
+        if (currentScrollY > 100) {
+          header.style.background = currentScrollY > lastScrollY
+            ? 'rgba(255, 255, 255, 0.98)'
+            : 'rgba(255, 255, 255, 0.95)';
+          header.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
+        } else {
+          header.style.background = 'rgba(255, 255, 255, 0.95)';
+          header.style.boxShadow = 'none';
+        }
+
+        lastScrollY = currentScrollY;
+      });
+    }
+
+    // Inicializar efectos del header al cargar
+    document.addEventListener('DOMContentLoaded', () => {
+      initHeaderScrollEffect();
+    });
