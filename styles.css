@@ -287,12 +287,140 @@
 
     .theme-toggle{ position:absolute; top:20px; right:20px; padding:10px 14px; border-radius:9999px; border:2px solid rgba(255,255,255,.3); background:rgba(255,255,255,.85); cursor:pointer; font-weight:700; }
 
-    .stats-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:30px; margin:60px 0; }
-    .stat-card{ background:rgba(255,255,255,.95); padding:40px 30px; border-radius:20px; text-align:center; box-shadow:0 20px 40px rgba(0,0,0,.1); opacity:0; transform:translateY(20px); }
+    .stats-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:30px; margin:60px 0; }
+    .stat-card{ background:rgba(255,255,255,.95); padding:40px 30px; border-radius:20px; text-align:center; box-shadow:0 20px 40px rgba(0,0,0,.1); opacity:0; transform:translateY(20px); position:relative; overflow:hidden; }
     .stat-card.reveal{ opacity:1; transform:translateY(0); transition:opacity .6s ease, transform .6s ease; }
     .stat-number{ font-size:3.5rem; font-weight:bold; color:#2c3e50; margin-bottom:15px; }
     .stat-label{ font-size:1.2rem; color:#666; text-transform:uppercase; letter-spacing:1px; margin-bottom:15px; }
     .stat-description{ color:#777; line-height:1.6; font-size:.95rem; }
+
+    /* Tarjetas comparativas */
+    .stat-card.comparative {
+      padding: 30px 20px;
+    }
+
+    .stat-comparison {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .comparison-item {
+      flex: 1;
+      text-align: center;
+    }
+
+    .comparison-item .stat-number {
+      font-size: 2.5rem;
+      margin-bottom: 5px;
+      color: #667eea;
+    }
+
+    .stat-sublabel {
+      font-size: 0.9rem;
+      color: #999;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .comparison-divider {
+      flex: 0 0 auto;
+      font-size: 1.2rem;
+      color: #999;
+      font-weight: 600;
+      margin: 0 15px;
+      padding: 10px;
+      background: linear-gradient(45deg, #667eea, #764ba2);
+      color: white;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Tarjeta de géneros literarios */
+    .stat-card.genres {
+      padding: 30px 25px;
+    }
+
+    .genre-chart {
+      margin-bottom: 20px;
+    }
+
+    .genre-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 12px;
+      gap: 15px;
+    }
+
+    .genre-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .genre-bar {
+      height: 8px;
+      border-radius: 4px;
+      transition: width 1s ease-in-out;
+      min-width: 20px;
+    }
+
+    .genre-bar.narrative {
+      background: linear-gradient(45deg, #4ecdc4, #44a08d);
+    }
+
+    .genre-bar.poetry {
+      background: linear-gradient(45deg, #667eea, #764ba2);
+    }
+
+    .genre-bar.discourse {
+      background: linear-gradient(45deg, #f093fb, #f5576c);
+    }
+
+    .genre-item span {
+      font-size: 0.9rem;
+      color: #666;
+      font-weight: 500;
+      min-width: 100px;
+    }
+
+    /* Efectos especiales */
+    .stat-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(45deg, #667eea, #764ba2);
+      border-radius: 20px 20px 0 0;
+    }
+
+    .stat-card.comparative::before {
+      background: linear-gradient(45deg, #4ecdc4, #44a08d);
+    }
+
+    .stat-card.genres::before {
+      background: linear-gradient(45deg, #f093fb, #f5576c);
+    }
+
+    /* Animaciones */
+    @keyframes barGrow {
+      from {
+        width: 0;
+      }
+      to {
+        width: var(--target-width);
+      }
+    }
+
+    .stat-card.reveal .genre-bar {
+      animation: barGrow 1.5s ease-out;
+    }
 
     .books-section{ margin:80px 0; text-align:center; }
     .section-title{ font-size:2.5rem; color:#fff; margin-bottom:50px; text-shadow:2px 2px 4px rgba(0,0,0,.3); }
@@ -370,7 +498,9 @@
     body.dark .hero{ background:rgba(0,0,0,.25); border-color:rgba(255,255,255,.12); }
     body.dark .section-title, body.dark .hero h1{ color:#fff; }
     body.dark .stat-card, body.dark .chapters-container, body.dark .verse-display{ background:rgba(17,24,39,.9); color:#e5e7eb; }
+    body.dark .stat-number{ color:#e5e7eb; }
     body.dark .stat-label, body.dark .info-value, body.dark .event-description, body.dark .curiosity-text, body.dark .person-age, body.dark .person-note{ color:#cbd5e1; }
+    body.dark .stat-description{ color:#9ca3af; }
     body.dark .book-item{ background:rgba(17,24,39,.85); color:#e5e7eb; }
     body.dark .key-events{ background:linear-gradient(135deg,#3b82f6 0%, #a78bfa 100%); }
     body.dark .genealogy-map{ background:linear-gradient(135deg,#111827 0%, #1f2937 100%); }
@@ -379,6 +509,15 @@
     body.dark .testament-btn, body.dark .main-tab-btn{ background:rgba(255,255,255,.12); border-color:rgba(255,255,255,.18); color:#e5e7eb; }
     body.dark .testament-btn:hover, body.dark .testament-btn.active, body.dark .main-tab-btn:hover, body.dark .main-tab-btn.active{ background:rgba(255,255,255,.9); color:#111; }
     body.dark .theme-toggle{ background:rgba(17,24,39,.85); color:#e5e7eb; border-color:rgba(255,255,255,.2); }
+
+    /* Dark mode for new statistical cards */
+    body.dark .comparison-item .stat-number{ color:#60a5fa; }
+    body.dark .stat-sublabel{ color:#9ca3af; }
+    body.dark .comparison-divider{ background:linear-gradient(45deg, #60a5fa, #a78bfa); }
+    body.dark .genre-item span{ color:#cbd5e1; }
+    body.dark .genre-bar.narrative{ background:linear-gradient(45deg, #10b981, #059669); }
+    body.dark .genre-bar.poetry{ background:linear-gradient(45deg, #60a5fa, #a78bfa); }
+    body.dark .genre-bar.discourse{ background:linear-gradient(45deg, #f472b6, #ec4899); }
 
     /* === NUEVOS ESTILOS PARA FUNCIONALIDADES MEJORADAS === */
 

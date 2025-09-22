@@ -214,16 +214,66 @@
       setTimeout(()=>{ verseText.textContent = `"${v.text}"`; verseReference.textContent = v.reference; verseText.style.opacity='1'; verseReference.style.opacity='1'; }, 250);
     }
 
-    // Animación de números
+    // Animación de números mejorada
     function animateNumbers(){
       document.querySelectorAll('.stat-number').forEach(stat=>{
-        const finalNumber = parseInt(stat.textContent.replace(/,/g,''));
-        let cur = 0; const step = Math.max(1, Math.floor(finalNumber/100));
+        // Skip if it's inside a comparison (will be animated separately)
+        if (stat.closest('.stat-comparison')) return;
+
+        const textContent = stat.textContent.trim();
+        let finalNumber;
+        let suffix = '';
+
+        // Handle numbers with + suffix
+        if (textContent.includes('+')) {
+          finalNumber = parseInt(textContent.replace(/[,+]/g, ''));
+          suffix = '+';
+        } else {
+          finalNumber = parseInt(textContent.replace(/,/g, ''));
+        }
+
+        if (isNaN(finalNumber)) return;
+
+        let cur = 0;
+        const step = Math.max(1, Math.floor(finalNumber/100));
         const timer = setInterval(()=>{
-          cur += step; if(cur>=finalNumber){ cur = finalNumber; clearInterval(timer); }
-          stat.textContent = cur>999 ? cur.toLocaleString() : cur;
+          cur += step;
+          if(cur >= finalNumber){
+            cur = finalNumber;
+            clearInterval(timer);
+          }
+          const formattedNumber = cur > 999 ? cur.toLocaleString() : cur;
+          stat.textContent = formattedNumber + suffix;
         }, 20);
       });
+
+      // Animate comparison numbers separately
+      document.querySelectorAll('.stat-comparison .stat-number').forEach(stat=>{
+        const finalNumber = parseInt(stat.textContent.replace(/,/g,''));
+        if (isNaN(finalNumber)) return;
+
+        let cur = 0;
+        const step = Math.max(1, Math.floor(finalNumber/80));
+        const timer = setInterval(()=>{
+          cur += step;
+          if(cur >= finalNumber){
+            cur = finalNumber;
+            clearInterval(timer);
+          }
+          stat.textContent = cur.toLocaleString();
+        }, 25);
+      });
+
+      // Animate genre bars
+      setTimeout(() => {
+        document.querySelectorAll('.genre-bar').forEach(bar => {
+          const width = bar.style.width;
+          bar.style.width = '0%';
+          setTimeout(() => {
+            bar.style.width = width;
+          }, 100);
+        });
+      }, 500);
     }
 
     // IntersectionObserver para tarjetas estadísticas
