@@ -277,6 +277,7 @@
       </div>
     </div>
 
+
     <!-- Navigation Tabs -->
     <div class="books-section" id="explorar">
       <h2 class="section-title">Explorar la Biblia</h2>
@@ -296,6 +297,13 @@
           <button id="clearSearch" title="Limpiar búsqueda" aria-label="Limpiar búsqueda">✕</button>
         </div>
         <div class="books-grid" id="booksGrid"></div>
+
+        <!-- Test Button -->
+        <div style="margin: 20px; text-align: center;">
+          <button onclick="testModal()" style="padding: 10px 20px; background: #6366f1; color: white; border: none; border-radius: 8px; cursor: pointer;">
+            🧪 Test Genesis Modal
+          </button>
+        </div>
       </div>
 
       <!-- Genesis Chapters Section -->
@@ -331,6 +339,50 @@
       <h2 class="section-title">Mis Versículos Favoritos</h2>
       <div class="favorites-list" id="favoritesList">
         <p class="empty-favorites">No tienes versículos favoritos aún. ¡Agrega algunos con el botón ⭐!</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Chapter Modal -->
+  <div class="chapter-modal" id="chapterModal">
+    <div class="modal-content">
+      <div class="chapter-modal-header">
+        <h2 class="chapter-modal-title">Génesis 1</h2>
+        <p class="chapter-modal-subtitle">La Creación</p>
+        <button class="chapter-close" aria-label="Cerrar modal">×</button>
+      </div>
+
+      <div class="chapter-tabs">
+        <button class="chapter-tab active" data-tab="resumen">Resumen</button>
+        <button class="chapter-tab" data-tab="timeline">Línea de Tiempo</button>
+        <button class="chapter-tab" data-tab="datos">Datos Curiosos</button>
+        <button class="chapter-tab" data-tab="reflexion">Reflexión</button>
+        <button class="chapter-tab" data-tab="trivia">Trivia</button>
+        <button class="chapter-tab" data-tab="comparacion">Comparación</button>
+      </div>
+
+      <div class="chapter-tab-content active" id="resumenContent">
+        <!-- Contenido del resumen se genera dinámicamente -->
+      </div>
+
+      <div class="chapter-tab-content" id="timelineContent">
+        <!-- Contenido de la línea de tiempo se genera dinámicamente -->
+      </div>
+
+      <div class="chapter-tab-content" id="datosContent">
+        <!-- Contenido de datos curiosos se genera dinámicamente -->
+      </div>
+
+      <div class="chapter-tab-content" id="reflexionContent">
+        <!-- Contenido de reflexión se genera dinámicamente -->
+      </div>
+
+      <div class="chapter-tab-content" id="triviaContent">
+        <!-- Contenido de trivia se genera dinámicamente -->
+      </div>
+
+      <div class="chapter-tab-content" id="comparacionContent">
+        <!-- Contenido de comparación se genera dinámicamente -->
       </div>
     </div>
   </div>

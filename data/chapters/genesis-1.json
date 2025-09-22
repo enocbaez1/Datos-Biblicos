@@ -1,0 +1,192 @@
+{
+  "book": "Génesis",
+  "chapter": 1,
+  "title": "La Creación",
+  "subtitle": "En el principio creó Dios los cielos y la tierra",
+  "summary": "Dios crea los cielos y la tierra en seis días y descansa en el séptimo. Cada día marca un orden perfecto que va desde la luz hasta la humanidad, culminando con el ser humano creado a imagen de Dios.",
+
+  "timeline": {
+    "period": "El principio de todo",
+    "context": "Inicio de la historia de la humanidad y del universo",
+    "placement": "Antes del tiempo humano"
+  },
+
+  "days": [
+    {
+      "day": 1,
+      "title": "Luz y Tinieblas",
+      "icon": "💡",
+      "description": "Dios separa la luz de las tinieblas",
+      "verse": "Y dijo Dios: Sea la luz; y fue la luz",
+      "reference": "Génesis 1:3",
+      "significance": "Primera manifestación del poder creador"
+    },
+    {
+      "day": 2,
+      "title": "Firmamento",
+      "icon": "☁️",
+      "description": "Separación de las aguas de arriba y abajo",
+      "verse": "E hizo Dios la expansión",
+      "reference": "Génesis 1:7",
+      "significance": "Establecimiento del espacio celestial"
+    },
+    {
+      "day": 3,
+      "title": "Tierra y Vegetación",
+      "icon": "🌱",
+      "description": "Aparece la tierra seca, mares y plantas",
+      "verse": "Produzca la tierra hierba verde",
+      "reference": "Génesis 1:11",
+      "significance": "Fundación de la vida vegetal"
+    },
+    {
+      "day": 4,
+      "title": "Astros Celestiales",
+      "icon": "🌟",
+      "description": "Sol, luna y estrellas para marcar tiempos",
+      "verse": "Haya lumbreras en la expansión",
+      "reference": "Génesis 1:14",
+      "significance": "Orden temporal establecido"
+    },
+    {
+      "day": 5,
+      "title": "Vida Marina y Aérea",
+      "icon": "🐟",
+      "description": "Peces en el mar y aves en el cielo",
+      "verse": "Produzcan las aguas seres vivientes",
+      "reference": "Génesis 1:20",
+      "significance": "Primera vida animal"
+    },
+    {
+      "day": 6,
+      "title": "Animales y Humanidad",
+      "icon": "👫",
+      "description": "Animales terrestres y el ser humano",
+      "verse": "Hagamos al hombre a nuestra imagen",
+      "reference": "Génesis 1:26",
+      "significance": "Culminación de la creación"
+    }
+  ],
+
+  "interestingFacts": [
+    {
+      "id": "word-power",
+      "title": "El Poder de la Palabra",
+      "summary": "\"Y dijo Dios...\" aparece 10 veces",
+      "explanation": "Cada acto creativo comienza con la palabra divina, mostrando que Dios habla y las cosas cobran existencia. Esto prefigura a Cristo como el Verbo de Dios.",
+      "verse": "Por la palabra de Jehová fueron hechos los cielos",
+      "reference": "Salmos 33:6"
+    },
+    {
+      "id": "bara-creation",
+      "title": "Creación Ex Nihilo",
+      "summary": "El término 'bara' significa crear de la nada",
+      "explanation": "Esta palabra hebrea se usa exclusivamente para la actividad creativa de Dios, indicando que Él puede crear sin materiales preexistentes.",
+      "verse": "En el principio creó Dios los cielos y la tierra",
+      "reference": "Génesis 1:1"
+    },
+    {
+      "id": "good-creation",
+      "title": "Bondad Original",
+      "summary": "\"Vio Dios que era bueno\" se repite 7 veces",
+      "explanation": "La creación original no tenía maldad, dolor o muerte. Todo salió perfecto de las manos de Dios, estableciendo un estándar de perfección.",
+      "verse": "Y vio Dios todo lo que había hecho, y he aquí que era bueno en gran manera",
+      "reference": "Génesis 1:31"
+    },
+    {
+      "id": "image-of-god",
+      "title": "Imagen Divina",
+      "summary": "Humanos creados a imagen y semejanza de Dios",
+      "explanation": "Solo los seres humanos llevan la imago Dei, estableciendo su dignidad única, propósito especial y capacidad para relacionarse con Dios.",
+      "verse": "Y creó Dios al hombre a su imagen",
+      "reference": "Génesis 1:27"
+    }
+  ],
+
+  "reflectionQuestions": [
+    {
+      "id": "origin-difference",
+      "question": "¿Qué diferencia hay entre la creación divina y las teorías humanas sobre el origen del universo?",
+      "category": "teológica",
+      "hints": ["Propósito vs casualidad", "Diseño inteligente", "Orden desde el principio"]
+    },
+    {
+      "id": "image-meaning",
+      "question": "¿Qué significa para ti ser creado a imagen de Dios?",
+      "category": "personal",
+      "hints": ["Dignidad humana", "Capacidad moral", "Relación con Dios"]
+    },
+    {
+      "id": "stewardship",
+      "question": "¿Cómo puedes practicar la mayordomía sobre la naturaleza en tu vida diaria?",
+      "category": "práctica",
+      "hints": ["Cuidado ambiental", "Uso responsable", "Respeto por la vida"]
+    },
+    {
+      "id": "divine-purpose",
+      "question": "¿Cómo afecta a tu identidad saber que fuiste creado con propósito divino?",
+      "category": "personal",
+      "hints": ["Valor intrínseco", "Llamado especial", "Esperanza"]
+    }
+  ],
+
+  "trivia": [
+    {
+      "question": "¿En qué día creó Dios el sol, la luna y las estrellas?",
+      "options": ["Día 3", "Día 4", "Día 5"],
+      "correct": 1,
+      "explanation": "El día 4 Dios creó las lumbreras para separar el día de la noche y marcar las estaciones."
+    },
+    {
+      "question": "¿Cuántas veces aparece la frase 'Y dijo Dios' en Génesis 1?",
+      "options": ["8 veces", "10 veces", "12 veces"],
+      "correct": 1,
+      "explanation": "La frase aparece 10 veces, mostrando el poder creador de la palabra divina."
+    },
+    {
+      "question": "¿Qué significa la palabra hebrea 'bara' usada en Génesis 1:1?",
+      "options": ["Formar", "Crear de la nada", "Organizar"],
+      "correct": 1,
+      "explanation": "'Bara' indica creación ex nihilo, solo Dios puede crear sin materiales preexistentes."
+    },
+    {
+      "question": "¿Qué día descansó Dios según Génesis 2:2?",
+      "options": ["Día 6", "Día 7", "Día 8"],
+      "correct": 1,
+      "explanation": "Dios descansó el séptimo día, estableciendo el patrón del sabbat."
+    }
+  ],
+
+  "comparison": {
+    "title": "Del Caos al Orden",
+    "before": {
+      "title": "Estado Inicial",
+      "description": "Tierra desordenada y vacía, tinieblas sobre el abismo",
+      "elements": ["Sin forma", "Vacía", "Tinieblas", "Aguas primordiales"],
+      "verse": "Y la tierra estaba desordenada y vacía",
+      "reference": "Génesis 1:2"
+    },
+    "after": {
+      "title": "Creación Completa",
+      "description": "Universo ordenado con vida abundante y humanidad",
+      "elements": ["Cielos y tierra", "Vida vegetal", "Animales", "Humanidad", "Orden perfecto"],
+      "verse": "Y vio Dios todo lo que había hecho, y he aquí que era bueno en gran manera",
+      "reference": "Génesis 1:31"
+    }
+  },
+
+  "memorizeVerse": {
+    "text": "Y creó Dios al hombre a su imagen, a imagen de Dios lo creó; varón y hembra los creó.",
+    "reference": "Génesis 1:27",
+    "theme": "Dignidad humana"
+  },
+
+  "mainTeaching": "Dios es el creador de todo lo que existe, y lo hizo con orden y propósito. La vida no es producto del azar, sino de un plan divino. El ser humano tiene un valor único y está llamado a reflejar la imagen de Dios.",
+
+  "practicalApplication": [
+    "Recordar que tu vida tiene un propósito divino",
+    "Honrar a Dios como Creador cuidando la creación",
+    "Reconocer tu identidad en Cristo como imagen de Dios",
+    "Ejercer mayordomía responsable sobre la naturaleza"
+  ]
+}

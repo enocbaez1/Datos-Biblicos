@@ -56,6 +56,12 @@
     let currentSection = 'books';
     let currentChapter = 1;
     let currentSearch = '';
+    let currentChapterData = null;
+    let currentTab = 'resumen';
+    let currentDay = 1;
+    let currentQuestion = 0;
+    let currentTrivia = 0;
+    let triviaAnswers = [];
 
     // Init
     document.addEventListener('DOMContentLoaded', async () => {
@@ -88,6 +94,8 @@
       const clearBtn = document.getElementById('clearSearch');
       if (searchInput) searchInput.addEventListener('input', () => { currentSearch = searchInput.value; filterBooks(); });
       if (clearBtn) clearBtn.addEventListener('click', () => { if(searchInput){searchInput.value='';searchInput.focus();} currentSearch=''; filterBooks(); });
+      // Chapter modal
+      initChapterModal();
 
       initTheme();
       showTestament('antiguo', document.querySelector('.testament-btn.active'));
@@ -188,8 +196,22 @@
             el.style.color = document.body.classList.contains('dark') ? '#e5e7eb' : '#333';
           },300);
         };
-        el.addEventListener('click', flash);
-        el.addEventListener('keydown', e=>{ if(e.key==='Enter' || e.key===' '){ e.preventDefault(); flash(); }});
+        el.addEventListener('click', () => {
+          flash();
+          if (book === 'Génesis') {
+            console.log('Opening Genesis chapter modal...');
+            openChapterModal('genesis', 1);
+          }
+        });
+        el.addEventListener('keydown', e=>{
+          if(e.key==='Enter' || e.key===' '){
+            e.preventDefault();
+            flash();
+            if (book === 'Génesis') {
+              openChapterModal('genesis', 1);
+            }
+          }
+        });
         grid.appendChild(el);
       });
       filterBooks();
@@ -777,4 +799,778 @@
         originalApplyTheme(theme);
         updateHeroDarkMode();
       };
+    }
+
+    // ===== CHAPTER MODAL SYSTEM =====
+
+    // Initialize chapter modal functionality
+    function initChapterModal() {
+      // Close modal handlers
+      const closeBtn = document.querySelector('.chapter-close');
+      const modal = document.querySelector('.chapter-modal');
+
+      if (closeBtn) {
+        closeBtn.addEventListener('click', closeChapterModal);
+      }
+
+      if (modal) {
+        modal.addEventListener('click', (e) => {
+          if (e.target === modal) {
+            closeChapterModal();
+          }
+        });
+      }
+
+      // Tab handlers - using event delegation since modal content is dynamic
+      document.addEventListener('click', (e) => {
+        if (e.target.classList.contains('chapter-tab')) {
+          const tabName = e.target.dataset.tab;
+          console.log('Tab clicked:', tabName);
+          switchChapterTab(tabName);
+        }
+      });
+
+      // Note: Timeline slider and trivia navigation will be attached dynamically when content is loaded
+
+      // Escape key to close
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && modal && modal.classList.contains('active')) {
+          closeChapterModal();
+        }
+      });
+    }
+
+    // Load chapter data
+    async function loadChapterData(book, chapter) {
+      try {
+        const url = `./data/chapters/${book}-${chapter}.json`;
+        console.log('Attempting to load chapter data from:', url);
+        const response = await fetch(url);
+        if (!response.ok) throw new Error(`Chapter data not found: ${response.status}`);
+        const data = await response.json();
+        console.log('Chapter data loaded successfully:', data);
+        return data;
+      } catch (error) {
+        console.error('Error loading chapter data:', error);
+        return null;
+      }
+    }
+
+    // Open chapter modal
+    async function openChapterModal(book, chapter) {
+      console.log('openChapterModal called with:', book, chapter);
+      const modal = document.querySelector('.chapter-modal');
+      if (!modal) {
+        console.error('Modal not found!');
+        return;
+      }
+
+      // Load chapter data
+      currentChapterData = await loadChapterData(book, chapter);
+      if (!currentChapterData) {
+        alert('Los datos del capítulo no están disponibles aún.');
+        return;
+      }
+
+      // Reset state
+      currentTab = 'resumen';
+      currentDay = 1;
+      currentQuestion = 0;
+      currentTrivia = 0;
+      triviaAnswers = [];
+
+      // Update modal content
+      updateModalHeader();
+      updateModalContent();
+
+      // Show modal
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+
+      // Focus first tab
+      const firstTab = document.querySelector('.chapter-tab[data-tab="resumen"]');
+      if (firstTab) firstTab.focus();
+    }
+
+    // Close chapter modal
+    function closeChapterModal() {
+      const modal = document.querySelector('.chapter-modal');
+      if (modal) {
+        modal.classList.remove('active');
+        document.body.style.overflow = '';
+        currentChapterData = null;
+      }
+    }
+
+    // Update modal header
+    function updateModalHeader() {
+      if (!currentChapterData) return;
+
+      const title = document.querySelector('.chapter-modal-title');
+      const subtitle = document.querySelector('.chapter-modal-subtitle');
+
+      if (title) {
+        title.textContent = `${currentChapterData.book} ${currentChapterData.chapter}`;
+      }
+      if (subtitle) {
+        subtitle.textContent = currentChapterData.subtitle;
+      }
+    }
+
+    // Switch between tabs
+    function switchChapterTab(tabName) {
+      currentTab = tabName;
+
+      // Update tab active states
+      document.querySelectorAll('.chapter-tab').forEach(tab => {
+        tab.classList.remove('active');
+      });
+      const activeTab = document.querySelector(`[data-tab="${tabName}"]`);
+      if (activeTab) {
+        activeTab.classList.add('active');
+      }
+
+      // Update content
+      updateModalContent();
+    }
+
+    // Update modal content based on current tab
+    function updateModalContent() {
+      if (!currentChapterData) return;
+
+      const content = document.querySelector('.chapter-tab-content.active');
+      if (content) content.classList.remove('active');
+
+      document.querySelectorAll('.chapter-tab-content').forEach(tab => {
+        tab.classList.remove('active');
+      });
+
+      const targetContent = document.getElementById(`${currentTab}Content`);
+      if (targetContent) {
+        targetContent.classList.add('active');
+      }
+
+      // Generate content based on tab
+      switch (currentTab) {
+        case 'resumen':
+          updateResumenContent();
+          break;
+        case 'timeline':
+          updateTimelineContent();
+          break;
+        case 'datos':
+          updateDatosContent();
+          break;
+        case 'reflexion':
+          updateReflexionContent();
+          break;
+        case 'trivia':
+          updateTriviaContent();
+          break;
+        case 'comparacion':
+          updateComparacionContent();
+          break;
+      }
+    }
+
+    // Update timeline content
+    function updateTimelineContent() {
+      const container = document.getElementById('timelineContent');
+      if (!container || !currentChapterData.days) return;
+
+      const html = `
+        <div class="timeline-container">
+          <input type="range" class="timeline-slider" id="timelineSlider"
+                 min="1" max="${currentChapterData.days.length}" value="${currentDay}">
+          <div class="timeline-days" id="timelineDays">
+            ${currentChapterData.days.map((day, index) => `
+              <div class="day-card ${index + 1 === currentDay ? 'active' : ''}" data-day="${index + 1}">
+                <div class="day-header">
+                  <div class="day-icon">${day.icon}</div>
+                  <div class="day-info">
+                    <h3>${day.title}</h3>
+                    <div class="day-number">Día ${day.day}</div>
+                  </div>
+                </div>
+                <div class="day-description">${day.description}</div>
+                <div class="day-verse">
+                  <div class="day-verse-text">"${day.verse}"</div>
+                  <div class="day-verse-ref">${day.reference}</div>
+                </div>
+                <div class="day-significance">${day.significance}</div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `;
+
+      container.innerHTML = html;
+
+      // Re-attach slider event
+      const slider = document.getElementById('timelineSlider');
+      if (slider) {
+        slider.addEventListener('input', (e) => {
+          updateTimelineDay(parseInt(e.target.value));
+        });
+      }
+    }
+
+    // Update timeline day
+    function updateTimelineDay(day) {
+      currentDay = day;
+
+      // Update active day card
+      document.querySelectorAll('.day-card').forEach(card => {
+        card.classList.remove('active');
+      });
+
+      const activeCard = document.querySelector(`[data-day="${day}"]`);
+      if (activeCard) {
+        activeCard.classList.add('active');
+        activeCard.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+      }
+    }
+
+    // Update resumen content
+    function updateResumenContent() {
+      const container = document.getElementById('resumenContent');
+      if (!container) return;
+
+      const html = `
+        <div class="resumen-summary">
+          <h3>📖 Resumen</h3>
+          <p>${currentChapterData.summary}</p>
+        </div>
+
+        <div class="resumen-timeline">
+          <h4>⏰ Contexto Temporal</h4>
+          <div class="timeline-info">
+            <div class="timeline-item">
+              <strong>Período:</strong> ${currentChapterData.timeline.period}
+            </div>
+            <div class="timeline-item">
+              <strong>Contexto:</strong> ${currentChapterData.timeline.context}
+            </div>
+            <div class="timeline-item">
+              <strong>Ubicación:</strong> ${currentChapterData.timeline.placement}
+            </div>
+          </div>
+        </div>
+
+        <div class="resumen-teaching">
+          <h4>💡 Enseñanza Principal</h4>
+          <p>${currentChapterData.mainTeaching}</p>
+        </div>
+
+        <div class="resumen-application">
+          <h4>🎯 Aplicación Práctica</h4>
+          <ul>
+            ${currentChapterData.practicalApplication.map(app => `<li>${app}</li>`).join('')}
+          </ul>
+        </div>
+
+        <div class="resumen-verse">
+          <h4>📝 Versículo para Memorizar</h4>
+          <div class="memorize-verse">
+            <div class="verse-text">"${currentChapterData.memorizeVerse.text}"</div>
+            <div class="verse-ref">${currentChapterData.memorizeVerse.reference}</div>
+            <div class="verse-theme">${currentChapterData.memorizeVerse.theme}</div>
+          </div>
+        </div>
+      `;
+
+      container.innerHTML = html;
+    }
+
+    // Update datos content
+    function updateDatosContent() {
+      const container = document.getElementById('datosContent');
+      if (!container || !currentChapterData.interestingFacts) return;
+
+      const html = `
+        <div class="facts-grid">
+          ${currentChapterData.interestingFacts.map(fact => `
+            <div class="fact-card" data-fact-id="${fact.id}">
+              <div class="fact-title">${fact.title}</div>
+              <div class="fact-summary">${fact.summary}</div>
+              <div class="fact-explanation">${fact.explanation}</div>
+              <div class="fact-verse">
+                "${fact.verse}"
+                <div class="fact-reference">${fact.reference}</div>
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      `;
+
+      container.innerHTML = html;
+
+      // Add click handlers for fact cards
+      document.querySelectorAll('.fact-card').forEach(card => {
+        card.addEventListener('click', () => {
+          card.style.transform = 'scale(0.98)';
+          setTimeout(() => {
+            card.style.transform = 'translateY(-5px)';
+          }, 150);
+        });
+      });
+    }
+
+    // Update reflexion content
+    function updateReflexionContent() {
+      const container = document.getElementById('reflexionContent');
+      if (!container || !currentChapterData.reflectionQuestions) return;
+
+      const html = `
+        <div class="questions-grid">
+          ${currentChapterData.reflectionQuestions.map((question, index) => `
+            <div class="question-card" data-question-id="${question.id}">
+              <div class="question-category">${question.category}</div>
+              <div class="question-text">${question.question}</div>
+              <div class="question-hints">
+                ${question.hints.map(hint => `<span class="hint-tag">${hint}</span>`).join('')}
+              </div>
+              <div class="question-response">
+                <textarea placeholder="Escribe tu reflexión aquí..."
+                          id="response-${index}"
+                          data-question-id="${question.id}"></textarea>
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      `;
+
+      container.innerHTML = html;
+
+      // Load saved responses
+      loadQuestionResponses();
+
+      // Auto-save responses
+      document.querySelectorAll('.question-response textarea').forEach(textarea => {
+        textarea.addEventListener('input', saveQuestionResponse);
+      });
+    }
+
+    // Save question response to localStorage
+    function saveQuestionResponse(e) {
+      const questionId = e.target.dataset.questionId;
+      const response = e.target.value;
+      const key = `reflection-${currentChapterData.book}-${currentChapterData.chapter}-${questionId}`;
+      localStorage.setItem(key, response);
+    }
+
+    // Load question responses from localStorage
+    function loadQuestionResponses() {
+      if (!currentChapterData.reflectionQuestions) return;
+
+      currentChapterData.reflectionQuestions.forEach((question, index) => {
+        const key = `reflection-${currentChapterData.book}-${currentChapterData.chapter}-${question.id}`;
+        const savedResponse = localStorage.getItem(key);
+        const textarea = document.getElementById(`response-${index}`);
+        if (textarea && savedResponse) {
+          textarea.value = savedResponse;
+        }
+      });
+    }
+
+    // Update trivia content
+    function updateTriviaContent() {
+      const container = document.getElementById('triviaContent');
+      if (!container || !currentChapterData.trivia) return;
+
+      if (currentTrivia >= currentChapterData.trivia.length) {
+        showTriviaResults();
+        return;
+      }
+
+      const question = currentChapterData.trivia[currentTrivia];
+      const isAnswered = triviaAnswers[currentTrivia] !== undefined;
+
+      const html = `
+        <div class="trivia-container">
+          <div class="trivia-question">
+            <h3>Pregunta ${currentTrivia + 1} de ${currentChapterData.trivia.length}</h3>
+            <p>${question.question}</p>
+            <div class="trivia-options">
+              ${question.options.map((option, index) => {
+                let className = 'trivia-option';
+                if (isAnswered) {
+                  if (index === question.correct) {
+                    className += ' correct';
+                  } else if (index === triviaAnswers[currentTrivia]) {
+                    className += ' incorrect';
+                  }
+                }
+                return `<div class="${className}" data-option="${index}">${option}</div>`;
+              }).join('')}
+            </div>
+            ${isAnswered ? `
+              <div class="trivia-explanation show">
+                ${question.explanation}
+              </div>
+            ` : ''}
+          </div>
+          <div class="trivia-controls">
+            <button class="trivia-nav" id="triviaPrev" ${currentTrivia === 0 ? 'disabled' : ''}>
+              Anterior
+            </button>
+            <div class="trivia-progress">
+              ${currentTrivia + 1} / ${currentChapterData.trivia.length}
+            </div>
+            <button class="trivia-nav" id="triviaNext" ${isAnswered ? '' : 'disabled'}>
+              ${currentTrivia === currentChapterData.trivia.length - 1 ? 'Finalizar' : 'Siguiente'}
+            </button>
+          </div>
+        </div>
+      `;
+
+      container.innerHTML = html;
+
+      // Add option click handlers
+      if (!isAnswered) {
+        document.querySelectorAll('.trivia-option').forEach(option => {
+          option.addEventListener('click', () => {
+            const selectedIndex = parseInt(option.dataset.option);
+            answerTrivia(selectedIndex);
+          });
+        });
+      }
+
+      // Re-attach navigation handlers
+      const prevBtn = document.getElementById('triviaPrev');
+      const nextBtn = document.getElementById('triviaNext');
+
+      if (prevBtn) prevBtn.addEventListener('click', () => navigateTrivia(-1));
+      if (nextBtn) nextBtn.addEventListener('click', () => navigateTrivia(1));
+    }
+
+    // Answer trivia question
+    function answerTrivia(selectedIndex) {
+      triviaAnswers[currentTrivia] = selectedIndex;
+      updateTriviaContent(); // Refresh to show results
+    }
+
+    // Navigate trivia
+    function navigateTrivia(direction) {
+      console.log('Navigating trivia:', direction, 'from index:', currentTrivia);
+      const newIndex = currentTrivia + direction;
+      console.log('New index would be:', newIndex, 'Total questions:', currentChapterData.trivia.length);
+
+      if (newIndex >= 0 && newIndex < currentChapterData.trivia.length) {
+        currentTrivia = newIndex;
+        console.log('Moving to question:', currentTrivia + 1);
+        updateTriviaContent();
+      } else if (newIndex >= currentChapterData.trivia.length) {
+        console.log('Showing results');
+        showTriviaResults();
+      }
+    }
+
+    // Show trivia results
+    function showTriviaResults() {
+      const container = document.getElementById('triviaContent');
+      if (!container) return;
+
+      const correct = triviaAnswers.filter((answer, index) =>
+        answer === currentChapterData.trivia[index].correct
+      ).length;
+      const total = currentChapterData.trivia.length;
+      const percentage = Math.round((correct / total) * 100);
+
+      let message = '';
+      if (percentage >= 80) {
+        message = '¡Excelente! Tienes un gran conocimiento del capítulo.';
+      } else if (percentage >= 60) {
+        message = '¡Bien hecho! Conoces bien el contenido.';
+      } else {
+        message = 'Sigue estudiando. Cada lectura te ayudará a entender mejor.';
+      }
+
+      const html = `
+        <div class="trivia-results">
+          <h3>🎉 Resultados del Quiz</h3>
+          <div class="score-display">
+            <div class="score-number">${correct}/${total}</div>
+            <div class="score-percentage">${percentage}%</div>
+          </div>
+          <p>${message}</p>
+          <button class="trivia-nav" onclick="window.restartTrivia()">Intentar de Nuevo</button>
+        </div>
+      `;
+
+      container.innerHTML = html;
+    }
+
+    // Restart trivia
+    function restartTrivia() {
+      currentTrivia = 0;
+      triviaAnswers = [];
+      updateTriviaContent();
+    }
+
+    // Make functions globally accessible
+    window.restartTrivia = restartTrivia;
+    window.openChapterModal = openChapterModal;
+
+    // Test function for modal
+    window.testModal = function() {
+      console.log('Test modal function called');
+      const modal = document.querySelector('.chapter-modal');
+      console.log('Modal element:', modal);
+
+      if (modal) {
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+        console.log('Modal should be visible now');
+
+        // Add test content
+        const resumenContent = document.getElementById('resumenContent');
+        if (resumenContent) {
+          resumenContent.innerHTML = `
+            <div style="padding: 20px;">
+              <h3>🧪 Test Modal</h3>
+              <p>Si puedes ver esto, el modal está funcionando correctamente.</p>
+              <button onclick="closeChapterModal()" style="padding: 10px 20px; background: #ef4444; color: white; border: none; border-radius: 8px; margin-top: 10px; cursor: pointer;">
+                Cerrar Modal
+              </button>
+              <br><br>
+              <button onclick="testWithRealData()" style="padding: 10px 20px; background: #10b981; color: white; border: none; border-radius: 8px; margin-top: 10px; cursor: pointer;">
+                Probar con Datos Reales
+              </button>
+            </div>
+          `;
+        }
+      } else {
+        console.error('Modal not found!');
+        alert('Modal element not found in DOM');
+      }
+    };
+
+    // Test with real data
+    window.testWithRealData = function() {
+      console.log('Testing with real data...');
+
+      // Use embedded test data with proper encoding
+      currentChapterData = {
+        "book": "Génesis",
+        "chapter": 1,
+        "title": "La Creación",
+        "subtitle": "En el principio creó Dios los cielos y la tierra",
+        "summary": "Dios crea los cielos y la tierra en seis días y descansa en el séptimo. Cada día marca un orden perfecto que va desde la luz hasta la humanidad, culminando con el ser humano creado a imagen de Dios.",
+        "timeline": {
+          "period": "El principio de todo",
+          "context": "Inicio de la historia de la humanidad y del universo",
+          "placement": "Antes del tiempo humano"
+        },
+        "days": [
+          {
+            "day": 1,
+            "title": "Luz y Tinieblas",
+            "icon": "💡",
+            "description": "Dios separa la luz de las tinieblas",
+            "verse": "Y dijo Dios: Sea la luz; y fue la luz",
+            "reference": "Génesis 1:3",
+            "significance": "Primera manifestación del poder creador"
+          },
+          {
+            "day": 2,
+            "title": "Firmamento",
+            "icon": "☁️",
+            "description": "Separación de las aguas de arriba y abajo",
+            "verse": "E hizo Dios la expansión",
+            "reference": "Génesis 1:7",
+            "significance": "Establecimiento del espacio celestial"
+          },
+          {
+            "day": 3,
+            "title": "Tierra y Vegetación",
+            "icon": "🌱",
+            "description": "Aparece la tierra seca, mares y plantas",
+            "verse": "Produzca la tierra hierba verde",
+            "reference": "Génesis 1:11",
+            "significance": "Fundación de la vida vegetal"
+          }
+        ],
+        "interestingFacts": [
+          {
+            "id": "word-power",
+            "title": "El Poder de la Palabra",
+            "summary": '"Y dijo Dios..." aparece 10 veces',
+            "explanation": "Cada acto creativo comienza con la palabra divina, mostrando que Dios habla y las cosas cobran existencia.",
+            "verse": "Por la palabra de Jehová fueron hechos los cielos",
+            "reference": "Salmos 33:6"
+          }
+        ],
+        "reflectionQuestions": [
+          {
+            "id": "origin-difference",
+            "question": "¿Qué diferencia hay entre la creación divina y las teorías humanas sobre el origen del universo?",
+            "category": "teológica",
+            "hints": ["Propósito vs casualidad", "Diseño inteligente"]
+          }
+        ],
+        "trivia": [
+          {
+            "question": "¿En qué día creó Dios el sol, la luna y las estrellas?",
+            "options": ["Día 3", "Día 4", "Día 5"],
+            "correct": 1,
+            "explanation": "El día 4 Dios creó las lumbreras para separar el día de la noche."
+          },
+          {
+            "question": "¿Cuántas veces aparece la frase 'Y dijo Dios' en Génesis 1?",
+            "options": ["8 veces", "10 veces", "12 veces"],
+            "correct": 1,
+            "explanation": "La frase aparece 10 veces, mostrando el poder creador de la palabra divina."
+          },
+          {
+            "question": "¿Qué significa la palabra hebrea 'bara' usada en Génesis 1:1?",
+            "options": ["Formar", "Crear de la nada", "Organizar"],
+            "correct": 1,
+            "explanation": "'Bara' indica creación ex nihilo, solo Dios puede crear sin materiales preexistentes."
+          },
+          {
+            "question": "¿Qué día descansó Dios según Génesis 2:2?",
+            "options": ["Día 6", "Día 7", "Día 8"],
+            "correct": 1,
+            "explanation": "Dios descansó el séptimo día, estableciendo el patrón del sabbat."
+          }
+        ],
+        "comparison": {
+          "title": "Del Caos al Orden",
+          "before": {
+            "title": "Estado Inicial",
+            "description": "Tierra desordenada y vacía, tinieblas sobre el abismo",
+            "elements": ["Sin forma", "Vacía", "Tinieblas"],
+            "verse": "Y la tierra estaba desordenada y vacía",
+            "reference": "Génesis 1:2"
+          },
+          "after": {
+            "title": "Creación Completa",
+            "description": "Universo ordenado con vida abundante",
+            "elements": ["Cielos y tierra", "Vida vegetal", "Humanidad"],
+            "verse": "Y vio Dios todo lo que había hecho, y he aquí que era bueno en gran manera",
+            "reference": "Génesis 1:31"
+          }
+        },
+        "memorizeVerse": {
+          "text": "Y creó Dios al hombre a su imagen, a imagen de Dios lo creó; varón y hembra los creó.",
+          "reference": "Génesis 1:27",
+          "theme": "Dignidad humana"
+        },
+        "mainTeaching": "Dios es el creador de todo lo que existe, y lo hizo con orden y propósito.",
+        "practicalApplication": [
+          "Recordar que tu vida tiene un propósito divino",
+          "Honrar a Dios como Creador cuidando la creación"
+        ]
+      };
+
+      currentTab = 'resumen';
+      currentDay = 1;
+
+      console.log('Test data loaded:', currentChapterData);
+
+      updateModalHeader();
+      updateModalContent();
+
+      console.log('Modal content should be updated now');
+    };
+
+    // Make closeChapterModal globally accessible
+    window.closeChapterModal = closeChapterModal;
+
+    // Update comparacion content
+    function updateComparacionContent() {
+      const container = document.getElementById('comparacionContent');
+      if (!container || !currentChapterData.comparison) return;
+
+      const comparison = currentChapterData.comparison;
+
+      const html = `
+        <div class="comparison-container">
+          <h3>${comparison.title}</h3>
+          <div class="comparison-slider">
+            <div class="comparison-side comparison-before">
+              <div class="comparison-title">${comparison.before.title}</div>
+              <div class="comparison-description">${comparison.before.description}</div>
+              <ul class="comparison-elements">
+                ${comparison.before.elements.map(el => `<li>${el}</li>`).join('')}
+              </ul>
+              <div class="comparison-verse">
+                "${comparison.before.verse}"
+                <div class="comparison-verse-ref">${comparison.before.reference}</div>
+              </div>
+            </div>
+            <div class="comparison-side comparison-after">
+              <div class="comparison-title">${comparison.after.title}</div>
+              <div class="comparison-description">${comparison.after.description}</div>
+              <ul class="comparison-elements">
+                ${comparison.after.elements.map(el => `<li>${el}</li>`).join('')}
+              </ul>
+              <div class="comparison-verse">
+                "${comparison.after.verse}"
+                <div class="comparison-verse-ref">${comparison.after.reference}</div>
+              </div>
+            </div>
+            <div class="comparison-divider"></div>
+          </div>
+        </div>
+      `;
+
+      container.innerHTML = html;
+
+      // Add interactive divider functionality
+      initComparisonSlider();
+    }
+
+    // Initialize comparison slider interaction
+    function initComparisonSlider() {
+      const divider = document.querySelector('.comparison-divider');
+      const slider = document.querySelector('.comparison-slider');
+      const beforeSide = document.querySelector('.comparison-before');
+      const afterSide = document.querySelector('.comparison-after');
+
+      if (!divider || !slider || !beforeSide || !afterSide) return;
+
+      let isDragging = false;
+
+      divider.addEventListener('mousedown', startDragging);
+      document.addEventListener('mousemove', drag);
+      document.addEventListener('mouseup', stopDragging);
+
+      function startDragging(e) {
+        isDragging = true;
+        e.preventDefault();
+      }
+
+      function drag(e) {
+        if (!isDragging) return;
+
+        const rect = slider.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const percentage = (x / rect.width) * 100;
+
+        if (percentage >= 10 && percentage <= 90) {
+          beforeSide.style.width = `${percentage}%`;
+          afterSide.style.width = `${100 - percentage}%`;
+          divider.style.left = `${percentage}%`;
+        }
+      }
+
+      function stopDragging() {
+        isDragging = false;
+      }
+
+      // Touch events for mobile
+      divider.addEventListener('touchstart', (e) => {
+        startDragging(e.touches[0]);
+      });
+
+      document.addEventListener('touchmove', (e) => {
+        if (isDragging) {
+          e.preventDefault();
+          drag(e.touches[0]);
+        }
+      });
+
+      document.addEventListener('touchend', stopDragging);
     }
