@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Datos Bíblicos Interactivos</title>
+    <link rel="stylesheet" href="styles.css" />
+
+</head>
+<body>
+  <div class="container">
+    <!-- Hero Section -->
+    <div class="hero">
+      <button id="themeToggle" class="theme-toggle" aria-label="Cambiar a modo oscuro" aria-live="polite">🌙</button>
+      <h1>📖 Datos Bíblicos</h1>
+      <p>Explora las estadísticas y curiosidades de las Sagradas Escrituras</p>
+    </div>
+
+    <!-- Statistics Grid -->
+    <div class="stats-grid">
+      <div class="stat-card"><div class="stat-number">66</div><div class="stat-label">Libros</div><div class="stat-description">39 en el Antiguo Testamento y 27 en el Nuevo Testamento</div></div>
+      <div class="stat-card"><div class="stat-number">783,137</div><div class="stat-label">Palabras</div><div class="stat-description">Aproximadamente 31,000 versículos distribuidos en toda la Biblia</div></div>
+      <div class="stat-card"><div class="stat-number">40</div><div class="stat-label">Autores</div><div class="stat-description">Escritos durante aproximadamente 1,500 años por diferentes autores</div></div>
+      <div class="stat-card"><div class="stat-number">1,189</div><div class="stat-label">Capítulos</div><div class="stat-description">929 en el Antiguo Testamento y 260 en el Nuevo Testamento</div></div>
+      <div class="stat-card"><div class="stat-number">31,102</div><div class="stat-label">Versículos</div><div class="stat-description">El versículo más corto es Juan 11:35: "Jesús lloró"</div></div>
+      <div class="stat-card"><div class="stat-number">3</div><div class="stat-label">Idiomas</div><div class="stat-description">Hebreo, Arameo y Griego fueron los idiomas originales</div></div>
+    </div>
+
+    <!-- Navigation Tabs -->
+    <div class="books-section">
+      <h2 class="section-title">Explorar la Biblia</h2>
+      <div class="main-tabs">
+        <button class="main-tab-btn active" data-section="books">Libros de la Biblia</button>
+        <button class="main-tab-btn" data-section="genesis">Primeros Capítulos</button>
+      </div>
+
+      <!-- Books Section -->
+      <div class="content-section" id="booksSection">
+        <div class="testament-tabs">
+          <button class="testament-btn active" data-testament="antiguo">Antiguo Testamento</button>
+          <button class="testament-btn" data-testament="nuevo">Nuevo Testamento</button>
+        </div>
+        <div class="book-search" role="search">
+          <input type="search" id="bookSearch" placeholder="Buscar libro... (ej. Génesis, Juan)" aria-label="Buscar libro" />
+          <button id="clearSearch" title="Limpiar búsqueda" aria-label="Limpiar búsqueda">✕</button>
+        </div>
+        <div class="books-grid" id="booksGrid"></div>
+      </div>
+
+      <!-- Genesis Chapters Section -->
+      <div class="content-section hidden" id="genesisSection">
+        <div class="chapters-container">
+          <div class="chapter-selector">
+            <button class="chapter-btn active" data-chapter="1">Capítulo 1</button>
+            <button class="chapter-btn" data-chapter="2">Capítulo 2</button>
+            <button class="chapter-btn" data-chapter="3">Capítulo 3</button>
+            <button class="chapter-btn" data-chapter="4">Capítulo 4</button>
+            <button class="chapter-btn" data-chapter="5">Capítulo 5</button>
+          </div>
+          <div class="chapter-content" id="chapterContent"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Random Verse Display -->
+    <div class="verse-display" id="verseDisplay">
+      <div class="verse-text" id="verseText">"Porque de tal manera amó Dios al mundo, que ha dado a su Hijo unigénito, para que todo aquel que en él cree, no se pierda, mas tenga vida eterna."</div>
+      <div class="verse-reference" id="verseReference">Juan 3:16</div>
+      <button class="new-verse-btn" id="newVerseBtn">Nuevo Versículo</button>
+    </div>
+  </div>
+
+    <script src="app.js" defer></script>
+
+</body>
+</html>
