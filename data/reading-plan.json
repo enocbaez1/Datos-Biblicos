@@ -1,0 +1,69 @@
+{
+  "title": "Plan de Lectura - 7 Días para Principiantes",
+  "description": "Una introducción guiada a los textos más importantes de la Biblia",
+  "days": [
+    {
+      "day": 1,
+      "title": "El Comienzo de Todo",
+      "reading": "Génesis 1:1-31",
+      "summary": "Descubre cómo Dios creó el universo en 6 días y descansó el séptimo",
+      "keyVerse": "En el principio creó Dios los cielos y la tierra. - Génesis 1:1",
+      "reflection": "¿Qué te llama más la atención del proceso creativo de Dios?",
+      "completed": false
+    },
+    {
+      "day": 2,
+      "title": "El Amor de Dios por la Humanidad",
+      "reading": "Juan 3:16-21",
+      "summary": "El versículo más famoso de la Biblia explica el plan de salvación",
+      "keyVerse": "Porque de tal manera amó Dios al mundo, que ha dado a su Hijo unigénito... - Juan 3:16",
+      "reflection": "¿Cómo te hace sentir saber que Dios te ama tanto?",
+      "completed": false
+    },
+    {
+      "day": 3,
+      "title": "Confianza en Momentos Difíciles",
+      "reading": "Salmos 23:1-6",
+      "summary": "David nos enseña a confiar en Dios como nuestro pastor",
+      "keyVerse": "Jehová es mi pastor; nada me faltará. - Salmos 23:1",
+      "reflection": "¿En qué áreas de tu vida necesitas más la guía de Dios?",
+      "completed": false
+    },
+    {
+      "day": 4,
+      "title": "Sabiduría para Vivir",
+      "reading": "Proverbios 3:5-12",
+      "summary": "Principios prácticos para tomar decisiones sabias",
+      "keyVerse": "Confía en Jehová de todo tu corazón, y no te apoyes en tu propia prudencia. - Proverbios 3:5",
+      "reflection": "¿Qué decisión importante podrías entregarle a Dios?",
+      "completed": false
+    },
+    {
+      "day": 5,
+      "title": "Fortaleza Interior",
+      "reading": "Filipenses 4:10-20",
+      "summary": "Pablo comparte el secreto de la verdadera fortaleza",
+      "keyVerse": "Todo lo puedo en Cristo que me fortalece. - Filipenses 4:13",
+      "reflection": "¿Qué desafío actual necesitas enfrentar con la fortaleza de Cristo?",
+      "completed": false
+    },
+    {
+      "day": 6,
+      "title": "El Propósito de Dios",
+      "reading": "Romanos 8:26-30",
+      "summary": "Dios tiene un plan perfecto, incluso en las dificultades",
+      "keyVerse": "Y sabemos que a los que aman a Dios, todas las cosas les ayudan a bien. - Romanos 8:28",
+      "reflection": "¿Puedes recordar algún momento difícil que Dios usó para bien?",
+      "completed": false
+    },
+    {
+      "day": 7,
+      "title": "Vivir por Fe",
+      "reading": "2 Corintios 5:1-10",
+      "summary": "La diferencia entre vivir por fe y vivir por vista",
+      "keyVerse": "Porque por fe andamos, no por vista. - 2 Corintios 5:7",
+      "reflection": "¿Cómo puedes aplicar la fe en tu vida diaria?",
+      "completed": false
+    }
+  ]
+}

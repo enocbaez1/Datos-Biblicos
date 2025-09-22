@@ -2,21 +2,28 @@
     let oldTestamentBooks = [];
     let newTestamentBooks = [];
     let famousVerses = [];
+    let readingPlan = [];
+    let currentVerseIndex = 0;
+    let favorites = JSON.parse(localStorage.getItem('bibleFavorites')) || [];
+    let isReadingMode = false;
 
     // Cargar datos desde JSON
     async function loadData() {
       try {
-        const [booksResponse, versesResponse] = await Promise.all([
+        const [booksResponse, versesResponse, planResponse] = await Promise.all([
           fetch('./data/books.json'),
-          fetch('./data/verses.json')
+          fetch('./data/verses.json'),
+          fetch('./data/reading-plan.json')
         ]);
 
         const books = await booksResponse.json();
         const verses = await versesResponse.json();
+        const plan = await planResponse.json();
 
         oldTestamentBooks = books.antiguo;
         newTestamentBooks = books.nuevo;
         famousVerses = verses;
+        readingPlan = plan;
 
         return true;
       } catch (error) {
@@ -58,6 +65,13 @@
       document.querySelectorAll('.chapter-btn').forEach(btn => btn.addEventListener('click', function(){ showChapter(parseInt(this.getAttribute('data-chapter')), this); }));
       // Verso aleatorio
       document.getElementById('newVerseBtn').addEventListener('click', showRandomVerse);
+      // Nuevas funcionalidades de versículos
+      document.getElementById('favoriteBtn').addEventListener('click', toggleFavorite);
+      document.getElementById('copyVerseBtn').addEventListener('click', copyVerse);
+      document.getElementById('readingModeBtn').addEventListener('click', toggleReadingMode);
+      // Plan de lectura
+      document.getElementById('startReadingPlan').addEventListener('click', showReadingPlan);
+      document.getElementById('closeReadingPlan').addEventListener('click', closeReadingPlan);
       // Buscador
       const searchInput = document.getElementById('bookSearch');
       const clearBtn = document.getElementById('clearSearch');
@@ -69,6 +83,8 @@
       showChapter(1, document.querySelector('.chapter-btn.active'));
       setTimeout(animateNumbers, 400);
       initStatObserver();
+      loadFavorites();
+      updateVerseDisplay();
     });
 
     // Secciones
@@ -228,4 +244,177 @@
       applyTheme(saved || (prefersDark ? 'dark' : 'light'));
       const btn = document.getElementById('themeToggle');
       if(btn){ btn.addEventListener('click', ()=> applyTheme(document.body.classList.contains('dark') ? 'light' : 'dark')); }
+    }
+
+    // === NUEVAS FUNCIONALIDADES ===
+
+    // Sistema de favoritos
+    function toggleFavorite() {
+      if (famousVerses.length === 0) return;
+
+      const currentVerse = famousVerses[currentVerseIndex];
+      const favoriteIndex = favorites.findIndex(fav => fav.reference === currentVerse.reference);
+
+      if (favoriteIndex > -1) {
+        favorites.splice(favoriteIndex, 1);
+        document.getElementById('favoriteBtn').textContent = '⭐';
+      } else {
+        favorites.push({...currentVerse});
+        document.getElementById('favoriteBtn').textContent = '🌟';
+      }
+
+      localStorage.setItem('bibleFavorites', JSON.stringify(favorites));
+      loadFavorites();
+    }
+
+    function loadFavorites() {
+      const favoritesList = document.getElementById('favoritesList');
+      if (favorites.length === 0) {
+        favoritesList.innerHTML = '<p class="empty-favorites">No tienes versículos favoritos aún. ¡Agrega algunos con el botón ⭐!</p>';
+        return;
+      }
+
+      favoritesList.innerHTML = favorites.map(verse => `
+        <div class="favorite-item">
+          <div class="favorite-text">"${verse.text}"</div>
+          <div class="favorite-reference">${verse.reference}</div>
+          <div class="favorite-actions">
+            <button onclick="copySpecificVerse('${verse.text}', '${verse.reference}')" title="Copiar">📋</button>
+            <button onclick="removeFavorite('${verse.reference}')" title="Eliminar">🗑️</button>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function removeFavorite(reference) {
+      favorites = favorites.filter(fav => fav.reference !== reference);
+      localStorage.setItem('bibleFavorites', JSON.stringify(favorites));
+      loadFavorites();
+      updateFavoriteButton();
+    }
+
+    function updateFavoriteButton() {
+      if (famousVerses.length === 0) return;
+      const currentVerse = famousVerses[currentVerseIndex];
+      const isFavorite = favorites.some(fav => fav.reference === currentVerse.reference);
+      document.getElementById('favoriteBtn').textContent = isFavorite ? '🌟' : '⭐';
+    }
+
+    // Copiar versículo
+    function copyVerse() {
+      if (famousVerses.length === 0) return;
+      const currentVerse = famousVerses[currentVerseIndex];
+      copySpecificVerse(currentVerse.text, currentVerse.reference);
+    }
+
+    function copySpecificVerse(text, reference) {
+      const fullText = `"${text}" - ${reference}`;
+      navigator.clipboard.writeText(fullText).then(() => {
+        showCopyFeedback();
+      }).catch(() => {
+        // Fallback para navegadores más antiguos
+        const textArea = document.createElement('textarea');
+        textArea.value = fullText;
+        document.body.appendChild(textArea);
+        textArea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textArea);
+        showCopyFeedback();
+      });
+    }
+
+    function showCopyFeedback() {
+      const feedback = document.getElementById('copyFeedback');
+      feedback.style.display = 'block';
+      feedback.style.opacity = '1';
+      setTimeout(() => {
+        feedback.style.opacity = '0';
+        setTimeout(() => feedback.style.display = 'none', 300);
+      }, 2000);
+    }
+
+    // Modo de lectura
+    function toggleReadingMode() {
+      isReadingMode = !isReadingMode;
+      document.body.classList.toggle('reading-mode', isReadingMode);
+      document.getElementById('readingModeBtn').textContent = isReadingMode ? '👁️‍🗨️' : '👁️';
+    }
+
+    // Plan de lectura
+    function showReadingPlan() {
+      const modal = document.getElementById('readingPlanModal');
+      const content = document.getElementById('readingPlanContent');
+
+      if (readingPlan.days) {
+        content.innerHTML = `
+          <div class="plan-header">
+            <h4>${readingPlan.title}</h4>
+            <p>${readingPlan.description}</p>
+          </div>
+          <div class="plan-days">
+            ${readingPlan.days.map(day => `
+              <div class="plan-day ${day.completed ? 'completed' : ''}">
+                <div class="day-header">
+                  <h5>Día ${day.day}: ${day.title}</h5>
+                  <button onclick="toggleDayComplete(${day.day - 1})" class="complete-btn">
+                    ${day.completed ? '✅' : '⬜'}
+                  </button>
+                </div>
+                <div class="day-content">
+                  <p><strong>Lectura:</strong> ${day.reading}</p>
+                  <p>${day.summary}</p>
+                  <div class="key-verse">${day.keyVerse}</div>
+                  <p><em>Reflexión: ${day.reflection}</em></p>
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        `;
+      }
+
+      modal.style.display = 'block';
+    }
+
+    function closeReadingPlan() {
+      document.getElementById('readingPlanModal').style.display = 'none';
+    }
+
+    function toggleDayComplete(dayIndex) {
+      if (readingPlan.days && readingPlan.days[dayIndex]) {
+        readingPlan.days[dayIndex].completed = !readingPlan.days[dayIndex].completed;
+        localStorage.setItem('readingPlanProgress', JSON.stringify(readingPlan.days));
+        showReadingPlan(); // Refresh the display
+      }
+    }
+
+    // Actualizar display de versículo
+    function updateVerseDisplay() {
+      if (famousVerses.length > 0) {
+        currentVerseIndex = Math.floor(Math.random() * famousVerses.length);
+        const verse = famousVerses[currentVerseIndex];
+        document.getElementById('verseText').textContent = `"${verse.text}"`;
+        document.getElementById('verseReference').textContent = verse.reference;
+        updateFavoriteButton();
+      }
+    }
+
+    // Modificar función showRandomVerse existente
+    function showRandomVerse(){
+      if (famousVerses.length === 0) return;
+
+      currentVerseIndex = Math.floor(Math.random() * famousVerses.length);
+      const v = famousVerses[currentVerseIndex];
+      const verseText = document.getElementById('verseText');
+      const verseReference = document.getElementById('verseReference');
+
+      verseText.style.opacity='0';
+      verseReference.style.opacity='0';
+
+      setTimeout(()=>{
+        verseText.textContent = `"${v.text}"`;
+        verseReference.textContent = v.reference;
+        verseText.style.opacity='1';
+        verseReference.style.opacity='1';
+        updateFavoriteButton();
+      }, 250);
     }

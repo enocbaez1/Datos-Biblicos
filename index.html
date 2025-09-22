@@ -26,6 +26,43 @@
       <div class="stat-card"><div class="stat-number">3</div><div class="stat-label">Idiomas</div><div class="stat-description">Hebreo, Arameo y Griego fueron los idiomas originales</div></div>
     </div>
 
+    <!-- Getting Started Section -->
+    <div class="getting-started-section">
+      <h2 class="section-title">¿Por dónde empiezo?</h2>
+      <div class="getting-started-content">
+        <div class="intro-cards">
+          <div class="intro-card">
+            <h3>📚 Plan de 7 Días</h3>
+            <p>Una introducción guiada perfecta para principiantes</p>
+            <button class="btn-primary" id="startReadingPlan">Comenzar Plan</button>
+          </div>
+          <div class="intro-card">
+            <h3>🎯 Traducciones Recomendadas</h3>
+            <p>RVR1960, NVI, y NTV son excelentes para empezar</p>
+            <a href="https://www.biblegateway.com/" target="_blank" class="btn-secondary">Ver Online</a>
+          </div>
+          <div class="intro-card">
+            <h3>❓ Preguntas Frecuentes</h3>
+            <p>Respuestas a las dudas más comunes de nuevos lectores</p>
+            <button class="btn-secondary" id="showFAQ">Ver FAQ</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Reading Plan Modal -->
+    <div class="modal" id="readingPlanModal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>Plan de Lectura - 7 Días</h3>
+          <button class="modal-close" id="closeReadingPlan">&times;</button>
+        </div>
+        <div class="modal-body" id="readingPlanContent">
+          <!-- Content will be loaded dynamically -->
+        </div>
+      </div>
+    </div>
+
     <!-- Navigation Tabs -->
     <div class="books-section">
       <h2 class="section-title">Explorar la Biblia</h2>
@@ -66,7 +103,21 @@
     <div class="verse-display" id="verseDisplay">
       <div class="verse-text" id="verseText">"Porque de tal manera amó Dios al mundo, que ha dado a su Hijo unigénito, para que todo aquel que en él cree, no se pierda, mas tenga vida eterna."</div>
       <div class="verse-reference" id="verseReference">Juan 3:16</div>
-      <button class="new-verse-btn" id="newVerseBtn">Nuevo Versículo</button>
+      <div class="verse-actions">
+        <button class="new-verse-btn" id="newVerseBtn">Nuevo Versículo</button>
+        <button class="favorite-btn" id="favoriteBtn" title="Añadir a favoritos">⭐</button>
+        <button class="copy-btn" id="copyVerseBtn" title="Copiar versículo">📋</button>
+        <button class="reading-mode-btn" id="readingModeBtn" title="Modo lectura">👁️</button>
+      </div>
+      <div class="copy-feedback" id="copyFeedback">¡Copiado al portapapeles!</div>
+    </div>
+
+    <!-- Favorites Section -->
+    <div class="favorites-section" id="favoritesSection">
+      <h2 class="section-title">Mis Versículos Favoritos</h2>
+      <div class="favorites-list" id="favoritesList">
+        <p class="empty-favorites">No tienes versículos favoritos aún. ¡Agrega algunos con el botón ⭐!</p>
+      </div>
     </div>
   </div>
 
