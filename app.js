@@ -3,27 +3,32 @@
     let newTestamentBooks = [];
     let famousVerses = [];
     let readingPlan = [];
+    let inspirationalQuotes = [];
     let currentVerseIndex = 0;
+    let currentQuoteIndex = 0;
     let favorites = JSON.parse(localStorage.getItem('bibleFavorites')) || [];
     let isReadingMode = false;
 
     // Cargar datos desde JSON
     async function loadData() {
       try {
-        const [booksResponse, versesResponse, planResponse] = await Promise.all([
+        const [booksResponse, versesResponse, planResponse, quotesResponse] = await Promise.all([
           fetch('./data/books.json'),
           fetch('./data/verses.json'),
-          fetch('./data/reading-plan.json')
+          fetch('./data/reading-plan.json'),
+          fetch('./data/inspirational-quotes.json')
         ]);
 
         const books = await booksResponse.json();
         const verses = await versesResponse.json();
         const plan = await planResponse.json();
+        const quotes = await quotesResponse.json();
 
         oldTestamentBooks = books.antiguo;
         newTestamentBooks = books.nuevo;
         famousVerses = verses;
         readingPlan = plan;
+        inspirationalQuotes = quotes;
 
         return true;
       } catch (error) {
@@ -76,6 +81,8 @@
       document.getElementById('mobileMenuBtn').addEventListener('click', toggleMobileMenu);
       // Navegación smooth scroll
       initSmoothScrolling();
+      // Interacciones del hero
+      initHeroInteractions();
       // Buscador
       const searchInput = document.getElementById('bookSearch');
       const clearBtn = document.getElementById('clearSearch');
@@ -89,6 +96,7 @@
       initStatObserver();
       loadFavorites();
       updateVerseDisplay();
+      initHeroAnimations();
     });
 
     // Secciones
@@ -578,3 +586,195 @@
     document.addEventListener('DOMContentLoaded', () => {
       initHeaderScrollEffect();
     });
+
+    // === FUNCIONES DEL HERO ENRIQUECIDO ===
+
+    // Inicializar animaciones del hero
+    function initHeroAnimations() {
+      initHeroStatCounter();
+      initInspirationRotation();
+    }
+
+    // Inicializar interacciones del hero
+    function initHeroInteractions() {
+      initBenefitButtons();
+      initStepperButtons();
+      initEnhancedInspirationChip();
+    }
+
+    // Botones de beneficios
+    function initBenefitButtons() {
+      document.querySelectorAll('.benefit-item').forEach(item => {
+        const action = item.getAttribute('data-action');
+
+        const handleClick = () => {
+          switch(action) {
+            case 'plan':
+              document.getElementById('startReadingPlan').click();
+              break;
+            case 'verse':
+              document.querySelector('a[href="#versiculo"]').click();
+              break;
+            case 'explore':
+              document.querySelector('a[href="#explorar"]').click();
+              break;
+          }
+        };
+
+        item.addEventListener('click', handleClick);
+        item.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            handleClick();
+          }
+        });
+      });
+    }
+
+    // Botones del stepper
+    function initStepperButtons() {
+      document.querySelectorAll('.step-item').forEach(item => {
+        const step = item.getAttribute('data-step');
+
+        const handleClick = () => {
+          switch(step) {
+            case '1':
+              document.querySelector('a[href="#empezar"]').click();
+              break;
+            case '2':
+              document.querySelector('a[href="#explorar"]').click();
+              break;
+            case '3':
+              document.querySelector('a[href="#favoritos"]').click();
+              break;
+          }
+        };
+
+        item.addEventListener('click', handleClick);
+        item.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            handleClick();
+          }
+        });
+      });
+    }
+
+    // Chip inspiracional mejorado
+    function initEnhancedInspirationChip() {
+      const chip = document.getElementById('inspirationChip');
+      if (!chip) return;
+
+      // Agregar tooltip
+      chip.setAttribute('title', 'Haz clic para cambiar versículo');
+
+      // Agregar indicador visual de que es clickeable
+      chip.style.position = 'relative';
+
+      // Crear indicador de acción
+      const indicator = document.createElement('div');
+      indicator.style.cssText = `
+        position: absolute;
+        top: -5px;
+        right: -5px;
+        width: 12px;
+        height: 12px;
+        background: linear-gradient(45deg, #4ecdc4, #44a08d);
+        border-radius: 50%;
+        opacity: 0.8;
+        animation: pulse 2s infinite;
+      `;
+      chip.appendChild(indicator);
+
+      // Agregar animación pulse en CSS si no existe
+      if (!document.querySelector('#pulse-animation')) {
+        const style = document.createElement('style');
+        style.id = 'pulse-animation';
+        style.textContent = `
+          @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 0.8; }
+            50% { transform: scale(1.2); opacity: 1; }
+          }
+        `;
+        document.head.appendChild(style);
+      }
+    }
+
+    // Contador animado del hero stat
+    function initHeroStatCounter() {
+      const statNumber = document.querySelector('.hero-stat-number');
+      if (!statNumber) return;
+
+      const targetValue = parseInt(statNumber.getAttribute('data-target'));
+      let currentValue = 0;
+      const increment = targetValue / 100;
+      const duration = 2000; // 2 segundos
+      const stepTime = duration / 100;
+
+      const counter = setInterval(() => {
+        currentValue += increment;
+        if (currentValue >= targetValue) {
+          currentValue = targetValue;
+          clearInterval(counter);
+        }
+        statNumber.textContent = Math.floor(currentValue).toLocaleString();
+      }, stepTime);
+    }
+
+    // Rotación de frases inspiradoras
+    function initInspirationRotation() {
+      if (inspirationalQuotes.length === 0) return;
+
+      const chip = document.getElementById('inspirationChip');
+      const textElement = chip.querySelector('.inspiration-text');
+      const refElement = chip.querySelector('.inspiration-ref');
+
+      function updateQuote() {
+        const quote = inspirationalQuotes[currentQuoteIndex];
+
+        // Efecto de fade out
+        chip.style.opacity = '0';
+        chip.style.transform = 'scale(0.95)';
+
+        setTimeout(() => {
+          textElement.textContent = `"${quote.text}"`;
+          refElement.textContent = quote.reference;
+
+          // Efecto de fade in
+          chip.style.opacity = '1';
+          chip.style.transform = 'scale(1)';
+
+          currentQuoteIndex = (currentQuoteIndex + 1) % inspirationalQuotes.length;
+        }, 300);
+      }
+
+      // Cambiar cada 6 segundos
+      setInterval(updateQuote, 6000);
+
+      // Permitir click para cambiar manualmente
+      chip.addEventListener('click', updateQuote);
+      chip.style.cursor = 'pointer';
+    }
+
+    // Efectos adicionales para modo oscuro en hero
+    function updateHeroDarkMode() {
+      const isDark = document.body.classList.contains('dark');
+      const particles = document.querySelectorAll('.particle');
+
+      particles.forEach(particle => {
+        if (isDark) {
+          particle.style.background = 'rgba(96, 165, 250, 0.6)';
+        } else {
+          particle.style.background = 'rgba(255, 255, 255, 0.6)';
+        }
+      });
+    }
+
+    // Actualizar la función applyTheme para incluir efectos del hero
+    const originalApplyTheme = window.applyTheme || applyTheme;
+    if (typeof applyTheme === 'function') {
+      window.applyTheme = function(theme) {
+        originalApplyTheme(theme);
+        updateHeroDarkMode();
+      };
+    }
