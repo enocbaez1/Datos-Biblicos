@@ -1,0 +1,223 @@
+{
+  "book": "Génesis",
+  "chapter": 6,
+  "title": "Corrupción y el arca",
+  "subtitle": "Noé recibe instrucciones para preservar la vida",
+  "summary": "La maldad humana se multiplica, provocando dolor en Dios. Noé halla gracia y recibe órdenes específicas para construir el arca que preservará a su familia y a los animales del juicio del diluvio.",
+  "timeline": {
+    "period": "Últimos días antes del diluvio",
+    "context": "Humanidad violentada",
+    "placement": "Preparación para el juicio"
+  },
+  "days": [
+    {
+      "day": 1,
+      "title": "Corrupción creciente",
+      "icon": "!!",
+      "description": "Los hijos de Dios toman mujeres sin discernimiento y la maldad se multiplica.",
+      "verse": "Toda carne había corrompido su camino sobre la tierra.",
+      "reference": "Génesis 6:1-5,12",
+      "significance": "La violencia y la inmoralidad saturan la sociedad."
+    },
+    {
+      "day": 2,
+      "title": "Dolor en el corazón de Dios",
+      "icon": "::",
+      "description": "Dios ve la maldad y se duele en su corazón por haber creado al hombre.",
+      "verse": "Le dolió en su corazón.",
+      "reference": "Génesis 6:6-7",
+      "significance": "El pecado humano afecta la relación con el Creador."
+    },
+    {
+      "day": 3,
+      "title": "Noé halla gracia",
+      "icon": "++",
+      "description": "Noé es descrito como justo, perfecto en sus generaciones, caminando con Dios.",
+      "verse": "Pero Noé halló gracia ante los ojos de Jehová.",
+      "reference": "Génesis 6:8-10",
+      "significance": "La gracia divina se derrama sobre quien camina fielmente."
+    },
+    {
+      "day": 4,
+      "title": "Plan del arca",
+      "icon": "##",
+      "description": "Dios ordena construir un arca de madera de gofer con medidas específicas.",
+      "verse": "Hazte un arca de madera de gofer...",
+      "reference": "Génesis 6:14-16",
+      "significance": "Dios provee una vía de salvación detallada."
+    },
+    {
+      "day": 5,
+      "title": "Pacto de preservación",
+      "icon": "[]",
+      "description": "Dios anuncia el diluvio, pero promete establecer su pacto con Noé.",
+      "verse": "Mas estableceré mi pacto contigo.",
+      "reference": "Génesis 6:17-18",
+      "significance": "El juicio viene acompañado de promesa de vida."
+    },
+    {
+      "day": 6,
+      "title": "Animales y obediencia",
+      "icon": "--",
+      "description": "Noé reúne animales de cada especie y obedece exactamente a Dios.",
+      "verse": "Así hizo; conforme a todo lo que Dios le mandó, así lo hizo.",
+      "reference": "Génesis 6:19-22",
+      "significance": "La obediencia puntual de Noé garantiza la preservación futura."
+    }
+  ],
+  "interestingFacts": [
+    {
+      "id": "grace-first-mention",
+      "title": "Primera mención de la gracia",
+      "summary": "\"Gracia\" aparece por primera vez en la Biblia al referirse a Noé.",
+      "explanation": "El favor inmerecido de Dios se introduce como clave para la salvación incluso antes del pacto mosaico.",
+      "verse": "Noé halló gracia ante los ojos de Jehová.",
+      "reference": "Génesis 6:8"
+    },
+    {
+      "id": "ark-dimensions",
+      "title": "Dimensiones del arca",
+      "summary": "Medía 300 codos de largo, 50 de ancho y 30 de alto.",
+      "explanation": "La estructura tenía proporciones estables, similares a buques modernos, enfatizando la sabiduría divina.",
+      "verse": "De 300 codos la longitud del arca...",
+      "reference": "Génesis 6:15"
+    },
+    {
+      "id": "gopher-wood",
+      "title": "Madera de gofer",
+      "summary": "Un material resistente y poco conocido.",
+      "explanation": "La especificación demuestra que Dios cuida los detalles prácticos de la salvación.",
+      "verse": "Hazte un arca de madera de gofer.",
+      "reference": "Génesis 6:14"
+    },
+    {
+      "id": "covenant-first",
+      "title": "Primer pacto explícito",
+      "summary": "Dios anuncia un pacto formal con Noé antes del diluvio.",
+      "explanation": "La iniciativa divina asegura la continuidad de la humanidad aun cuando el juicio es inminente.",
+      "verse": "Estableceré mi pacto contigo.",
+      "reference": "Génesis 6:18"
+    }
+  ],
+  "reflectionQuestions": [
+    {
+      "id": "culture-impact",
+      "question": "¿Qué señales de corrupción ves hoy y cómo puedes responder con fidelidad como Noé?",
+      "category": "cultural",
+      "hints": [
+        "Discernimiento",
+        "Santidad",
+        "Testimonio"
+      ]
+    },
+    {
+      "id": "obedience-detail",
+      "question": "¿Qué significa obedecer a Dios \"conforme a todo\" lo que Él manda?",
+      "category": "obediencia",
+      "hints": [
+        "Exactitud",
+        "Entrega total",
+        "Confianza"
+      ]
+    },
+    {
+      "id": "grace-received",
+      "question": "¿Cómo experimentas la gracia de Dios en medio de un mundo quebrado?",
+      "category": "espiritual",
+      "hints": [
+        "Favor inmerecido",
+        "Protección",
+        "Propósito"
+      ]
+    },
+    {
+      "id": "build-ark",
+      "question": "¿Qué proyectos o decisiones estás construyendo por fe aunque otros no comprendan?",
+      "category": "fe",
+      "hints": [
+        "Perseverancia",
+        "Visión",
+        "Obediencia práctica"
+      ]
+    }
+  ],
+  "trivia": [
+    {
+      "question": "¿Cuál es la primera mención de la palabra \"gracia\" en la Biblia?",
+      "options": [
+        "Con Abraham",
+        "Con Moisés",
+        "Con Noé"
+      ],
+      "correct": 2,
+      "explanation": "Génesis 6:8 dice que Noé halló gracia ante los ojos del Señor."
+    },
+    {
+      "question": "¿Cuánto medía la longitud del arca?",
+      "options": [
+        "100 codos",
+        "200 codos",
+        "300 codos"
+      ],
+      "correct": 2,
+      "explanation": "La longitud especificada por Dios fue de 300 codos."
+    },
+    {
+      "question": "¿Cuántos niveles debía tener el arca?",
+      "options": [
+        "Uno",
+        "Dos",
+        "Tres"
+      ],
+      "correct": 2,
+      "explanation": "El arca debía construirse con tres pisos según Génesis 6:16."
+    },
+    {
+      "question": "¿Qué debía llevar Noé al arca además de su familia?",
+      "options": [
+        "El diezmo del pueblo",
+        "De cada animal una pareja",
+        "Semillas de los árboles del Edén"
+      ],
+      "correct": 1,
+      "explanation": "Se le ordenó llevar una pareja de cada especie, macho y hembra."
+    }
+  ],
+  "comparison": {
+    "title": "Mundo corrupto vs refugio de obediencia",
+    "before": {
+      "title": "Sociedad violenta",
+      "description": "La tierra llena de maldad y violencia bajo juicio inminente.",
+      "elements": [
+        "Pensamientos perversos",
+        "Violencia",
+        "Corrupción"
+      ],
+      "verse": "Toda carne había corrompido su camino.",
+      "reference": "Génesis 6:12"
+    },
+    "after": {
+      "title": "Familia protegida",
+      "description": "Un hombre justo responde con obediencia y recibe el plan de salvación.",
+      "elements": [
+        "Gracia",
+        "Pacto",
+        "Obediencia detallada"
+      ],
+      "verse": "Conforme a todo lo que Dios le mandó, así lo hizo.",
+      "reference": "Génesis 6:22"
+    }
+  },
+  "memorizeVerse": {
+    "text": "Pero Noé halló gracia ante los ojos de Jehová.",
+    "reference": "Génesis 6:8",
+    "theme": "Favor inmerecido"
+  },
+  "mainTeaching": "La gracia de Dios provee un refugio en medio de la corrupción cuando respondemos con fe y obediencia absoluta.",
+  "practicalApplication": [
+    "Evalúa las áreas donde la cultura intenta normalizar la corrupción y afírmate en la verdad.",
+    "Obedece los detalles de lo que Dios te ha mostrado aunque parezcan ilógicos.",
+    "Agradece la gracia recibida y compártela con tu familia y comunidad.",
+    "Construye \"arcas\" de protección espiritual para quienes te rodean."
+  ]
+}

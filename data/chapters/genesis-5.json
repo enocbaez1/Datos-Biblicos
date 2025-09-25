@@ -1,0 +1,223 @@
+{
+  "book": "Génesis",
+  "chapter": 5,
+  "title": "Genealogía de Adán",
+  "subtitle": "De Adán a Noé",
+  "summary": "Se registra la línea de Adán a través de Set, destacando la longevidad de los patriarcas, la fidelidad de Enoc y el nacimiento de Noé como portador de consuelo antes del diluvio.",
+  "timeline": {
+    "period": "Era antediluviana",
+    "context": "Descendencia piadosa de Set",
+    "placement": "Puente hacia el diluvio"
+  },
+  "days": [
+    {
+      "day": 1,
+      "title": "Libro de las generaciones",
+      "icon": "##",
+      "description": "Se recuerda que el hombre fue creado a imagen de Dios y bendecido.",
+      "verse": "Este es el libro de las generaciones de Adán.",
+      "reference": "Génesis 5:1-2",
+      "significance": "Dios mantiene su imagen en la humanidad caída."
+    },
+    {
+      "day": 2,
+      "title": "Set como heredero",
+      "icon": "++",
+      "description": "Adán engendra a Set a los 130 años; vive 930 años en total.",
+      "verse": "Engendró un hijo a su semejanza, conforme a su imagen, y llamó su nombre Set.",
+      "reference": "Génesis 5:3-5",
+      "significance": "La línea piadosa continúa mediante la gracia divina."
+    },
+    {
+      "day": 3,
+      "title": "Patriarcas tempranos",
+      "icon": "--",
+      "description": "Enós, Cainán, Mahalaleel y Jared nacen y mueren tras largas vidas.",
+      "verse": "Y fueron todos los días de Enós novecientos cinco años; y murió.",
+      "reference": "Génesis 5:6-20",
+      "significance": "La muerte domina incluso vidas extraordinariamente largas."
+    },
+    {
+      "day": 4,
+      "title": "Enoc camina con Dios",
+      "icon": "^^",
+      "description": "Enoc anda con Dios 300 años y es traspuesto sin ver muerte.",
+      "verse": "Caminó, pues, Enoc con Dios, y desapareció, porque le llevó Dios.",
+      "reference": "Génesis 5:21-24",
+      "significance": "La comunión íntima con Dios trasciende la muerte."
+    },
+    {
+      "day": 5,
+      "title": "Matusalén y longevidad",
+      "icon": "00",
+      "description": "Matusalén vive 969 años, el registro más prolongado.",
+      "verse": "Y fueron todos los días de Matusalén novecientos sesenta y nueve años; y murió.",
+      "reference": "Génesis 5:25-27",
+      "significance": "La paciencia divina se evidencia en generaciones extensas."
+    },
+    {
+      "day": 6,
+      "title": "Lamec anuncia a Noé",
+      "icon": "::",
+      "description": "Lamec espera consuelo a través de su hijo Noé ante el trabajo maldito.",
+      "verse": "Este nos aliviará de nuestras obras y del trabajo de nuestras manos.",
+      "reference": "Génesis 5:28-32",
+      "significance": "Se anticipa una intervención de Dios frente a la maldición."
+    }
+  ],
+  "interestingFacts": [
+    {
+      "id": "image-retained",
+      "title": "Imagen de Dios preservada",
+      "summary": "A pesar del pecado, la humanidad conserva la imagen divina.",
+      "explanation": "El texto subraya que Adán engendra \"a su imagen\", recordando que la dignidad otorgada por Dios persiste.",
+      "verse": "Los hizo a la semejanza de Dios.",
+      "reference": "Génesis 5:1"
+    },
+    {
+      "id": "enoch-translated",
+      "title": "Enoc, el arrebatado",
+      "summary": "Enoc no experimenta la muerte física.",
+      "explanation": "Su caminar constante con Dios lo convierte en figura de fe y anticipo de la resurrección.",
+      "verse": "Fue traspuesto para no ver muerte.",
+      "reference": "Hebreos 11:5"
+    },
+    {
+      "id": "matusalen-969",
+      "title": "El hombre más longevo",
+      "summary": "Matusalén vivió 969 años.",
+      "explanation": "Su larga vida muestra la paciencia de Dios antes del diluvio y la progresiva reducción posterior.",
+      "verse": "Fueron todos los días de Matusalén novecientos sesenta y nueve años.",
+      "reference": "Génesis 5:27"
+    },
+    {
+      "id": "noah-name",
+      "title": "Noé significa descanso",
+      "summary": "Lamec declara que Noé traerá alivio.",
+      "explanation": "El nombre anticipa el papel de Noé como instrumento de gracia en medio del juicio próximo.",
+      "verse": "Este nos aliviará.",
+      "reference": "Génesis 5:29"
+    }
+  ],
+  "reflectionQuestions": [
+    {
+      "id": "legacy-faith",
+      "question": "¿Qué tipo de legado espiritual estás construyendo para las generaciones futuras?",
+      "category": "familia",
+      "hints": [
+        "Modelos",
+        "Hábitos",
+        "Testimonio"
+      ]
+    },
+    {
+      "id": "walk-with-god",
+      "question": "¿Qué prácticas pueden ayudarte a caminar con Dios de manera consistente como Enoc?",
+      "category": "espiritual",
+      "hints": [
+        "Devoción diaria",
+        "Obediencia",
+        "Comunión"
+      ]
+    },
+    {
+      "id": "mortality-awareness",
+      "question": "¿Cómo cambia tu perspectiva de la vida recordar la inevitabilidad de la muerte?",
+      "category": "sabiduría",
+      "hints": [
+        "Prioridades",
+        "Arrepentimiento",
+        "Esperanza eterna"
+      ]
+    },
+    {
+      "id": "hope-in-judgment",
+      "question": "¿Dónde encuentras consuelo cuando Dios disciplina o corrige a la humanidad?",
+      "category": "teológica",
+      "hints": [
+        "Promesas",
+        "Gracia",
+        "Plan soberano"
+      ]
+    }
+  ],
+  "trivia": [
+    {
+      "question": "¿Cuántos años vivió Adán?",
+      "options": [
+        "700 años",
+        "930 años",
+        "969 años"
+      ],
+      "correct": 1,
+      "explanation": "Adán vivió 930 años según Génesis 5:5."
+    },
+    {
+      "question": "¿Quién caminó con Dios y fue llevado sin ver muerte?",
+      "options": [
+        "Noé",
+        "Enoc",
+        "Matusalén"
+      ],
+      "correct": 1,
+      "explanation": "Enoc caminó con Dios y desapareció porque Dios se lo llevó."
+    },
+    {
+      "question": "¿Cuántos años vivió Matusalén?",
+      "options": [
+        "777",
+        "842",
+        "969"
+      ],
+      "correct": 2,
+      "explanation": "969 años es el registro más largo de la Biblia."
+    },
+    {
+      "question": "¿Qué significa el nombre de Noé según su padre Lamec?",
+      "options": [
+        "Guerrero",
+        "Descanso",
+        "Sabiduría"
+      ],
+      "correct": 1,
+      "explanation": "Lamec dijo: \"Este nos aliviará\", indicando descanso o consuelo."
+    }
+  ],
+  "comparison": {
+    "title": "Humanidad caída vs esperanza",
+    "before": {
+      "title": "Humanidad dispersa",
+      "description": "La maldición genera trabajo duro y muerte para todos.",
+      "elements": [
+        "Dolor",
+        "Mortandad",
+        "Trabajo pesado"
+      ],
+      "verse": "Y murió.",
+      "reference": "Génesis 5"
+    },
+    "after": {
+      "title": "Línea preservada",
+      "description": "Dios resalta fe y esperanza en medio del juicio venidero.",
+      "elements": [
+        "Comunión con Dios",
+        "Promesa de consuelo",
+        "Herencia piadosa"
+      ],
+      "verse": "Caminó Enoc con Dios.",
+      "reference": "Génesis 5:24"
+    }
+  },
+  "memorizeVerse": {
+    "text": "Caminó, pues, Enoc con Dios, y desapareció, porque le llevó Dios.",
+    "reference": "Génesis 5:24",
+    "theme": "Comunión íntima"
+  },
+  "mainTeaching": "Aun en generaciones marcadas por la muerte, Dios preserva una línea de fe y prepara una respuesta de gracia ante el juicio.",
+  "practicalApplication": [
+    "Valora tu linaje espiritual y contribuye a fortalecerlo.",
+    "Busca ritmos de comunión con Dios que sostengan tu vida diaria.",
+    "Recuerda que la mortalidad invita a vivir con propósito eterno.",
+    "Confía en que Dios prepara alivio incluso cuando la disciplina se acerca."
+  ]
+}

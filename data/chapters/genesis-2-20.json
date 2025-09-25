@@ -1,0 +1,4239 @@
+[
+  {
+    "book": "Génesis",
+    "chapter": 2,
+    "title": "El Jardín del Edén",
+    "subtitle": "Diseño divino para la vida humana",
+    "summary": "Se describen con detalle la formación del ser humano, el jardín de Edén, el mandato de obediencia y la institución del matrimonio como una unión complementaria destinada a reflejar la imagen de Dios.",
+    "timeline": {
+      "period": "Creación temprana",
+      "context": "Adán y Eva colocados en el Edén antes de la caída",
+      "placement": "Fundamentos de la vida humana"
+    },
+    "days": [
+      {
+        "day": 1,
+        "title": "Formación del hombre",
+        "icon": ">>",
+        "description": "Dios forma al hombre del polvo y sopla aliento de vida en él.",
+        "verse": "Entonces Jehová Dios formó al hombre del polvo de la tierra.",
+        "reference": "Génesis 2:7",
+        "significance": "La vida humana depende totalmente del soplo divino."
+      },
+      {
+        "day": 2,
+        "title": "El huerto plantado",
+        "icon": "**",
+        "description": "Jehová Dios planta el Edén, un jardín abundante y agradable.",
+        "verse": "Y Jehová Dios plantó un huerto en Edén, al oriente.",
+        "reference": "Génesis 2:8-9",
+        "significance": "Dios provee un ambiente de belleza y propósito para el hombre."
+      },
+      {
+        "day": 3,
+        "title": "Ríos y recursos",
+        "icon": "~~",
+        "description": "Cuatro ríos riegan el huerto y describen la riqueza de la tierra.",
+        "verse": "De Edén salía un río para regar el huerto, y de allí se repartía en cuatro brazos.",
+        "reference": "Génesis 2:10-14",
+        "significance": "La creación contiene abundancia administrada por Dios para el bien humano."
+      },
+      {
+        "day": 4,
+        "title": "Mandato de obediencia",
+        "icon": "!!",
+        "description": "El hombre recibe la responsabilidad de cultivar y guardar, con una prohibición clara.",
+        "verse": "De todo árbol del huerto podrás comer; mas del árbol de la ciencia del bien y del mal no comerás.",
+        "reference": "Génesis 2:15-17",
+        "significance": "La libertad humana implica límites saludables establecidos por Dios."
+      },
+      {
+        "day": 5,
+        "title": "Nombrar a los animales",
+        "icon": "::",
+        "description": "Adán ejerce autoridad nombrando a cada criatura, pero no halla ayuda idónea.",
+        "verse": "Jehová Dios trajo al hombre los animales... y todo lo que Adán llamó a los animales vivientes, ese es su nombre.",
+        "reference": "Génesis 2:19-20",
+        "significance": "El ser humano participa en la administración de la creación, reflejando el gobierno divino."
+      },
+      {
+        "day": 6,
+        "title": "Creación de la mujer",
+        "icon": "||",
+        "description": "Dios forma a la mujer de la costilla del hombre y establece el matrimonio.",
+        "verse": "Por tanto dejará el hombre a su padre y a su madre, y se unirá a su mujer.",
+        "reference": "Génesis 2:21-25",
+        "significance": "El matrimonio es una unión santa y complementaria ordenada por Dios."
+      }
+    ],
+    "interestingFacts": [
+      {
+        "id": "eden-delight",
+        "title": "Edén significa deleite",
+        "summary": "El nombre del jardín transmite gozo y plenitud.",
+        "explanation": "Edén proviene de una raíz que implica placer y abundancia. Dios diseñó el entorno humano original para la alegría y la comunión con Él.",
+        "verse": "Jehová Dios plantó un huerto en Edén, al oriente.",
+        "reference": "Génesis 2:8"
+      },
+      {
+        "id": "helper-suitable",
+        "title": "Ayuda idónea no implica inferioridad",
+        "summary": "\"Ezer\" se usa para describir incluso la ayuda de Dios.",
+        "explanation": "La expresión hebrea «ezer kenegdo» comunica una ayuda fuerte y complementaria. Lejos de ser secundaria, la mujer refleja atributos divinos de apoyo poderoso.",
+        "verse": "Le haré ayuda idónea para él.",
+        "reference": "Génesis 2:18"
+      },
+      {
+        "id": "four-rivers",
+        "title": "Cuatro corrientes estratégicas",
+        "summary": "Pisón, Gihón, Hidekel y Éufrates conectan Edén con el mundo.",
+        "explanation": "Los ríos parten del Edén hacia regiones ricas en oro, bedelio y piedra ónice, sugiriendo la vocación humana de extender la bendición divina.",
+        "verse": "El nombre del primero es Pisón... el nombre del segundo, Gihón.",
+        "reference": "Génesis 2:11-14"
+      },
+      {
+        "id": "marriage-covenant",
+        "title": "La primera alianza matrimonial",
+        "summary": "El matrimonio es instituido antes de la caída.",
+        "explanation": "La unión de Adán y Eva modela la intimidad, exclusividad y permanencia que Dios desea para cada matrimonio bajo su pacto.",
+        "verse": "Serán una sola carne.",
+        "reference": "Génesis 2:24"
+      }
+    ],
+    "reflectionQuestions": [
+      {
+        "id": "life-breath",
+        "question": "¿Qué te enseña que Dios sopló aliento de vida directamente en el hombre?",
+        "category": "teológica",
+        "hints": [
+          "Dependencia",
+          "Valor",
+          "Propósito personal"
+        ]
+      },
+      {
+        "id": "obedience-boundaries",
+        "question": "¿Cómo ves los límites divinos en tu vida: restricciones o protección amorosa?",
+        "category": "práctica",
+        "hints": [
+          "Mandamientos",
+          "Confianza",
+          "Libertad verdadera"
+        ]
+      },
+      {
+        "id": "companionship-design",
+        "question": "¿De qué manera refleja tu comunidad o familia la idea de ayuda idónea y complementariedad?",
+        "category": "relacional",
+        "hints": [
+          "Cooperación",
+          "Respeto mutuo",
+          "Servicio"
+        ]
+      },
+      {
+        "id": "stewardship-eden",
+        "question": "¿Cómo puedes cultivar y guardar los espacios que Dios ha puesto bajo tu cuidado?",
+        "category": "mayordomía",
+        "hints": [
+          "Trabajo con propósito",
+          "Cuidado de la creación",
+          "Responsabilidad diaria"
+        ]
+      }
+    ],
+    "trivia": [
+      {
+        "question": "¿De qué formó Dios al hombre según Génesis 2?",
+        "options": [
+          "Del polvo de la tierra",
+          "Del agua pura",
+          "De la luz del firmamento"
+        ],
+        "correct": 0,
+        "explanation": "Génesis 2:7 afirma que Dios formó al hombre del polvo y sopló en su nariz aliento de vida."
+      },
+      {
+        "question": "¿Cuántos ríos principales salían del Edén?",
+        "options": [
+          "Dos",
+          "Cuatro",
+          "Siete"
+        ],
+        "correct": 1,
+        "explanation": "El relato menciona cuatro ríos: Pisón, Gihón, Hidekel y Éufrates."
+      },
+      {
+        "question": "¿Cuál árbol estaba prohibido para Adán?",
+        "options": [
+          "El árbol de la vida",
+          "El árbol de la ciencia del bien y del mal",
+          "El árbol del conocimiento de la tierra"
+        ],
+        "correct": 1,
+        "explanation": "Dios prohibió comer del árbol de la ciencia del bien y del mal para proteger la integridad espiritual del hombre."
+      },
+      {
+        "question": "¿Qué establece Génesis 2:24 acerca del matrimonio?",
+        "options": [
+          "Que el hombre dominará a la mujer",
+          "Que el hombre dejará a sus padres y se unirá a su mujer",
+          "Que es mejor no casarse"
+        ],
+        "correct": 1,
+        "explanation": "El versículo declara el principio de dejar, unirse y hacerse una sola carne dentro del matrimonio."
+      }
+    ],
+    "comparison": {
+      "title": "De la soledad a la comunión",
+      "before": {
+        "title": "Adán sin compañía",
+        "description": "Trabajo y responsabilidad sin una contraparte humana.",
+        "elements": [
+          "Soledad",
+          "Búsqueda de ayuda",
+          "Tarea incompleta"
+        ],
+        "verse": "No es bueno que el hombre esté solo.",
+        "reference": "Génesis 2:18"
+      },
+      "after": {
+        "title": "Matrimonio y misión compartida",
+        "description": "Unidad amorosa para gobernar y guardar juntos.",
+        "elements": [
+          "Complementariedad",
+          "Unidad",
+          "Propósito conjunto"
+        ],
+        "verse": "Serán una sola carne.",
+        "reference": "Génesis 2:24"
+      }
+    },
+    "memorizeVerse": {
+      "text": "Por tanto dejará el hombre a su padre y a su madre, y se unirá a su mujer, y serán una sola carne.",
+      "reference": "Génesis 2:24",
+      "theme": "Pacto matrimonial"
+    },
+    "mainTeaching": "Dios diseñó al ser humano para vivir bajo su presencia, con límites saludables, trabajo significativo y relaciones de compañerismo que reflejan su imagen.",
+    "practicalApplication": [
+      "Agradece a Dios por el don de la vida y reconoce tu dependencia diaria de Él.",
+      "Abraza los límites divinos como protección que dirige tu libertad.",
+      "Cultiva relaciones caracterizadas por respeto, servicio y complementariedad.",
+      "Cuida de los recursos y espacios que Dios te confía, practicando la mayordomía."
+    ]
+  },
+  {
+    "book": "Génesis",
+    "chapter": 3,
+    "title": "La Caída",
+    "subtitle": "El origen del pecado y la primera promesa de redención",
+    "summary": "La serpiente engaña a la mujer, la pareja desobedece a Dios y experimenta vergüenza, juicio y expulsión del Edén; aun así, Dios anuncia que la descendencia de la mujer aplastará al enemigo.",
+    "timeline": {
+      "period": "Ruptura en el Edén",
+      "context": "Primera rebelión humana",
+      "placement": "Entrada del pecado en el mundo"
+    },
+    "days": [
+      {
+        "day": 1,
+        "title": "Conversación con la serpiente",
+        "icon": "?!",
+        "description": "La serpiente cuestiona la palabra y el carácter de Dios ante la mujer.",
+        "verse": "¿Conque Dios os ha dicho: No comáis de todo árbol del huerto?",
+        "reference": "Génesis 3:1",
+        "significance": "La tentación comienza distorsionando la verdad divina."
+      },
+      {
+        "day": 2,
+        "title": "El fruto prohibido",
+        "icon": "//",
+        "description": "Eva come del fruto, lo comparte con Adán y los ojos de ambos se abren.",
+        "verse": "Tomó de su fruto, y comió; y dio también a su marido.",
+        "reference": "Génesis 3:6",
+        "significance": "La desobediencia surge del deseo de ser como Dios."
+      },
+      {
+        "day": 3,
+        "title": "Vergüenza y ocultamiento",
+        "icon": "??",
+        "description": "Se cubren con hojas de higuera y se esconden al oír a Dios en el huerto.",
+        "verse": "Se cosieron hojas de higuera, y se hicieron delantales.",
+        "reference": "Génesis 3:7-8",
+        "significance": "El pecado rompe la intimidad y produce miedo ante la presencia divina."
+      },
+      {
+        "day": 4,
+        "title": "Interrogatorio divino",
+        "icon": "::",
+        "description": "Dios llama a Adán y Eva a rendir cuentas por su desobediencia.",
+        "verse": "¿Dónde estás?... ¿Qué es lo que has hecho?",
+        "reference": "Génesis 3:9-13",
+        "significance": "Dios busca restaurar a través de la confrontación honesta."
+      },
+      {
+        "day": 5,
+        "title": "Maldiciones y promesa",
+        "icon": "!!",
+        "description": "Dios maldice a la serpiente, ordena dolor y trabajo, pero promete victoria futura.",
+        "verse": "Pondré enemistad entre ti y la mujer.",
+        "reference": "Génesis 3:14-19",
+        "significance": "La justicia divina se mezcla con gracia al anunciar al Redentor."
+      },
+      {
+        "day": 6,
+        "title": "Expulsión del Edén",
+        "icon": "[]",
+        "description": "Dios viste a la pareja con túnicas de piel y coloca querubines que guardan el acceso al árbol de la vida.",
+        "verse": "Los echó Jehová del huerto... puso querubines y una espada encendida.",
+        "reference": "Génesis 3:21-24",
+        "significance": "La humanidad queda separada del paraíso, necesitada de redención."
+      }
+    ],
+    "interestingFacts": [
+      {
+        "id": "protoevangelio",
+        "title": "La primera promesa mesiánica",
+        "summary": "Génesis 3:15 anuncia la derrota de la serpiente.",
+        "explanation": "El \"protoevangelio\" promete que la simiente de la mujer herirá la cabeza de la serpiente, apuntando a Cristo como vencedor definitivo del pecado y la muerte.",
+        "verse": "Ésta te herirá en la cabeza.",
+        "reference": "Génesis 3:15"
+      },
+      {
+        "id": "coverings",
+        "title": "Túnicas de piel",
+        "summary": "Dios viste a la pareja con pieles de animales.",
+        "explanation": "El gesto implica el primer derramamiento de sangre, prefigurando la necesidad de un sacrificio para cubrir el pecado humano.",
+        "verse": "Jehová Dios hizo túnicas de piel, y los vistió.",
+        "reference": "Génesis 3:21"
+      },
+      {
+        "id": "blame-shift",
+        "title": "Traslado de culpa",
+        "summary": "Adán culpa a Eva y Eva a la serpiente.",
+        "explanation": "El pecado distorsiona las relaciones al generar excusas y evasión, mostrando la necesidad de responsabilidad personal.",
+        "verse": "La mujer que me diste... me dio del árbol.",
+        "reference": "Génesis 3:12-13"
+      },
+      {
+        "id": "cherub-guard",
+        "title": "Guardianes celestiales",
+        "summary": "Querubines custodian el camino al árbol de la vida.",
+        "explanation": "La presencia angelical simboliza la santidad divina y la imposibilidad de regresar al Edén sin mediación.",
+        "verse": "Puso querubines... para guardar el camino del árbol de la vida.",
+        "reference": "Génesis 3:24"
+      }
+    ],
+    "reflectionQuestions": [
+      {
+        "id": "truth-distortion",
+        "question": "¿En qué áreas eres tentado a cuestionar o distorsionar la palabra de Dios?",
+        "category": "personal",
+        "hints": [
+          "Mentiras culturales",
+          "Deseos internos",
+          "Fidelidad bíblica"
+        ]
+      },
+      {
+        "id": "responsibility",
+        "question": "¿Cómo puedes asumir responsabilidad por tus decisiones en lugar de culpar a otros?",
+        "category": "práctica",
+        "hints": [
+          "Confesión",
+          "Humildad",
+          "Restauración relacional"
+        ]
+      },
+      {
+        "id": "grace-promise",
+        "question": "¿Qué significa para ti que Dios dio una promesa de redención inmediatamente después del pecado?",
+        "category": "teológica",
+        "hints": [
+          "Gracia temprana",
+          "Esperanza",
+          "Plan de salvación"
+        ]
+      },
+      {
+        "id": "covering",
+        "question": "¿Cómo experimentas hoy la cobertura y restauración que Dios ofrece?",
+        "category": "espiritual",
+        "hints": [
+          "Perdón",
+          "Justicia imputada",
+          "Identidad en Cristo"
+        ]
+      }
+    ],
+    "trivia": [
+      {
+        "question": "¿Qué hicieron Adán y Eva justo después de pecar?",
+        "options": [
+          "Se cosieron hojas de higuera para cubrirse",
+          "Construyeron un altar de adoración",
+          "Se escondieron en el río Pisón"
+        ],
+        "correct": 0,
+        "explanation": "Su reacción inmediata fue cubrirse con hojas de higuera y esconderse de Dios."
+      },
+      {
+        "question": "¿Qué castigo recibió la serpiente?",
+        "options": [
+          "Ser expulsada del huerto",
+          "Arrastrarse y comer polvo",
+          "Perder la capacidad de hablar"
+        ],
+        "correct": 1,
+        "explanation": "Dios condenó a la serpiente a arrastrarse sobre su pecho y comer polvo todos los días de su vida."
+      },
+      {
+        "question": "¿Qué promete Dios en Génesis 3:15?",
+        "options": [
+          "Un nuevo jardín",
+          "Un descendiente que vencerá a la serpiente",
+          "La eliminación de la muerte física"
+        ],
+        "correct": 1,
+        "explanation": "La simiente de la mujer herirá la cabeza de la serpiente, anticipando la venida del Mesías."
+      },
+      {
+        "question": "¿Qué colocó Dios para guardar el camino al árbol de la vida?",
+        "options": [
+          "Vasos de oro",
+          "Un muro de piedra",
+          "Querubines con una espada encendida"
+        ],
+        "correct": 2,
+        "explanation": "Querubines y una espada encendida impedían que el hombre regresara al árbol de la vida."
+      }
+    ],
+    "comparison": {
+      "title": "De inocencia a mundo caído",
+      "before": {
+        "title": "Vida sin pecado",
+        "description": "Comunión transparente con Dios y equilibrio en el Edén.",
+        "elements": [
+          "Sin vergüenza",
+          "Confianza",
+          "Acceso al árbol de la vida"
+        ],
+        "verse": "Estaban ambos desnudos... y no se avergonzaban.",
+        "reference": "Génesis 2:25"
+      },
+      "after": {
+        "title": "Consecuencias del pecado",
+        "description": "Vergüenza, dolor y separación del Edén, pero con esperanza futura.",
+        "elements": [
+          "Culpa",
+          "Trabajo arduo",
+          "Enemistad con la serpiente",
+          "Expulsión"
+        ],
+        "verse": "Los echó Jehová del huerto de Edén.",
+        "reference": "Génesis 3:23-24"
+      }
+    },
+    "memorizeVerse": {
+      "text": "Y pondré enemistad entre ti y la mujer, y entre tu simiente y la simiente suya; ésta te herirá en la cabeza, y tú le herirás en el calcañar.",
+      "reference": "Génesis 3:15",
+      "theme": "Esperanza mesiánica"
+    },
+    "mainTeaching": "El pecado distorsiona la creación de Dios, pero desde el primer momento Él revela su plan de redención y restaura al ser humano con gracia.",
+    "practicalApplication": [
+      "Identifica y confronta las mentiras que intentan desplazar la verdad de Dios en tu mente.",
+      "Practica la confesión sincera en vez de justificar o culpar a otros.",
+      "Abraza la promesa de redención y vive con esperanza en la victoria de Cristo.",
+      "Recibe la cobertura de Dios viviendo en obediencia y dependencia de su gracia."
+    ]
+  },
+  {
+    "book": "Génesis",
+    "chapter": 4,
+    "title": "Caín y Abel",
+    "subtitle": "Ofrendas, pecado y misericordia",
+    "summary": "Los primeros hijos de Adán y Eva presentan ofrendas a Dios; la envidia de Caín culmina en el primer asesinato, pero Dios impide una cadena de venganza y abre una nueva línea piadosa a través de Set.",
+    "timeline": {
+      "period": "Primera generación caída",
+      "context": "Vida humana fuera del Edén",
+      "placement": "Origen de la violencia y la adoración corrupta"
+    },
+    "days": [
+      {
+        "day": 1,
+        "title": "Nacimiento y vocaciones",
+        "icon": "++",
+        "description": "Eve da a luz a Caín y Abel; uno labrador, el otro pastor.",
+        "verse": "Parió a su hermano Abel... Abel fue pastor de ovejas, y Caín fue labrador de la tierra.",
+        "reference": "Génesis 4:1-2",
+        "significance": "La humanidad se expande con dones distintos."
+      },
+      {
+        "day": 2,
+        "title": "Ofrendas contrastadas",
+        "icon": "$$",
+        "description": "Ambos hermanos presentan ofrendas, pero Dios mira con agrado a Abel.",
+        "verse": "Jehová miró con agrado a Abel y a su ofrenda; mas no miró con agrado a Caín.",
+        "reference": "Génesis 4:3-5",
+        "significance": "Dios observa el corazón detrás del sacrificio."
+      },
+      {
+        "day": 3,
+        "title": "Advertencia divina",
+        "icon": "!!",
+        "description": "Dios invita a Caín a dominar el pecado que acecha a la puerta.",
+        "verse": "El pecado está a la puerta; con todo esto, tú te enseñorearás de él.",
+        "reference": "Génesis 4:6-7",
+        "significance": "La gracia ofrece una salida antes de caer."
+      },
+      {
+        "day": 4,
+        "title": "Primer asesinato",
+        "icon": "XX",
+        "description": "Caín lleva a Abel al campo y lo mata.",
+        "verse": "Aconteció que... Caín se levantó contra su hermano Abel, y lo mató.",
+        "reference": "Génesis 4:8",
+        "significance": "El pecado no dominado produce violencia fratricida."
+      },
+      {
+        "day": 5,
+        "title": "Juicio y protección",
+        "icon": "[]",
+        "description": "Dios confronta a Caín, lo destierra y pone una marca para preservarlo.",
+        "verse": "Jehová puso señal en Caín, para que no lo matase cualquiera.",
+        "reference": "Génesis 4:9-16",
+        "significance": "La justicia divina se mezcla con misericordia preventiva."
+      },
+      {
+        "day": 6,
+        "title": "Dos linajes",
+        "icon": "--",
+        "description": "La descendencia de Caín desarrolla ciudades; Set engendra a Enós, quien invoca el nombre del Señor.",
+        "verse": "Entonces los hombres comenzaron a invocar el nombre de Jehová.",
+        "reference": "Génesis 4:25-26",
+        "significance": "Dios preserva una línea piadosa en medio de la corrupción."
+      }
+    ],
+    "interestingFacts": [
+      {
+        "id": "name-meanings",
+        "title": "Significados de Caín y Abel",
+        "summary": "Caín significa \"adquirido\"; Abel, \"vapor\" o \"fragilidad\".",
+        "explanation": "Los nombres reflejan expectativas humanas y la realidad de la fragilidad. El énfasis en la gracia de Dios supera las esperanzas depositadas en el primogénito.",
+        "verse": "Por voluntad de Jehová he adquirido varón.",
+        "reference": "Génesis 4:1"
+      },
+      {
+        "id": "sin-at-door",
+        "title": "El pecado personificado",
+        "summary": "\"El pecado está a la puerta\" pinta al pecado como una fiera acechando.",
+        "explanation": "La exhortación muestra que la tentación es activa y requiere vigilancia y dominio intencional.",
+        "verse": "El pecado está a la puerta.",
+        "reference": "Génesis 4:7"
+      },
+      {
+        "id": "mark-of-cain",
+        "title": "La señal de Caín",
+        "summary": "Un signo de protección divina en medio del juicio.",
+        "explanation": "Dios frena la violencia adicional mostrando que le pertenece la venganza, preservando la vida de Caín.",
+        "verse": "Jehová puso señal en Caín.",
+        "reference": "Génesis 4:15"
+      },
+      {
+        "id": "calling-on-name",
+        "title": "Primera adoración pública",
+        "summary": "Con Enós se institucionaliza la invocación del nombre de Jehová.",
+        "explanation": "La adoración comunitaria surge como respuesta a la corrupción, destacando la necesidad de clamar a Dios.",
+        "verse": "Entonces los hombres comenzaron a invocar el nombre de Jehová.",
+        "reference": "Génesis 4:26"
+      }
+    ],
+    "reflectionQuestions": [
+      {
+        "id": "acceptable-offering",
+        "question": "¿Qué diferencia hay entre ofrecer algo a Dios y hacerlo con un corazón recto?",
+        "category": "adoración",
+        "hints": [
+          "Motivaciones",
+          "Obediencia",
+          "Fe"
+        ]
+      },
+      {
+        "id": "anger-warning",
+        "question": "¿Cómo respondes cuando Dios corrige tu actitud antes de que el pecado crezca?",
+        "category": "personal",
+        "hints": [
+          "Escuchar",
+          "Dominar impulsos",
+          "Buscar ayuda"
+        ]
+      },
+      {
+        "id": "forgiveness",
+        "question": "¿De qué forma puedes cortar ciclos de venganza o resentimiento en tus relaciones?",
+        "category": "relacional",
+        "hints": [
+          "Perdón",
+          "Límites sanos",
+          "Restauración"
+        ]
+      },
+      {
+        "id": "legacy-choice",
+        "question": "¿Qué legado espiritual deseas dejar: el de Caín o el de Set?",
+        "category": "vision",
+        "hints": [
+          "Adoración fiel",
+          "Decisiones diarias",
+          "Familia"
+        ]
+      }
+    ],
+    "trivia": [
+      {
+        "question": "¿A qué se dedicaba Abel?",
+        "options": [
+          "Pastor de ovejas",
+          "Carpintero",
+          "Guerrero"
+        ],
+        "correct": 0,
+        "explanation": "Abel fue pastor de ovejas, mientras Caín trabajaba la tierra."
+      },
+      {
+        "question": "¿Qué respondió Caín cuando Dios le preguntó por Abel?",
+        "options": [
+          "Aquí estoy",
+          "¿Soy yo acaso guarda de mi hermano?",
+          "No sé, pregúntale a mi madre"
+        ],
+        "correct": 1,
+        "explanation": "Caín intentó evadir su responsabilidad preguntando: \"¿Soy yo acaso guarda de mi hermano?\""
+      },
+      {
+        "question": "¿Qué puso Dios sobre Caín para que no lo mataran?",
+        "options": [
+          "Una marca protectora",
+          "Una coraza de hierro",
+          "Una espada flamígera"
+        ],
+        "correct": 0,
+        "explanation": "La marca era una señal para detener cualquier intento de venganza contra él."
+      },
+      {
+        "question": "¿Quién comenzó a invocar públicamente el nombre del Señor?",
+        "options": [
+          "Enós",
+          "Matusalén",
+          "Lamec"
+        ],
+        "correct": 0,
+        "explanation": "Enós, hijo de Set, marca el inicio de la adoración pública según Génesis 4:26."
+      }
+    ],
+    "comparison": {
+      "title": "Resentimiento vs adoración",
+      "before": {
+        "title": "Corazón resentido",
+        "description": "Una adoración externa sin fe que alimenta la envidia.",
+        "elements": [
+          "Celos",
+          "Autojusticia",
+          "Ira reprimida"
+        ],
+        "verse": "Se ensañó Caín en gran manera, y decayó su semblante.",
+        "reference": "Génesis 4:5"
+      },
+      "after": {
+        "title": "Adoración obediente",
+        "description": "Invocar el nombre de Jehová desde un corazón dependiente.",
+        "elements": [
+          "Fe genuina",
+          "Confianza",
+          "Clamor comunitario"
+        ],
+        "verse": "Los hombres comenzaron a invocar el nombre de Jehová.",
+        "reference": "Génesis 4:26"
+      }
+    },
+    "memorizeVerse": {
+      "text": "Si bien hicieres, ¿no serás enaltecido? y si no hicieres bien, el pecado está a la puerta; con todo esto, tú te enseñarás de él.",
+      "reference": "Génesis 4:7",
+      "theme": "Dominio sobre el pecado"
+    },
+    "mainTeaching": "Dios busca adoradores que le honren con fe y obediencia; el pecado no dominado corrompe profundamente, pero la gracia sigue ofreciendo restauración y una nueva línea de esperanza.",
+    "practicalApplication": [
+      "Examina tus motivaciones al servir o dar y alinéate con el corazón de Dios.",
+      "Acepta las advertencias del Señor antes de que la tentación avance.",
+      "Perdona y busca reconciliación para romper cadenas de violencia o resentimiento.",
+      "Cultiva prácticas de adoración que te mantengan cerca de Dios cada día."
+    ]
+  },
+  {
+    "book": "Génesis",
+    "chapter": 5,
+    "title": "Genealogía de Adán",
+    "subtitle": "De Adán a Noé",
+    "summary": "Se registra la línea de Adán a través de Set, destacando la longevidad de los patriarcas, la fidelidad de Enoc y el nacimiento de Noé como portador de consuelo antes del diluvio.",
+    "timeline": {
+      "period": "Era antediluviana",
+      "context": "Descendencia piadosa de Set",
+      "placement": "Puente hacia el diluvio"
+    },
+    "days": [
+      {
+        "day": 1,
+        "title": "Libro de las generaciones",
+        "icon": "##",
+        "description": "Se recuerda que el hombre fue creado a imagen de Dios y bendecido.",
+        "verse": "Este es el libro de las generaciones de Adán.",
+        "reference": "Génesis 5:1-2",
+        "significance": "Dios mantiene su imagen en la humanidad caída."
+      },
+      {
+        "day": 2,
+        "title": "Set como heredero",
+        "icon": "++",
+        "description": "Adán engendra a Set a los 130 años; vive 930 años en total.",
+        "verse": "Engendró un hijo a su semejanza, conforme a su imagen, y llamó su nombre Set.",
+        "reference": "Génesis 5:3-5",
+        "significance": "La línea piadosa continúa mediante la gracia divina."
+      },
+      {
+        "day": 3,
+        "title": "Patriarcas tempranos",
+        "icon": "--",
+        "description": "Enós, Cainán, Mahalaleel y Jared nacen y mueren tras largas vidas.",
+        "verse": "Y fueron todos los días de Enós novecientos cinco años; y murió.",
+        "reference": "Génesis 5:6-20",
+        "significance": "La muerte domina incluso vidas extraordinariamente largas."
+      },
+      {
+        "day": 4,
+        "title": "Enoc camina con Dios",
+        "icon": "^^",
+        "description": "Enoc anda con Dios 300 años y es traspuesto sin ver muerte.",
+        "verse": "Caminó, pues, Enoc con Dios, y desapareció, porque le llevó Dios.",
+        "reference": "Génesis 5:21-24",
+        "significance": "La comunión íntima con Dios trasciende la muerte."
+      },
+      {
+        "day": 5,
+        "title": "Matusalén y longevidad",
+        "icon": "00",
+        "description": "Matusalén vive 969 años, el registro más prolongado.",
+        "verse": "Y fueron todos los días de Matusalén novecientos sesenta y nueve años; y murió.",
+        "reference": "Génesis 5:25-27",
+        "significance": "La paciencia divina se evidencia en generaciones extensas."
+      },
+      {
+        "day": 6,
+        "title": "Lamec anuncia a Noé",
+        "icon": "::",
+        "description": "Lamec espera consuelo a través de su hijo Noé ante el trabajo maldito.",
+        "verse": "Este nos aliviará de nuestras obras y del trabajo de nuestras manos.",
+        "reference": "Génesis 5:28-32",
+        "significance": "Se anticipa una intervención de Dios frente a la maldición."
+      }
+    ],
+    "interestingFacts": [
+      {
+        "id": "image-retained",
+        "title": "Imagen de Dios preservada",
+        "summary": "A pesar del pecado, la humanidad conserva la imagen divina.",
+        "explanation": "El texto subraya que Adán engendra \"a su imagen\", recordando que la dignidad otorgada por Dios persiste.",
+        "verse": "Los hizo a la semejanza de Dios.",
+        "reference": "Génesis 5:1"
+      },
+      {
+        "id": "enoch-translated",
+        "title": "Enoc, el arrebatado",
+        "summary": "Enoc no experimenta la muerte física.",
+        "explanation": "Su caminar constante con Dios lo convierte en figura de fe y anticipo de la resurrección.",
+        "verse": "Fue traspuesto para no ver muerte.",
+        "reference": "Hebreos 11:5"
+      },
+      {
+        "id": "matusalen-969",
+        "title": "El hombre más longevo",
+        "summary": "Matusalén vivió 969 años.",
+        "explanation": "Su larga vida muestra la paciencia de Dios antes del diluvio y la progresiva reducción posterior.",
+        "verse": "Fueron todos los días de Matusalén novecientos sesenta y nueve años.",
+        "reference": "Génesis 5:27"
+      },
+      {
+        "id": "noah-name",
+        "title": "Noé significa descanso",
+        "summary": "Lamec declara que Noé traerá alivio.",
+        "explanation": "El nombre anticipa el papel de Noé como instrumento de gracia en medio del juicio próximo.",
+        "verse": "Este nos aliviará.",
+        "reference": "Génesis 5:29"
+      }
+    ],
+    "reflectionQuestions": [
+      {
+        "id": "legacy-faith",
+        "question": "¿Qué tipo de legado espiritual estás construyendo para las generaciones futuras?",
+        "category": "familia",
+        "hints": [
+          "Modelos",
+          "Hábitos",
+          "Testimonio"
+        ]
+      },
+      {
+        "id": "walk-with-god",
+        "question": "¿Qué prácticas pueden ayudarte a caminar con Dios de manera consistente como Enoc?",
+        "category": "espiritual",
+        "hints": [
+          "Devoción diaria",
+          "Obediencia",
+          "Comunión"
+        ]
+      },
+      {
+        "id": "mortality-awareness",
+        "question": "¿Cómo cambia tu perspectiva de la vida recordar la inevitabilidad de la muerte?",
+        "category": "sabiduría",
+        "hints": [
+          "Prioridades",
+          "Arrepentimiento",
+          "Esperanza eterna"
+        ]
+      },
+      {
+        "id": "hope-in-judgment",
+        "question": "¿Dónde encuentras consuelo cuando Dios disciplina o corrige a la humanidad?",
+        "category": "teológica",
+        "hints": [
+          "Promesas",
+          "Gracia",
+          "Plan soberano"
+        ]
+      }
+    ],
+    "trivia": [
+      {
+        "question": "¿Cuántos años vivió Adán?",
+        "options": [
+          "700 años",
+          "930 años",
+          "969 años"
+        ],
+        "correct": 1,
+        "explanation": "Adán vivió 930 años según Génesis 5:5."
+      },
+      {
+        "question": "¿Quién caminó con Dios y fue llevado sin ver muerte?",
+        "options": [
+          "Noé",
+          "Enoc",
+          "Matusalén"
+        ],
+        "correct": 1,
+        "explanation": "Enoc caminó con Dios y desapareció porque Dios se lo llevó."
+      },
+      {
+        "question": "¿Cuántos años vivió Matusalén?",
+        "options": [
+          "777",
+          "842",
+          "969"
+        ],
+        "correct": 2,
+        "explanation": "969 años es el registro más largo de la Biblia."
+      },
+      {
+        "question": "¿Qué significa el nombre de Noé según su padre Lamec?",
+        "options": [
+          "Guerrero",
+          "Descanso",
+          "Sabiduría"
+        ],
+        "correct": 1,
+        "explanation": "Lamec dijo: \"Este nos aliviará\", indicando descanso o consuelo."
+      }
+    ],
+    "comparison": {
+      "title": "Humanidad caída vs esperanza",
+      "before": {
+        "title": "Humanidad dispersa",
+        "description": "La maldición genera trabajo duro y muerte para todos.",
+        "elements": [
+          "Dolor",
+          "Mortandad",
+          "Trabajo pesado"
+        ],
+        "verse": "Y murió.",
+        "reference": "Génesis 5"
+      },
+      "after": {
+        "title": "Línea preservada",
+        "description": "Dios resalta fe y esperanza en medio del juicio venidero.",
+        "elements": [
+          "Comunión con Dios",
+          "Promesa de consuelo",
+          "Herencia piadosa"
+        ],
+        "verse": "Caminó Enoc con Dios.",
+        "reference": "Génesis 5:24"
+      }
+    },
+    "memorizeVerse": {
+      "text": "Caminó, pues, Enoc con Dios, y desapareció, porque le llevó Dios.",
+      "reference": "Génesis 5:24",
+      "theme": "Comunión íntima"
+    },
+    "mainTeaching": "Aun en generaciones marcadas por la muerte, Dios preserva una línea de fe y prepara una respuesta de gracia ante el juicio.",
+    "practicalApplication": [
+      "Valora tu linaje espiritual y contribuye a fortalecerlo.",
+      "Busca ritmos de comunión con Dios que sostengan tu vida diaria.",
+      "Recuerda que la mortalidad invita a vivir con propósito eterno.",
+      "Confía en que Dios prepara alivio incluso cuando la disciplina se acerca."
+    ]
+  },
+  {
+    "book": "Génesis",
+    "chapter": 6,
+    "title": "Corrupción y el arca",
+    "subtitle": "Noé recibe instrucciones para preservar la vida",
+    "summary": "La maldad humana se multiplica, provocando dolor en Dios. Noé halla gracia y recibe órdenes específicas para construir el arca que preservará a su familia y a los animales del juicio del diluvio.",
+    "timeline": {
+      "period": "Últimos días antes del diluvio",
+      "context": "Humanidad violentada",
+      "placement": "Preparación para el juicio"
+    },
+    "days": [
+      {
+        "day": 1,
+        "title": "Corrupción creciente",
+        "icon": "!!",
+        "description": "Los hijos de Dios toman mujeres sin discernimiento y la maldad se multiplica.",
+        "verse": "Toda carne había corrompido su camino sobre la tierra.",
+        "reference": "Génesis 6:1-5,12",
+        "significance": "La violencia y la inmoralidad saturan la sociedad."
+      },
+      {
+        "day": 2,
+        "title": "Dolor en el corazón de Dios",
+        "icon": "::",
+        "description": "Dios ve la maldad y se duele en su corazón por haber creado al hombre.",
+        "verse": "Le dolió en su corazón.",
+        "reference": "Génesis 6:6-7",
+        "significance": "El pecado humano afecta la relación con el Creador."
+      },
+      {
+        "day": 3,
+        "title": "Noé halla gracia",
+        "icon": "++",
+        "description": "Noé es descrito como justo, perfecto en sus generaciones, caminando con Dios.",
+        "verse": "Pero Noé halló gracia ante los ojos de Jehová.",
+        "reference": "Génesis 6:8-10",
+        "significance": "La gracia divina se derrama sobre quien camina fielmente."
+      },
+      {
+        "day": 4,
+        "title": "Plan del arca",
+        "icon": "##",
+        "description": "Dios ordena construir un arca de madera de gofer con medidas específicas.",
+        "verse": "Hazte un arca de madera de gofer...",
+        "reference": "Génesis 6:14-16",
+        "significance": "Dios provee una vía de salvación detallada."
+      },
+      {
+        "day": 5,
+        "title": "Pacto de preservación",
+        "icon": "[]",
+        "description": "Dios anuncia el diluvio, pero promete establecer su pacto con Noé.",
+        "verse": "Mas estableceré mi pacto contigo.",
+        "reference": "Génesis 6:17-18",
+        "significance": "El juicio viene acompañado de promesa de vida."
+      },
+      {
+        "day": 6,
+        "title": "Animales y obediencia",
+        "icon": "--",
+        "description": "Noé reúne animales de cada especie y obedece exactamente a Dios.",
+        "verse": "Así hizo; conforme a todo lo que Dios le mandó, así lo hizo.",
+        "reference": "Génesis 6:19-22",
+        "significance": "La obediencia puntual de Noé garantiza la preservación futura."
+      }
+    ],
+    "interestingFacts": [
+      {
+        "id": "grace-first-mention",
+        "title": "Primera mención de la gracia",
+        "summary": "\"Gracia\" aparece por primera vez en la Biblia al referirse a Noé.",
+        "explanation": "El favor inmerecido de Dios se introduce como clave para la salvación incluso antes del pacto mosaico.",
+        "verse": "Noé halló gracia ante los ojos de Jehová.",
+        "reference": "Génesis 6:8"
+      },
+      {
+        "id": "ark-dimensions",
+        "title": "Dimensiones del arca",
+        "summary": "Medía 300 codos de largo, 50 de ancho y 30 de alto.",
+        "explanation": "La estructura tenía proporciones estables, similares a buques modernos, enfatizando la sabiduría divina.",
+        "verse": "De 300 codos la longitud del arca...",
+        "reference": "Génesis 6:15"
+      },
+      {
+        "id": "gopher-wood",
+        "title": "Madera de gofer",
+        "summary": "Un material resistente y poco conocido.",
+        "explanation": "La especificación demuestra que Dios cuida los detalles prácticos de la salvación.",
+        "verse": "Hazte un arca de madera de gofer.",
+        "reference": "Génesis 6:14"
+      },
+      {
+        "id": "covenant-first",
+        "title": "Primer pacto explícito",
+        "summary": "Dios anuncia un pacto formal con Noé antes del diluvio.",
+        "explanation": "La iniciativa divina asegura la continuidad de la humanidad aun cuando el juicio es inminente.",
+        "verse": "Estableceré mi pacto contigo.",
+        "reference": "Génesis 6:18"
+      }
+    ],
+    "reflectionQuestions": [
+      {
+        "id": "culture-impact",
+        "question": "¿Qué señales de corrupción ves hoy y cómo puedes responder con fidelidad como Noé?",
+        "category": "cultural",
+        "hints": [
+          "Discernimiento",
+          "Santidad",
+          "Testimonio"
+        ]
+      },
+      {
+        "id": "obedience-detail",
+        "question": "¿Qué significa obedecer a Dios \"conforme a todo\" lo que Él manda?",
+        "category": "obediencia",
+        "hints": [
+          "Exactitud",
+          "Entrega total",
+          "Confianza"
+        ]
+      },
+      {
+        "id": "grace-received",
+        "question": "¿Cómo experimentas la gracia de Dios en medio de un mundo quebrado?",
+        "category": "espiritual",
+        "hints": [
+          "Favor inmerecido",
+          "Protección",
+          "Propósito"
+        ]
+      },
+      {
+        "id": "build-ark",
+        "question": "¿Qué proyectos o decisiones estás construyendo por fe aunque otros no comprendan?",
+        "category": "fe",
+        "hints": [
+          "Perseverancia",
+          "Visión",
+          "Obediencia práctica"
+        ]
+      }
+    ],
+    "trivia": [
+      {
+        "question": "¿Cuál es la primera mención de la palabra \"gracia\" en la Biblia?",
+        "options": [
+          "Con Abraham",
+          "Con Moisés",
+          "Con Noé"
+        ],
+        "correct": 2,
+        "explanation": "Génesis 6:8 dice que Noé halló gracia ante los ojos del Señor."
+      },
+      {
+        "question": "¿Cuánto medía la longitud del arca?",
+        "options": [
+          "100 codos",
+          "200 codos",
+          "300 codos"
+        ],
+        "correct": 2,
+        "explanation": "La longitud especificada por Dios fue de 300 codos."
+      },
+      {
+        "question": "¿Cuántos niveles debía tener el arca?",
+        "options": [
+          "Uno",
+          "Dos",
+          "Tres"
+        ],
+        "correct": 2,
+        "explanation": "El arca debía construirse con tres pisos según Génesis 6:16."
+      },
+      {
+        "question": "¿Qué debía llevar Noé al arca además de su familia?",
+        "options": [
+          "El diezmo del pueblo",
+          "De cada animal una pareja",
+          "Semillas de los árboles del Edén"
+        ],
+        "correct": 1,
+        "explanation": "Se le ordenó llevar una pareja de cada especie, macho y hembra."
+      }
+    ],
+    "comparison": {
+      "title": "Mundo corrupto vs refugio de obediencia",
+      "before": {
+        "title": "Sociedad violenta",
+        "description": "La tierra llena de maldad y violencia bajo juicio inminente.",
+        "elements": [
+          "Pensamientos perversos",
+          "Violencia",
+          "Corrupción"
+        ],
+        "verse": "Toda carne había corrompido su camino.",
+        "reference": "Génesis 6:12"
+      },
+      "after": {
+        "title": "Familia protegida",
+        "description": "Un hombre justo responde con obediencia y recibe el plan de salvación.",
+        "elements": [
+          "Gracia",
+          "Pacto",
+          "Obediencia detallada"
+        ],
+        "verse": "Conforme a todo lo que Dios le mandó, así lo hizo.",
+        "reference": "Génesis 6:22"
+      }
+    },
+    "memorizeVerse": {
+      "text": "Pero Noé halló gracia ante los ojos de Jehová.",
+      "reference": "Génesis 6:8",
+      "theme": "Favor inmerecido"
+    },
+    "mainTeaching": "La gracia de Dios provee un refugio en medio de la corrupción cuando respondemos con fe y obediencia absoluta.",
+    "practicalApplication": [
+      "Evalúa las áreas donde la cultura intenta normalizar la corrupción y afírmate en la verdad.",
+      "Obedece los detalles de lo que Dios te ha mostrado aunque parezcan ilógicos.",
+      "Agradece la gracia recibida y compártela con tu familia y comunidad.",
+      "Construye \"arcas\" de protección espiritual para quienes te rodean."
+    ]
+  },
+  {
+    "book": "Génesis",
+    "chapter": 7,
+    "title": "El diluvio",
+    "subtitle": "Juicio global y preservación en el arca",
+    "summary": "Noé entra al arca con su familia y los animales; el diluvio cubre la tierra cuarenta días y destruye toda vida fuera del arca, mientras Dios cierra la puerta y sostiene a los suyos.",
+    "timeline": {
+      "period": "Año del diluvio",
+      "context": "Juicio sobre la humanidad",
+      "placement": "Cumplimiento del decreto divino"
+    },
+    "days": [
+      {
+        "day": 1,
+        "title": "Entrada al arca",
+        "icon": ">>",
+        "description": "Noé recibe la orden final y reúne animales limpios y no limpios.",
+        "verse": "Entra tú y toda tu casa en el arca.",
+        "reference": "Génesis 7:1-5",
+        "significance": "La obediencia inmediata precede al juicio."
+      },
+      {
+        "day": 2,
+        "title": "Comienzo del diluvio",
+        "icon": "!!",
+        "description": "A los siete días, se rompen las fuentes del abismo y se abren las compuertas del cielo.",
+        "verse": "Fueron rotas todas las fuentes del grande abismo.",
+        "reference": "Génesis 7:6-10",
+        "significance": "El juicio divino es simultáneo desde abajo y arriba."
+      },
+      {
+        "day": 3,
+        "title": "Lluvia de cuarenta días",
+        "icon": "~~",
+        "description": "La lluvia cae sin detenerse durante cuarenta días y cuarenta noches.",
+        "verse": "Llovió sobre la tierra cuarenta días y cuarenta noches.",
+        "reference": "Génesis 7:12",
+        "significance": "Número de prueba y transformación en la Biblia."
+      },
+      {
+        "day": 4,
+        "title": "Aguas que prevalecen",
+        "icon": "^^",
+        "description": "Las aguas se elevan quince codos sobre los montes más altos.",
+        "verse": "Prevalecieron las aguas, y fueron cubiertos todos los montes altos.",
+        "reference": "Génesis 7:17-20",
+        "significance": "El juicio es total y universal."
+      },
+      {
+        "day": 5,
+        "title": "Extinción fuera del arca",
+        "icon": "XX",
+        "description": "Todo ser viviente fuera del arca perece.",
+        "verse": "Murió toda carne que se movía sobre la tierra.",
+        "reference": "Génesis 7:21-23",
+        "significance": "La vida apartada de Dios no resiste su juicio."
+      },
+      {
+        "day": 6,
+        "title": "Ciento cincuenta días",
+        "icon": "::",
+        "description": "Las aguas prevalecen y sostienen el arca durante 150 días.",
+        "verse": "Y prevalecieron las aguas sobre la tierra ciento cincuenta días.",
+        "reference": "Génesis 7:24",
+        "significance": "Dios mantiene a salvo a los que están en el arca el tiempo necesario."
+      }
+    ],
+    "interestingFacts": [
+      {
+        "id": "seven-pairs",
+        "title": "Animales limpios por siete",
+        "summary": "Se llevan siete parejas de animales limpios y aves.",
+        "explanation": "Esto permite sacrificios y la rápida repoblación tras el diluvio.",
+        "verse": "Tomarás siete parejas de todo animal limpio.",
+        "reference": "Génesis 7:2-3"
+      },
+      {
+        "id": "calendar-detail",
+        "title": "Fechas exactas",
+        "summary": "El diluvio inicia el mes segundo, día diecisiete.",
+        "explanation": "La precisión cronológica subraya que el evento es histórico.",
+        "verse": "A los diecisiete días del mes, fueron rotas las fuentes.",
+        "reference": "Génesis 7:11"
+      },
+      {
+        "id": "god-shuts-door",
+        "title": "Dios cierra la puerta",
+        "summary": "Jehová sella el arca personalmente.",
+        "explanation": "La salvación no depende de la fuerza humana sino de la protección divina.",
+        "verse": "Y Jehová le cerró la puerta.",
+        "reference": "Génesis 7:16"
+      },
+      {
+        "id": "global-judgment",
+        "title": "Cobertura universal",
+        "summary": "Las aguas cubren los montes quince codos arriba.",
+        "explanation": "No se trata de una inundación local sino global, por la descripción de cobertura total.",
+        "verse": "Cubrieron los montes hasta quince codos más alto.",
+        "reference": "Génesis 7:20"
+      }
+    ],
+    "reflectionQuestions": [
+      {
+        "id": "urgency-obedience",
+        "question": "¿Cómo responderías si Dios te pidiera entrar al arca antes de ver la lluvia?",
+        "category": "obediencia",
+        "hints": [
+          "Confianza",
+          "Urgencia",
+          "Fe práctica"
+        ]
+      },
+      {
+        "id": "divine-protection",
+        "question": "¿Dónde ves a Dios cerrando puertas para protegerte hoy?",
+        "category": "espiritual",
+        "hints": [
+          "Seguridad",
+          "Límites",
+          "Providencia"
+        ]
+      },
+      {
+        "id": "warning-others",
+        "question": "¿Cómo puedes advertir amorosamente a otros sobre las consecuencias del pecado?",
+        "category": "misional",
+        "hints": [
+          "Testimonio",
+          "Evangelio",
+          "Compasión"
+        ]
+      },
+      {
+        "id": "waiting-150",
+        "question": "¿Qué te enseña esperar ciento cincuenta días sin señales externas de cambio?",
+        "category": "paciencia",
+        "hints": [
+          "Perseverancia",
+          "Confianza prolongada",
+          "Silencio de Dios"
+        ]
+      }
+    ],
+    "trivia": [
+      {
+        "question": "¿Cuántos días y noches llovió?",
+        "options": [
+          "30",
+          "40",
+          "70"
+        ],
+        "correct": 1,
+        "explanation": "Llovió cuarenta días y cuarenta noches."
+      },
+      {
+        "question": "¿Quién cerró la puerta del arca?",
+        "options": [
+          "Noé",
+          "Sus hijos",
+          "Jehová"
+        ],
+        "correct": 2,
+        "explanation": "Jehová mismo cerró la puerta (Génesis 7:16)."
+      },
+      {
+        "question": "¿Cuánto tiempo prevalecieron las aguas sobre la tierra?",
+        "options": [
+          "40 días",
+          "110 días",
+          "150 días"
+        ],
+        "correct": 2,
+        "explanation": "Las aguas dominaron durante ciento cincuenta días."
+      },
+      {
+        "question": "¿Cuántas parejas de animales limpios entraron?",
+        "options": [
+          "Una pareja",
+          "Siete parejas",
+          "Diez parejas"
+        ],
+        "correct": 1,
+        "explanation": "Del ganado limpio debía llevar siete parejas."
+      }
+    ],
+    "comparison": {
+      "title": "Destrucción vs salvación",
+      "before": {
+        "title": "Humanidad incrédula",
+        "description": "Gente indiferente al anuncio del juicio.",
+        "elements": [
+          "Incredulidad",
+          "Violencia",
+          "Seguridad falsa"
+        ],
+        "verse": "Murió toda carne... a causa del diluvio.",
+        "reference": "Génesis 7:21"
+      },
+      "after": {
+        "title": "Remanente preservado",
+        "description": "Ocho personas guardadas por la obediencia y la gracia.",
+        "elements": [
+          "Arca",
+          "Pacto",
+          "Nueva oportunidad"
+        ],
+        "verse": "Y quedó solamente Noé, y los que con él estaban en el arca.",
+        "reference": "Génesis 7:23"
+      }
+    },
+    "memorizeVerse": {
+      "text": "Y los que entraron, macho y hembra de toda carne entraron, como Dios le había mandado; y Jehová le cerró la puerta.",
+      "reference": "Génesis 7:16",
+      "theme": "Protección divina"
+    },
+    "mainTeaching": "El juicio de Dios es real y total, pero su salvación es igualmente segura para quienes obedecen y se refugian en Él.",
+    "practicalApplication": [
+      "Responde a las advertencias de Dios sin retrasos.",
+      "Permanece dentro de los límites que Dios establece para tu protección.",
+      "Comparte con otros la urgencia de buscar refugio en Cristo.",
+      "Aprende a esperar en silencio, confiando en que Dios sostiene tu arca."
+    ]
+  },
+  {
+    "book": "Génesis",
+    "chapter": 8,
+    "title": "Fin del diluvio",
+    "subtitle": "Dios recuerda a Noé y renueva la tierra",
+    "summary": "Dios se acuerda de Noé, las aguas retroceden gradualmente, el arca descansa en los montes de Ararat, Noé envía aves para comprobar la tierra seca y finalmente ofrece un altar que conduce a la promesa de estabilidad futura.",
+    "timeline": {
+      "period": "Restauración postdiluviana",
+      "context": "Transición del juicio a la misericordia",
+      "placement": "Nuevo comienzo de la humanidad"
+    },
+    "days": [
+      {
+        "day": 1,
+        "title": "Dios se acuerda",
+        "icon": "!!",
+        "description": "Dios recuerda a Noé y hace pasar un viento sobre la tierra.",
+        "verse": "Se acordó Dios de Noé, y de todos los animales.",
+        "reference": "Génesis 8:1",
+        "significance": "La memoria divina implica acción salvadora."
+      },
+      {
+        "day": 2,
+        "title": "Aguas en retroceso",
+        "icon": "~~",
+        "description": "Se cierran las fuentes del abismo y la lluvia se detiene; las aguas decrecen poco a poco.",
+        "verse": "Fueron detenidas las fuentes del abismo... y las aguas decrecían.",
+        "reference": "Génesis 8:2-5",
+        "significance": "El juicio se retira gradualmente bajo el control de Dios."
+      },
+      {
+        "day": 3,
+        "title": "El cuervo enviado",
+        "icon": "##",
+        "description": "Noé suelta un cuervo que va y viene hasta que se secan las aguas.",
+        "verse": "Envió un cuervo, el cual salió y estuvo yendo y volviendo.",
+        "reference": "Génesis 8:6-7",
+        "significance": "La paciencia y observación preceden a la acción."
+      },
+      {
+        "day": 4,
+        "title": "La paloma y la hoja de olivo",
+        "icon": "^^",
+        "description": "Una paloma regresa con una hoja de olivo; luego no vuelve.",
+        "verse": "La paloma volvió a él... he aquí una hoja de olivo traída en el pico.",
+        "reference": "Génesis 8:8-12",
+        "significance": "El olivo anuncia paz y renovada esperanza."
+      },
+      {
+        "day": 5,
+        "title": "Tierra seca y salida",
+        "icon": ">>",
+        "description": "Noé retira la cubierta del arca, ve la tierra seca y recibe la orden de salir.",
+        "verse": "Habló Dios a Noé, diciendo: Sal del arca tú, y tu mujer...",
+        "reference": "Génesis 8:13-19",
+        "significance": "Solo la palabra de Dios autoriza el nuevo comienzo."
+      },
+      {
+        "day": 6,
+        "title": "Altar y promesa",
+        "icon": "::",
+        "description": "Noé ofrece holocausto; Dios promete no maldecir más la tierra.",
+        "verse": "Noé edificó un altar a Jehová... y Jehová dijo: No volveré más a maldecir la tierra.",
+        "reference": "Génesis 8:20-22",
+        "significance": "La adoración provoca una promesa de estabilidad y gracia."
+      }
+    ],
+    "interestingFacts": [
+      {
+        "id": "remembered",
+        "title": "\"Se acordó\" significa actuar",
+        "summary": "Cuando Dios \"recuerda\" siempre actúa a favor de su pacto.",
+        "explanation": "No implica olvido previo, sino intervención fiel en el momento adecuado.",
+        "verse": "Se acordó Dios de Noé.",
+        "reference": "Génesis 8:1"
+      },
+      {
+        "id": "ararat-mountains",
+        "title": "Montes de Ararat",
+        "summary": "El arca reposó en una cordillera identificada con Armenia moderna.",
+        "explanation": "El lugar simboliza el reposo después del juicio y tiene eco en la tradición histórica.",
+        "verse": "Reposó el arca... sobre los montes de Ararat.",
+        "reference": "Génesis 8:4"
+      },
+      {
+        "id": "olive-leaf",
+        "title": "Hoja de olivo",
+        "summary": "Señal de vida y reconstrucción.",
+        "explanation": "El olivo resiste inundaciones y representa paz, por eso la paloma con olivo es símbolo universal de esperanza.",
+        "verse": "Traía una hoja de olivo en el pico.",
+        "reference": "Génesis 8:11"
+      },
+      {
+        "id": "seedtime-harvest",
+        "title": "Ciclos garantizados",
+        "summary": "Dios promete la continuidad de las estaciones.",
+        "explanation": "Mientras la tierra permanezca, no cesarán siembra y siega, asegurando estabilidad agrícola.",
+        "verse": "Mientras la tierra permanezca, no cesarán la sementera y la siega.",
+        "reference": "Génesis 8:22"
+      }
+    ],
+    "reflectionQuestions": [
+      {
+        "id": "remembered-by-god",
+        "question": "¿En qué momentos necesitas recordar que Dios no se olvida de ti?",
+        "category": "fe",
+        "hints": [
+          "Promesas",
+          "Silencios",
+          "Intervenciones"
+        ]
+      },
+      {
+        "id": "waiting-signs",
+        "question": "¿Qué \"hojas de olivo\" ha puesto Dios para confirmar su guía?",
+        "category": "discernimiento",
+        "hints": [
+          "Pequeñas señales",
+          "Confirmación",
+          "Consejo sabio"
+        ]
+      },
+      {
+        "id": "response-worship",
+        "question": "¿Cómo respondes a la liberación de Dios: con adoración o con olvido?",
+        "category": "adoración",
+        "hints": [
+          "Altares",
+          "Gratitud",
+          "Consagración"
+        ]
+      },
+      {
+        "id": "stewardship-newstart",
+        "question": "¿Qué responsabilidades nuevas debes asumir en tu \"tierra seca\"?",
+        "category": "mayordomía",
+        "hints": [
+          "Trabajo",
+          "Familia",
+          "Misión"
+        ]
+      }
+    ],
+    "trivia": [
+      {
+        "question": "¿Qué ave envió Noé primero?",
+        "options": [
+          "Una paloma",
+          "Un cuervo",
+          "Un águila"
+        ],
+        "correct": 1,
+        "explanation": "El cuervo fue enviado antes que la paloma."
+      },
+      {
+        "question": "¿Qué traía la paloma en su segunda salida?",
+        "options": [
+          "Un grano de trigo",
+          "Una hoja de olivo",
+          "Nada"
+        ],
+        "correct": 1,
+        "explanation": "La hoja de olivo indicaba que las aguas habían disminuido."
+      },
+      {
+        "question": "¿Qué hizo Noé al salir del arca?",
+        "options": [
+          "Construyó una ciudad",
+          "Edificó un altar",
+          "Fue a sembrar inmediatamente"
+        ],
+        "correct": 1,
+        "explanation": "Su primera acción fue adorar a Dios mediante un holocausto."
+      },
+      {
+        "question": "¿Qué promete Dios acerca de las estaciones en Génesis 8:22?",
+        "options": [
+          "Que cesarán en el invierno",
+          "Que dependerán de la conducta humana",
+          "Que nunca cesarán mientras la tierra exista"
+        ],
+        "correct": 2,
+        "explanation": "La promesa asegura la continuidad de los ciclos naturales."
+      }
+    ],
+    "comparison": {
+      "title": "Juicio retirado vs nueva oportunidad",
+      "before": {
+        "title": "Tierra sumergida",
+        "description": "Aguas cubriendo todo, sin vida visible.",
+        "elements": [
+          "Oscuridad",
+          "Incógnita",
+          "Juicio activo"
+        ],
+        "verse": "Las aguas iban decreciendo.",
+        "reference": "Génesis 8:3"
+      },
+      "after": {
+        "title": "Tierra restaurada",
+        "description": "Seca, apta para repoblar, bendecida con promesa.",
+        "elements": [
+          "Vida vegetal",
+          "Altar",
+          "Ciclos garantizados"
+        ],
+        "verse": "No volveré más a maldecir la tierra por causa del hombre.",
+        "reference": "Génesis 8:21"
+      }
+    },
+    "memorizeVerse": {
+      "text": "Mientras la tierra permanezca, no cesarán la sementera y la siega, el frío y el calor, el verano y el invierno, y el día y la noche.",
+      "reference": "Génesis 8:22",
+      "theme": "Fidelidad constante"
+    },
+    "mainTeaching": "Dios no olvida a su pueblo, transforma el juicio en oportunidad y establece ciclos de gracia para sostener la vida.",
+    "practicalApplication": [
+      "Recuerda la fidelidad pasada de Dios cuando parezca que el juicio se prolonga.",
+      "Busca señales prudentes antes de tomar decisiones importantes.",
+      "Levanta \"altares\" de adoración en respuesta a la misericordia recibida.",
+      "Asume con responsabilidad el nuevo comienzo que Dios te concede."
+    ]
+  },
+  {
+    "book": "Génesis",
+    "chapter": 9,
+    "title": "Pacto con Noé",
+    "subtitle": "Arco iris y responsabilidades postdiluvianas",
+    "summary": "Dios bendice a Noé, establece el respeto por la vida, sella un pacto universal con el arco iris como señal y narra el episodio de la viña de Noé, de donde surge la bendición para Sem y Jafet y la maldición sobre Canaán.",
+    "timeline": {
+      "period": "Después del diluvio",
+      "context": "Nuevo orden para la humanidad",
+      "placement": "Primer pacto universal"
+    },
+    "days": [
+      {
+        "day": 1,
+        "title": "Mandato de multiplicarse",
+        "icon": "++",
+        "description": "Dios bendice a Noé y sus hijos, otorgándoles dominio sobre los animales.",
+        "verse": "Fructificad y multiplicaos, y llenad la tierra.",
+        "reference": "Génesis 9:1-3",
+        "significance": "Retoma el mandato de la creación con una nueva relación con la naturaleza."
+      },
+      {
+        "day": 2,
+        "title": "Valor de la vida y la sangre",
+        "icon": "!!",
+        "description": "Se prohíbe comer sangre y se establece la justicia por derramar sangre humana.",
+        "verse": "Porque la vida de la carne en la sangre está.",
+        "reference": "Génesis 9:4-6",
+        "significance": "La vida humana se protege con seriedad y responsabilidad comunitaria."
+      },
+      {
+        "day": 3,
+        "title": "Promesa sin diluvio",
+        "icon": "::",
+        "description": "Dios promete no destruir de nuevo toda carne con aguas de diluvio.",
+        "verse": "No será más diluvio para destruir la tierra.",
+        "reference": "Génesis 9:8-11",
+        "significance": "La misericordia establece estabilidad para futuras generaciones."
+      },
+      {
+        "day": 4,
+        "title": "Arco iris como señal",
+        "icon": "~~",
+        "description": "El arco iris se coloca en las nubes como recordatorio del pacto eterno.",
+        "verse": "Mi arco he puesto en las nubes.",
+        "reference": "Génesis 9:13-17",
+        "significance": "Dios ata una señal visible a su promesa invisible."
+      },
+      {
+        "day": 5,
+        "title": "La viña de Noé",
+        "icon": "##",
+        "description": "Noé planta una viña, bebe vino y queda descubierto en su tienda.",
+        "verse": "Comenzó Noé a labrar la tierra, y plantó una viña.",
+        "reference": "Génesis 9:18-21",
+        "significance": "Incluso los justos pueden tropezar después de grandes victorias."
+      },
+      {
+        "day": 6,
+        "title": "Maldición y bendiciones",
+        "icon": "[]",
+        "description": "Cam ve la desnudez de su padre; Sem y Jafet la cubren. Canaán es maldecido, Sem es bendecido.",
+        "verse": "Maldito sea Canaán... Bendito por Jehová mi Dios sea Sem.",
+        "reference": "Génesis 9:22-27",
+        "significance": "La honra filial trae bendición; la irreverencia, consecuencias."
+      }
+    ],
+    "interestingFacts": [
+      {
+        "id": "fear-of-man",
+        "title": "Temor en los animales",
+        "summary": "Dios pone el temor y el pavor del hombre sobre toda bestia.",
+        "explanation": "El nuevo orden evita la violencia indiscriminada del hombre hacia los animales y viceversa.",
+        "verse": "El temor y el miedo de vosotros estará sobre todo animal.",
+        "reference": "Génesis 9:2"
+      },
+      {
+        "id": "blood-prohibition",
+        "title": "Prohibición de comer sangre",
+        "summary": "Se establece por primera vez la regulación alimentaria.",
+        "explanation": "Honra la vida que Dios concede y prepara el concepto sacrificial que culmina en Cristo.",
+        "verse": "No comeréis carne con su vida, que es su sangre.",
+        "reference": "Génesis 9:4"
+      },
+      {
+        "id": "rainbow-sign",
+        "title": "Arco en las nubes",
+        "summary": "Dios ata un símbolo visible a su pacto eterno.",
+        "explanation": "Cada arco iris recuerda tanto a Dios como a la humanidad el compromiso de no enviar otro diluvio global.",
+        "verse": "Será por señal del pacto entre mí y la tierra.",
+        "reference": "Génesis 9:13"
+      },
+      {
+        "id": "canaan-curse",
+        "title": "La maldición recae en Canaán",
+        "summary": "Aunque Cam falta, la maldición se pronuncia sobre su hijo.",
+        "explanation": "La profecía anticipa la servidumbre de los cananeos y resalta la responsabilidad generacional.",
+        "verse": "Maldito sea Canaán; siervo de siervos será a sus hermanos.",
+        "reference": "Génesis 9:25"
+      }
+    ],
+    "reflectionQuestions": [
+      {
+        "id": "respect-life",
+        "question": "¿Cómo puedes honrar la vida humana como portadora de la imagen de Dios?",
+        "category": "ética",
+        "hints": [
+          "Justicia",
+          "Valor intrínseco",
+          "Compasión"
+        ]
+      },
+      {
+        "id": "remember-promise",
+        "question": "¿Qué \"arco iris\" te ha dado Dios para recordarte su pacto?",
+        "category": "fe",
+        "hints": [
+          "Señales",
+          "Memoriales",
+          "Testimonios"
+        ]
+      },
+      {
+        "id": "post-victory",
+        "question": "¿Cómo permaneces vigilante después de una gran victoria espiritual?",
+        "category": "discipulado",
+        "hints": [
+          "Humildad",
+          "Sobriedad",
+          "Rendición continua"
+        ]
+      },
+      {
+        "id": "honor-parents",
+        "question": "¿De qué manera muestras honra y cobertura hacia tu familia?",
+        "category": "familia",
+        "hints": [
+          "Respeto",
+          "Discreción",
+          "Servicio"
+        ]
+      }
+    ],
+    "trivia": [
+      {
+        "question": "¿Qué se prohíbe comer en Génesis 9?",
+        "options": [
+          "Frutas del Edén",
+          "Carne con sangre",
+          "Pescado sin escamas"
+        ],
+        "correct": 1,
+        "explanation": "Dios prohíbe comer carne con su sangre porque en la sangre está la vida."
+      },
+      {
+        "question": "¿Cuál es la señal del pacto que Dios establece con Noé?",
+        "options": [
+          "Una estrella",
+          "El arco iris",
+          "Una columna de fuego"
+        ],
+        "correct": 1,
+        "explanation": "El arco iris es la señal visible del pacto eterno."
+      },
+      {
+        "question": "¿Quién recibió la maldición pronunciada por Noé?",
+        "options": [
+          "Cam",
+          "Canaán",
+          "Jafet"
+        ],
+        "correct": 1,
+        "explanation": "La maldición recae sobre Canaán, hijo de Cam."
+      },
+      {
+        "question": "¿Qué oficio emprende Noé después del diluvio?",
+        "options": [
+          "Pastor",
+          "Rey",
+          "Viñador"
+        ],
+        "correct": 2,
+        "explanation": "Noé planta una viña y bebe del fruto de ella."
+      }
+    ],
+    "comparison": {
+      "title": "Vida sin pacto vs vida bajo promesa",
+      "before": {
+        "title": "Temor al juicio repetido",
+        "description": "Incertidumbre sobre el futuro de la tierra.",
+        "elements": [
+          "Trauma",
+          "Inseguridad",
+          "Mundo devastado"
+        ],
+        "verse": "No volveré más a maldecir la tierra.",
+        "reference": "Génesis 8:21"
+      },
+      "after": {
+        "title": "Garantía de estabilidad",
+        "description": "Mandatos claros, señal visible y bendiciones proféticas.",
+        "elements": [
+          "Arco iris",
+          "Valor por la vida",
+          "Destino de las naciones"
+        ],
+        "verse": "Será el arco en las nubes... y me acordaré del pacto perpetuo.",
+        "reference": "Génesis 9:16"
+      }
+    },
+    "memorizeVerse": {
+      "text": "Mi arco he puesto en las nubes, el cual será por señal del pacto entre mí y la tierra.",
+      "reference": "Génesis 9:13",
+      "theme": "Pacto eterno"
+    },
+    "mainTeaching": "Dios establece un pacto universal que honra la vida humana, entrega la creación al cuidado responsable del hombre y garantiza misericordia continua.",
+    "practicalApplication": [
+      "Protege la vida humana y defiende la justicia donde haya violencia.",
+      "Recuerda los pactos de Dios cada vez que veas señales de su fidelidad.",
+      "Mantente sobrio aun después de experimentar la favor divino.",
+      "Cubre a tu familia con respeto y honra para atraer bendición."
+    ]
+  },
+  {
+    "book": "Génesis",
+    "chapter": 10,
+    "title": "Tabla de las naciones",
+    "subtitle": "Descendientes de los hijos de Noé",
+    "summary": "Se enumeran los linajes de Sem, Cam y Jafet después del diluvio, mostrando la expansión de la humanidad y los orígenes de naciones clave como Nínive, Babel y los filisteos.",
+    "timeline": {
+      "period": "Población postdiluviana",
+      "context": "Origen de las naciones",
+      "placement": "Marco geográfico antes de Babel"
+    },
+    "days": [
+      {
+        "day": 1,
+        "title": "Resumen genealógico",
+        "icon": "##",
+        "description": "Se introduce la lista de los hijos de Noé y sus descendientes.",
+        "verse": "Éstas son las generaciones de los hijos de Noé.",
+        "reference": "Génesis 10:1",
+        "significance": "La historia se despliega a través de familias específicas."
+      },
+      {
+        "day": 2,
+        "title": "Hijos de Jafet",
+        "icon": ">>",
+        "description": "De Jafet surgen pueblos marítimos y naciones de las costas.",
+        "verse": "De éstos se poblaron las costas, cada cual según su lengua.",
+        "reference": "Génesis 10:2-5",
+        "significance": "Se traza el origen de pueblos europeos y septentrionales."
+      },
+      {
+        "day": 3,
+        "title": "Hijos de Cam",
+        "icon": "??",
+        "description": "De Cam proceden Cus, Mizraim, Fut y Canaán, formadores de civilizaciones poderosas.",
+        "verse": "Los hijos de Cam: Cus, Mizraim, Fut y Canaán.",
+        "reference": "Génesis 10:6-20",
+        "significance": "Incluye a potencias como Egipto, Canaán y caldeos."
+      },
+      {
+        "day": 4,
+        "title": "Nimrod el poderoso",
+        "icon": "!!",
+        "description": "Nimrod se describe como cazador poderoso y fundador de Babel y Nínive.",
+        "verse": "Este fue vigoroso cazador delante de Jehová.",
+        "reference": "Génesis 10:8-12",
+        "significance": "Se introducen ciudades que dominarán la historia bíblica."
+      },
+      {
+        "day": 5,
+        "title": "Linaje de Sem",
+        "icon": "++",
+        "description": "Sem engendra a Elam, Asur, Arfaxad, Lud y Aram; de allí saldrá Abram.",
+        "verse": "También le nacieron hijos a Sem, padre de todos los hijos de Heber.",
+        "reference": "Génesis 10:21-31",
+        "significance": "Se destaca la línea mesiánica a través de Heber y Peleg."
+      },
+      {
+        "day": 6,
+        "title": "Setenta naciones",
+        "icon": "::",
+        "description": "La lista se cierra contabilizando a todos los clanes separados por lenguas y tierras.",
+        "verse": "De éstos se poblaron las naciones en la tierra después del diluvio.",
+        "reference": "Génesis 10:32",
+        "significance": "La humanidad se dispersa según el plan divino."
+      }
+    ],
+    "interestingFacts": [
+      {
+        "id": "seventy-nations",
+        "title": "Setenta naciones",
+        "summary": "Tradicionalmente se cuentan 70 núcleos nacionales.",
+        "explanation": "Este número simboliza plenitud y se refleja en Lucas 10 y Apocalipsis 5, mostrando el deseo de Dios por todas las etnias.",
+        "verse": "De éstos se poblaron las naciones.",
+        "reference": "Génesis 10:32"
+      },
+      {
+        "id": "nimrod-empire",
+        "title": "Nimrod y los imperios",
+        "summary": "Fundador de ciudades clave: Babel, Erec, Acad, Nínive.",
+        "explanation": "Su figura combina poder político y orgullo, preludio de la arrogancia de Babel.",
+        "verse": "El comienzo de su reino fue Babel.",
+        "reference": "Génesis 10:10"
+      },
+      {
+        "id": "peleg-division",
+        "title": "Peleg y la división",
+        "summary": "\"Porque en sus días fue repartida la tierra\".",
+        "explanation": "Peleg anticipa la dispersión de Babel o una división geográfica significativa.",
+        "verse": "El nombre de uno fue Peleg, porque en sus días fue repartida la tierra.",
+        "reference": "Génesis 10:25"
+      },
+      {
+        "id": "languages",
+        "title": "Lenguas y clanes",
+        "summary": "Se repite la frase \"cada uno según su lengua\".",
+        "explanation": "Aun antes de explicar Babel, el capítulo destaca diversidad cultural bajo la soberanía de Dios.",
+        "verse": "Según sus lenguas, en sus tierras, por sus naciones.",
+        "reference": "Génesis 10:5,20,31"
+      }
+    ],
+    "reflectionQuestions": [
+      {
+        "id": "global-mission",
+        "question": "¿Cómo influye en tu misión saber que Dios se interesa por todas las naciones?",
+        "category": "misional",
+        "hints": [
+          "Evangelización",
+          "Intercesión",
+          "Unidad"
+        ]
+      },
+      {
+        "id": "heritage-identity",
+        "question": "¿Qué rasgos de tu identidad cultural puedes consagrar a Dios?",
+        "category": "cultural",
+        "hints": [
+          "Costumbres",
+          "Lengua",
+          "Historia"
+        ]
+      },
+      {
+        "id": "power-nimrod",
+        "question": "¿Qué lecciones tomas del poder ambicioso de Nimrod?",
+        "category": "ética",
+        "hints": [
+          "Orgullo",
+          "Dependencia",
+          "Liderazgo santo"
+        ]
+      },
+      {
+        "id": "family-legacies",
+        "question": "¿Cómo puedes asegurar que tu familia forme parte de la historia redentora?",
+        "category": "familia",
+        "hints": [
+          "Instrucción",
+          "Fe",
+          "Testimonio"
+        ]
+      }
+    ],
+    "trivia": [
+      {
+        "question": "¿Cuántos hijos directos de Jafet se mencionan?",
+        "options": [
+          "Tres",
+          "Siete",
+          "Diez"
+        ],
+        "correct": 1,
+        "explanation": "Se listan siete hijos: Gomer, Magog, Madai, Javán, Tubal, Mesec y Tiras."
+      },
+      {
+        "question": "¿Qué ciudad fundó Nimrod entre otras?",
+        "options": [
+          "Jericó",
+          "Babel",
+          "Hebrón"
+        ],
+        "correct": 1,
+        "explanation": "Babel (Babilonia) fue parte del reino de Nimrod."
+      },
+      {
+        "question": "¿Cuál hijo de Noé es ancestro de los cananeos?",
+        "options": [
+          "Sem",
+          "Cam",
+          "Jafet"
+        ],
+        "correct": 1,
+        "explanation": "Los cananeos descienden de Cam."
+      },
+      {
+        "question": "¿Qué significa el nombre de Peleg?",
+        "options": [
+          "División",
+          "Esperanza",
+          "Guerrero"
+        ],
+        "correct": 0,
+        "explanation": "Peleg significa \"división\" porque en sus días fue repartida la tierra."
+      }
+    ],
+    "comparison": {
+      "title": "Familia única vs comunidades diversas",
+      "before": {
+        "title": "Una sola familia",
+        "description": "Tres hijos y sus esposas sobreviven al diluvio.",
+        "elements": [
+          "Unidad familiar",
+          "Cultura compartida"
+        ],
+        "verse": "Los hijos de Noé que salieron del arca fueron Sem, Cam y Jafet.",
+        "reference": "Génesis 9:18"
+      },
+      "after": {
+        "title": "Muchas naciones",
+        "description": "Lenguas, territorios y clanes extendidos por toda la tierra.",
+        "elements": [
+          "Diversidad",
+          "Geografía",
+          "Identidades únicas"
+        ],
+        "verse": "Cada uno según su lengua, en sus tierras, por sus naciones.",
+        "reference": "Génesis 10:5"
+      }
+    },
+    "memorizeVerse": {
+      "text": "De éstos se poblaron las naciones en la tierra después del diluvio.",
+      "reference": "Génesis 10:32",
+      "theme": "Propósito global"
+    },
+    "mainTeaching": "Dios gobierna la expansión de la humanidad, dando origen a las naciones que luego alcanzará con su plan redentor.",
+    "practicalApplication": [
+      "Ora por pueblos y naciones específicos, sabiendo que Dios los conoce por nombre.",
+      "Celebra y consagra tu herencia cultural al servicio de Cristo.",
+      "Evita usar el poder para autoexaltación, siguiendo el ejemplo contrario de Nimrod.",
+      "Enseña a tu familia a verse como parte del propósito global de Dios."
+    ]
+  },
+  {
+    "book": "Génesis",
+    "chapter": 11,
+    "title": "Torre de Babel y genealogía de Abram",
+    "subtitle": "Orgullo humano y llamado preparatorio",
+    "summary": "La humanidad unida intenta edificar una ciudad y una torre que alcance el cielo, pero Dios confunde sus lenguas y los dispersa; luego se registra la genealogía de Sem hasta Abram, preparando el llamado del patriarca.",
+    "timeline": {
+      "period": "Generaciones postdiluvianas",
+      "context": "Dispersión de Babel",
+      "placement": "Puente hacia la era patriarcal"
+    },
+    "days": [
+      {
+        "day": 1,
+        "title": "Una sola lengua",
+        "icon": "??",
+        "description": "Toda la tierra habla un mismo idioma mientras migra hacia el oriente.",
+        "verse": "Tenía entonces toda la tierra una sola lengua y unas mismas palabras.",
+        "reference": "Génesis 11:1-2",
+        "significance": "La unidad cultural permite proyectos comunes."
+      },
+      {
+        "day": 2,
+        "title": "Plan de la torre",
+        "icon": "!!",
+        "description": "Deciden fabricar ladrillos y edificar una torre que llegue al cielo.",
+        "verse": "Vamos, edifiquémonos una ciudad y una torre cuya cúspide llegue al cielo.",
+        "reference": "Génesis 11:3-4",
+        "significance": "El orgullo busca hacerse un nombre sin depender de Dios."
+      },
+      {
+        "day": 3,
+        "title": "Dios desciende a ver",
+        "icon": "::",
+        "description": "Jehová desciende para ver la ciudad y la torre que los hombres edifican.",
+        "verse": "Y descendió Jehová para ver la ciudad y la torre.",
+        "reference": "Génesis 11:5",
+        "significance": "Nada escapa a la supervisión divina, por grande que parezca."
+      },
+      {
+        "day": 4,
+        "title": "Confusión de lenguas",
+        "icon": "~~",
+        "description": "Dios confunde su lenguaje y los dispersa sobre la faz de toda la tierra.",
+        "verse": "Allí confundió Jehová el lenguaje de toda la tierra.",
+        "reference": "Génesis 11:6-9",
+        "significance": "La diversidad lingüística es un acto de gracia y juicio."
+      },
+      {
+        "day": 5,
+        "title": "Genealogía de Sem",
+        "icon": "++",
+        "description": "Se registran las generaciones desde Sem hasta Taré, padre de Abram.",
+        "verse": "Éstas son las generaciones de Sem.",
+        "reference": "Génesis 11:10-26",
+        "significance": "La línea mesiánica sigue intacta a pesar de la dispersión."
+      },
+      {
+        "day": 6,
+        "title": "Taré sale de Ur",
+        "icon": ">>",
+        "description": "Taré toma a Abram, Sarai y Lot rumbo a Canaán, pero se establecen en Harán.",
+        "verse": "Tomó Taré a Abram... y salieron juntos de Ur de los caldeos.",
+        "reference": "Génesis 11:27-32",
+        "significance": "Se prepara el escenario para el llamado divino en el siguiente capítulo."
+      }
+    ],
+    "interestingFacts": [
+      {
+        "id": "babel-meaning",
+        "title": "Babel significa confusión",
+        "summary": "Deriva del verbo \"balal\": mezclar o confundir.",
+        "explanation": "El nombre recuerda permanentemente la intervención de Dios contra el orgullo colectivo.",
+        "verse": "Por esto fue llamado el nombre de ella Babel.",
+        "reference": "Génesis 11:9"
+      },
+      {
+        "id": "brick-technology",
+        "title": "Ladrillos y asfalto",
+        "summary": "La torre usa ladrillo cocido y betún en vez de piedra.",
+        "explanation": "Representa avances tecnológicos empleados para autoglorificación.",
+        "verse": "Hagamos ladrillo, y cozámoslo con fuego.",
+        "reference": "Génesis 11:3"
+      },
+      {
+        "id": "peleg-link",
+        "title": "Peleg y la división",
+        "summary": "La genealogía muestra la continuidad desde Peleg hasta Abram.",
+        "explanation": "Aunque la tierra se divide, la promesa sigue avanzando en una línea particular.",
+        "verse": "Peleg vivió, y engendró a Reu.",
+        "reference": "Génesis 11:18"
+      },
+      {
+        "id": "haran-stop",
+        "title": "Estancia en Harán",
+        "summary": "La familia de Taré se detiene a mitad de camino hacia Canaán.",
+        "explanation": "Muestra la necesidad de un llamado personal de Dios para completar la misión.",
+        "verse": "Vinieron hasta Harán, y se quedaron allí.",
+        "reference": "Génesis 11:31"
+      }
+    ],
+    "reflectionQuestions": [
+      {
+        "id": "pride-projects",
+        "question": "¿Qué proyectos en tu vida podrían estar motivados por hacerte un nombre?",
+        "category": "personal",
+        "hints": [
+          "Intenciones",
+          "Reconocimiento",
+          "Humildad"
+        ]
+      },
+      {
+        "id": "unity-purpose",
+        "question": "¿Cómo puedes usar la unidad y la diversidad de tu comunidad para glorificar a Dios?",
+        "category": "comunidad",
+        "hints": [
+          "Cooperación",
+          "Servicio",
+          "Lenguas"
+        ]
+      },
+      {
+        "id": "disruption-grace",
+        "question": "¿Qué interrupciones ha permitido Dios para redirigirte a su voluntad?",
+        "category": "providencia",
+        "hints": [
+          "Planes frustrados",
+          "Nueva dirección",
+          "Obediencia"
+        ]
+      },
+      {
+        "id": "generational-call",
+        "question": "¿Cómo te anima la genealogía de Sem a ser fiel en tu generación?",
+        "category": "familia",
+        "hints": [
+          "Herencia",
+          "Persistencia",
+          "Propósito"
+        ]
+      }
+    ],
+    "trivia": [
+      {
+        "question": "¿Con qué materiales construyeron la torre de Babel?",
+        "options": [
+          "Piedra y cal",
+          "Ladrillo y asfalto",
+          "Adobe y madera"
+        ],
+        "correct": 1,
+        "explanation": "Usaron ladrillo cocido y betún en lugar de piedra."
+      },
+      {
+        "question": "¿Qué significaba la torre para los constructores?",
+        "options": [
+          "Un centro de oración",
+          "Una fortaleza militar",
+          "Un monumento para hacerse un nombre"
+        ],
+        "correct": 2,
+        "explanation": "Querían hacerse un nombre y evitar la dispersión."
+      },
+      {
+        "question": "¿Dónde se asentó la familia de Taré camino a Canaán?",
+        "options": [
+          "Ur",
+          "Haran",
+          "Siquem"
+        ],
+        "correct": 1,
+        "explanation": "Se detuvieron y establecieron en Harán."
+      },
+      {
+        "question": "¿Quién es el padre de Abram?",
+        "options": [
+          "Taré",
+          "Nahor",
+          "Serug"
+        ],
+        "correct": 0,
+        "explanation": "Taré es el padre de Abram según Génesis 11:27."
+      }
+    ],
+    "comparison": {
+      "title": "Orgullo colectivo vs llamado personal",
+      "before": {
+        "title": "Unidad rebelde",
+        "description": "La humanidad unida busca autoexaltación.",
+        "elements": [
+          "Una lengua",
+          "Proyecto egocéntrico",
+          "Temor a dispersarse"
+        ],
+        "verse": "Hagámonos un nombre.",
+        "reference": "Génesis 11:4"
+      },
+      "after": {
+        "title": "Dispersión redentora",
+        "description": "Dios dispersa a los pueblos pero preserva la línea de Abram.",
+        "elements": [
+          "Lenguas diversas",
+          "Rutas nuevas",
+          "Familia llamada"
+        ],
+        "verse": "Jehová los esparció sobre la faz de toda la tierra.",
+        "reference": "Génesis 11:8"
+      }
+    },
+    "memorizeVerse": {
+      "text": "Por esto fue llamado el nombre de ella Babel, porque allí confundió Jehová el lenguaje de toda la tierra, y desde allí los esparció sobre la faz de toda la tierra.",
+      "reference": "Génesis 11:9",
+      "theme": "Dios sobre las naciones"
+    },
+    "mainTeaching": "Dios frustra el orgullo colectivo que busca gloria sin Él y dirige la historia hacia su plan redentor a través de una familia específica.",
+    "practicalApplication": [
+      "Evalúa tus motivaciones y rinde a Dios tus proyectos más ambiciosos.",
+      "Celebra la diversidad lingüística como parte del plan de Dios.",
+      "Permite que Dios redireccione tus planes cuando sea necesario.",
+      "Sé fiel en tu generación para que la promesa continúe avanzando."
+    ]
+  },
+  {
+    "book": "Génesis",
+    "chapter": 12,
+    "title": "Llamado de Abram",
+    "subtitle": "Promesa de bendición para todas las familias",
+    "summary": "Dios llama a Abram a salir de su tierra, le promete una gran nación y lo conduce a Canaán, donde levanta altares. Una hambruna lo obliga a descender a Egipto, pero Dios protege a Sarai y los lleva de regreso con abundancia.",
+    "timeline": {
+      "period": "Inicio de la era patriarcal",
+      "context": "Primer encuentro de Abram con Dios",
+      "placement": "Fundamento de la historia de Israel"
+    },
+    "days": [
+      {
+        "day": 1,
+        "title": "Llamado y promesa",
+        "icon": "!!",
+        "description": "Dios ordena a Abram salir y promete hacerlo una gran nación y bendición para todos.",
+        "verse": "Vete de tu tierra... y bendeciré a los que te bendijeren.",
+        "reference": "Génesis 12:1-3",
+        "significance": "La misión global de Dios se enfoca en una familia."
+      },
+      {
+        "day": 2,
+        "title": "Salida de Harán",
+        "icon": ">>",
+        "description": "Abram obedece a los 75 años, llevando a Sarai, Lot y sus bienes.",
+        "verse": "Y se fue Abram, como Jehová le dijo.",
+        "reference": "Génesis 12:4-5",
+        "significance": "La fe implica dejar seguridad y confiar en la promesa."
+      },
+      {
+        "day": 3,
+        "title": "Llegada a Canaán",
+        "icon": "::",
+        "description": "Abram atraviesa la tierra hasta Siquem y recibe la promesa de darla a su descendencia.",
+        "verse": "A tu descendencia daré esta tierra.",
+        "reference": "Génesis 12:6-7",
+        "significance": "La promesa se vincula a un territorio específico."
+      },
+      {
+        "day": 4,
+        "title": "Altares de adoración",
+        "icon": "++",
+        "description": "Abram edifica altares en Siquem y Betel, invocando el nombre de Jehová.",
+        "verse": "Edificó allí altar a Jehová, e invocó el nombre de Jehová.",
+        "reference": "Génesis 12:8-9",
+        "significance": "La adoración sostiene la obediencia en territorio desconocido."
+      },
+      {
+        "day": 5,
+        "title": "Hambruna y descenso a Egipto",
+        "icon": "~~",
+        "description": "Una hambruna severa impulsa a Abram a buscar refugio en Egipto.",
+        "verse": "Hubo hambre en la tierra.",
+        "reference": "Génesis 12:10",
+        "significance": "Las pruebas no anulan la promesa pero exigen discernimiento."
+      },
+      {
+        "day": 6,
+        "title": "Protección en Egipto",
+        "icon": "[]",
+        "description": "Abram teme y presenta a Sarai como hermana; Dios envía plagas y el faraón los despide con bienes.",
+        "verse": "Jehová hirió al faraón... y le devolvió su mujer.",
+        "reference": "Génesis 12:11-20",
+        "significance": "Dios protege su plan aun cuando Abram falla."
+      }
+    ],
+    "interestingFacts": [
+      {
+        "id": "abram-age",
+        "title": "Abram tenía 75 años",
+        "summary": "La obediencia no depende de la edad.",
+        "explanation": "Abram inicia su aventura de fe a una edad avanzada, demostrando que Dios llama en cualquier etapa.",
+        "verse": "Era Abram de edad de setenta y cinco años cuando salió de Harán.",
+        "reference": "Génesis 12:4"
+      },
+      {
+        "id": "blessing-global",
+        "title": "Bendición para todas las familias",
+        "summary": "La promesa abarca a todas las etnias.",
+        "explanation": "Se anticipa la inclusión de los gentiles en la salvación por medio de la descendencia de Abram: Cristo.",
+        "verse": "Serán benditas en ti todas las familias de la tierra.",
+        "reference": "Génesis 12:3"
+      },
+      {
+        "id": "altars",
+        "title": "Altares itinerantes",
+        "summary": "Abram marca el territorio con adoración.",
+        "explanation": "Cada altar es un recordatorio de la presencia de Dios en la nueva tierra.",
+        "verse": "Edificó allí altar a Jehová.",
+        "reference": "Génesis 12:7-8"
+      },
+      {
+        "id": "plagues-egypt",
+        "title": "Primeras plagas en Egipto",
+        "summary": "Dios hiere al faraón para proteger a Sarai.",
+        "explanation": "Anticipa la futura liberación de Israel y muestra la fidelidad de Dios a su promesa matrimonial.",
+        "verse": "Jehová hirió al faraón y a su casa con grandes plagas.",
+        "reference": "Génesis 12:17"
+      }
+    ],
+    "reflectionQuestions": [
+      {
+        "id": "leave-comfort",
+        "question": "¿Qué \"Harán\" debes dejar para obedecer el llamado de Dios?",
+        "category": "obediencia",
+        "hints": [
+          "Seguridad",
+          "Idolatría",
+          "Confianza"
+        ]
+      },
+      {
+        "id": "mission-vision",
+        "question": "¿Cómo participas en la bendición de todas las familias de la tierra?",
+        "category": "misional",
+        "hints": [
+          "Oración",
+          "Envío",
+          "Generosidad"
+        ]
+      },
+      {
+        "id": "fear-egypt",
+        "question": "¿Qué temores te llevan a tomar decisiones impulsivas como Abram en Egipto?",
+        "category": "personal",
+        "hints": [
+          "Confianza",
+          "Protección",
+          "Verdad"
+        ]
+      },
+      {
+        "id": "altars-life",
+        "question": "¿Qué altares (momentos de adoración) necesitas levantar en tu rutina?",
+        "category": "adoración",
+        "hints": [
+          "Devoción",
+          "Memoriales",
+          "Espacios sagrados"
+        ]
+      }
+    ],
+    "trivia": [
+      {
+        "question": "¿Qué edad tenía Abram cuando salió de Harán?",
+        "options": [
+          "65 años",
+          "75 años",
+          "85 años"
+        ],
+        "correct": 1,
+        "explanation": "Tenía 75 años (Génesis 12:4)."
+      },
+      {
+        "question": "¿Cuál fue la razón por la que Abram descendió a Egipto?",
+        "options": [
+          "Guerra",
+          "Hambruna",
+          "Fiesta"
+        ],
+        "correct": 1,
+        "explanation": "Una hambruna severa lo llevó a refugiarse en Egipto."
+      },
+      {
+        "question": "¿Cómo presentó Abram a Sarai en Egipto?",
+        "options": [
+          "Como su esposa",
+          "Como su hermana",
+          "Como su criada"
+        ],
+        "correct": 1,
+        "explanation": "La presentó como su hermana por temor."
+      },
+      {
+        "question": "¿Qué hizo el faraón al descubrir la verdad sobre Sarai?",
+        "options": [
+          "Los encarceló",
+          "Los expulsó con provisiones",
+          "Los dejó quedarse"
+        ],
+        "correct": 1,
+        "explanation": "El faraón los envió con todo lo que tenían, protegiendo la promesa."
+      }
+    ],
+    "comparison": {
+      "title": "Vida anterior vs vida de fe",
+      "before": {
+        "title": "Vida en Harán",
+        "description": "Estabilidad y familiaridad sin propósito eterno claro.",
+        "elements": [
+          "Familia extendida",
+          "Seguridad",
+          "Idolatría de los caldeos"
+        ],
+        "verse": "Taré tomó a Abram... y se quedaron en Harán.",
+        "reference": "Génesis 11:31"
+      },
+      "after": {
+        "title": "Caminata con promesa",
+        "description": "Movilidad, altares y dependencia total de Dios.",
+        "elements": [
+          "Fe",
+          "Promesa",
+          "Adoración"
+        ],
+        "verse": "Se fue Abram, como Jehová le dijo.",
+        "reference": "Génesis 12:4"
+      }
+    },
+    "memorizeVerse": {
+      "text": "Haré de ti una nación grande, y te bendeciré, y engrandeceré tu nombre, y serás bendición.",
+      "reference": "Génesis 12:2",
+      "theme": "Llamado misional"
+    },
+    "mainTeaching": "La vida de fe implica dejar lo conocido, confiar en las promesas de Dios y ser canal de bendición para el mundo.",
+    "practicalApplication": [
+      "Escucha el llamado de Dios por encima de la comodidad personal.",
+      "Participa activamente en la misión global de llevar bendición.",
+      "Confía en la protección divina en medio del temor y la incertidumbre.",
+      "Marca tu camino con momentos intencionales de adoración y gratitud."
+    ]
+  },
+  {
+    "book": "Génesis",
+    "chapter": 13,
+    "title": "Abram y Lot se separan",
+    "subtitle": "Generosidad, elección y promesa renovada",
+    "summary": "Después de regresar de Egipto, Abram y Lot acumulan tanta riqueza que sus pastores contienden. Abram cede la elección a Lot, quien escoge el fértil valle del Jordán, mientras Dios reafirma la promesa de la tierra a Abram.",
+    "timeline": {
+      "period": "Peregrinaje en Canaán",
+      "context": "Conflicto por recursos",
+      "placement": "Consolidación de la promesa"
+    },
+    "days": [
+      {
+        "day": 1,
+        "title": "Regreso a Betel",
+        "icon": ">>",
+        "description": "Abram vuelve enriquecido de Egipto y regresa al altar anterior.",
+        "verse": "Volvió por sus jornadas hasta Betel... e invocó allí Abram el nombre de Jehová.",
+        "reference": "Génesis 13:1-4",
+        "significance": "Abram retoma su vida de adoración después de un tropiezo."
+      },
+      {
+        "day": 2,
+        "title": "Riqueza que genera tensión",
+        "icon": "!!",
+        "description": "La abundancia de ganado produce contienda entre los pastores de Abram y Lot.",
+        "verse": "La tierra no era suficiente... y había contienda entre los pastores.",
+        "reference": "Génesis 13:5-7",
+        "significance": "La prosperidad sin sabiduría puede dividir familias."
+      },
+      {
+        "day": 3,
+        "title": "Abram ofrece la elección",
+        "icon": "::",
+        "description": "Abram busca la paz y cede a Lot la primera elección del territorio.",
+        "verse": "No haya contienda... si tú fueres a la izquierda, yo iré a la derecha.",
+        "reference": "Génesis 13:8-9",
+        "significance": "La generosidad y la fe permiten ceder derechos."
+      },
+      {
+        "day": 4,
+        "title": "Lot mira al Jordán",
+        "icon": "~~",
+        "description": "Lot elige la llanura del Jordán, comparándola con Egipto, y se acerca a Sodoma.",
+        "verse": "Levantó Lot sus ojos, y vio toda la llanura del Jordán.",
+        "reference": "Génesis 13:10-11",
+        "significance": "Las decisiones basadas en apariencia pueden llevar a peligro espiritual."
+      },
+      {
+        "day": 5,
+        "title": "Abram habita en Hebrón",
+        "icon": "[]",
+        "description": "Abram se queda en Canaán y Lot vive cerca de Sodoma, ciudad perversa.",
+        "verse": "Abram moró en la tierra de Canaán, en tanto que Lot habitó en las ciudades de la llanura.",
+        "reference": "Génesis 13:12-13",
+        "significance": "Abram prefiere obedecer a Dios antes que buscar comodidad."
+      },
+      {
+        "day": 6,
+        "title": "Promesa renovada",
+        "icon": "++",
+        "description": "Dios invita a Abram a recorrer la tierra y afirma que su descendencia será innumerable.",
+        "verse": "Levántate, recorre la tierra... porque a ti la daré.",
+        "reference": "Génesis 13:14-18",
+        "significance": "La obediencia desinteresada abre paso a promesas mayores."
+      }
+    ],
+    "interestingFacts": [
+      {
+        "id": "return-altar",
+        "title": "Volver al altar previo",
+        "summary": "Abram regresa al altar entre Betel y Hai.",
+        "explanation": "Reanuda su relación con Dios en el mismo lugar donde la interrumpió.",
+        "verse": "Allí invocó Abram el nombre de Jehová.",
+        "reference": "Génesis 13:4"
+      },
+      {
+        "id": "jordan-like-egypt",
+        "title": "La llanura como Egipto",
+        "summary": "Lot compara la llanura del Jordán con Egipto.",
+        "explanation": "La fertilidad recuerda la seguridad del Nilo, mostrando su inclinación por la abundancia material.",
+        "verse": "Como la tierra de Egipto en la dirección de Zoar.",
+        "reference": "Génesis 13:10"
+      },
+      {
+        "id": "sodom-evil",
+        "title": "Advertencia sobre Sodoma",
+        "summary": "Sodoma era mala y pecadora contra Jehová en gran manera.",
+        "explanation": "El narrador anticipa las consecuencias de la elección de Lot.",
+        "verse": "Los hombres de Sodoma eran malos y pecadores contra Jehová en gran manera.",
+        "reference": "Génesis 13:13"
+      },
+      {
+        "id": "hebron-altars",
+        "title": "Árboles de Mamre",
+        "summary": "Abram habita en encinares de Mamre y edifica otro altar.",
+        "explanation": "Hebrón se convierte en centro de adoración y futuras apariciones divinas.",
+        "verse": "Edificó allí altar a Jehová.",
+        "reference": "Génesis 13:18"
+      }
+    ],
+    "reflectionQuestions": [
+      {
+        "id": "conflict-resolution",
+        "question": "¿Cómo manejas los conflictos familiares causados por recursos o posesiones?",
+        "category": "relacional",
+        "hints": [
+          "Humildad",
+          "Ceder derechos",
+          "Unidad"
+        ]
+      },
+      {
+        "id": "eyes-choice",
+        "question": "¿En qué decisiones has levantado \"tus ojos\" hacia lo agradable sin consultar a Dios?",
+        "category": "discernimiento",
+        "hints": [
+          "Apariencias",
+          "Prioridades",
+          "Consecuencias"
+        ]
+      },
+      {
+        "id": "open-handed",
+        "question": "¿Qué estás dispuesto a soltar para preservar relaciones y obedecer a Dios?",
+        "category": "generosidad",
+        "hints": [
+          "Renuncia",
+          "Confianza",
+          "Paz"
+        ]
+      },
+      {
+        "id": "walk-land",
+        "question": "¿De qué manera puedes \"recorrer\" las promesas de Dios para fortalecer tu fe?",
+        "category": "fe",
+        "hints": [
+          "Meditación",
+          "Declaración",
+          "Oración"
+        ]
+      }
+    ],
+    "trivia": [
+      {
+        "question": "¿Dónde invocó Abram a Jehová después de volver de Egipto?",
+        "options": [
+          "En Siquem",
+          "En Betel",
+          "En Hebrón"
+        ],
+        "correct": 1,
+        "explanation": "Regresó al altar entre Betel y Hai."
+      },
+      {
+        "question": "¿Qué comparó Lot con la tierra de Egipto?",
+        "options": [
+          "Las montañas de Canaán",
+          "La llanura del Jordán",
+          "El desierto del Neguev"
+        ],
+        "correct": 1,
+        "explanation": "La llanura era fértil como Egipto."
+      },
+      {
+        "question": "¿Dónde se estableció Abram después de separarse de Lot?",
+        "options": [
+          "En Sodoma",
+          "En Mamre, cerca de Hebrón",
+          "En Zoar"
+        ],
+        "correct": 1,
+        "explanation": "Abram habitó en la región de Hebrón, en las encinas de Mamre."
+      },
+      {
+        "question": "¿Qué promete Dios a Abram después de la separación?",
+        "options": [
+          "Un heredero inmediato",
+          "Toda la tierra que ve",
+          "Victoria sobre Sodoma"
+        ],
+        "correct": 1,
+        "explanation": "Dios le entrega la tierra que alcanza a ver y promete una descendencia incontable."
+      }
+    ],
+    "comparison": {
+      "title": "Elección egoísta vs fe generosa",
+      "before": {
+        "title": "Conflicto de pastores",
+        "description": "Contienda por recursos que amenaza la familia.",
+        "elements": [
+          "Riñas",
+          "Competencia",
+          "Riqueza sin unidad"
+        ],
+        "verse": "Había contienda entre los pastores.",
+        "reference": "Génesis 13:7"
+      },
+      "after": {
+        "title": "Paz y promesa",
+        "description": "Abram cede derechos, mantiene la paz y recibe promesa renovada.",
+        "elements": [
+          "Generosidad",
+          "Paz",
+          "Reafirmación divina"
+        ],
+        "verse": "Levántate, recorre la tierra... porque a ti la daré.",
+        "reference": "Génesis 13:17"
+      }
+    },
+    "memorizeVerse": {
+      "text": "Levántate, recorre la tierra a lo largo de ella y a su ancho; porque a ti la daré.",
+      "reference": "Génesis 13:17",
+      "theme": "Fe que se mueve"
+    },
+    "mainTeaching": "La verdadera fe renuncia a derechos por amor y confía en que Dios sostendrá sus promesas.",
+    "practicalApplication": [
+      "Prioriza la unidad relacional por encima de los bienes materiales.",
+      "Consulta a Dios antes de decidir según lo que ves.",
+      "Practica la generosidad como un acto de confianza en la provisión divina.",
+      "Recorre espiritualmente las promesas de Dios para afirmarlas en tu corazón."
+    ]
+  },
+  {
+    "book": "Génesis",
+    "chapter": 14,
+    "title": "Rescate de Lot y encuentro con Melquisedec",
+    "subtitle": "Fe en medio de la guerra",
+    "summary": "Una coalición de reyes captura a Lot; Abram moviliza a sus siervos y lo rescata. De regreso es bendecido por Melquisedec, sacerdote de Dios Altísimo, y rechaza los bienes del rey de Sodoma.",
+    "timeline": {
+      "period": "Conflictos cananeos",
+      "context": "Abram defensor",
+      "placement": "Primera intervención militar de los patriarcas"
+    },
+    "days": [
+      {
+        "day": 1,
+        "title": "Guerra de los reyes",
+        "icon": "!!",
+        "description": "Cuatro reyes orientales pelean contra cinco reinos del valle del Jordán.",
+        "verse": "Aconteció en los días de Amrafel... que estos hicieron guerra.",
+        "reference": "Génesis 14:1-9",
+        "significance": "La geopolítica afecta directamente a la familia de Abram."
+      },
+      {
+        "day": 2,
+        "title": "Lot es capturado",
+        "icon": "XX",
+        "description": "Los reyes victoriosos saquean Sodoma y se llevan a Lot y sus bienes.",
+        "verse": "Tomaron a Lot... y se fueron.",
+        "reference": "Génesis 14:10-12",
+        "significance": "Las elecciones de Lot lo exponen a peligro."
+      },
+      {
+        "day": 3,
+        "title": "Abram responde",
+        "icon": "++",
+        "description": "Abram arma a 318 siervos entrenados, persigue a los reyes y libera a Lot.",
+        "verse": "Armandó sus criados nacidos en su casa, trescientos dieciocho.",
+        "reference": "Génesis 14:13-16",
+        "significance": "La fe actúa con valentía y estrategia."
+      },
+      {
+        "day": 4,
+        "title": "Encuentro en el valle de Save",
+        "icon": "::",
+        "description": "Melquisedec, rey de Salem, sale al encuentro con pan y vino.",
+        "verse": "Melquisedec, rey de Salem, sacó pan y vino.",
+        "reference": "Génesis 14:17-18",
+        "significance": "Aparece un sacerdote-rey que prefigura a Cristo."
+      },
+      {
+        "day": 5,
+        "title": "Bendición y diezmo",
+        "icon": "$$",
+        "description": "Melquisedec bendice a Abram; Abram le da los diezmos de todo.",
+        "verse": "Bendito sea Abram del Dios Altísimo... y le dio Abram los diezmos de todo.",
+        "reference": "Génesis 14:19-20",
+        "significance": "Reconoce que la victoria proviene de Dios."
+      },
+      {
+        "day": 6,
+        "title": "Rechazo del botín",
+        "icon": "[]",
+        "description": "Abram rehúsa enriquecerse con el rey de Sodoma para que nadie diga que lo hizo rico.",
+        "verse": "No tomaré desde un hilo hasta una correa de calzado... para que no digas: yo enriquecí a Abram.",
+        "reference": "Génesis 14:21-24",
+        "significance": "La integridad mantiene a Abram dependiente solo de Dios."
+      }
+    ],
+    "interestingFacts": [
+      {
+        "id": "318-servants",
+        "title": "318 siervos entrenados",
+        "summary": "Abram posee un pequeño ejército privado.",
+        "explanation": "Muestra su capacidad organizativa y la bendición material recibida de Dios.",
+        "verse": "Armandó sus criados... trescientos dieciocho.",
+        "reference": "Génesis 14:14"
+      },
+      {
+        "id": "melchizedek-type",
+        "title": "Melquisedec como tipo de Cristo",
+        "summary": "Sacerdote y rey, sin genealogía registrada.",
+        "explanation": "Hebreos 7 usa a Melquisedec como figura de Cristo, sacerdote eterno.",
+        "verse": "Sacó pan y vino; él era sacerdote del Dios Altísimo.",
+        "reference": "Génesis 14:18"
+      },
+      {
+        "id": "first-tithe",
+        "title": "Primer diezmo registrado",
+        "summary": "Abram entrega el diezmo a Melquisedec antes de la ley.",
+        "explanation": "Demuestra gratitud y reconoce la fuente de la victoria.",
+        "verse": "Le dio Abram los diezmos de todo.",
+        "reference": "Génesis 14:20"
+      },
+      {
+        "id": "king-sodom-offer",
+        "title": "Oferta rechazada",
+        "summary": "El rey de Sodoma ofrece bienes a Abram.",
+        "explanation": "Abram rechaza para dejar claro que solo Dios es su benefactor.",
+        "verse": "No tomaré nada de lo que es tuyo.",
+        "reference": "Génesis 14:23"
+      }
+    ],
+    "reflectionQuestions": [
+      {
+        "id": "rescue-risk",
+        "question": "¿Qué estás dispuesto a arriesgar para rescatar a quienes amas?",
+        "category": "amor",
+        "hints": [
+          "Valentía",
+          "Sacrificio",
+          "Fe activa"
+        ]
+      },
+      {
+        "id": "honor-god-victory",
+        "question": "¿Cómo reconoces públicamente que tus victorias provienen de Dios?",
+        "category": "adoración",
+        "hints": [
+          "Gratitud",
+          "Testimonio",
+          "Generosidad"
+        ]
+      },
+      {
+        "id": "melchizedek-figure",
+        "question": "¿Qué te enseña Melquisedec sobre el sacerdocio de Cristo?",
+        "category": "teológica",
+        "hints": [
+          "Rey-Priede",
+          "Pan y vino",
+          "Bendición"
+        ]
+      },
+      {
+        "id": "integrity-gain",
+        "question": "¿Qué ofertas has rechazado para mantener tu integridad?",
+        "category": "ética",
+        "hints": [
+          "Dependencia",
+          "Pureza",
+          "Testimonio"
+        ]
+      }
+    ],
+    "trivia": [
+      {
+        "question": "¿Cuántos siervos armados llevó Abram para rescatar a Lot?",
+        "options": [
+          "118",
+          "218",
+          "318"
+        ],
+        "correct": 2,
+        "explanation": "Eran 318 siervos entrenados."
+      },
+      {
+        "question": "¿Qué elementos ofreció Melquisedec a Abram?",
+        "options": [
+          "Leche y miel",
+          "Pan y vino",
+          "Aceite y agua"
+        ],
+        "correct": 1,
+        "explanation": "Melquisedec sacó pan y vino (Génesis 14:18)."
+      },
+      {
+        "question": "¿A quién le dio Abram los diezmos?",
+        "options": [
+          "Al rey de Sodoma",
+          "A Melquisedec",
+          "A Lot"
+        ],
+        "correct": 1,
+        "explanation": "Los diezmos fueron para Melquisedec, sacerdote del Dios Altísimo."
+      },
+      {
+        "question": "¿Por qué Abram rechazó los bienes de Sodoma?",
+        "options": [
+          "Porque no los necesitaba",
+          "Para no deberle favores",
+          "Para no destruir la ciudad"
+        ],
+        "correct": 1,
+        "explanation": "No quiso que el rey de Sodoma dijera que lo había enriquecido."
+      }
+    ],
+    "comparison": {
+      "title": "Dependencia humana vs dependencia divina",
+      "before": {
+        "title": "Oferta del mundo",
+        "description": "Sodoma ofrece riquezas a cambio de reconocimiento.",
+        "elements": [
+          "Beneficios dudosos",
+          "Compromiso",
+          "Prestigio"
+        ],
+        "verse": "Dame las personas, y toma para ti los bienes.",
+        "reference": "Génesis 14:21"
+      },
+      "after": {
+        "title": "Bendición del Altísimo",
+        "description": "Abram recibe bendición de Melquisedec y reconoce a Dios.",
+        "elements": [
+          "Pan y vino",
+          "Diezmo",
+          "Gratitud"
+        ],
+        "verse": "Bendito sea el Dios Altísimo, que entregó tus enemigos en tu mano.",
+        "reference": "Génesis 14:20"
+      }
+    },
+    "memorizeVerse": {
+      "text": "Y bendito sea el Dios Altísimo, que entregó tus enemigos en tu mano. Y le dio Abram los diezmos de todo.",
+      "reference": "Génesis 14:20",
+      "theme": "Gratitud en la victoria"
+    },
+    "mainTeaching": "La fe verdadera actúa con valentía, honra a Dios en la victoria y rechaza dependencias que comprometan el testimonio.",
+    "practicalApplication": [
+      "Defiende a tu familia y amigos con acciones concretas respaldadas por la fe.",
+      "Reconoce a Dios como la fuente de cada triunfo.",
+      "Practica la generosidad como respuesta a la bendición.",
+      "Mantén tu integridad rechazando las ganancias que comprometan tu lealtad a Dios."
+    ]
+  },
+  {
+    "book": "Génesis",
+    "chapter": 15,
+    "title": "Pacto con Abram",
+    "subtitle": "Justicia por la fe y promesa asegurada",
+    "summary": "Dios reafirma sus promesas a Abram, quien cree y es declarado justo. Se realiza un pacto solemne con animales partidos, y Dios revela el futuro de su descendencia, incluyendo la esclavitud y liberación de Egipto.",
+    "timeline": {
+      "period": "Confirmación de la promesa",
+      "context": "Visión nocturna",
+      "placement": "Fundamento de la fe bíblica"
+    },
+    "days": [
+      {
+        "day": 1,
+        "title": "No temas, Abram",
+        "icon": "!!",
+        "description": "Dios promete protección y recompensa después de la batalla.",
+        "verse": "No temas, Abram; yo soy tu escudo, y tu galardón será sobremanera grande.",
+        "reference": "Génesis 15:1",
+        "significance": "La seguridad proviene de la presencia de Dios, no de aliados humanos."
+      },
+      {
+        "day": 2,
+        "title": "Promesa de un heredero",
+        "icon": "++",
+        "description": "Dios asegura que el heredero será un hijo propio, no Eliezer.",
+        "verse": "No te heredará éste, sino un hijo tuyo será el que te heredará.",
+        "reference": "Génesis 15:2-4",
+        "significance": "La promesa se vuelve personal y milagrosa."
+      },
+      {
+        "day": 3,
+        "title": "Contar las estrellas",
+        "icon": "**",
+        "description": "Abram mira el cielo y cree; su fe le es contada por justicia.",
+        "verse": "Mira ahora los cielos, y cuenta las estrellas... Y creyó a Jehová, y le fue contado por justicia.",
+        "reference": "Génesis 15:5-6",
+        "significance": "Se establece el principio de justificación por la fe."
+      },
+      {
+        "day": 4,
+        "title": "Pregunta por la tierra",
+        "icon": "??",
+        "description": "Abram pide una señal de que heredará la tierra.",
+        "verse": "¿En qué conoceré que la he de heredar?",
+        "reference": "Génesis 15:7-8",
+        "significance": "Dios no reprende la pregunta honesta."
+      },
+      {
+        "day": 5,
+        "title": "Pacto de los animales partidos",
+        "icon": "::",
+        "description": "Abram prepara animales y espanta aves de rapiña; cae un profundo sueño.",
+        "verse": "Partió por la mitad... mas no partió las aves.",
+        "reference": "Génesis 15:9-12",
+        "significance": "La ceremonia prepara un pacto unilateral de Dios."
+      },
+      {
+        "day": 6,
+        "title": "Futuro revelado",
+        "icon": "~~",
+        "description": "Dios anuncia 400 años de aflicción en tierra ajena y confirma límites de la tierra.",
+        "verse": "En la cuarta generación volverán acá... a tu descendencia he dado esta tierra.",
+        "reference": "Génesis 15:13-21",
+        "significance": "La promesa incluye proceso, sufrimiento y victoria final."
+      }
+    ],
+    "interestingFacts": [
+      {
+        "id": "justification-faith",
+        "title": "Primera mención de la justificación",
+        "summary": "\"Le fue contado por justicia\" es la base del evangelio.",
+        "explanation": "Pablo y Santiago citan este versículo para explicar la salvación por fe.",
+        "verse": "Y creyó a Jehová, y le fue contado por justicia.",
+        "reference": "Génesis 15:6"
+      },
+      {
+        "id": "smoking-pot",
+        "title": "Horno humeante y antorcha",
+        "summary": "Dios pasa entre los animales en forma de fuego y humo.",
+        "explanation": "Simboliza la presencia divina y su compromiso unilateral con el pacto.",
+        "verse": "Un horno humeante y una antorcha de fuego pasaron por entre los animales.",
+        "reference": "Génesis 15:17"
+      },
+      {
+        "id": "four-hundred-years",
+        "title": "Profecía de 400 años",
+        "summary": "Dios anuncia la esclavitud israelita y su liberación.",
+        "explanation": "Preparó a Abram para saber que la promesa incluiría un tiempo de espera prolongado.",
+        "verse": "Tu descendencia será extranjera... y la afligirán cuatrocientos años.",
+        "reference": "Génesis 15:13"
+      },
+      {
+        "id": "land-borders",
+        "title": "Tierra desde el Nilo al Éufrates",
+        "summary": "Se definen límites amplios para la herencia.",
+        "explanation": "El pacto abarca un territorio enorme que prefigura la restauración futura.",
+        "verse": "Desde el río de Egipto hasta el río grande, el río Éufrates.",
+        "reference": "Génesis 15:18"
+      }
+    ],
+    "reflectionQuestions": [
+      {
+        "id": "faith-righteousness",
+        "question": "¿Crees que Dios puede cumplir promesas que parecen imposibles?",
+        "category": "fe",
+        "hints": [
+          "Confianza",
+          "Imposibles",
+          "Esperanza"
+        ]
+      },
+      {
+        "id": "ask-sign",
+        "question": "¿Te atreves a pedirle a Dios señales de confirmación con un corazón sincero?",
+        "category": "oración",
+        "hints": [
+          "Transparencia",
+          "Paciencia",
+          "Fe humilde"
+        ]
+      },
+      {
+        "id": "waiting-process",
+        "question": "¿Cómo respondes al saber que la promesa puede incluir procesos largos?",
+        "category": "perseverancia",
+        "hints": [
+          "Tiempo",
+          "Preparación",
+          "Confianza"
+        ]
+      },
+      {
+        "id": "covenant-security",
+        "question": "¿Descansas en que el pacto depende más de Dios que de tus méritos?",
+        "category": "gracia",
+        "hints": [
+          "Iniciativa divina",
+          "Seguridad",
+          "Descanso"
+        ]
+      }
+    ],
+    "trivia": [
+      {
+        "question": "¿Quién era el heredero según Abram antes de la promesa?",
+        "options": [
+          "Lot",
+          "Eliezer de Damasco",
+          "Ismael"
+        ],
+        "correct": 1,
+        "explanation": "Abram pensaba dejar la herencia a Eliezer, su mayordomo."
+      },
+      {
+        "question": "¿Qué animal no partió Abram por la mitad en el pacto?",
+        "options": [
+          "La becerra",
+          "El carnero",
+          "Las aves"
+        ],
+        "correct": 2,
+        "explanation": "Las aves no fueron partidas."
+      },
+      {
+        "question": "¿Cuánto tiempo dijo Dios que la descendencia de Abram sería afligida?",
+        "options": [
+          "70 años",
+          "400 años",
+          "490 años"
+        ],
+        "correct": 1,
+        "explanation": "Serían afligidos durante 400 años."
+      },
+      {
+        "question": "¿Qué pasó entre los animales despedazados?",
+        "options": [
+          "Abram caminó",
+          "Un horno humeante y una antorcha de fuego",
+          "Un ángel"
+        ],
+        "correct": 1,
+        "explanation": "Un horno humeante y una antorcha de fuego, símbolos de Dios, pasaron por medio."
+      }
+    ],
+    "comparison": {
+      "title": "Incertidumbre vs certeza del pacto",
+      "before": {
+        "title": "Corazón inquieto",
+        "description": "Abram teme carecer de heredero y seguridad.",
+        "elements": [
+          "Temor",
+          "Duda",
+          "Preguntas"
+        ],
+        "verse": "Señor Jehová, ¿qué me darás?",
+        "reference": "Génesis 15:2"
+      },
+      "after": {
+        "title": "Fe fortalecida",
+        "description": "Abram cree y recibe una promesa sellada por Dios mismo.",
+        "elements": [
+          "Justicia por fe",
+          "Pacto ratificado",
+          "Profecía clara"
+        ],
+        "verse": "En aquel día hizo Jehová un pacto con Abram.",
+        "reference": "Génesis 15:18"
+      }
+    },
+    "memorizeVerse": {
+      "text": "Y creyó a Jehová, y le fue contado por justicia.",
+      "reference": "Génesis 15:6",
+      "theme": "Justificación por la fe"
+    },
+    "mainTeaching": "Dios asegura sus promesas por medio de un pacto gracioso y responde a la fe con justicia.",
+    "practicalApplication": [
+      "Confía en que Dios cumple lo que promete aun cuando parezca imposible.",
+      "Presenta tus preguntas a Dios en oración sincera.",
+      "Prepárate para procesos largos sabiendo que Dios ve el panorama completo.",
+      "Descansa en que tu justicia proviene de la fe, no de tu desempeño."
+    ]
+  },
+  {
+    "book": "Génesis",
+    "chapter": 16,
+    "title": "Hagar e Ismael",
+    "subtitle": "Cuando la impaciencia interfiere con la promesa",
+    "summary": "Sarai, estéril, entrega a su sierva Hagar a Abram para obtener descendencia. Hagar concibe y surge conflicto; huye al desierto donde el Ángel de Jehová le habla, promete un hijo llamado Ismael y le ordena regresar.",
+    "timeline": {
+      "period": "Diez años en Canaán",
+      "context": "Búsqueda de un heredero",
+      "placement": "Interrupción en el caminar de fe"
+    },
+    "days": [
+      {
+        "day": 1,
+        "title": "Plan humano",
+        "icon": "??",
+        "description": "Sarai, sin hijos, propone a Abram tener descendencia con Hagar.",
+        "verse": "Te ruego que te llegues a mi sierva; quizá tendré hijos de ella.",
+        "reference": "Génesis 16:1-2",
+        "significance": "La impaciencia intenta acelerar la promesa."
+      },
+      {
+        "day": 2,
+        "title": "Hagar concibe",
+        "icon": "!!",
+        "description": "Hagar queda embarazada y menosprecia a su señora.",
+        "verse": "Cuando vio que había concebido, miraba con desprecio a su señora.",
+        "reference": "Génesis 16:3-4",
+        "significance": "Las soluciones humanas generan nuevo conflicto."
+      },
+      {
+        "day": 3,
+        "title": "Conflicto y huida",
+        "icon": "XX",
+        "description": "Sarai aflige a Hagar; la sierva huye al desierto.",
+        "verse": "Sarai la afligía, y ella huyó de su presencia.",
+        "reference": "Génesis 16:5-6",
+        "significance": "La opresión nunca resuelve el dolor interior."
+      },
+      {
+        "day": 4,
+        "title": "Encuentro en el desierto",
+        "icon": "::",
+        "description": "El Ángel de Jehová encuentra a Hagar junto a una fuente camino a Shur.",
+        "verse": "La halló el Ángel de Jehová junto a una fuente de agua en el desierto.",
+        "reference": "Génesis 16:7",
+        "significance": "Dios busca a los que sufren aunque huyan."
+      },
+      {
+        "day": 5,
+        "title": "Promesa de Ismael",
+        "icon": "++",
+        "description": "Se le ordena volver y se anuncia el nacimiento de Ismael, \"Dios oye\".",
+        "verse": "Has concebido, y darás a luz un hijo, y llamarás su nombre Ismael.",
+        "reference": "Génesis 16:10-12",
+        "significance": "Dios oye la aflicción y convierte el dolor en propósito."
+      },
+      {
+        "day": 6,
+        "title": "Dios que ve",
+        "icon": ">>",
+        "description": "Hagar llama a Dios \"El Roi\" y regresa; Abram tiene 86 años cuando nace Ismael.",
+        "verse": "Tú eres Dios que ve... Y dio a luz un hijo a Abram.",
+        "reference": "Génesis 16:13-16",
+        "significance": "La experiencia marca a Hagar con la certeza de que Dios la ve."
+      }
+    ],
+    "interestingFacts": [
+      {
+        "id": "el-roi",
+        "title": "El Roi: Dios que me ve",
+        "summary": "Hagar es la primera en atribuir este nombre a Dios.",
+        "explanation": "Reconoce que incluso en su esclavitud y huida, Dios observa y se compadece.",
+        "verse": "Tú eres Dios que me ve.",
+        "reference": "Génesis 16:13"
+      },
+      {
+        "id": "angel-of-lord",
+        "title": "Ángel de Jehová",
+        "summary": "Aparece la figura del Ángel de Jehová dialogando personalmente.",
+        "explanation": "Muchos lo consideran una manifestación preencarnada de Cristo por hablar como Dios.",
+        "verse": "El Ángel de Jehová la encontró.",
+        "reference": "Génesis 16:7"
+      },
+      {
+        "id": "ishmael-meaning",
+        "title": "Ismael significa \"Dios oye\"",
+        "summary": "El nombre recuerda la respuesta de Dios al clamor.",
+        "explanation": "Cada vez que Hagar pronunciara el nombre de su hijo recordaría la compasión divina.",
+        "verse": "Jehová ha oído tu aflicción.",
+        "reference": "Génesis 16:11"
+      },
+      {
+        "id": "age-abram",
+        "title": "Abram de 86 años",
+        "summary": "La decisión ocurre diez años después de llegar a Canaán.",
+        "explanation": "Subraya la espera prolongada que enfrentaban.",
+        "verse": "Era Abram de edad de ochenta y seis años cuando Hagar dio a luz a Ismael.",
+        "reference": "Génesis 16:16"
+      }
+    ],
+    "reflectionQuestions": [
+      {
+        "id": "impatience",
+        "question": "¿Qué promesa de Dios estás tentado a forzar con tus propios métodos?",
+        "category": "fe",
+        "hints": [
+          "Tiempo",
+          "Confianza",
+          "Descanso"
+        ]
+      },
+      {
+        "id": "treatment-others",
+        "question": "¿Cómo tratas a quienes pueden parecer un \"plan alterno\" en tu vida?",
+        "category": "relacional",
+        "hints": [
+          "Empatía",
+          "Justicia",
+          "Compasión"
+        ]
+      },
+      {
+        "id": "god-sees",
+        "question": "¿Cómo te consuela saber que Dios te ve en el desierto?",
+        "category": "esperanza",
+        "hints": [
+          "Presencia",
+          "Consuelo",
+          "Guía"
+        ]
+      },
+      {
+        "id": "return-hagar",
+        "question": "¿Qué situaciones te está llamando Dios a enfrentar en lugar de huir?",
+        "category": "obediencia",
+        "hints": [
+          "Restauración",
+          "Valentía",
+          "Proceso"
+        ]
+      }
+    ],
+    "trivia": [
+      {
+        "question": "¿Quién propuso que Abram tuviera un hijo con Hagar?",
+        "options": [
+          "Abram",
+          "Sarai",
+          "El Ángel de Jehová"
+        ],
+        "correct": 1,
+        "explanation": "Sarai sugirió el plan para obtener descendencia."
+      },
+      {
+        "question": "¿Cómo se llama la fuente donde el Ángel encontró a Hagar?",
+        "options": [
+          "Fuente de Betel",
+          "Fuente en el camino de Shur",
+          "Pozo de Beerseba"
+        ],
+        "correct": 1,
+        "explanation": "Hagar fue hallada junto a una fuente camino de Shur."
+      },
+      {
+        "question": "¿Qué significa el nombre Ismael?",
+        "options": [
+          "Dios salva",
+          "Dios oye",
+          "Dios ve"
+        ],
+        "correct": 1,
+        "explanation": "Ismael significa \"Dios oye\"."
+      },
+      {
+        "question": "¿Cuántos años tenía Abram cuando nació Ismael?",
+        "options": [
+          "80 años",
+          "86 años",
+          "90 años"
+        ],
+        "correct": 1,
+        "explanation": "Abram tenía 86 años (Génesis 16:16)."
+      }
+    ],
+    "comparison": {
+      "title": "Plan humano vs intervención divina",
+      "before": {
+        "title": "Impaciencia y desprecio",
+        "description": "Sarai diseña un plan carnal que termina en rivalidad y huida.",
+        "elements": [
+          "Control humano",
+          "Conflicto",
+          "Dolor"
+        ],
+        "verse": "Sarai la afligía, y ella huyó.",
+        "reference": "Génesis 16:6"
+      },
+      "after": {
+        "title": "Dios oye y ve",
+        "description": "Dios encuentra a Hagar, promete futuro y le da identidad.",
+        "elements": [
+          "Compasión",
+          "Nombre nuevo",
+          "Obediencia renovada"
+        ],
+        "verse": "Tú eres Dios que me ve.",
+        "reference": "Génesis 16:13"
+      }
+    },
+    "memorizeVerse": {
+      "text": "Entonces llamó el nombre de Jehová que con ella hablaba: Tú eres Dios que me ve; porque dijo: ¿No he visto también aquí al que me ve?",
+      "reference": "Génesis 16:13",
+      "theme": "Consuelo divino"
+    },
+    "mainTeaching": "Intentar acelerar la promesa fuera del plan de Dios trae dolor, pero aun en nuestros errores Él nos ve, nos oye y nos redirige.",
+    "practicalApplication": [
+      "Rinde tus estrategias propias y espera los tiempos de Dios.",
+      "Trata con dignidad a las personas implicadas en tus decisiones.",
+      "Recuerda que Dios te ve y te escucha aun en el desierto.",
+      "Obedece la instrucción divina incluso cuando implique regresar a situaciones difíciles."
+    ]
+  },
+  {
+    "book": "Génesis",
+    "chapter": 17,
+    "title": "Señal del pacto: la circuncisión",
+    "subtitle": "Abraham y Sara reciben nuevos nombres",
+    "summary": "Dios se revela como El Shaddai, cambia el nombre de Abram a Abraham y de Sarai a Sara, instituye la circuncisión como señal del pacto y promete el nacimiento milagroso de Isaac, mientras también bendice a Ismael.",
+    "timeline": {
+      "period": "Año 24 en Canaán",
+      "context": "Renovación del pacto",
+      "placement": "Definición de la identidad del pueblo de Dios"
+    },
+    "days": [
+      {
+        "day": 1,
+        "title": "El Shaddai se aparece",
+        "icon": "!!",
+        "description": "Dios llama a Abram a vivir irreprensible y promete multiplicación.",
+        "verse": "Yo soy el Dios Todopoderoso; anda delante de mí y sé perfecto.",
+        "reference": "Génesis 17:1-2",
+        "significance": "La identidad divina impulsa una vida de santidad."
+      },
+      {
+        "day": 2,
+        "title": "Nuevo nombre: Abraham",
+        "icon": "++",
+        "description": "Abram se postra y recibe el nombre Abraham, padre de muchedumbre.",
+        "verse": "No se llamará más tu nombre Abram, sino Abraham será tu nombre.",
+        "reference": "Génesis 17:3-6",
+        "significance": "El nombre refleja destino y propósito."
+      },
+      {
+        "day": 3,
+        "title": "Pacto perpetuo",
+        "icon": "::",
+        "description": "Dios promete ser Dios de Abraham y su descendencia y darles la tierra.",
+        "verse": "Estableceré mi pacto entre mí y ti... será pacto perpetuo.",
+        "reference": "Génesis 17:7-8",
+        "significance": "La relación se basa en la fidelidad eterna de Dios."
+      },
+      {
+        "day": 4,
+        "title": "Señal de la circuncisión",
+        "icon": "##",
+        "description": "Todo varón debe circuncidarse al octavo día como señal del pacto.",
+        "verse": "Circuncidaréis, pues, la carne de vuestro prepucio.",
+        "reference": "Génesis 17:9-14",
+        "significance": "El pacto involucra cuerpo, identidad y obediencia."
+      },
+      {
+        "day": 5,
+        "title": "Sara será madre",
+        "icon": "??",
+        "description": "Sarai pasa a llamarse Sara; Dios promete un hijo llamado Isaac.",
+        "verse": "Bendeciré... y te dará un hijo; y llamarás su nombre Isaac.",
+        "reference": "Génesis 17:15-19",
+        "significance": "La promesa incluye alegría y risa santificada."
+      },
+      {
+        "day": 6,
+        "title": "Bendición sobre Ismael y obediencia inmediata",
+        "icon": "[]",
+        "description": "Dios bendice a Ismael con doce príncipes; Abraham circuncida a todos ese mismo día.",
+        "verse": "Tomó Abraham a Ismael... y circuncidó la carne de su prepucio en aquel mismo día.",
+        "reference": "Génesis 17:20-27",
+        "significance": "La obediencia completa ratifica la fe."
+      }
+    ],
+    "interestingFacts": [
+      {
+        "id": "el-shaddai",
+        "title": "El Shaddai",
+        "summary": "Primera vez que Dios se presenta como Todopoderoso.",
+        "explanation": "El nombre enfatiza su capacidad de cumplir un hijo milagroso.",
+        "verse": "Yo soy el Dios Todopoderoso.",
+        "reference": "Génesis 17:1"
+      },
+      {
+        "id": "name-change",
+        "title": "Cambio de nombres",
+        "summary": "Abram (padre exaltado) se vuelve Abraham (padre de multitudes). Sarai (mi princesa) se convierte en Sara (princesa).",
+        "explanation": "Los nombres alinean identidad y misión.",
+        "verse": "No se llamará más tu nombre Abram... también Sarai, tu mujer, no se llamará Sarai, mas Sara será su nombre.",
+        "reference": "Génesis 17:5,15"
+      },
+      {
+        "id": "circumcision-sign",
+        "title": "Sello corporal",
+        "summary": "La circuncisión distingue al pueblo de Dios.",
+        "explanation": "Significa apartamiento y compromiso generacional.",
+        "verse": "Será por señal del pacto entre mí y vosotros.",
+        "reference": "Génesis 17:11"
+      },
+      {
+        "id": "same-day",
+        "title": "Obediencia en el mismo día",
+        "summary": "Abraham circuncida a todo varón ese mismo día.",
+        "explanation": "Demuestra la prontitud y la fe sin reservas.",
+        "verse": "En aquel mismo día fue circuncidado Abraham.",
+        "reference": "Génesis 17:26"
+      }
+    ],
+    "reflectionQuestions": [
+      {
+        "id": "identity-name",
+        "question": "¿Qué nombre o identidad nueva te está dando Dios para alinearte con su propósito?",
+        "category": "identidad",
+        "hints": [
+          "Destino",
+          "Llamado",
+          "Transformación"
+        ]
+      },
+      {
+        "id": "covenant-obedience",
+        "question": "¿Qué señales prácticas muestran tu pertenencia al pacto de Dios hoy?",
+        "category": "obediencia",
+        "hints": [
+          "Santificación",
+          "Disciplina espiritual",
+          "Sacramentos"
+        ]
+      },
+      {
+        "id": "promise-laughter",
+        "question": "¿Puedes creer que Dios traerá alegría donde antes hubo incredulidad?",
+        "category": "fe",
+        "hints": [
+          "Isaac = risa",
+          "Milagros",
+          "Esperanza"
+        ]
+      },
+      {
+        "id": "obedience-swift",
+        "question": "¿Cómo puedes obedecer inmediatamente una instrucción difícil?",
+        "category": "discipulado",
+        "hints": [
+          "Decisión",
+          "Confianza",
+          "Acción"
+        ]
+      }
+    ],
+    "trivia": [
+      {
+        "question": "¿Cuántos años tenía Abraham cuando recibió la orden de circuncidarse?",
+        "options": [
+          "75 años",
+          "86 años",
+          "99 años"
+        ],
+        "correct": 2,
+        "explanation": "Tenía 99 años (Génesis 17:1)."
+      },
+      {
+        "question": "¿Qué significa el nombre Isaac?",
+        "options": [
+          "Dios oye",
+          "Risa",
+          "Padre de multitudes"
+        ],
+        "correct": 1,
+        "explanation": "Isaac significa \"él se ríe\"."
+      },
+      {
+        "question": "¿Quién debía ser circuncidado según el pacto?",
+        "options": [
+          "Solo los descendientes directos",
+          "Todo varón nacido en casa o comprado",
+          "Solo los sacerdotes"
+        ],
+        "correct": 1,
+        "explanation": "Todo varón en la casa, nacido o comprado, debía circuncidarse."
+      },
+      {
+        "question": "¿Cuántos príncipes saldrían de Ismael?",
+        "options": [
+          "Doce",
+          "Siete",
+          "Catorce"
+        ],
+        "correct": 0,
+        "explanation": "Dios promete doce príncipes (Génesis 17:20)."
+      }
+    ],
+    "comparison": {
+      "title": "Identidad antigua vs identidad pactada",
+      "before": {
+        "title": "Abram/Sarai",
+        "description": "Nombres que reflejan pasado y expectativas humanas.",
+        "elements": [
+          "Infertilidad",
+          "Esperanza diferida",
+          "Identidad limitada"
+        ],
+        "verse": "Era Abram de edad de noventa y nueve años.",
+        "reference": "Génesis 17:1"
+      },
+      "after": {
+        "title": "Abraham/Sara",
+        "description": "Nombres alineados con la promesa y el pacto.",
+        "elements": [
+          "Multitudes",
+          "Reyes",
+          "Santidad"
+        ],
+        "verse": "Te he puesto por padre de muchedumbre de gentes.",
+        "reference": "Génesis 17:5"
+      }
+    },
+    "memorizeVerse": {
+      "text": "Y estableceré mi pacto entre mí y ti, y tu descendencia después de ti en sus generaciones, por pacto perpetuo, para ser tu Dios, y el de tu descendencia después de ti.",
+      "reference": "Génesis 17:7",
+      "theme": "Pacto perpetuo"
+    },
+    "mainTeaching": "Dios define la identidad de su pueblo, sella su pacto con señales y demanda obediencia inmediata en respuesta a sus promesas.",
+    "practicalApplication": [
+      "Abraza la identidad que Dios te otorga en Cristo.",
+      "Vive prácticas visibles que confirmen tu pertenencia al pacto.",
+      "Cree que Dios puede transformar la risa incrédula en gozo.",
+      "Obedece con prontitud las instrucciones divinas, aunque sean costosas."
+    ]
+  },
+  {
+    "book": "Génesis",
+    "chapter": 18,
+    "title": "Visitación de Dios y la intercesión de Abraham",
+    "subtitle": "Promesa confirmada y clamor por Sodoma",
+    "summary": "Tres visitantes llegan a la tienda de Abraham; uno de ellos anuncia que Sara dará a luz en un año. Dios revela la inminente destrucción de Sodoma y Abraham intercede audazmente por la ciudad.",
+    "timeline": {
+      "period": "Previo a la destrucción de Sodoma",
+      "context": "Encuentro divino",
+      "placement": "Confirmación final antes del nacimiento de Isaac"
+    },
+    "days": [
+      {
+        "day": 1,
+        "title": "El Señor se aparece en Mamre",
+        "icon": "!!",
+        "description": "Abraham ve a tres varones y corre a recibirlos con reverencia.",
+        "verse": "Jehová se le apareció... alzó sus ojos, y he aquí tres varones.",
+        "reference": "Génesis 18:1-2",
+        "significance": "La hospitalidad abre espacio para encuentros sagrados."
+      },
+      {
+        "day": 2,
+        "title": "Banquete de hospitalidad",
+        "icon": "::",
+        "description": "Abraham prepara pan, carne y leche para sus huéspedes.",
+        "verse": "Tomó mantequilla y leche, y el becerro... y se lo puso delante.",
+        "reference": "Génesis 18:6-8",
+        "significance": "La generosidad es respuesta natural a la presencia divina."
+      },
+      {
+        "day": 3,
+        "title": "Promesa para Sara",
+        "icon": "??",
+        "description": "Se anuncia que Sara dará a luz; ella ríe y Dios pregunta si hay algo imposible.",
+        "verse": "¿Hay para Dios alguna cosa difícil?",
+        "reference": "Génesis 18:9-15",
+        "significance": "Dios transforma la incredulidad en fe."
+      },
+      {
+        "day": 4,
+        "title": "Plan revelado sobre Sodoma",
+        "icon": "##",
+        "description": "Dios decide no ocultar a Abraham lo que hará con Sodoma y Gomorra.",
+        "verse": "El clamor contra Sodoma y Gomorra se aumenta más y más.",
+        "reference": "Génesis 18:16-21",
+        "significance": "El amigo de Dios comparte su corazón por la justicia."
+      },
+      {
+        "day": 5,
+        "title": "Intercesión valiente",
+        "icon": "++",
+        "description": "Abraham negocia con Dios desde cincuenta hasta diez justos.",
+        "verse": "¿Destruirás también al justo con el impío?",
+        "reference": "Génesis 18:22-32",
+        "significance": "La intercesión perseverante refleja el carácter misericordioso de Dios."
+      },
+      {
+        "day": 6,
+        "title": "El Señor se va",
+        "icon": ">>",
+        "description": "Jehová termina de hablar con Abraham y se va; Abraham vuelve a su lugar.",
+        "verse": "Jehová se fue, luego que acabó de hablar con Abraham.",
+        "reference": "Génesis 18:33",
+        "significance": "La oración termina cuando Dios responde con su voluntad perfecta."
+      }
+    ],
+    "interestingFacts": [
+      {
+        "id": "three-visitors",
+        "title": "Tres varones",
+        "summary": "Tradicionalmente interpretados como Dios y dos ángeles.",
+        "explanation": "Los dos ángeles continúan a Sodoma en el capítulo 19, confirmando la identidad divina del tercero.",
+        "verse": "Los varones se apartaron de allí, y fueron hacia Sodoma; pero Abraham estaba aún delante de Jehová.",
+        "reference": "Génesis 18:22"
+      },
+      {
+        "id": "hospitality-culture",
+        "title": "Hospitalidad patriarcal",
+        "summary": "Abraham ofrece lo mejor pese a su edad.",
+        "explanation": "La generosidad y rapidez reflejan un corazón abierto a Dios.",
+        "verse": "Se apresuró Abraham a elegir un becerro tierno y bueno.",
+        "reference": "Génesis 18:7"
+      },
+      {
+        "id": "question-possible",
+        "title": "¿Hay para Dios algo difícil?",
+        "summary": "Una pregunta retórica que afirma la omnipotencia divina.",
+        "explanation": "Sirve como fundamento para confiar en milagros posteriores.",
+        "verse": "¿Hay para Dios alguna cosa difícil?",
+        "reference": "Génesis 18:14"
+      },
+      {
+        "id": "ten-righteous",
+        "title": "El número diez",
+        "summary": "Abraham detiene la intercesión en diez justos.",
+        "explanation": "Esto destaca la importancia de una minoría justa para preservar una ciudad.",
+        "verse": "No la destruiré por amor a los diez.",
+        "reference": "Génesis 18:32"
+      }
+    ],
+    "reflectionQuestions": [
+      {
+        "id": "prayer-hospitality",
+        "question": "¿Cómo puedes practicar hospitalidad que abra espacio a la presencia de Dios?",
+        "category": "servicio",
+        "hints": [
+          "Generosidad",
+          "Tiempo",
+          "Disponibilidad"
+        ]
+      },
+      {
+        "id": "faith-laughter",
+        "question": "¿En qué área necesitas creer que nada es imposible para Dios?",
+        "category": "fe",
+        "hints": [
+          "Milagros",
+          "Familia",
+          "Sanidad"
+        ]
+      },
+      {
+        "id": "intercede-city",
+        "question": "¿Por quiénes te está llamando Dios a interceder con perseverancia?",
+        "category": "intercesión",
+        "hints": [
+          "Ciudades",
+          "Familiares",
+          "Naciones"
+        ]
+      },
+      {
+        "id": "friend-of-god",
+        "question": "¿Deseas conocer los planes de Dios como Abraham? ¿Cómo cultivas esa amistad?",
+        "category": "relación",
+        "hints": [
+          "Obediencia",
+          "Intimidad",
+          "Escucha"
+        ]
+      }
+    ],
+    "trivia": [
+      {
+        "question": "¿Dónde se le apareció Jehová a Abraham en este capítulo?",
+        "options": [
+          "En Hebrón",
+          "En Betel",
+          "En las encinas de Mamre"
+        ],
+        "correct": 2,
+        "explanation": "Fue en las encinas de Mamre, cerca de Hebrón."
+      },
+      {
+        "question": "¿Qué reacción tuvo Sara al escuchar la promesa?",
+        "options": [
+          "Lloró",
+          "Rió",
+          "Cantó"
+        ],
+        "correct": 1,
+        "explanation": "Sara rió en su interior (Génesis 18:12)."
+      },
+      {
+        "question": "¿Hasta qué número de justos intercedió Abraham?",
+        "options": [
+          "Cinco",
+          "Diez",
+          "Doce"
+        ],
+        "correct": 1,
+        "explanation": "Abraham descendió hasta pedir por diez justos."
+      },
+      {
+        "question": "¿Qué hizo Abraham después que Dios terminó de hablar?",
+        "options": [
+          "Construyó un altar",
+          "Siguió a los ángeles",
+          "Volvió a su lugar"
+        ],
+        "correct": 2,
+        "explanation": "Abraham regresó a su sitio (Génesis 18:33)."
+      }
+    ],
+    "comparison": {
+      "title": "Incredulidad vs fe intercesora",
+      "before": {
+        "title": "Risa incrédula",
+        "description": "Sara duda de la promesa por su edad.",
+        "elements": [
+          "Edad avanzada",
+          "Imposibilidad humana",
+          "Risa secreta"
+        ],
+        "verse": "Se rió Sara, diciendo: ¿Será cierto que he de dar a luz siendo ya vieja?",
+        "reference": "Génesis 18:12"
+      },
+      "after": {
+        "title": "Clamor valiente",
+        "description": "Abraham dialoga con Dios y confía en su justicia.",
+        "elements": [
+          "Oración persistente",
+          "Confianza",
+          "Amistad con Dios"
+        ],
+        "verse": "¿Destruirás al justo con el impío?",
+        "reference": "Génesis 18:23"
+      }
+    },
+    "memorizeVerse": {
+      "text": "¿Hay para Dios alguna cosa difícil? Al tiempo señalado volveré a ti, y según el tiempo de la vida, Sara tendrá un hijo.",
+      "reference": "Génesis 18:14",
+      "theme": "Nada imposible"
+    },
+    "mainTeaching": "Dios visita a los suyos, confirma sus promesas y busca intercesores que compartan su corazón por la justicia y la misericordia.",
+    "practicalApplication": [
+      "Practica hospitalidad intencional como acto de adoración.",
+      "Declara que nada es imposible para Dios en tus situaciones imposibles.",
+      "Intercede con perseverancia por ciudades y personas en peligro.",
+      "Cultiva amistad con Dios mediante obediencia y escucha atenta."
+    ]
+  },
+  {
+    "book": "Génesis",
+    "chapter": 19,
+    "title": "Destrucción de Sodoma y Gomorra",
+    "subtitle": "Salvación de Lot y consecuencias de las decisiones",
+    "summary": "Dos ángeles visitan a Lot en Sodoma, protegen su casa de una multitud perversa y lo instan a huir. Dios destruye las ciudades con fuego y azufre; la esposa de Lot se convierte en estatua de sal, y sus hijas cometen un acto vergonzoso que da origen a Moab y Amón.",
+    "timeline": {
+      "period": "Juicio sobre el Valle del Jordán",
+      "context": "Rescate con urgencia",
+      "placement": "Advertencia sobre la corrupción moral"
+    },
+    "days": [
+      {
+        "day": 1,
+        "title": "Ángeles hospedados",
+        "icon": "!!",
+        "description": "Lot recibe a los ángeles, insiste en alojarlos en su casa y prepara banquete.",
+        "verse": "Llegaron los dos ángeles a Sodoma a la caída de la tarde; y Lot estaba sentado a la puerta.",
+        "reference": "Génesis 19:1-3",
+        "significance": "La hospitalidad de Lot contrasta con la violencia de la ciudad."
+      },
+      {
+        "day": 2,
+        "title": "Multitud violenta",
+        "icon": "XX",
+        "description": "Los hombres de Sodoma rodean la casa y buscan abusar de los visitantes; los ángeles hieren al pueblo con ceguera.",
+        "verse": "Mas los varones extendieron la mano... y a los que estaban a la puerta hirieron con ceguera.",
+        "reference": "Génesis 19:4-11",
+        "significance": "La maldad llega al punto de no retorno."
+      },
+      {
+        "day": 3,
+        "title": "Advertencia urgente",
+        "icon": "##",
+        "description": "Los ángeles ordenan a Lot reunir a su familia y salir; él se demora y es tomado de la mano.",
+        "verse": "Levántate, toma tu mujer y tus dos hijas... mas él se deteniéndose, los varones lo asieron de la mano.",
+        "reference": "Génesis 19:12-16",
+        "significance": "La misericordia de Dios actúa incluso cuando dudamos."
+      },
+      {
+        "day": 4,
+        "title": "Huida a Zoar y juicio",
+        "icon": "~~",
+        "description": "Lot corre a la pequeña ciudad de Zoar; Dios hace llover azufre y fuego sobre Sodoma y Gomorra.",
+        "verse": "Jehová hizo llover sobre Sodoma y sobre Gomorra azufre y fuego.",
+        "reference": "Génesis 19:17-25",
+        "significance": "Un juicio ejemplar cae sobre la inmoralidad extrema."
+      },
+      {
+        "day": 5,
+        "title": "Mujer de Lot",
+        "icon": "::",
+        "description": "La esposa de Lot mira atrás y se convierte en estatua de sal.",
+        "verse": "Entonces la mujer de Lot miró atrás, a espaldas de él, y se volvió estatua de sal.",
+        "reference": "Génesis 19:26",
+        "significance": "Mirar atrás simboliza nostalgia por lo que Dios condena."
+      },
+      {
+        "day": 6,
+        "title": "Origen de Moab y Amón",
+        "icon": "??",
+        "description": "Las hijas emborrachan a Lot y tienen hijos: Moab y Ben-ammi.",
+        "verse": "La mayor dio a luz un hijo, y llamó su nombre Moab... el menor, Ben-ammi.",
+        "reference": "Génesis 19:30-38",
+        "significance": "Decisiones desesperadas generan consecuencias duraderas."
+      }
+    ],
+    "interestingFacts": [
+      {
+        "id": "lot-sitting",
+        "title": "Lot en la puerta",
+        "summary": "Sentarse en la puerta implicaba posición de liderazgo.",
+        "explanation": "A pesar de ser justo, Lot estaba integrado en una cultura corrupta.",
+        "verse": "Lot estaba sentado a la puerta de Sodoma.",
+        "reference": "Génesis 19:1"
+      },
+      {
+        "id": "zoar-meaning",
+        "title": "Zoar significa \"pequeña\"",
+        "summary": "Lot pide refugio en una ciudad pequeña.",
+        "explanation": "La gracia de Dios se adapta a su debilidad, permitiéndole salvarse allí.",
+        "verse": "¿No es ella pequeña? y salvó mi alma por tu misericordia.",
+        "reference": "Génesis 19:20-21"
+      },
+      {
+        "id": "pillar-of-salt",
+        "title": "Estatua de sal",
+        "summary": "La esposa de Lot es un memorial.",
+        "explanation": "Jesús la menciona como advertencia: \"Acordaos de la mujer de Lot\" (Lucas 17:32).",
+        "verse": "Se volvió estatua de sal.",
+        "reference": "Génesis 19:26"
+      },
+      {
+        "id": "moab-ammon",
+        "title": "Moab y Amón",
+        "summary": "Descendientes de la relación incestuosa de las hijas de Lot.",
+        "explanation": "Estos pueblos serán adversarios posteriores de Israel.",
+        "verse": "Y la menor también dio a luz un hijo... y llamó su nombre Ben-ammi.",
+        "reference": "Génesis 19:37-38"
+      }
+    ],
+    "reflectionQuestions": [
+      {
+        "id": "in-world",
+        "question": "¿Cómo puedes vivir en una cultura corrupta sin perder tu identidad espiritual?",
+        "category": "santidad",
+        "hints": [
+          "Vida justa",
+          "Influencia",
+          "Límites"
+        ]
+      },
+      {
+        "id": "lingering",
+        "question": "¿En qué áreas te cuesta soltar lo que Dios quiere juzgar?",
+        "category": "arrepentimiento",
+        "hints": [
+          "Apegos",
+          "Costumbres",
+          "Relaciones tóxicas"
+        ]
+      },
+      {
+        "id": "urgent-obedience",
+        "question": "¿Qué urgencias espirituales deberías atender hoy?",
+        "category": "obediencia",
+        "hints": [
+          "Advertencias",
+          "Decisión",
+          "Prioridades"
+        ]
+      },
+      {
+        "id": "legacy-choices",
+        "question": "¿Qué impacto tendrán tus decisiones en las generaciones futuras?",
+        "category": "familia",
+        "hints": [
+          "Herencia",
+          "Ejemplo",
+          "Consecuencias"
+        ]
+      }
+    ],
+    "trivia": [
+      {
+        "question": "¿Con qué hirieron los ángeles a los hombres de Sodoma?",
+        "options": [
+          "Con fuego",
+          "Con ceguera",
+          "Con enfermedad"
+        ],
+        "correct": 1,
+        "explanation": "Los hirieron con ceguera (Génesis 19:11)."
+      },
+      {
+        "question": "¿A qué ciudad pequeña pidió Lot huir?",
+        "options": [
+          "Zoar",
+          "Betel",
+          "Hebrón"
+        ],
+        "correct": 0,
+        "explanation": "Lot pidió refugio en Zoar."
+      },
+      {
+        "question": "¿Qué le sucedió a la mujer de Lot?",
+        "options": [
+          "Se perdió en el desierto",
+          "Se convirtió en estatua de sal",
+          "Fue rescatada por los ángeles"
+        ],
+        "correct": 1,
+        "explanation": "Miró atrás y se volvió estatua de sal."
+      },
+      {
+        "question": "¿Cómo se llaman los hijos de las hijas de Lot?",
+        "options": [
+          "Edom y Amalec",
+          "Moab y Ben-ammi",
+          "Esau y Jacob"
+        ],
+        "correct": 1,
+        "explanation": "Moab y Ben-ammi son los ancestros de moabitas y amonitas."
+      }
+    ],
+    "comparison": {
+      "title": "Advertencia ignorada vs obediencia urgente",
+      "before": {
+        "title": "Demora peligrosa",
+        "description": "Lot tarda en salir y su familia vacila.",
+        "elements": [
+          "Retraso",
+          "Apegos",
+          "Riesgo"
+        ],
+        "verse": "Mas él se deteniéndose, los varones lo asieron de la mano.",
+        "reference": "Génesis 19:16"
+      },
+      "after": {
+        "title": "Salvación por gracia",
+        "description": "Dios saca a Lot y destruye la ciudad, mostrando misericordia y justicia.",
+        "elements": [
+          "Zoar",
+          "Fuego del cielo",
+          "Memorial de sal"
+        ],
+        "verse": "Jehová, pues, destruyó las ciudades de la llanura.",
+        "reference": "Génesis 19:24-25"
+      }
+    },
+    "memorizeVerse": {
+      "text": "Escapa por tu vida; no mires tras ti, ni pares en toda esta llanura; escapa al monte, no sea que perezcas.",
+      "reference": "Génesis 19:17",
+      "theme": "Urgencia espiritual"
+    },
+    "mainTeaching": "Dios juzga la maldad desenfrenada, pero rescata con misericordia a quienes responden, llamándonos a obedecer sin mirar atrás.",
+    "practicalApplication": [
+      "Mantente firme en santidad aun cuando tu entorno sea hostil.",
+      "Obedece de inmediato cuando Dios te llama a salir de situaciones peligrosas.",
+      "No añores lo que Dios está juzgando; avanza hacia la libertad.",
+      "Toma decisiones que construyan un legado santo para las generaciones futuras."
+    ]
+  },
+  {
+    "book": "Génesis",
+    "chapter": 20,
+    "title": "Abraham y Abimelec",
+    "subtitle": "Gracia en medio de errores repetidos",
+    "summary": "Abraham se establece en Gerar y vuelve a presentar a Sara como su hermana. Abimelec la toma, pero Dios lo detiene en sueños. Tras la confrontación, Abimelec devuelve a Sara con regalos y Abraham ora por él, restaurando la fertilidad de su casa.",
+    "timeline": {
+      "period": "Estadía en el Neguev",
+      "context": "Desafío a la integridad",
+      "placement": "Último obstáculo antes del nacimiento de Isaac"
+    },
+    "days": [
+      {
+        "day": 1,
+        "title": "Nuevo asentamiento",
+        "icon": ">>",
+        "description": "Abraham se dirige a la región del Neguev y reside en Gerar.",
+        "verse": "De allí partió Abraham a la tierra del Neguev y habitó en Gerar.",
+        "reference": "Génesis 20:1",
+        "significance": "La vida nómada implica nuevas pruebas."
+      },
+      {
+        "day": 2,
+        "title": "La misma estrategia",
+        "icon": "??",
+        "description": "Abraham dice de Sara: \"Es mi hermana\"; Abimelec, rey de Gerar, la toma.",
+        "verse": "Dijo Abraham de Sara su mujer: Es mi hermana.",
+        "reference": "Génesis 20:2",
+        "significance": "El temor lleva a repetir errores pasados."
+      },
+      {
+        "day": 3,
+        "title": "Sueño de advertencia",
+        "icon": "!!",
+        "description": "Dios aparece a Abimelec en sueños, lo advierte y lo reconoce inocente.",
+        "verse": "He aquí muerto eres, a causa de la mujer que has tomado.",
+        "reference": "Génesis 20:3-7",
+        "significance": "Dios protege su promesa antes del nacimiento de Isaac."
+      },
+      {
+        "day": 4,
+        "title": "Confrontación respetuosa",
+        "icon": "##",
+        "description": "Abimelec llama a Abraham, quien confiesa su temor a que no hay temor de Dios allí.",
+        "verse": "¿Qué nos has hecho? ¿En qué pequé yo contra ti?",
+        "reference": "Génesis 20:8-11",
+        "significance": "Los creyentes deben vivir con transparencia entre los incrédulos."
+      },
+      {
+        "day": 5,
+        "title": "Restitución generosa",
+        "icon": "++",
+        "description": "Abimelec devuelve a Sara, da ovejas, siervos y mil piezas de plata como prueba de inocencia.",
+        "verse": "He aquí mi sierva está delante de ti... mil piezas de plata.",
+        "reference": "Génesis 20:14-16",
+        "significance": "La restitución restaura el honor y evita sospechas."
+      },
+      {
+        "day": 6,
+        "title": "Oración que sana",
+        "icon": "::",
+        "description": "Abraham ora por Abimelec; Dios sana su casa y abre las matrices.",
+        "verse": "Oró Abraham a Dios; y Dios sanó a Abimelec, y a su mujer, y a sus siervas.",
+        "reference": "Génesis 20:17-18",
+        "significance": "Dios restaura a través de la intercesión del profeta."
+      }
+    ],
+    "interestingFacts": [
+      {
+        "id": "prophet-title",
+        "title": "Abraham llamado profeta",
+        "summary": "Primera vez que la palabra \"profeta\" se usa en la Biblia.",
+        "explanation": "Dios reconoce a Abraham como intercesor privilegiado.",
+        "verse": "Porque es profeta, y orará por ti.",
+        "reference": "Génesis 20:7"
+      },
+      {
+        "id": "god-protects-promise",
+        "title": "Protección de la promesa",
+        "summary": "Dios cierra las matrices de Gerar para preservar la pureza de la línea mesiánica.",
+        "explanation": "Impide cualquier duda sobre la paternidad de Isaac.",
+        "verse": "Habían cerrado Jehová toda matriz de la casa de Abimelec.",
+        "reference": "Génesis 20:18"
+      },
+      {
+        "id": "half-truth",
+        "title": "Sara medio hermana",
+        "summary": "Abraham explica que Sara es hija de su padre, mas no de su madre.",
+        "explanation": "Justifica su temor, pero evidencia la complejidad moral de su estrategia.",
+        "verse": "A la verdad también es mi hermana, hija de mi padre, mas no hija de mi madre.",
+        "reference": "Génesis 20:12"
+      },
+      {
+        "id": "restitution-silver",
+        "title": "Mil piezas de plata",
+        "summary": "Abimelec da plata como vindicación pública.",
+        "explanation": "Sirve como compensación y testimonio frente a todos.",
+        "verse": "He aquí, a él he dado mil piezas de plata.",
+        "reference": "Génesis 20:16"
+      }
+    ],
+    "reflectionQuestions": [
+      {
+        "id": "repeat-mistake",
+        "question": "¿Qué patrones de temor sigues repitiendo aunque Dios ya te ha mostrado su fidelidad?",
+        "category": "crecimiento",
+        "hints": [
+          "Confianza",
+          "Memoria",
+          "Renovación"
+        ]
+      },
+      {
+        "id": "integrity-testimony",
+        "question": "¿Cómo afecta tu testimonio cuando eres descubierto en medias verdades?",
+        "category": "ética",
+        "hints": [
+          "Honestidad",
+          "Credibilidad",
+          "Arrepentimiento"
+        ]
+      },
+      {
+        "id": "prayer-restoration",
+        "question": "¿De qué manera puedes orar por aquellos que te han confrontado?",
+        "category": "intercesión",
+        "hints": [
+          "Humildad",
+          "Perdón",
+          "Restauración"
+        ]
+      },
+      {
+        "id": "trust-god",
+        "question": "¿Qué promesa protege Dios en tu vida aun cuando te equivocas?",
+        "category": "gracia",
+        "hints": [
+          "Propósito",
+          "Soberanía",
+          "Misericordia"
+        ]
+      }
+    ],
+    "trivia": [
+      {
+        "question": "¿A qué ciudad se trasladó Abraham en este capítulo?",
+        "options": [
+          "Siquem",
+          "Gerar",
+          "Sodoma"
+        ],
+        "correct": 1,
+        "explanation": "Abraham habitó en Gerar."
+      },
+      {
+        "question": "¿Cómo intervino Dios para evitar que Abimelec pecara?",
+        "options": [
+          "Envió un profeta",
+          "Habló en sueños",
+          "Mandó una plaga"
+        ],
+        "correct": 1,
+        "explanation": "Dios se le apareció en sueños y lo advirtió."
+      },
+      {
+        "question": "¿Cuál fue la excusa de Abraham para decir que Sara era su hermana?",
+        "options": [
+          "No confiaba en Dios",
+          "Era verdad parcial: hija de su padre",
+          "Sara se lo pidió"
+        ],
+        "correct": 1,
+        "explanation": "Sara era hija de su padre, pero no de su madre (Génesis 20:12)."
+      },
+      {
+        "question": "¿Qué efecto tuvo la intervención de Dios en la casa de Abimelec?",
+        "options": [
+          "Se enfermaron todos",
+          "Se murieron los hijos",
+          "Fueron cerradas las matrices hasta que Abraham oró"
+        ],
+        "correct": 2,
+        "explanation": "Dios cerró toda matriz hasta que Abraham oró (Génesis 20:17-18)."
+      }
+    ],
+    "comparison": {
+      "title": "Temor repetido vs gracia restauradora",
+      "before": {
+        "title": "Estrategia de temor",
+        "description": "Abraham se protege con una media verdad que pone en riesgo la promesa.",
+        "elements": [
+          "Inseguridad",
+          "Engaño",
+          "Confusión"
+        ],
+        "verse": "Dijo Abraham de Sara su mujer: Es mi hermana.",
+        "reference": "Génesis 20:2"
+      },
+      "after": {
+        "title": "Restauración y testimonio",
+        "description": "Dios preserva a Sara, Abimelec honra públicamente y Abraham intercede.",
+        "elements": [
+          "Soberanía divina",
+          "Restitución",
+          "Oración eficaz"
+        ],
+        "verse": "Oró Abraham a Dios; y Dios sanó a Abimelec.",
+        "reference": "Génesis 20:17"
+      }
+    },
+    "memorizeVerse": {
+      "text": "Ahora, pues, restaura la mujer a su marido; porque es profeta, y orará por ti, y vivirás.",
+      "reference": "Génesis 20:7",
+      "theme": "Restauración por intercesión"
+    },
+    "mainTeaching": "Dios protege sus promesas incluso cuando fallamos, y nos invita a vivir con integridad y a interceder por los demás.",
+    "practicalApplication": [
+      "Identifica y rompe patrones de temor que te llevan a medias verdades.",
+      "Honra la confianza de Dios viviendo con transparencia.",
+      "Ora por quienes han tenido conflictos contigo para que Dios los bendiga.",
+      "Confía en que la gracia de Dios preserva su propósito aun en tus errores."
+    ]
+  }
+]

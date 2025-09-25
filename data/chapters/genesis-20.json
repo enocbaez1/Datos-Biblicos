@@ -1,0 +1,223 @@
+{
+  "book": "Génesis",
+  "chapter": 20,
+  "title": "Abraham y Abimelec",
+  "subtitle": "Gracia en medio de errores repetidos",
+  "summary": "Abraham se establece en Gerar y vuelve a presentar a Sara como su hermana. Abimelec la toma, pero Dios lo detiene en sueños. Tras la confrontación, Abimelec devuelve a Sara con regalos y Abraham ora por él, restaurando la fertilidad de su casa.",
+  "timeline": {
+    "period": "Estadía en el Neguev",
+    "context": "Desafío a la integridad",
+    "placement": "Último obstáculo antes del nacimiento de Isaac"
+  },
+  "days": [
+    {
+      "day": 1,
+      "title": "Nuevo asentamiento",
+      "icon": ">>",
+      "description": "Abraham se dirige a la región del Neguev y reside en Gerar.",
+      "verse": "De allí partió Abraham a la tierra del Neguev y habitó en Gerar.",
+      "reference": "Génesis 20:1",
+      "significance": "La vida nómada implica nuevas pruebas."
+    },
+    {
+      "day": 2,
+      "title": "La misma estrategia",
+      "icon": "??",
+      "description": "Abraham dice de Sara: \"Es mi hermana\"; Abimelec, rey de Gerar, la toma.",
+      "verse": "Dijo Abraham de Sara su mujer: Es mi hermana.",
+      "reference": "Génesis 20:2",
+      "significance": "El temor lleva a repetir errores pasados."
+    },
+    {
+      "day": 3,
+      "title": "Sueño de advertencia",
+      "icon": "!!",
+      "description": "Dios aparece a Abimelec en sueños, lo advierte y lo reconoce inocente.",
+      "verse": "He aquí muerto eres, a causa de la mujer que has tomado.",
+      "reference": "Génesis 20:3-7",
+      "significance": "Dios protege su promesa antes del nacimiento de Isaac."
+    },
+    {
+      "day": 4,
+      "title": "Confrontación respetuosa",
+      "icon": "##",
+      "description": "Abimelec llama a Abraham, quien confiesa su temor a que no hay temor de Dios allí.",
+      "verse": "¿Qué nos has hecho? ¿En qué pequé yo contra ti?",
+      "reference": "Génesis 20:8-11",
+      "significance": "Los creyentes deben vivir con transparencia entre los incrédulos."
+    },
+    {
+      "day": 5,
+      "title": "Restitución generosa",
+      "icon": "++",
+      "description": "Abimelec devuelve a Sara, da ovejas, siervos y mil piezas de plata como prueba de inocencia.",
+      "verse": "He aquí mi sierva está delante de ti... mil piezas de plata.",
+      "reference": "Génesis 20:14-16",
+      "significance": "La restitución restaura el honor y evita sospechas."
+    },
+    {
+      "day": 6,
+      "title": "Oración que sana",
+      "icon": "::",
+      "description": "Abraham ora por Abimelec; Dios sana su casa y abre las matrices.",
+      "verse": "Oró Abraham a Dios; y Dios sanó a Abimelec, y a su mujer, y a sus siervas.",
+      "reference": "Génesis 20:17-18",
+      "significance": "Dios restaura a través de la intercesión del profeta."
+    }
+  ],
+  "interestingFacts": [
+    {
+      "id": "prophet-title",
+      "title": "Abraham llamado profeta",
+      "summary": "Primera vez que la palabra \"profeta\" se usa en la Biblia.",
+      "explanation": "Dios reconoce a Abraham como intercesor privilegiado.",
+      "verse": "Porque es profeta, y orará por ti.",
+      "reference": "Génesis 20:7"
+    },
+    {
+      "id": "god-protects-promise",
+      "title": "Protección de la promesa",
+      "summary": "Dios cierra las matrices de Gerar para preservar la pureza de la línea mesiánica.",
+      "explanation": "Impide cualquier duda sobre la paternidad de Isaac.",
+      "verse": "Habían cerrado Jehová toda matriz de la casa de Abimelec.",
+      "reference": "Génesis 20:18"
+    },
+    {
+      "id": "half-truth",
+      "title": "Sara medio hermana",
+      "summary": "Abraham explica que Sara es hija de su padre, mas no de su madre.",
+      "explanation": "Justifica su temor, pero evidencia la complejidad moral de su estrategia.",
+      "verse": "A la verdad también es mi hermana, hija de mi padre, mas no hija de mi madre.",
+      "reference": "Génesis 20:12"
+    },
+    {
+      "id": "restitution-silver",
+      "title": "Mil piezas de plata",
+      "summary": "Abimelec da plata como vindicación pública.",
+      "explanation": "Sirve como compensación y testimonio frente a todos.",
+      "verse": "He aquí, a él he dado mil piezas de plata.",
+      "reference": "Génesis 20:16"
+    }
+  ],
+  "reflectionQuestions": [
+    {
+      "id": "repeat-mistake",
+      "question": "¿Qué patrones de temor sigues repitiendo aunque Dios ya te ha mostrado su fidelidad?",
+      "category": "crecimiento",
+      "hints": [
+        "Confianza",
+        "Memoria",
+        "Renovación"
+      ]
+    },
+    {
+      "id": "integrity-testimony",
+      "question": "¿Cómo afecta tu testimonio cuando eres descubierto en medias verdades?",
+      "category": "ética",
+      "hints": [
+        "Honestidad",
+        "Credibilidad",
+        "Arrepentimiento"
+      ]
+    },
+    {
+      "id": "prayer-restoration",
+      "question": "¿De qué manera puedes orar por aquellos que te han confrontado?",
+      "category": "intercesión",
+      "hints": [
+        "Humildad",
+        "Perdón",
+        "Restauración"
+      ]
+    },
+    {
+      "id": "trust-god",
+      "question": "¿Qué promesa protege Dios en tu vida aun cuando te equivocas?",
+      "category": "gracia",
+      "hints": [
+        "Propósito",
+        "Soberanía",
+        "Misericordia"
+      ]
+    }
+  ],
+  "trivia": [
+    {
+      "question": "¿A qué ciudad se trasladó Abraham en este capítulo?",
+      "options": [
+        "Siquem",
+        "Gerar",
+        "Sodoma"
+      ],
+      "correct": 1,
+      "explanation": "Abraham habitó en Gerar."
+    },
+    {
+      "question": "¿Cómo intervino Dios para evitar que Abimelec pecara?",
+      "options": [
+        "Envió un profeta",
+        "Habló en sueños",
+        "Mandó una plaga"
+      ],
+      "correct": 1,
+      "explanation": "Dios se le apareció en sueños y lo advirtió."
+    },
+    {
+      "question": "¿Cuál fue la excusa de Abraham para decir que Sara era su hermana?",
+      "options": [
+        "No confiaba en Dios",
+        "Era verdad parcial: hija de su padre",
+        "Sara se lo pidió"
+      ],
+      "correct": 1,
+      "explanation": "Sara era hija de su padre, pero no de su madre (Génesis 20:12)."
+    },
+    {
+      "question": "¿Qué efecto tuvo la intervención de Dios en la casa de Abimelec?",
+      "options": [
+        "Se enfermaron todos",
+        "Se murieron los hijos",
+        "Fueron cerradas las matrices hasta que Abraham oró"
+      ],
+      "correct": 2,
+      "explanation": "Dios cerró toda matriz hasta que Abraham oró (Génesis 20:17-18)."
+    }
+  ],
+  "comparison": {
+    "title": "Temor repetido vs gracia restauradora",
+    "before": {
+      "title": "Estrategia de temor",
+      "description": "Abraham se protege con una media verdad que pone en riesgo la promesa.",
+      "elements": [
+        "Inseguridad",
+        "Engaño",
+        "Confusión"
+      ],
+      "verse": "Dijo Abraham de Sara su mujer: Es mi hermana.",
+      "reference": "Génesis 20:2"
+    },
+    "after": {
+      "title": "Restauración y testimonio",
+      "description": "Dios preserva a Sara, Abimelec honra públicamente y Abraham intercede.",
+      "elements": [
+        "Soberanía divina",
+        "Restitución",
+        "Oración eficaz"
+      ],
+      "verse": "Oró Abraham a Dios; y Dios sanó a Abimelec.",
+      "reference": "Génesis 20:17"
+    }
+  },
+  "memorizeVerse": {
+    "text": "Ahora, pues, restaura la mujer a su marido; porque es profeta, y orará por ti, y vivirás.",
+    "reference": "Génesis 20:7",
+    "theme": "Restauración por intercesión"
+  },
+  "mainTeaching": "Dios protege sus promesas incluso cuando fallamos, y nos invita a vivir con integridad y a interceder por los demás.",
+  "practicalApplication": [
+    "Identifica y rompe patrones de temor que te llevan a medias verdades.",
+    "Honra la confianza de Dios viviendo con transparencia.",
+    "Ora por quienes han tenido conflictos contigo para que Dios los bendiga.",
+    "Confía en que la gracia de Dios preserva su propósito aun en tus errores."
+  ]
+}

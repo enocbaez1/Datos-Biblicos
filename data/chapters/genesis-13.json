@@ -1,0 +1,223 @@
+{
+  "book": "Génesis",
+  "chapter": 13,
+  "title": "Abram y Lot se separan",
+  "subtitle": "Generosidad, elección y promesa renovada",
+  "summary": "Después de regresar de Egipto, Abram y Lot acumulan tanta riqueza que sus pastores contienden. Abram cede la elección a Lot, quien escoge el fértil valle del Jordán, mientras Dios reafirma la promesa de la tierra a Abram.",
+  "timeline": {
+    "period": "Peregrinaje en Canaán",
+    "context": "Conflicto por recursos",
+    "placement": "Consolidación de la promesa"
+  },
+  "days": [
+    {
+      "day": 1,
+      "title": "Regreso a Betel",
+      "icon": ">>",
+      "description": "Abram vuelve enriquecido de Egipto y regresa al altar anterior.",
+      "verse": "Volvió por sus jornadas hasta Betel... e invocó allí Abram el nombre de Jehová.",
+      "reference": "Génesis 13:1-4",
+      "significance": "Abram retoma su vida de adoración después de un tropiezo."
+    },
+    {
+      "day": 2,
+      "title": "Riqueza que genera tensión",
+      "icon": "!!",
+      "description": "La abundancia de ganado produce contienda entre los pastores de Abram y Lot.",
+      "verse": "La tierra no era suficiente... y había contienda entre los pastores.",
+      "reference": "Génesis 13:5-7",
+      "significance": "La prosperidad sin sabiduría puede dividir familias."
+    },
+    {
+      "day": 3,
+      "title": "Abram ofrece la elección",
+      "icon": "::",
+      "description": "Abram busca la paz y cede a Lot la primera elección del territorio.",
+      "verse": "No haya contienda... si tú fueres a la izquierda, yo iré a la derecha.",
+      "reference": "Génesis 13:8-9",
+      "significance": "La generosidad y la fe permiten ceder derechos."
+    },
+    {
+      "day": 4,
+      "title": "Lot mira al Jordán",
+      "icon": "~~",
+      "description": "Lot elige la llanura del Jordán, comparándola con Egipto, y se acerca a Sodoma.",
+      "verse": "Levantó Lot sus ojos, y vio toda la llanura del Jordán.",
+      "reference": "Génesis 13:10-11",
+      "significance": "Las decisiones basadas en apariencia pueden llevar a peligro espiritual."
+    },
+    {
+      "day": 5,
+      "title": "Abram habita en Hebrón",
+      "icon": "[]",
+      "description": "Abram se queda en Canaán y Lot vive cerca de Sodoma, ciudad perversa.",
+      "verse": "Abram moró en la tierra de Canaán, en tanto que Lot habitó en las ciudades de la llanura.",
+      "reference": "Génesis 13:12-13",
+      "significance": "Abram prefiere obedecer a Dios antes que buscar comodidad."
+    },
+    {
+      "day": 6,
+      "title": "Promesa renovada",
+      "icon": "++",
+      "description": "Dios invita a Abram a recorrer la tierra y afirma que su descendencia será innumerable.",
+      "verse": "Levántate, recorre la tierra... porque a ti la daré.",
+      "reference": "Génesis 13:14-18",
+      "significance": "La obediencia desinteresada abre paso a promesas mayores."
+    }
+  ],
+  "interestingFacts": [
+    {
+      "id": "return-altar",
+      "title": "Volver al altar previo",
+      "summary": "Abram regresa al altar entre Betel y Hai.",
+      "explanation": "Reanuda su relación con Dios en el mismo lugar donde la interrumpió.",
+      "verse": "Allí invocó Abram el nombre de Jehová.",
+      "reference": "Génesis 13:4"
+    },
+    {
+      "id": "jordan-like-egypt",
+      "title": "La llanura como Egipto",
+      "summary": "Lot compara la llanura del Jordán con Egipto.",
+      "explanation": "La fertilidad recuerda la seguridad del Nilo, mostrando su inclinación por la abundancia material.",
+      "verse": "Como la tierra de Egipto en la dirección de Zoar.",
+      "reference": "Génesis 13:10"
+    },
+    {
+      "id": "sodom-evil",
+      "title": "Advertencia sobre Sodoma",
+      "summary": "Sodoma era mala y pecadora contra Jehová en gran manera.",
+      "explanation": "El narrador anticipa las consecuencias de la elección de Lot.",
+      "verse": "Los hombres de Sodoma eran malos y pecadores contra Jehová en gran manera.",
+      "reference": "Génesis 13:13"
+    },
+    {
+      "id": "hebron-altars",
+      "title": "Árboles de Mamre",
+      "summary": "Abram habita en encinares de Mamre y edifica otro altar.",
+      "explanation": "Hebrón se convierte en centro de adoración y futuras apariciones divinas.",
+      "verse": "Edificó allí altar a Jehová.",
+      "reference": "Génesis 13:18"
+    }
+  ],
+  "reflectionQuestions": [
+    {
+      "id": "conflict-resolution",
+      "question": "¿Cómo manejas los conflictos familiares causados por recursos o posesiones?",
+      "category": "relacional",
+      "hints": [
+        "Humildad",
+        "Ceder derechos",
+        "Unidad"
+      ]
+    },
+    {
+      "id": "eyes-choice",
+      "question": "¿En qué decisiones has levantado \"tus ojos\" hacia lo agradable sin consultar a Dios?",
+      "category": "discernimiento",
+      "hints": [
+        "Apariencias",
+        "Prioridades",
+        "Consecuencias"
+      ]
+    },
+    {
+      "id": "open-handed",
+      "question": "¿Qué estás dispuesto a soltar para preservar relaciones y obedecer a Dios?",
+      "category": "generosidad",
+      "hints": [
+        "Renuncia",
+        "Confianza",
+        "Paz"
+      ]
+    },
+    {
+      "id": "walk-land",
+      "question": "¿De qué manera puedes \"recorrer\" las promesas de Dios para fortalecer tu fe?",
+      "category": "fe",
+      "hints": [
+        "Meditación",
+        "Declaración",
+        "Oración"
+      ]
+    }
+  ],
+  "trivia": [
+    {
+      "question": "¿Dónde invocó Abram a Jehová después de volver de Egipto?",
+      "options": [
+        "En Siquem",
+        "En Betel",
+        "En Hebrón"
+      ],
+      "correct": 1,
+      "explanation": "Regresó al altar entre Betel y Hai."
+    },
+    {
+      "question": "¿Qué comparó Lot con la tierra de Egipto?",
+      "options": [
+        "Las montañas de Canaán",
+        "La llanura del Jordán",
+        "El desierto del Neguev"
+      ],
+      "correct": 1,
+      "explanation": "La llanura era fértil como Egipto."
+    },
+    {
+      "question": "¿Dónde se estableció Abram después de separarse de Lot?",
+      "options": [
+        "En Sodoma",
+        "En Mamre, cerca de Hebrón",
+        "En Zoar"
+      ],
+      "correct": 1,
+      "explanation": "Abram habitó en la región de Hebrón, en las encinas de Mamre."
+    },
+    {
+      "question": "¿Qué promete Dios a Abram después de la separación?",
+      "options": [
+        "Un heredero inmediato",
+        "Toda la tierra que ve",
+        "Victoria sobre Sodoma"
+      ],
+      "correct": 1,
+      "explanation": "Dios le entrega la tierra que alcanza a ver y promete una descendencia incontable."
+    }
+  ],
+  "comparison": {
+    "title": "Elección egoísta vs fe generosa",
+    "before": {
+      "title": "Conflicto de pastores",
+      "description": "Contienda por recursos que amenaza la familia.",
+      "elements": [
+        "Riñas",
+        "Competencia",
+        "Riqueza sin unidad"
+      ],
+      "verse": "Había contienda entre los pastores.",
+      "reference": "Génesis 13:7"
+    },
+    "after": {
+      "title": "Paz y promesa",
+      "description": "Abram cede derechos, mantiene la paz y recibe promesa renovada.",
+      "elements": [
+        "Generosidad",
+        "Paz",
+        "Reafirmación divina"
+      ],
+      "verse": "Levántate, recorre la tierra... porque a ti la daré.",
+      "reference": "Génesis 13:17"
+    }
+  },
+  "memorizeVerse": {
+    "text": "Levántate, recorre la tierra a lo largo de ella y a su ancho; porque a ti la daré.",
+    "reference": "Génesis 13:17",
+    "theme": "Fe que se mueve"
+  },
+  "mainTeaching": "La verdadera fe renuncia a derechos por amor y confía en que Dios sostendrá sus promesas.",
+  "practicalApplication": [
+    "Prioriza la unidad relacional por encima de los bienes materiales.",
+    "Consulta a Dios antes de decidir según lo que ves.",
+    "Practica la generosidad como un acto de confianza en la provisión divina.",
+    "Recorre espiritualmente las promesas de Dios para afirmarlas en tu corazón."
+  ]
+}

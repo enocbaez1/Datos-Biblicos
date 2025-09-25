@@ -1,0 +1,223 @@
+{
+  "book": "Génesis",
+  "chapter": 4,
+  "title": "Caín y Abel",
+  "subtitle": "Ofrendas, pecado y misericordia",
+  "summary": "Los primeros hijos de Adán y Eva presentan ofrendas a Dios; la envidia de Caín culmina en el primer asesinato, pero Dios impide una cadena de venganza y abre una nueva línea piadosa a través de Set.",
+  "timeline": {
+    "period": "Primera generación caída",
+    "context": "Vida humana fuera del Edén",
+    "placement": "Origen de la violencia y la adoración corrupta"
+  },
+  "days": [
+    {
+      "day": 1,
+      "title": "Nacimiento y vocaciones",
+      "icon": "++",
+      "description": "Eve da a luz a Caín y Abel; uno labrador, el otro pastor.",
+      "verse": "Parió a su hermano Abel... Abel fue pastor de ovejas, y Caín fue labrador de la tierra.",
+      "reference": "Génesis 4:1-2",
+      "significance": "La humanidad se expande con dones distintos."
+    },
+    {
+      "day": 2,
+      "title": "Ofrendas contrastadas",
+      "icon": "$$",
+      "description": "Ambos hermanos presentan ofrendas, pero Dios mira con agrado a Abel.",
+      "verse": "Jehová miró con agrado a Abel y a su ofrenda; mas no miró con agrado a Caín.",
+      "reference": "Génesis 4:3-5",
+      "significance": "Dios observa el corazón detrás del sacrificio."
+    },
+    {
+      "day": 3,
+      "title": "Advertencia divina",
+      "icon": "!!",
+      "description": "Dios invita a Caín a dominar el pecado que acecha a la puerta.",
+      "verse": "El pecado está a la puerta; con todo esto, tú te enseñorearás de él.",
+      "reference": "Génesis 4:6-7",
+      "significance": "La gracia ofrece una salida antes de caer."
+    },
+    {
+      "day": 4,
+      "title": "Primer asesinato",
+      "icon": "XX",
+      "description": "Caín lleva a Abel al campo y lo mata.",
+      "verse": "Aconteció que... Caín se levantó contra su hermano Abel, y lo mató.",
+      "reference": "Génesis 4:8",
+      "significance": "El pecado no dominado produce violencia fratricida."
+    },
+    {
+      "day": 5,
+      "title": "Juicio y protección",
+      "icon": "[]",
+      "description": "Dios confronta a Caín, lo destierra y pone una marca para preservarlo.",
+      "verse": "Jehová puso señal en Caín, para que no lo matase cualquiera.",
+      "reference": "Génesis 4:9-16",
+      "significance": "La justicia divina se mezcla con misericordia preventiva."
+    },
+    {
+      "day": 6,
+      "title": "Dos linajes",
+      "icon": "--",
+      "description": "La descendencia de Caín desarrolla ciudades; Set engendra a Enós, quien invoca el nombre del Señor.",
+      "verse": "Entonces los hombres comenzaron a invocar el nombre de Jehová.",
+      "reference": "Génesis 4:25-26",
+      "significance": "Dios preserva una línea piadosa en medio de la corrupción."
+    }
+  ],
+  "interestingFacts": [
+    {
+      "id": "name-meanings",
+      "title": "Significados de Caín y Abel",
+      "summary": "Caín significa \"adquirido\"; Abel, \"vapor\" o \"fragilidad\".",
+      "explanation": "Los nombres reflejan expectativas humanas y la realidad de la fragilidad. El énfasis en la gracia de Dios supera las esperanzas depositadas en el primogénito.",
+      "verse": "Por voluntad de Jehová he adquirido varón.",
+      "reference": "Génesis 4:1"
+    },
+    {
+      "id": "sin-at-door",
+      "title": "El pecado personificado",
+      "summary": "\"El pecado está a la puerta\" pinta al pecado como una fiera acechando.",
+      "explanation": "La exhortación muestra que la tentación es activa y requiere vigilancia y dominio intencional.",
+      "verse": "El pecado está a la puerta.",
+      "reference": "Génesis 4:7"
+    },
+    {
+      "id": "mark-of-cain",
+      "title": "La señal de Caín",
+      "summary": "Un signo de protección divina en medio del juicio.",
+      "explanation": "Dios frena la violencia adicional mostrando que le pertenece la venganza, preservando la vida de Caín.",
+      "verse": "Jehová puso señal en Caín.",
+      "reference": "Génesis 4:15"
+    },
+    {
+      "id": "calling-on-name",
+      "title": "Primera adoración pública",
+      "summary": "Con Enós se institucionaliza la invocación del nombre de Jehová.",
+      "explanation": "La adoración comunitaria surge como respuesta a la corrupción, destacando la necesidad de clamar a Dios.",
+      "verse": "Entonces los hombres comenzaron a invocar el nombre de Jehová.",
+      "reference": "Génesis 4:26"
+    }
+  ],
+  "reflectionQuestions": [
+    {
+      "id": "acceptable-offering",
+      "question": "¿Qué diferencia hay entre ofrecer algo a Dios y hacerlo con un corazón recto?",
+      "category": "adoración",
+      "hints": [
+        "Motivaciones",
+        "Obediencia",
+        "Fe"
+      ]
+    },
+    {
+      "id": "anger-warning",
+      "question": "¿Cómo respondes cuando Dios corrige tu actitud antes de que el pecado crezca?",
+      "category": "personal",
+      "hints": [
+        "Escuchar",
+        "Dominar impulsos",
+        "Buscar ayuda"
+      ]
+    },
+    {
+      "id": "forgiveness",
+      "question": "¿De qué forma puedes cortar ciclos de venganza o resentimiento en tus relaciones?",
+      "category": "relacional",
+      "hints": [
+        "Perdón",
+        "Límites sanos",
+        "Restauración"
+      ]
+    },
+    {
+      "id": "legacy-choice",
+      "question": "¿Qué legado espiritual deseas dejar: el de Caín o el de Set?",
+      "category": "vision",
+      "hints": [
+        "Adoración fiel",
+        "Decisiones diarias",
+        "Familia"
+      ]
+    }
+  ],
+  "trivia": [
+    {
+      "question": "¿A qué se dedicaba Abel?",
+      "options": [
+        "Pastor de ovejas",
+        "Carpintero",
+        "Guerrero"
+      ],
+      "correct": 0,
+      "explanation": "Abel fue pastor de ovejas, mientras Caín trabajaba la tierra."
+    },
+    {
+      "question": "¿Qué respondió Caín cuando Dios le preguntó por Abel?",
+      "options": [
+        "Aquí estoy",
+        "¿Soy yo acaso guarda de mi hermano?",
+        "No sé, pregúntale a mi madre"
+      ],
+      "correct": 1,
+      "explanation": "Caín intentó evadir su responsabilidad preguntando: \"¿Soy yo acaso guarda de mi hermano?\""
+    },
+    {
+      "question": "¿Qué puso Dios sobre Caín para que no lo mataran?",
+      "options": [
+        "Una marca protectora",
+        "Una coraza de hierro",
+        "Una espada flamígera"
+      ],
+      "correct": 0,
+      "explanation": "La marca era una señal para detener cualquier intento de venganza contra él."
+    },
+    {
+      "question": "¿Quién comenzó a invocar públicamente el nombre del Señor?",
+      "options": [
+        "Enós",
+        "Matusalén",
+        "Lamec"
+      ],
+      "correct": 0,
+      "explanation": "Enós, hijo de Set, marca el inicio de la adoración pública según Génesis 4:26."
+    }
+  ],
+  "comparison": {
+    "title": "Resentimiento vs adoración",
+    "before": {
+      "title": "Corazón resentido",
+      "description": "Una adoración externa sin fe que alimenta la envidia.",
+      "elements": [
+        "Celos",
+        "Autojusticia",
+        "Ira reprimida"
+      ],
+      "verse": "Se ensañó Caín en gran manera, y decayó su semblante.",
+      "reference": "Génesis 4:5"
+    },
+    "after": {
+      "title": "Adoración obediente",
+      "description": "Invocar el nombre de Jehová desde un corazón dependiente.",
+      "elements": [
+        "Fe genuina",
+        "Confianza",
+        "Clamor comunitario"
+      ],
+      "verse": "Los hombres comenzaron a invocar el nombre de Jehová.",
+      "reference": "Génesis 4:26"
+    }
+  },
+  "memorizeVerse": {
+    "text": "Si bien hicieres, ¿no serás enaltecido? y si no hicieres bien, el pecado está a la puerta; con todo esto, tú te enseñarás de él.",
+    "reference": "Génesis 4:7",
+    "theme": "Dominio sobre el pecado"
+  },
+  "mainTeaching": "Dios busca adoradores que le honren con fe y obediencia; el pecado no dominado corrompe profundamente, pero la gracia sigue ofreciendo restauración y una nueva línea de esperanza.",
+  "practicalApplication": [
+    "Examina tus motivaciones al servir o dar y alinéate con el corazón de Dios.",
+    "Acepta las advertencias del Señor antes de que la tentación avance.",
+    "Perdona y busca reconciliación para romper cadenas de violencia o resentimiento.",
+    "Cultiva prácticas de adoración que te mantengan cerca de Dios cada día."
+  ]
+}

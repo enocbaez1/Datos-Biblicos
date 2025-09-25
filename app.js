@@ -49,12 +49,27 @@
       2:{title:"El Jardín del Edén",subtitle:"Y plantó Jehová Dios un huerto en Edén",info:{"Versículos":"25","Palabras":"623","Ríos del Edén":"4 (Pisón, Gihón, Hidekel, Éufrates)","Nombre del primer hombre":"Adán (del hebreo 'adamah' = tierra)","Árboles especiales":"2 (Vida y Conocimiento del bien y mal)"},curiosities:[{icon:"🏞️",text:"Edén significa 'delicia' o 'placer' en hebreo. Era un lugar de perfección absoluta."},{icon:"💨",text:"Dios 'sopló' en las narices de Adán. Es la única vez que se describe a Dios dando vida de esta manera tan íntima."},{icon:"🌳",text:"El árbol de la vida podía dar inmortalidad, pero el del conocimiento traía muerte moral y física."},{icon:"🦴",text:"Eva fue formada de una costilla de Adán, mostrando que son iguales en dignidad pero complementarios."}],events:[{day:"Detalle",description:"Descripción más detallada de la creación del hombre"},{day:"Plantación",description:"Dios planta el jardín del Edén hacia el oriente"},{day:"Colocación",description:"Adán es puesto en el jardín para labrarlo y guardarlo"},{day:"Mandamiento",description:"Primera ley: no comer del árbol del conocimiento"},{day:"Observación",description:"No es bueno que el hombre esté solo"},{day:"Creación",description:"Formación de Eva como ayuda idónea"},{day:"Unión",description:"Institución del matrimonio"}]},
       3:{title:"La Caída del Hombre",subtitle:"Pero la serpiente era astuta más que todos los animales",info:{"Versículos":"24","Palabras":"659","Primera mentira":"'No moriréis' - la serpiente","Primera promesa":"La simiente de la mujer (v.15)","Primeras emociones":"Temor, vergüenza, culpa"},curiosities:[{icon:"🐍",text:"La serpiente era el más astuto de los animales. Antes de la caída, probablemente podía hablar y caminar erguida."},{icon:"👁️",text:"'Se abrieron los ojos de ambos' - obtuvieron conocimiento, pero perdieron la inocencia y la paz."},{icon:"🍃",text:"Las primeras ropas fueron hechas por Dios mismo con pieles de animales, implicando el primer sacrificio."},{icon:"⚔️",text:"Génesis 3:15 es llamado el 'protoevangelio' - la primera promesa del Mesías que vencería a Satanás."}],events:[{day:"Tentación",description:"La serpiente tienta a Eva con el fruto prohibido"},{day:"Desobediencia",description:"Eva come y da a Adán, quien también come"},{day:"Conciencia",description:"Se dan cuenta de su desnudez y sienten vergüenza"},{day:"Ocultamiento",description:"Se esconden de la presencia de Dios"},{day:"Confrontación",description:"Dios los llama y los confronta"},{day:"Consecuencias",description:"Maldiciones sobre la serpiente, la mujer y el hombre"},{day:"Expulsión",description:"Son expulsados del Edén"}]},
       4:{title:"Caín y Abel",subtitle:"Y Abel fue pastor de ovejas, y Caín fue labrador de la tierra",info:{"Versículos":"26","Palabras":"641","Primer nacimiento":"Caín ('posesión')","Primer asesinato":"Caín mata a Abel","Primera ciudad":"Construida por Caín"},curiosities:[{icon:"🔥",text:"Dios miró con agrado la ofrenda de Abel (probablemente porque incluía sangre) pero no la de Caín."},{icon:"❓",text:"'¿Soy yo acaso guarda de mi hermano?' - La primera pregunta sarcástica registrada en la historia."},{icon:"🩸",text:"La sangre de Abel 'clama desde la tierra' - primera mención de que la sangre inocente tiene voz."},{icon:"🏰",text:"Caín construyó la primera ciudad, mostrando el intento humano de crear seguridad sin Dios."}],events:[{day:"Nacimiento",description:"Nacen Caín y Abel, los primeros hijos de Adán y Eva"},{day:"Ocupaciones",description:"Abel se dedica al pastoreo, Caín a la agricultura"},{day:"Ofrendas",description:"Ambos traen ofrendas a Dios con resultados diferentes"},{day:"Advertencia",description:"Dios advierte a Caín sobre el pecado que lo acecha"},{day:"Asesinato",description:"Caín mata a Abel en el campo"},{day:"Castigo",description:"Caín es maldecido y se vuelve errante"},{day:"Descendencia",description:"Genealogía de Caín y el nacimiento de Set"}]},
-      5:{title:"Las Generaciones de Adán",subtitle:"Este es el libro de las generaciones de Adán",info:{"Versículos":"32","Palabras":"580","Generaciones listadas":"10 (desde Adán hasta Noé)","Vida más larga":"Matusalén - 969 años","Persona trasladada":"Enoc - 'caminó con Dios'"},curiosities:[{icon:"📊",text:"La edad promedio de los patriarcas antediluvianos era de 857 años, mucho mayor que después del diluvio."},{icon:"🚶",text:"Enoc 'caminó con Dios' y fue trasladado sin ver muerte - solo él y Elías tuvieron este privilegio."},{icon:"🔢",text:"Matusalén murió el mismo año del diluvio. Su nombre significa 'cuando él muera, será enviado'."},{icon:"👶",text:"Adán vivió para ver nacer a Lamec (abuelo de Noé), conectando directamente las generaciones."}],events:[{day:"Adán",description:"930 años - El primer hombre, padre de toda la humanidad"},{day:"Set",description:"912 años - Reemplazó a Abel, línea del Mesías"},{day:"Enós",description:"905 años - En su tiempo se comenzó a invocar el nombre de Jehová"},{day:"Cainán",description:"910 años - Cuarta generación desde Adán"},{day:"Mahalaleel",description:"895 años - Su nombre significa 'alabanza de Dios'"},{day:"Jared",description:"962 años - Padre de Enoc"},{day:"Enoc",description:"365 años - Trasladado por Dios sin ver muerte"},{day:"Matusalén",description:"969 años - El hombre que más vivió"},{day:"Lamec",description:"777 años - Padre de Noé"},{day:"Noé",description:"950 años - Constructor del arca, salvador de la humanidad"}]}
+      5:{title:"Las Generaciones de Adán",subtitle:"Este es el libro de las generaciones de Adán",info:{"Versículos":"32","Palabras":"580","Generaciones listadas":"10 (desde Adán hasta Noé)","Vida más larga":"Matusalén - 969 años","Persona trasladada":"Enoc - 'caminó con Dios'"},curiosities:[{icon:"📊",text:"La edad promedio de los patriarcas antediluvianos era de 857 años, mucho mayor que después del diluvio."},{icon:"🚶",text:"Enoc 'caminó con Dios' y fue trasladado sin ver muerte - solo él y Elías tuvieron este privilegio."},{icon:"🔢",text:"Matusalén murió el mismo año del diluvio. Su nombre significa 'cuando él muera, será enviado'."},{icon:"👶",text:"Adán vivió para ver nacer a Lamec (abuelo de Noé), conectando directamente las generaciones."}],events:[{day:"Adán",description:"930 años - El primer hombre, padre de toda la humanidad"},{day:"Set",description:"912 años - Reemplazó a Abel, línea del Mesías"},{day:"Enós",description:"905 años - En su tiempo se comenzó a invocar el nombre de Jehová"},{day:"Cainán",description:"910 años - Cuarta generación desde Adán"},{day:"Mahalaleel",description:"895 años - Su nombre significa 'alabanza de Dios'"},{day:"Jared",description:"962 años - Padre de Enoc"},{day:"Enoc",description:"365 años - Trasladado por Dios sin ver muerte"},{day:"Matusalén",description:"969 años - El hombre que más vivió"},{day:"Lamec",description:"777 años - Padre de Noé"},{day:"Noé",description:"950 años - Constructor del arca, salvador de la humanidad"}]},
+      6:{title:"Corrupción y el Arca",subtitle:"Noé recibe instrucciones divinas",info:{"Versículos":"22","Tema":"Gracia en medio del juicio"},curiosities:[{icon:"🎯",text:"Primera mención de la gracia en la Biblia"},{icon:"🚢",text:"El arca tenía proporciones perfectas para navegar"}],events:[{day:"Corrupción",description:"La maldad se multiplica en la tierra"},{day:"Gracia",description:"Noé halla gracia ante Dios"}]},
+      7:{title:"El Diluvio",subtitle:"Juicio global y preservación",info:{"Versículos":"24","Duración":"40 días de lluvia"},curiosities:[{icon:"🌊",text:"Las aguas cubrieron los montes más altos"},{icon:"🚪",text:"Dios mismo cerró la puerta del arca"}],events:[{day:"Lluvia",description:"40 días y 40 noches de lluvia"},{day:"Salvación",description:"Solo 8 personas se salvan"}]},
+      8:{title:"Fin del Diluvio",subtitle:"Dios recuerda a Noé",info:{"Versículos":"22","Señal":"Hoja de olivo"},curiosities:[{icon:"🕊️",text:"La paloma trajo una hoja de olivo fresca"},{icon:"💭",text:"Dios se 'acordó' de Noé - actuó fielmente"}],events:[{day:"Viento",description:"Dios hace pasar viento sobre la tierra"},{day:"Altar",description:"Noé edifica altar y ofrece sacrificio"}]},
+      9:{title:"Pacto con Noé",subtitle:"Arco iris como señal eterna",info:{"Versículos":"29","Señal":"Arco iris"},curiosities:[{icon:"🌈",text:"Primer arco iris mencionado en la Biblia"},{icon:"🩸",text:"Prohibición de comer sangre establecida"}],events:[{day:"Pacto",description:"Dios establece pacto con Noé"},{day:"Señal",description:"Arco iris como recordatorio eterno"}]},
+      10:{title:"Tabla de las Naciones",subtitle:"Descendientes de los hijos de Noé",info:{"Versículos":"32","Naciones":"70 pueblos"},curiosities:[{icon:"🌍",text:"Origen de todas las naciones del mundo"},{icon:"7️⃣",text:"70 naciones representan la totalidad"}],events:[{day:"Jafet",description:"Pueblos del norte y oeste"},{day:"Cam",description:"Pueblos del sur y este"}]},
+      11:{title:"Torre de Babel",subtitle:"Confusión de lenguas",info:{"Versículos":"32","Resultado":"Dispersión"},curiosities:[{icon:"🗼",text:"Torre construida con ladrillos y asfalto"},{icon:"🗣️",text:"Dios confunde el lenguaje humano"}],events:[{day:"Torre",description:"Intentan edificar hasta el cielo"},{day:"Confusión",description:"Dios confunde sus lenguas"}]},
+      12:{title:"Llamado de Abram",subtitle:"Promesa de bendición global",info:{"Versículos":"20","Edad":"75 años"},curiosities:[{icon:"🌍",text:"Promesa para todas las familias de la tierra"},{icon:"⛪",text:"Edifica altares dondequiera que va"}],events:[{day:"Llamado",description:"Sal de tu tierra y parentela"},{day:"Promesa",description:"Te haré una gran nación"}]},
+      13:{title:"Separación de Lot",subtitle:"Generosidad y elección",info:{"Versículos":"18","Elección":"Lot elige la llanura"},curiosities:[{icon:"🏜️",text:"Lot elige por la vista, no por fe"},{icon:"⛪",text:"Abram regresa al altar anterior"}],events:[{day:"Riqueza",description:"Abundante ganado causa conflicto"},{day:"Separación",description:"Abram permite a Lot elegir primero"}]},
+      14:{title:"Rescate de Lot",subtitle:"Melquisedec bendice a Abram",info:{"Versículos":"24","Soldados":"318 entrenados"},curiosities:[{icon:"👑",text:"Melquisedec: rey y sacerdote"},{icon:"💰",text:"Primer diezmo registrado en la Biblia"}],events:[{day:"Guerra",description:"Reyes orientales vs occidentales"},{day:"Rescate",description:"Abram libera a Lot"}]},
+      15:{title:"Pacto con Abram",subtitle:"Justicia por fe",info:{"Versículos":"21","Promesa":"Descendencia como estrellas"},curiosities:[{icon:"⚖️",text:"'Le fue contado por justicia' - base del evangelio"},{icon:"🔥",text:"Antorcha de fuego pasa entre los animales"}],events:[{day:"Promesa",description:"Descendencia innumerable como estrellas"},{day:"Justicia",description:"Abram cree y le es contado por justicia"}]},
+      16:{title:"Hagar e Ismael",subtitle:"Impaciencia interfiere con promesa",info:{"Versículos":"16","Edad Abram":"86 años"},curiosities:[{icon:"👁️",text:"Hagar llama a Dios 'El Roi' - El que me ve"},{icon:"👂",text:"Ismael significa 'Dios oye'"}],events:[{day:"Plan",description:"Sarai propone Hagar como sustituta"},{day:"Huida",description:"Hagar huye al desierto"}]},
+      17:{title:"Pacto de Circuncisión",subtitle:"Abraham y Sara - nuevos nombres",info:{"Versículos":"27","Nuevo nombre":"Abraham = padre de multitudes"},curiosities:[{icon:"💪",text:"El Shaddai - Dios Todopoderoso"},{icon:"✂️",text:"Circuncisión como señal del pacto"}],events:[{day:"Nombres",description:"Abram se vuelve Abraham, Sarai es Sara"},{day:"Isaac",description:"Promesa de Isaac para el año siguiente"}]},
+      18:{title:"Visitación Divina",subtitle:"Promesa confirmada e intercesión",info:{"Versículos":"33","Visitantes":"3 varones"},curiosities:[{icon:"👥",text:"Tres visitantes representan a Dios"},{icon:"❓",text:"'¿Hay algo difícil para Dios?'"}],events:[{day:"Visita",description:"Tres varones visitan a Abraham"},{day:"Intercesión",description:"Abraham intercede por Sodoma"}]},
+      19:{title:"Destrucción de Sodoma",subtitle:"Juicio divino y escape de Lot",info:{"Versículos":"38","Ciudades":"Sodoma y Gomorra"},curiosities:[{icon:"🧂",text:"Esposa de Lot se convierte en sal"},{icon:"🏘️",text:"Zoar significa 'pequeña'"}],events:[{day:"Advertencia",description:"Ángeles advierten a Lot"},{day:"Destrucción",description:"Fuego y azufre del cielo"}]},
+      20:{title:"Abraham y Abimelec",subtitle:"Gracia en medio de errores",info:{"Versículos":"18","Título":"Abraham llamado profeta"},curiosities:[{icon:"📖",text:"Primera vez 'profeta' en la Biblia"},{icon:"💰",text:"Mil piezas de plata como vindicación"}],events:[{day:"Error",description:"Abraham presenta a Sara como hermana"},{day:"Intervención",description:"Dios protege a Sara en sueños"}]}
     };
 
     // Estado
-    let currentSection = 'books';
     let currentChapter = 1;
+    let currentBook = 'genesis';
     let currentSearch = '';
     let currentChapterData = null;
     let currentTab = 'resumen';
@@ -63,17 +78,60 @@
     let currentTrivia = 0;
     let triviaAnswers = [];
 
+    // Generar opciones del dropdown de capítulos en el modal
+    function generateChapterDropdown() {
+      const dropdown = document.getElementById('chapterSelectorDropdown');
+      if (!dropdown) return;
+
+      // Limpiar opciones existentes
+      dropdown.innerHTML = '';
+
+      // Generar opciones para capítulos 1-20
+      Array.from({length: 20}, (_, i) => i + 1).forEach(chapterNum => {
+        const option = document.createElement('option');
+        option.value = chapterNum;
+        option.textContent = `Capítulo ${chapterNum}`;
+        dropdown.appendChild(option);
+      });
+    }
+
+    // Navegación entre capítulos
+    function navigateChapter(direction) {
+      if (currentBook !== 'genesis') return;
+
+      let newChapter = currentChapter;
+      if (direction === 'prev' && currentChapter > 1) {
+        newChapter = currentChapter - 1;
+      } else if (direction === 'next' && currentChapter < 20) {
+        newChapter = currentChapter + 1;
+      }
+
+      if (newChapter !== currentChapter) {
+        openChapterModal('genesis', newChapter);
+      }
+    }
+
+    // Actualizar UI de navegación
+    function updateNavigationUI() {
+      const prevBtn = document.getElementById('prevChapterBtn');
+      const nextBtn = document.getElementById('nextChapterBtn');
+      const dropdown = document.getElementById('chapterSelectorDropdown');
+
+      if (prevBtn) prevBtn.disabled = currentChapter <= 1;
+      if (nextBtn) nextBtn.disabled = currentChapter >= 20;
+      if (dropdown) dropdown.value = currentChapter;
+    }
+
     // Init
     document.addEventListener('DOMContentLoaded', async () => {
       // Cargar datos primero
       await loadData();
 
-      // Tabs principales
-      document.querySelectorAll('.main-tab-btn').forEach(btn => btn.addEventListener('click', function(){ showSection(this.getAttribute('data-section'), this); }));
+      // Generar dropdown de capítulos en el modal
+      generateChapterDropdown();
+
       // Tabs testamento
       document.querySelectorAll('.testament-btn').forEach(btn => btn.addEventListener('click', function(){ showTestament(this.getAttribute('data-testament'), this); }));
-      // Botones capítulos
-      document.querySelectorAll('.chapter-btn').forEach(btn => btn.addEventListener('click', function(){ showChapter(parseInt(this.getAttribute('data-chapter')), this); }));
       // Verso aleatorio
       document.getElementById('newVerseBtn').addEventListener('click', showRandomVerse);
       // Nuevas funcionalidades de versículos
@@ -97,6 +155,18 @@
       // Chapter modal
       initChapterModal();
 
+      // Navigation buttons en modal
+      const prevBtn = document.getElementById('prevChapterBtn');
+      const nextBtn = document.getElementById('nextChapterBtn');
+      const dropdown = document.getElementById('chapterSelectorDropdown');
+
+      if (prevBtn) prevBtn.addEventListener('click', () => navigateChapter('prev'));
+      if (nextBtn) nextBtn.addEventListener('click', () => navigateChapter('next'));
+      if (dropdown) dropdown.addEventListener('change', (e) => {
+        const selectedChapter = parseInt(e.target.value);
+        openChapterModal('genesis', selectedChapter);
+      });
+
       initTheme();
       showTestament('antiguo', document.querySelector('.testament-btn.active'));
       showChapter(1, document.querySelector('.chapter-btn.active'));
@@ -107,14 +177,6 @@
       initHeroAnimations();
     });
 
-    // Secciones
-    function showSection(section, clicked){
-      document.querySelectorAll('.main-tab-btn').forEach(b => b.classList.remove('active'));
-      clicked.classList.add('active');
-      document.getElementById('booksSection').classList.toggle('hidden', section !== 'books');
-      document.getElementById('genesisSection').classList.toggle('hidden', section !== 'genesis');
-      currentSection = section;
-    }
 
     // Capítulos
     function showChapter(chapterNum, clicked){
@@ -848,12 +910,93 @@
         const response = await fetch(url);
         if (!response.ok) throw new Error(`Chapter data not found: ${response.status}`);
         const data = await response.json();
-        console.log('Chapter data loaded successfully:', data);
+        console.log('Chapter data loaded successfully from JSON:', data);
         return data;
       } catch (error) {
-        console.error('Error loading chapter data:', error);
+        console.error('Error loading chapter data from JSON:', error);
+
+        // Fallback a datos embebidos para Genesis
+        if (book === 'genesis' && genesisChapters[chapter]) {
+          console.log('Using fallback embedded data for Genesis chapter:', chapter);
+          return convertEmbeddedToModalFormat(genesisChapters[chapter], chapter);
+        }
+
+        console.error('No fallback data available for:', `${book} ${chapter}`);
         return null;
       }
+    }
+
+    // Convertir datos embebidos al formato del modal
+    function convertEmbeddedToModalFormat(embeddedData, chapterNum) {
+      return {
+        book: "Génesis",
+        chapter: chapterNum,
+        title: embeddedData.title,
+        subtitle: embeddedData.subtitle,
+        summary: embeddedData.subtitle,
+        timeline: {
+          period: "Génesis",
+          context: embeddedData.subtitle,
+          placement: `Capítulo ${chapterNum}`
+        },
+        days: embeddedData.events ? embeddedData.events.map((event, index) => ({
+          day: index + 1,
+          title: event.day,
+          icon: "📖",
+          description: event.description,
+          verse: "",
+          reference: `Génesis ${chapterNum}`,
+          significance: event.description
+        })) : [],
+        interestingFacts: embeddedData.curiosities ? embeddedData.curiosities.map((curiosity, index) => ({
+          id: `fact-${index}`,
+          title: curiosity.text.substring(0, 30) + "...",
+          summary: curiosity.text,
+          explanation: curiosity.text,
+          verse: "",
+          reference: `Génesis ${chapterNum}`
+        })) : [],
+        reflectionQuestions: [{
+          id: "embedded-q1",
+          question: `¿Qué enseñanza principal extraes de ${embeddedData.title}?`,
+          category: "personal",
+          hints: ["Reflexiona sobre el tema principal", "Considera las lecciones espirituales"]
+        }],
+        trivia: [{
+          question: `¿Cuál es el tema principal de ${embeddedData.title}?`,
+          options: ["Creación", "Fe", "Obediencia"],
+          correct: 1,
+          explanation: embeddedData.subtitle
+        }],
+        comparison: {
+          title: `Transformación en ${embeddedData.title}`,
+          before: {
+            title: "Situación inicial",
+            description: "Estado previo a los eventos del capítulo",
+            elements: ["Contexto inicial"],
+            verse: "",
+            reference: `Génesis ${chapterNum}`
+          },
+          after: {
+            title: "Resultado final",
+            description: embeddedData.subtitle,
+            elements: embeddedData.info ? Object.keys(embeddedData.info) : [],
+            verse: "",
+            reference: `Génesis ${chapterNum}`
+          }
+        },
+        memorizeVerse: {
+          text: `Versículo clave del capítulo ${chapterNum} de Génesis`,
+          reference: `Génesis ${chapterNum}:1`,
+          theme: embeddedData.title
+        },
+        mainTeaching: embeddedData.subtitle,
+        practicalApplication: [
+          `Aplicar las enseñanzas de ${embeddedData.title} en la vida diaria`,
+          "Reflexionar sobre las lecciones espirituales del capítulo",
+          "Compartir estas verdades con otros"
+        ]
+      };
     }
 
     // Open chapter modal
@@ -879,9 +1022,16 @@
       currentTrivia = 0;
       triviaAnswers = [];
 
+      // Update current chapter and book
+      currentChapter = chapter;
+      currentBook = book;
+
       // Update modal content
       updateModalHeader();
       updateModalContent();
+
+      // Update navigation UI
+      updateNavigationUI();
 
       // Show modal
       modal.classList.add('active');

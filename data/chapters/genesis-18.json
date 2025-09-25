@@ -1,0 +1,223 @@
+{
+  "book": "Génesis",
+  "chapter": 18,
+  "title": "Visitación de Dios y la intercesión de Abraham",
+  "subtitle": "Promesa confirmada y clamor por Sodoma",
+  "summary": "Tres visitantes llegan a la tienda de Abraham; uno de ellos anuncia que Sara dará a luz en un año. Dios revela la inminente destrucción de Sodoma y Abraham intercede audazmente por la ciudad.",
+  "timeline": {
+    "period": "Previo a la destrucción de Sodoma",
+    "context": "Encuentro divino",
+    "placement": "Confirmación final antes del nacimiento de Isaac"
+  },
+  "days": [
+    {
+      "day": 1,
+      "title": "El Señor se aparece en Mamre",
+      "icon": "!!",
+      "description": "Abraham ve a tres varones y corre a recibirlos con reverencia.",
+      "verse": "Jehová se le apareció... alzó sus ojos, y he aquí tres varones.",
+      "reference": "Génesis 18:1-2",
+      "significance": "La hospitalidad abre espacio para encuentros sagrados."
+    },
+    {
+      "day": 2,
+      "title": "Banquete de hospitalidad",
+      "icon": "::",
+      "description": "Abraham prepara pan, carne y leche para sus huéspedes.",
+      "verse": "Tomó mantequilla y leche, y el becerro... y se lo puso delante.",
+      "reference": "Génesis 18:6-8",
+      "significance": "La generosidad es respuesta natural a la presencia divina."
+    },
+    {
+      "day": 3,
+      "title": "Promesa para Sara",
+      "icon": "??",
+      "description": "Se anuncia que Sara dará a luz; ella ríe y Dios pregunta si hay algo imposible.",
+      "verse": "¿Hay para Dios alguna cosa difícil?",
+      "reference": "Génesis 18:9-15",
+      "significance": "Dios transforma la incredulidad en fe."
+    },
+    {
+      "day": 4,
+      "title": "Plan revelado sobre Sodoma",
+      "icon": "##",
+      "description": "Dios decide no ocultar a Abraham lo que hará con Sodoma y Gomorra.",
+      "verse": "El clamor contra Sodoma y Gomorra se aumenta más y más.",
+      "reference": "Génesis 18:16-21",
+      "significance": "El amigo de Dios comparte su corazón por la justicia."
+    },
+    {
+      "day": 5,
+      "title": "Intercesión valiente",
+      "icon": "++",
+      "description": "Abraham negocia con Dios desde cincuenta hasta diez justos.",
+      "verse": "¿Destruirás también al justo con el impío?",
+      "reference": "Génesis 18:22-32",
+      "significance": "La intercesión perseverante refleja el carácter misericordioso de Dios."
+    },
+    {
+      "day": 6,
+      "title": "El Señor se va",
+      "icon": ">>",
+      "description": "Jehová termina de hablar con Abraham y se va; Abraham vuelve a su lugar.",
+      "verse": "Jehová se fue, luego que acabó de hablar con Abraham.",
+      "reference": "Génesis 18:33",
+      "significance": "La oración termina cuando Dios responde con su voluntad perfecta."
+    }
+  ],
+  "interestingFacts": [
+    {
+      "id": "three-visitors",
+      "title": "Tres varones",
+      "summary": "Tradicionalmente interpretados como Dios y dos ángeles.",
+      "explanation": "Los dos ángeles continúan a Sodoma en el capítulo 19, confirmando la identidad divina del tercero.",
+      "verse": "Los varones se apartaron de allí, y fueron hacia Sodoma; pero Abraham estaba aún delante de Jehová.",
+      "reference": "Génesis 18:22"
+    },
+    {
+      "id": "hospitality-culture",
+      "title": "Hospitalidad patriarcal",
+      "summary": "Abraham ofrece lo mejor pese a su edad.",
+      "explanation": "La generosidad y rapidez reflejan un corazón abierto a Dios.",
+      "verse": "Se apresuró Abraham a elegir un becerro tierno y bueno.",
+      "reference": "Génesis 18:7"
+    },
+    {
+      "id": "question-possible",
+      "title": "¿Hay para Dios algo difícil?",
+      "summary": "Una pregunta retórica que afirma la omnipotencia divina.",
+      "explanation": "Sirve como fundamento para confiar en milagros posteriores.",
+      "verse": "¿Hay para Dios alguna cosa difícil?",
+      "reference": "Génesis 18:14"
+    },
+    {
+      "id": "ten-righteous",
+      "title": "El número diez",
+      "summary": "Abraham detiene la intercesión en diez justos.",
+      "explanation": "Esto destaca la importancia de una minoría justa para preservar una ciudad.",
+      "verse": "No la destruiré por amor a los diez.",
+      "reference": "Génesis 18:32"
+    }
+  ],
+  "reflectionQuestions": [
+    {
+      "id": "prayer-hospitality",
+      "question": "¿Cómo puedes practicar hospitalidad que abra espacio a la presencia de Dios?",
+      "category": "servicio",
+      "hints": [
+        "Generosidad",
+        "Tiempo",
+        "Disponibilidad"
+      ]
+    },
+    {
+      "id": "faith-laughter",
+      "question": "¿En qué área necesitas creer que nada es imposible para Dios?",
+      "category": "fe",
+      "hints": [
+        "Milagros",
+        "Familia",
+        "Sanidad"
+      ]
+    },
+    {
+      "id": "intercede-city",
+      "question": "¿Por quiénes te está llamando Dios a interceder con perseverancia?",
+      "category": "intercesión",
+      "hints": [
+        "Ciudades",
+        "Familiares",
+        "Naciones"
+      ]
+    },
+    {
+      "id": "friend-of-god",
+      "question": "¿Deseas conocer los planes de Dios como Abraham? ¿Cómo cultivas esa amistad?",
+      "category": "relación",
+      "hints": [
+        "Obediencia",
+        "Intimidad",
+        "Escucha"
+      ]
+    }
+  ],
+  "trivia": [
+    {
+      "question": "¿Dónde se le apareció Jehová a Abraham en este capítulo?",
+      "options": [
+        "En Hebrón",
+        "En Betel",
+        "En las encinas de Mamre"
+      ],
+      "correct": 2,
+      "explanation": "Fue en las encinas de Mamre, cerca de Hebrón."
+    },
+    {
+      "question": "¿Qué reacción tuvo Sara al escuchar la promesa?",
+      "options": [
+        "Lloró",
+        "Rió",
+        "Cantó"
+      ],
+      "correct": 1,
+      "explanation": "Sara rió en su interior (Génesis 18:12)."
+    },
+    {
+      "question": "¿Hasta qué número de justos intercedió Abraham?",
+      "options": [
+        "Cinco",
+        "Diez",
+        "Doce"
+      ],
+      "correct": 1,
+      "explanation": "Abraham descendió hasta pedir por diez justos."
+    },
+    {
+      "question": "¿Qué hizo Abraham después que Dios terminó de hablar?",
+      "options": [
+        "Construyó un altar",
+        "Siguió a los ángeles",
+        "Volvió a su lugar"
+      ],
+      "correct": 2,
+      "explanation": "Abraham regresó a su sitio (Génesis 18:33)."
+    }
+  ],
+  "comparison": {
+    "title": "Incredulidad vs fe intercesora",
+    "before": {
+      "title": "Risa incrédula",
+      "description": "Sara duda de la promesa por su edad.",
+      "elements": [
+        "Edad avanzada",
+        "Imposibilidad humana",
+        "Risa secreta"
+      ],
+      "verse": "Se rió Sara, diciendo: ¿Será cierto que he de dar a luz siendo ya vieja?",
+      "reference": "Génesis 18:12"
+    },
+    "after": {
+      "title": "Clamor valiente",
+      "description": "Abraham dialoga con Dios y confía en su justicia.",
+      "elements": [
+        "Oración persistente",
+        "Confianza",
+        "Amistad con Dios"
+      ],
+      "verse": "¿Destruirás al justo con el impío?",
+      "reference": "Génesis 18:23"
+    }
+  },
+  "memorizeVerse": {
+    "text": "¿Hay para Dios alguna cosa difícil? Al tiempo señalado volveré a ti, y según el tiempo de la vida, Sara tendrá un hijo.",
+    "reference": "Génesis 18:14",
+    "theme": "Nada imposible"
+  },
+  "mainTeaching": "Dios visita a los suyos, confirma sus promesas y busca intercesores que compartan su corazón por la justicia y la misericordia.",
+  "practicalApplication": [
+    "Practica hospitalidad intencional como acto de adoración.",
+    "Declara que nada es imposible para Dios en tus situaciones imposibles.",
+    "Intercede con perseverancia por ciudades y personas en peligro.",
+    "Cultiva amistad con Dios mediante obediencia y escucha atenta."
+  ]
+}

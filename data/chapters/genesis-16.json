@@ -1,0 +1,223 @@
+{
+  "book": "Génesis",
+  "chapter": 16,
+  "title": "Hagar e Ismael",
+  "subtitle": "Cuando la impaciencia interfiere con la promesa",
+  "summary": "Sarai, estéril, entrega a su sierva Hagar a Abram para obtener descendencia. Hagar concibe y surge conflicto; huye al desierto donde el Ángel de Jehová le habla, promete un hijo llamado Ismael y le ordena regresar.",
+  "timeline": {
+    "period": "Diez años en Canaán",
+    "context": "Búsqueda de un heredero",
+    "placement": "Interrupción en el caminar de fe"
+  },
+  "days": [
+    {
+      "day": 1,
+      "title": "Plan humano",
+      "icon": "??",
+      "description": "Sarai, sin hijos, propone a Abram tener descendencia con Hagar.",
+      "verse": "Te ruego que te llegues a mi sierva; quizá tendré hijos de ella.",
+      "reference": "Génesis 16:1-2",
+      "significance": "La impaciencia intenta acelerar la promesa."
+    },
+    {
+      "day": 2,
+      "title": "Hagar concibe",
+      "icon": "!!",
+      "description": "Hagar queda embarazada y menosprecia a su señora.",
+      "verse": "Cuando vio que había concebido, miraba con desprecio a su señora.",
+      "reference": "Génesis 16:3-4",
+      "significance": "Las soluciones humanas generan nuevo conflicto."
+    },
+    {
+      "day": 3,
+      "title": "Conflicto y huida",
+      "icon": "XX",
+      "description": "Sarai aflige a Hagar; la sierva huye al desierto.",
+      "verse": "Sarai la afligía, y ella huyó de su presencia.",
+      "reference": "Génesis 16:5-6",
+      "significance": "La opresión nunca resuelve el dolor interior."
+    },
+    {
+      "day": 4,
+      "title": "Encuentro en el desierto",
+      "icon": "::",
+      "description": "El Ángel de Jehová encuentra a Hagar junto a una fuente camino a Shur.",
+      "verse": "La halló el Ángel de Jehová junto a una fuente de agua en el desierto.",
+      "reference": "Génesis 16:7",
+      "significance": "Dios busca a los que sufren aunque huyan."
+    },
+    {
+      "day": 5,
+      "title": "Promesa de Ismael",
+      "icon": "++",
+      "description": "Se le ordena volver y se anuncia el nacimiento de Ismael, \"Dios oye\".",
+      "verse": "Has concebido, y darás a luz un hijo, y llamarás su nombre Ismael.",
+      "reference": "Génesis 16:10-12",
+      "significance": "Dios oye la aflicción y convierte el dolor en propósito."
+    },
+    {
+      "day": 6,
+      "title": "Dios que ve",
+      "icon": ">>",
+      "description": "Hagar llama a Dios \"El Roi\" y regresa; Abram tiene 86 años cuando nace Ismael.",
+      "verse": "Tú eres Dios que ve... Y dio a luz un hijo a Abram.",
+      "reference": "Génesis 16:13-16",
+      "significance": "La experiencia marca a Hagar con la certeza de que Dios la ve."
+    }
+  ],
+  "interestingFacts": [
+    {
+      "id": "el-roi",
+      "title": "El Roi: Dios que me ve",
+      "summary": "Hagar es la primera en atribuir este nombre a Dios.",
+      "explanation": "Reconoce que incluso en su esclavitud y huida, Dios observa y se compadece.",
+      "verse": "Tú eres Dios que me ve.",
+      "reference": "Génesis 16:13"
+    },
+    {
+      "id": "angel-of-lord",
+      "title": "Ángel de Jehová",
+      "summary": "Aparece la figura del Ángel de Jehová dialogando personalmente.",
+      "explanation": "Muchos lo consideran una manifestación preencarnada de Cristo por hablar como Dios.",
+      "verse": "El Ángel de Jehová la encontró.",
+      "reference": "Génesis 16:7"
+    },
+    {
+      "id": "ishmael-meaning",
+      "title": "Ismael significa \"Dios oye\"",
+      "summary": "El nombre recuerda la respuesta de Dios al clamor.",
+      "explanation": "Cada vez que Hagar pronunciara el nombre de su hijo recordaría la compasión divina.",
+      "verse": "Jehová ha oído tu aflicción.",
+      "reference": "Génesis 16:11"
+    },
+    {
+      "id": "age-abram",
+      "title": "Abram de 86 años",
+      "summary": "La decisión ocurre diez años después de llegar a Canaán.",
+      "explanation": "Subraya la espera prolongada que enfrentaban.",
+      "verse": "Era Abram de edad de ochenta y seis años cuando Hagar dio a luz a Ismael.",
+      "reference": "Génesis 16:16"
+    }
+  ],
+  "reflectionQuestions": [
+    {
+      "id": "impatience",
+      "question": "¿Qué promesa de Dios estás tentado a forzar con tus propios métodos?",
+      "category": "fe",
+      "hints": [
+        "Tiempo",
+        "Confianza",
+        "Descanso"
+      ]
+    },
+    {
+      "id": "treatment-others",
+      "question": "¿Cómo tratas a quienes pueden parecer un \"plan alterno\" en tu vida?",
+      "category": "relacional",
+      "hints": [
+        "Empatía",
+        "Justicia",
+        "Compasión"
+      ]
+    },
+    {
+      "id": "god-sees",
+      "question": "¿Cómo te consuela saber que Dios te ve en el desierto?",
+      "category": "esperanza",
+      "hints": [
+        "Presencia",
+        "Consuelo",
+        "Guía"
+      ]
+    },
+    {
+      "id": "return-hagar",
+      "question": "¿Qué situaciones te está llamando Dios a enfrentar en lugar de huir?",
+      "category": "obediencia",
+      "hints": [
+        "Restauración",
+        "Valentía",
+        "Proceso"
+      ]
+    }
+  ],
+  "trivia": [
+    {
+      "question": "¿Quién propuso que Abram tuviera un hijo con Hagar?",
+      "options": [
+        "Abram",
+        "Sarai",
+        "El Ángel de Jehová"
+      ],
+      "correct": 1,
+      "explanation": "Sarai sugirió el plan para obtener descendencia."
+    },
+    {
+      "question": "¿Cómo se llama la fuente donde el Ángel encontró a Hagar?",
+      "options": [
+        "Fuente de Betel",
+        "Fuente en el camino de Shur",
+        "Pozo de Beerseba"
+      ],
+      "correct": 1,
+      "explanation": "Hagar fue hallada junto a una fuente camino de Shur."
+    },
+    {
+      "question": "¿Qué significa el nombre Ismael?",
+      "options": [
+        "Dios salva",
+        "Dios oye",
+        "Dios ve"
+      ],
+      "correct": 1,
+      "explanation": "Ismael significa \"Dios oye\"."
+    },
+    {
+      "question": "¿Cuántos años tenía Abram cuando nació Ismael?",
+      "options": [
+        "80 años",
+        "86 años",
+        "90 años"
+      ],
+      "correct": 1,
+      "explanation": "Abram tenía 86 años (Génesis 16:16)."
+    }
+  ],
+  "comparison": {
+    "title": "Plan humano vs intervención divina",
+    "before": {
+      "title": "Impaciencia y desprecio",
+      "description": "Sarai diseña un plan carnal que termina en rivalidad y huida.",
+      "elements": [
+        "Control humano",
+        "Conflicto",
+        "Dolor"
+      ],
+      "verse": "Sarai la afligía, y ella huyó.",
+      "reference": "Génesis 16:6"
+    },
+    "after": {
+      "title": "Dios oye y ve",
+      "description": "Dios encuentra a Hagar, promete futuro y le da identidad.",
+      "elements": [
+        "Compasión",
+        "Nombre nuevo",
+        "Obediencia renovada"
+      ],
+      "verse": "Tú eres Dios que me ve.",
+      "reference": "Génesis 16:13"
+    }
+  },
+  "memorizeVerse": {
+    "text": "Entonces llamó el nombre de Jehová que con ella hablaba: Tú eres Dios que me ve; porque dijo: ¿No he visto también aquí al que me ve?",
+    "reference": "Génesis 16:13",
+    "theme": "Consuelo divino"
+  },
+  "mainTeaching": "Intentar acelerar la promesa fuera del plan de Dios trae dolor, pero aun en nuestros errores Él nos ve, nos oye y nos redirige.",
+  "practicalApplication": [
+    "Rinde tus estrategias propias y espera los tiempos de Dios.",
+    "Trata con dignidad a las personas implicadas en tus decisiones.",
+    "Recuerda que Dios te ve y te escucha aun en el desierto.",
+    "Obedece la instrucción divina incluso cuando implique regresar a situaciones difíciles."
+  ]
+}

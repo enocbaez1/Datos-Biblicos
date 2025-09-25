@@ -1,0 +1,224 @@
+{
+  "book": "Génesis",
+  "chapter": 3,
+  "title": "La Caída",
+  "subtitle": "El origen del pecado y la primera promesa de redención",
+  "summary": "La serpiente engaña a la mujer, la pareja desobedece a Dios y experimenta vergüenza, juicio y expulsión del Edén; aun así, Dios anuncia que la descendencia de la mujer aplastará al enemigo.",
+  "timeline": {
+    "period": "Ruptura en el Edén",
+    "context": "Primera rebelión humana",
+    "placement": "Entrada del pecado en el mundo"
+  },
+  "days": [
+    {
+      "day": 1,
+      "title": "Conversación con la serpiente",
+      "icon": "?!",
+      "description": "La serpiente cuestiona la palabra y el carácter de Dios ante la mujer.",
+      "verse": "¿Conque Dios os ha dicho: No comáis de todo árbol del huerto?",
+      "reference": "Génesis 3:1",
+      "significance": "La tentación comienza distorsionando la verdad divina."
+    },
+    {
+      "day": 2,
+      "title": "El fruto prohibido",
+      "icon": "//",
+      "description": "Eva come del fruto, lo comparte con Adán y los ojos de ambos se abren.",
+      "verse": "Tomó de su fruto, y comió; y dio también a su marido.",
+      "reference": "Génesis 3:6",
+      "significance": "La desobediencia surge del deseo de ser como Dios."
+    },
+    {
+      "day": 3,
+      "title": "Vergüenza y ocultamiento",
+      "icon": "??",
+      "description": "Se cubren con hojas de higuera y se esconden al oír a Dios en el huerto.",
+      "verse": "Se cosieron hojas de higuera, y se hicieron delantales.",
+      "reference": "Génesis 3:7-8",
+      "significance": "El pecado rompe la intimidad y produce miedo ante la presencia divina."
+    },
+    {
+      "day": 4,
+      "title": "Interrogatorio divino",
+      "icon": "::",
+      "description": "Dios llama a Adán y Eva a rendir cuentas por su desobediencia.",
+      "verse": "¿Dónde estás?... ¿Qué es lo que has hecho?",
+      "reference": "Génesis 3:9-13",
+      "significance": "Dios busca restaurar a través de la confrontación honesta."
+    },
+    {
+      "day": 5,
+      "title": "Maldiciones y promesa",
+      "icon": "!!",
+      "description": "Dios maldice a la serpiente, ordena dolor y trabajo, pero promete victoria futura.",
+      "verse": "Pondré enemistad entre ti y la mujer.",
+      "reference": "Génesis 3:14-19",
+      "significance": "La justicia divina se mezcla con gracia al anunciar al Redentor."
+    },
+    {
+      "day": 6,
+      "title": "Expulsión del Edén",
+      "icon": "[]",
+      "description": "Dios viste a la pareja con túnicas de piel y coloca querubines que guardan el acceso al árbol de la vida.",
+      "verse": "Los echó Jehová del huerto... puso querubines y una espada encendida.",
+      "reference": "Génesis 3:21-24",
+      "significance": "La humanidad queda separada del paraíso, necesitada de redención."
+    }
+  ],
+  "interestingFacts": [
+    {
+      "id": "protoevangelio",
+      "title": "La primera promesa mesiánica",
+      "summary": "Génesis 3:15 anuncia la derrota de la serpiente.",
+      "explanation": "El \"protoevangelio\" promete que la simiente de la mujer herirá la cabeza de la serpiente, apuntando a Cristo como vencedor definitivo del pecado y la muerte.",
+      "verse": "Ésta te herirá en la cabeza.",
+      "reference": "Génesis 3:15"
+    },
+    {
+      "id": "coverings",
+      "title": "Túnicas de piel",
+      "summary": "Dios viste a la pareja con pieles de animales.",
+      "explanation": "El gesto implica el primer derramamiento de sangre, prefigurando la necesidad de un sacrificio para cubrir el pecado humano.",
+      "verse": "Jehová Dios hizo túnicas de piel, y los vistió.",
+      "reference": "Génesis 3:21"
+    },
+    {
+      "id": "blame-shift",
+      "title": "Traslado de culpa",
+      "summary": "Adán culpa a Eva y Eva a la serpiente.",
+      "explanation": "El pecado distorsiona las relaciones al generar excusas y evasión, mostrando la necesidad de responsabilidad personal.",
+      "verse": "La mujer que me diste... me dio del árbol.",
+      "reference": "Génesis 3:12-13"
+    },
+    {
+      "id": "cherub-guard",
+      "title": "Guardianes celestiales",
+      "summary": "Querubines custodian el camino al árbol de la vida.",
+      "explanation": "La presencia angelical simboliza la santidad divina y la imposibilidad de regresar al Edén sin mediación.",
+      "verse": "Puso querubines... para guardar el camino del árbol de la vida.",
+      "reference": "Génesis 3:24"
+    }
+  ],
+  "reflectionQuestions": [
+    {
+      "id": "truth-distortion",
+      "question": "¿En qué áreas eres tentado a cuestionar o distorsionar la palabra de Dios?",
+      "category": "personal",
+      "hints": [
+        "Mentiras culturales",
+        "Deseos internos",
+        "Fidelidad bíblica"
+      ]
+    },
+    {
+      "id": "responsibility",
+      "question": "¿Cómo puedes asumir responsabilidad por tus decisiones en lugar de culpar a otros?",
+      "category": "práctica",
+      "hints": [
+        "Confesión",
+        "Humildad",
+        "Restauración relacional"
+      ]
+    },
+    {
+      "id": "grace-promise",
+      "question": "¿Qué significa para ti que Dios dio una promesa de redención inmediatamente después del pecado?",
+      "category": "teológica",
+      "hints": [
+        "Gracia temprana",
+        "Esperanza",
+        "Plan de salvación"
+      ]
+    },
+    {
+      "id": "covering",
+      "question": "¿Cómo experimentas hoy la cobertura y restauración que Dios ofrece?",
+      "category": "espiritual",
+      "hints": [
+        "Perdón",
+        "Justicia imputada",
+        "Identidad en Cristo"
+      ]
+    }
+  ],
+  "trivia": [
+    {
+      "question": "¿Qué hicieron Adán y Eva justo después de pecar?",
+      "options": [
+        "Se cosieron hojas de higuera para cubrirse",
+        "Construyeron un altar de adoración",
+        "Se escondieron en el río Pisón"
+      ],
+      "correct": 0,
+      "explanation": "Su reacción inmediata fue cubrirse con hojas de higuera y esconderse de Dios."
+    },
+    {
+      "question": "¿Qué castigo recibió la serpiente?",
+      "options": [
+        "Ser expulsada del huerto",
+        "Arrastrarse y comer polvo",
+        "Perder la capacidad de hablar"
+      ],
+      "correct": 1,
+      "explanation": "Dios condenó a la serpiente a arrastrarse sobre su pecho y comer polvo todos los días de su vida."
+    },
+    {
+      "question": "¿Qué promete Dios en Génesis 3:15?",
+      "options": [
+        "Un nuevo jardín",
+        "Un descendiente que vencerá a la serpiente",
+        "La eliminación de la muerte física"
+      ],
+      "correct": 1,
+      "explanation": "La simiente de la mujer herirá la cabeza de la serpiente, anticipando la venida del Mesías."
+    },
+    {
+      "question": "¿Qué colocó Dios para guardar el camino al árbol de la vida?",
+      "options": [
+        "Vasos de oro",
+        "Un muro de piedra",
+        "Querubines con una espada encendida"
+      ],
+      "correct": 2,
+      "explanation": "Querubines y una espada encendida impedían que el hombre regresara al árbol de la vida."
+    }
+  ],
+  "comparison": {
+    "title": "De inocencia a mundo caído",
+    "before": {
+      "title": "Vida sin pecado",
+      "description": "Comunión transparente con Dios y equilibrio en el Edén.",
+      "elements": [
+        "Sin vergüenza",
+        "Confianza",
+        "Acceso al árbol de la vida"
+      ],
+      "verse": "Estaban ambos desnudos... y no se avergonzaban.",
+      "reference": "Génesis 2:25"
+    },
+    "after": {
+      "title": "Consecuencias del pecado",
+      "description": "Vergüenza, dolor y separación del Edén, pero con esperanza futura.",
+      "elements": [
+        "Culpa",
+        "Trabajo arduo",
+        "Enemistad con la serpiente",
+        "Expulsión"
+      ],
+      "verse": "Los echó Jehová del huerto de Edén.",
+      "reference": "Génesis 3:23-24"
+    }
+  },
+  "memorizeVerse": {
+    "text": "Y pondré enemistad entre ti y la mujer, y entre tu simiente y la simiente suya; ésta te herirá en la cabeza, y tú le herirás en el calcañar.",
+    "reference": "Génesis 3:15",
+    "theme": "Esperanza mesiánica"
+  },
+  "mainTeaching": "El pecado distorsiona la creación de Dios, pero desde el primer momento Él revela su plan de redención y restaura al ser humano con gracia.",
+  "practicalApplication": [
+    "Identifica y confronta las mentiras que intentan desplazar la verdad de Dios en tu mente.",
+    "Practica la confesión sincera en vez de justificar o culpar a otros.",
+    "Abraza la promesa de redención y vive con esperanza en la victoria de Cristo.",
+    "Recibe la cobertura de Dios viviendo en obediencia y dependencia de su gracia."
+  ]
+}

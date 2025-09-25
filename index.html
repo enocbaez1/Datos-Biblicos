@@ -281,10 +281,6 @@
     <!-- Navigation Tabs -->
     <div class="books-section" id="explorar">
       <h2 class="section-title">Explorar la Biblia</h2>
-      <div class="main-tabs">
-        <button class="main-tab-btn active" data-section="books">Libros de la Biblia</button>
-        <button class="main-tab-btn" data-section="genesis">Primeros Capítulos</button>
-      </div>
 
       <!-- Books Section -->
       <div class="content-section" id="booksSection">
@@ -298,23 +294,13 @@
         </div>
         <div class="books-grid" id="booksGrid"></div>
 
-        <!-- Test Button -->
-        <div style="margin: 20px; text-align: center;">
-          <button onclick="testModal()" style="padding: 10px 20px; background: #6366f1; color: white; border: none; border-radius: 8px; cursor: pointer;">
-            🧪 Test Genesis Modal
-          </button>
-        </div>
       </div>
 
       <!-- Genesis Chapters Section -->
       <div class="content-section hidden" id="genesisSection">
         <div class="chapters-container">
-          <div class="chapter-selector">
-            <button class="chapter-btn active" data-chapter="1">Capítulo 1</button>
-            <button class="chapter-btn" data-chapter="2">Capítulo 2</button>
-            <button class="chapter-btn" data-chapter="3">Capítulo 3</button>
-            <button class="chapter-btn" data-chapter="4">Capítulo 4</button>
-            <button class="chapter-btn" data-chapter="5">Capítulo 5</button>
+          <div class="chapter-selector" id="chapterSelector">
+            <!-- Botones generados dinámicamente por JavaScript -->
           </div>
           <div class="chapter-content" id="chapterContent"></div>
         </div>
@@ -349,6 +335,16 @@
       <div class="chapter-modal-header">
         <h2 class="chapter-modal-title">Génesis 1</h2>
         <p class="chapter-modal-subtitle">La Creación</p>
+
+        <!-- Selector de capítulos -->
+        <div class="chapter-navigation">
+          <button class="nav-btn prev-btn" id="prevChapterBtn" title="Capítulo anterior">‹</button>
+          <select class="chapter-selector-dropdown" id="chapterSelectorDropdown">
+            <!-- Opciones generadas dinámicamente -->
+          </select>
+          <button class="nav-btn next-btn" id="nextChapterBtn" title="Capítulo siguiente">›</button>
+        </div>
+
         <button class="chapter-close" aria-label="Cerrar modal">×</button>
       </div>
 
