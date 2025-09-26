@@ -1661,7 +1661,6 @@
                 <div class="comparison-verse-ref">${comparison.after.reference}</div>
               </div>
             </div>
-            <div class="comparison-divider"></div>
           </div>
         </div>
       `;
