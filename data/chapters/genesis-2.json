@@ -219,5 +219,97 @@
     "Abraza los límites divinos como protección que dirige tu libertad.",
     "Cultiva relaciones caracterizadas por respeto, servicio y complementariedad.",
     "Cuida de los recursos y espacios que Dios te confía, practicando la mayordomía."
-  ]
+  ],
+  "extendedContent": {
+    "keyThemes": [
+      {
+        "id": "gen2-theme-presencia",
+        "title": "Presencia personal de Dios",
+        "summary": "El Dios trascendente se involucra de forma personal al formar y soplar vida."
+      },
+      {
+        "id": "gen2-theme-mayordomia",
+        "title": "Trabajo como adoracion",
+        "summary": "Trabajar el jardin es parte del diseno original de adoracion."
+      },
+      {
+        "id": "gen2-theme-matrimonio",
+        "title": "Unidad matrimonial",
+        "summary": "El matrimonio surge como pacto de complementariedad y permanencia."
+      }
+    ],
+    "characterProfiles": [
+      {
+        "name": "Adan",
+        "role": "Primer hombre",
+        "description": "Recibe aliento de vida, tareas de cultivar y nombrar a las criaturas.",
+        "verses": "Genesis 2:7,15,19"
+      },
+      {
+        "name": "Eva",
+        "role": "Ayuda idonea",
+        "description": "Formada de la costilla para ser contraparte fuerte que acompana la mision.",
+        "verses": "Genesis 2:21-24"
+      },
+      {
+        "name": "Dios",
+        "role": "Arquitecto del Eden",
+        "description": "Planta el jardin, provee recursos y establece limites protectores.",
+        "verses": "Genesis 2:8-17"
+      }
+    ],
+    "geography": [
+      {
+        "place": "Jardin de Eden",
+        "summary": "Huerto plantado por Dios con arboles agradables y utiles.",
+        "presentDay": "Ubicacion desconocida",
+        "verses": "Genesis 2:8-9"
+      },
+      {
+        "place": "Rios de Eden",
+        "summary": "Cuatro corrientes conectan el jardin con regiones ricas en recursos.",
+        "presentDay": "Zona mesopotamica ampliada",
+        "verses": "Genesis 2:10-14"
+      }
+    ],
+    "gospelConnections": [
+      {
+        "title": "Arbol de la vida",
+        "description": "El arbol de la vida reaparece en la nueva Jerusalen como simbolo de restauracion en Cristo.",
+        "reference": "Apocalipsis 22:1-2"
+      },
+      {
+        "title": "Segundo Adan",
+        "description": "Jesus como segundo Adan restaura la obediencia y reabre el acceso a la presencia de Dios.",
+        "reference": "Romanos 5:12-19"
+      }
+    ],
+    "outline": [
+      {
+        "section": "1",
+        "title": "Formacion del hombre",
+        "verses": "2:4-7",
+        "summary": "Dios modela al ser humano y le da aliento de vida."
+      },
+      {
+        "section": "2",
+        "title": "Instalacion en el jardin",
+        "verses": "2:8-17",
+        "summary": "Se describe el Eden, sus rios y el mandato de obediencia."
+      },
+      {
+        "section": "3",
+        "title": "Creacion de la mujer",
+        "verses": "2:18-25",
+        "summary": "Dios suple la soledad de Adan y establece el matrimonio."
+      }
+    ],
+    "studyInsights": [
+      "El verbo hebreo formar evoca a un alfarero que trabaja con cuidado.",
+      "La palabra ezer indica ayuda fuerte, usada tambien para Dios en los Salmos.",
+      "Las menciones de oro y onice resaltan la abundancia del mundo sin pecado.",
+      "Dejar padre y madre implica decision adulta de crear una nueva unidad familiar."
+    ],
+    "prayerFocus": "Pide cultivar relaciones sanas y obedecer los limites que protegen la vida plena."
+  }
 }

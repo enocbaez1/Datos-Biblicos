@@ -219,5 +219,97 @@
     "Acepta las advertencias del Señor antes de que la tentación avance.",
     "Perdona y busca reconciliación para romper cadenas de violencia o resentimiento.",
     "Cultiva prácticas de adoración que te mantengan cerca de Dios cada día."
-  ]
+  ],
+  "extendedContent": {
+    "keyThemes": [
+      {
+        "id": "gen4-theme-adoracion",
+        "title": "Adoracion sincera",
+        "summary": "La adoracion aceptada se basa en fe sincera y entrega generosa."
+      },
+      {
+        "id": "gen4-theme-ira",
+        "title": "Advertencia contra la ira",
+        "summary": "Dios advierte que el pecado acecha pero puede ser dominado."
+      },
+      {
+        "id": "gen4-theme-esperanza",
+        "title": "Esperanza en la descendencia",
+        "summary": "La linea de Set mantiene viva la invocacion del nombre de Dios."
+      }
+    ],
+    "characterProfiles": [
+      {
+        "name": "Cain",
+        "role": "Primer homicida",
+        "description": "Se enoja ante el rechazo divino, ignora la advertencia y asesina a su hermano.",
+        "verses": "Genesis 4:3-16"
+      },
+      {
+        "name": "Abel",
+        "role": "Adorador fiel",
+        "description": "Ofrece lo mejor de su rebanio y su sangre clama justicia.",
+        "verses": "Genesis 4:2-10"
+      },
+      {
+        "name": "Set",
+        "role": "Linea de la promesa",
+        "description": "Nace como sustituto de Abel y su familia vuelve a invocar el nombre del Senor.",
+        "verses": "Genesis 4:25-26"
+      }
+    ],
+    "geography": [
+      {
+        "place": "Campos cultivados",
+        "summary": "Terrenos donde Cain ofrece fruto de la tierra al Senor.",
+        "presentDay": "Labor agricola temprana",
+        "verses": "Genesis 4:2-3"
+      },
+      {
+        "place": "Tierra de Nod",
+        "summary": "Region al oriente del Eden donde Cain vive como errante y edifica una ciudad.",
+        "presentDay": "Ubicacion simbolica de exilio",
+        "verses": "Genesis 4:16-17"
+      }
+    ],
+    "gospelConnections": [
+      {
+        "title": "Sangre que habla mejor",
+        "description": "La sangre de Jesus clama perdon, superior a la de Abel que clama justicia.",
+        "reference": "Hebreos 12:24"
+      },
+      {
+        "title": "Vencer la venganza",
+        "description": "Jesus ensena a romper el ciclo de venganza que Lamec celebra.",
+        "reference": "Mateo 5:38-45"
+      }
+    ],
+    "outline": [
+      {
+        "section": "1",
+        "title": "Ofrendas de Cain y Abel",
+        "verses": "4:1-7",
+        "summary": "Dios acepta la ofrenda de Abel y confronta el corazon de Cain."
+      },
+      {
+        "section": "2",
+        "title": "Asesinato y juicio",
+        "verses": "4:8-16",
+        "summary": "Cain mata a Abel y es enviado al exilio con una marca protectora."
+      },
+      {
+        "section": "3",
+        "title": "Descendencias contrastantes",
+        "verses": "4:17-26",
+        "summary": "La linea de Cain produce violencia, pero Set inicia adoracion renovada."
+      }
+    ],
+    "studyInsights": [
+      "Hebreos 11:4 aclara que la diferencia fue la fe, no el tipo de ofrenda.",
+      "Dios dialoga con Cain antes del pecado, mostrando su paciencia.",
+      "La marca protege a Cain combinando justicia con misericordia.",
+      "Set significa colocar, simbolizando nueva oportunidad para la promesa."
+    ],
+    "prayerFocus": "Pide un corazon adorador que escuche la correccion y venza la ira con gracia."
+  }
 }

@@ -219,5 +219,97 @@
     "Permanece dentro de los límites que Dios establece para tu protección.",
     "Comparte con otros la urgencia de buscar refugio en Cristo.",
     "Aprende a esperar en silencio, confiando en que Dios sostiene tu arca."
-  ]
+  ],
+  "extendedContent": {
+    "keyThemes": [
+      {
+        "id": "gen7-theme-obediencia",
+        "title": "Obediencia puntual",
+        "summary": "Noe obedece exactamente en el tiempo indicado por Dios."
+      },
+      {
+        "id": "gen7-theme-juicio",
+        "title": "Juicio global",
+        "summary": "El diluvio cubre toda la tierra como respuesta al pecado humano."
+      },
+      {
+        "id": "gen7-theme-proteccion",
+        "title": "Proteccion divina",
+        "summary": "Dios cierra la puerta del arca y sostiene la vida dentro."
+      }
+    ],
+    "characterProfiles": [
+      {
+        "name": "Noe",
+        "role": "Administrador del arca",
+        "description": "Ingresa con su familia y cuida a los animales limpios e inmundos.",
+        "verses": "Genesis 7:1-9"
+      },
+      {
+        "name": "Familia de Noe",
+        "role": "Resto preservado",
+        "description": "Comparten el refugio y ayudan a conservar la humanidad.",
+        "verses": "Genesis 7:7,13"
+      },
+      {
+        "name": "Dios",
+        "role": "Soberano del diluvio",
+        "description": "Ordena la entrada, cierra la puerta y controla las aguas.",
+        "verses": "Genesis 7:1-16"
+      }
+    ],
+    "geography": [
+      {
+        "place": "Fuentes del abismo",
+        "summary": "Aguas subterraneas y lluvia torrencial cubren la tierra.",
+        "presentDay": "Catastrofe global",
+        "verses": "Genesis 7:11-12"
+      },
+      {
+        "place": "Arca flotante",
+        "summary": "El arca se eleva y finalmente descansa sobre los montes de Ararat.",
+        "presentDay": "Cordillera de Ararat",
+        "verses": "Genesis 7:17-20"
+      }
+    ],
+    "gospelConnections": [
+      {
+        "title": "Dias del Hijo del Hombre",
+        "description": "Jesus compara sus dias con los de Noe para llamar al arrepentimiento.",
+        "reference": "Mateo 24:37-39"
+      },
+      {
+        "title": "Pregonero de justicia",
+        "description": "Pedro describe a Noe como predicador de justicia en medio de una generacion corrupta.",
+        "reference": "2 Pedro 2:5"
+      }
+    ],
+    "outline": [
+      {
+        "section": "1",
+        "title": "Entrada al arca",
+        "verses": "7:1-10",
+        "summary": "Noe, su familia y los animales entran segun la orden divina."
+      },
+      {
+        "section": "2",
+        "title": "Inundacion total",
+        "verses": "7:11-20",
+        "summary": "Se abren las fuentes del abismo y las aguas cubren los montes."
+      },
+      {
+        "section": "3",
+        "title": "Perdida de vida",
+        "verses": "7:21-24",
+        "summary": "Todo ser viviente fuera del arca perece y las aguas prevalecen 150 dias."
+      }
+    ],
+    "studyInsights": [
+      "Los animales limpios entran de siete en siete para futuros sacrificios.",
+      "La cronologia menciona mes segundo y dia diecisiete, mostrando precision historica.",
+      "Las aguas prevalecen ciento cincuenta dias antes de comenzar a descender.",
+      "El verbo cubrir se usa tambien en el cruce del Mar Rojo."
+    ],
+    "prayerFocus": "Ora por un estilo de vida que permanezca dentro del refugio de la obediencia."
+  }
 }

@@ -258,11 +258,18 @@
             el.style.color = document.body.classList.contains('dark') ? '#e5e7eb' : '#333';
           },300);
         };
-        el.addEventListener('click', () => {
+        el.addEventListener('click', async () => {
           flash();
           if (book === 'Génesis') {
-            console.log('Opening Genesis chapter modal...');
-            openChapterModal('genesis', 1);
+            console.log('=== Genesis button clicked ===');
+            console.log('Attempting to open Genesis chapter modal...');
+            try {
+              await openChapterModal('genesis', 1);
+              console.log('Modal opened successfully');
+            } catch (error) {
+              console.error('Error opening modal:', error);
+              alert('Error al abrir el capítulo: ' + error.message);
+            }
           }
         });
         el.addEventListener('keydown', e=>{
@@ -906,14 +913,27 @@
     async function loadChapterData(book, chapter) {
       try {
         const url = `./data/chapters/${book}-${chapter}.json`;
-        console.log('Attempting to load chapter data from:', url);
+        console.log('=== Loading Chapter Data ===');
+        console.log('URL:', url);
+        console.log('Book:', book, 'Chapter:', chapter);
+
         const response = await fetch(url);
-        if (!response.ok) throw new Error(`Chapter data not found: ${response.status}`);
+        console.log('Response status:', response.status);
+        console.log('Response OK:', response.ok);
+
+        if (!response.ok) {
+          throw new Error(`Chapter data not found: ${response.status} - ${response.statusText}`);
+        }
+
         const data = await response.json();
-        console.log('Chapter data loaded successfully from JSON:', data);
+        console.log('Chapter data loaded successfully from JSON:');
+        console.log('- Title:', data.document?.title);
+        console.log('- Summary:', data.document?.summary?.substring(0, 100) + '...');
+        console.log('- Full data structure:', data);
         return data;
       } catch (error) {
-        console.error('Error loading chapter data from JSON:', error);
+        console.error('=== Error loading chapter data from JSON ===');
+        console.error('Error details:', error);
 
         // Fallback a datos embebidos para Genesis
         if (book === 'genesis' && genesisChapters[chapter]) {
@@ -1001,19 +1021,29 @@
 
     // Open chapter modal
     async function openChapterModal(book, chapter) {
-      console.log('openChapterModal called with:', book, chapter);
+      console.log('=== Opening Chapter Modal ===');
+      console.log('Book:', book, 'Chapter:', chapter);
+
       const modal = document.querySelector('.chapter-modal');
+      console.log('Modal element found:', !!modal);
       if (!modal) {
-        console.error('Modal not found!');
+        console.error('Modal element not found in DOM!');
+        alert('Error: Modal no encontrado en la página');
         return;
       }
 
+      console.log('Loading chapter data...');
       // Load chapter data
       currentChapterData = await loadChapterData(book, chapter);
+      console.log('Chapter data loaded:', !!currentChapterData);
+
       if (!currentChapterData) {
+        console.error('No chapter data available');
         alert('Los datos del capítulo no están disponibles aún.');
         return;
       }
+
+      console.log('Chapter data structure:', currentChapterData);
 
       // Reset state
       currentTab = 'resumen';
@@ -1026,16 +1056,57 @@
       currentChapter = chapter;
       currentBook = book;
 
+      // Reset tab UI to 'resumen' - this is crucial for fixing the sync issue
+      console.log('Resetting tabs to resumen...');
+      const allTabs = document.querySelectorAll('.chapter-tab');
+      console.log('Found tabs:', allTabs.length);
+
+      allTabs.forEach(tab => {
+        tab.classList.remove('active');
+        console.log('Removed active from tab:', tab.dataset.tab);
+      });
+
+      const resumenTab = document.querySelector('[data-tab="resumen"]');
+      console.log('Resumen tab found:', !!resumenTab);
+      if (resumenTab) {
+        resumenTab.classList.add('active');
+        console.log('Activated resumen tab');
+      }
+
+      // Reset content areas
+      console.log('Resetting content areas...');
+      const allContent = document.querySelectorAll('.chapter-tab-content');
+      console.log('Found content areas:', allContent.length);
+
+      allContent.forEach(content => {
+        content.classList.remove('active');
+        console.log('Removed active from content:', content.id);
+      });
+
+      const resumenContent = document.getElementById('resumenContent');
+      console.log('Resumen content found:', !!resumenContent);
+      if (resumenContent) {
+        resumenContent.classList.add('active');
+        console.log('Activated resumen content');
+      }
+
       // Update modal content
+      console.log('Updating modal header...');
       updateModalHeader();
+
+      console.log('Updating modal content...');
       updateModalContent();
 
-      // Update navigation UI
+      console.log('Updating navigation UI...');
       updateNavigationUI();
 
       // Show modal
+      console.log('Showing modal...');
       modal.classList.add('active');
       document.body.style.overflow = 'hidden';
+
+      console.log('Modal classes after activation:', modal.className);
+      console.log('Modal display style:', window.getComputedStyle(modal).display);
 
       // Focus first tab
       const firstTab = document.querySelector('.chapter-tab[data-tab="resumen"]');
@@ -1060,43 +1131,70 @@
       const subtitle = document.querySelector('.chapter-modal-subtitle');
 
       if (title) {
-        title.textContent = `${currentChapterData.book} ${currentChapterData.chapter}`;
+        const bookName = currentChapterData.document?.book || currentChapterData.book || 'Libro';
+        const chapterNum = currentChapterData.document?.chapter || currentChapterData.chapter || '1';
+        title.textContent = `${bookName} ${chapterNum}`;
       }
       if (subtitle) {
-        subtitle.textContent = currentChapterData.subtitle;
+        const subtitleText = currentChapterData.document?.subtitle || currentChapterData.subtitle || currentChapterData.document?.title || 'Capítulo';
+        subtitle.textContent = subtitleText;
       }
     }
 
     // Switch between tabs
     function switchChapterTab(tabName) {
+      console.log('=== Switching to tab:', tabName, '===');
       currentTab = tabName;
 
       // Update tab active states
+      console.log('Updating tab active states...');
       document.querySelectorAll('.chapter-tab').forEach(tab => {
         tab.classList.remove('active');
+        console.log('Removed active from tab:', tab.dataset.tab);
       });
+
       const activeTab = document.querySelector(`[data-tab="${tabName}"]`);
+      console.log('Target tab found:', !!activeTab, 'for tabName:', tabName);
       if (activeTab) {
         activeTab.classList.add('active');
+        console.log('Activated tab:', tabName);
+      }
+
+      // Update content active states
+      console.log('Updating content active states...');
+      document.querySelectorAll('.chapter-tab-content').forEach(content => {
+        content.classList.remove('active');
+        console.log('Removed active from content:', content.id);
+      });
+
+      const targetContent = document.getElementById(`${tabName}Content`);
+      console.log('Target content found:', !!targetContent, 'for:', `${tabName}Content`);
+      if (targetContent) {
+        targetContent.classList.add('active');
+        console.log('Activated content:', `${tabName}Content`);
       }
 
       // Update content
+      console.log('Calling updateModalContent...');
       updateModalContent();
     }
 
     // Update modal content based on current tab
     function updateModalContent() {
-      if (!currentChapterData) return;
+      if (!currentChapterData) {
+        console.log('No chapter data available, skipping content update');
+        return;
+      }
 
-      const content = document.querySelector('.chapter-tab-content.active');
-      if (content) content.classList.remove('active');
+      console.log('updateModalContent called for tab:', currentTab);
 
-      document.querySelectorAll('.chapter-tab-content').forEach(tab => {
-        tab.classList.remove('active');
-      });
-
+      // Ensure the correct content area is active (in case it wasn't set properly)
       const targetContent = document.getElementById(`${currentTab}Content`);
-      if (targetContent) {
+      if (targetContent && !targetContent.classList.contains('active')) {
+        console.log('Content area not active, fixing...');
+        document.querySelectorAll('.chapter-tab-content').forEach(content => {
+          content.classList.remove('active');
+        });
         targetContent.classList.add('active');
       }
 
@@ -1126,14 +1224,15 @@
     // Update timeline content
     function updateTimelineContent() {
       const container = document.getElementById('timelineContent');
-      if (!container || !currentChapterData.days) return;
+      const days = currentChapterData.document?.days || currentChapterData.days;
+      if (!container || !days) return;
 
       const html = `
         <div class="timeline-container">
           <input type="range" class="timeline-slider" id="timelineSlider"
-                 min="1" max="${currentChapterData.days.length}" value="${currentDay}">
+                 min="1" max="${days.length}" value="${currentDay}">
           <div class="timeline-days" id="timelineDays">
-            ${currentChapterData.days.map((day, index) => `
+            ${days.map((day, index) => `
               <div class="day-card ${index + 1 === currentDay ? 'active' : ''}" data-day="${index + 1}">
                 <div class="day-header">
                   <div class="day-icon">${day.icon}</div>
@@ -1189,42 +1288,42 @@
       const html = `
         <div class="resumen-summary">
           <h3>📖 Resumen</h3>
-          <p>${currentChapterData.summary}</p>
+          <p>${currentChapterData.document?.summary || currentChapterData.summary || 'Resumen no disponible'}</p>
         </div>
 
         <div class="resumen-timeline">
           <h4>⏰ Contexto Temporal</h4>
           <div class="timeline-info">
             <div class="timeline-item">
-              <strong>Período:</strong> ${currentChapterData.timeline.period}
+              <strong>Período:</strong> ${currentChapterData.document?.timeline?.period || currentChapterData.timeline?.period || 'No disponible'}
             </div>
             <div class="timeline-item">
-              <strong>Contexto:</strong> ${currentChapterData.timeline.context}
+              <strong>Contexto:</strong> ${currentChapterData.document?.timeline?.context || currentChapterData.timeline?.context || 'No disponible'}
             </div>
             <div class="timeline-item">
-              <strong>Ubicación:</strong> ${currentChapterData.timeline.placement}
+              <strong>Ubicación:</strong> ${currentChapterData.document?.timeline?.placement || currentChapterData.timeline?.placement || 'No disponible'}
             </div>
           </div>
         </div>
 
         <div class="resumen-teaching">
           <h4>💡 Enseñanza Principal</h4>
-          <p>${currentChapterData.mainTeaching}</p>
+          <p>${currentChapterData.document?.mainTeaching || currentChapterData.mainTeaching || 'Enseñanza no disponible'}</p>
         </div>
 
         <div class="resumen-application">
           <h4>🎯 Aplicación Práctica</h4>
           <ul>
-            ${currentChapterData.practicalApplication.map(app => `<li>${app}</li>`).join('')}
+            ${(currentChapterData.document?.practicalApplication || currentChapterData.practicalApplication || []).map(app => `<li>${app}</li>`).join('')}
           </ul>
         </div>
 
         <div class="resumen-verse">
           <h4>📝 Versículo para Memorizar</h4>
           <div class="memorize-verse">
-            <div class="verse-text">"${currentChapterData.memorizeVerse.text}"</div>
-            <div class="verse-ref">${currentChapterData.memorizeVerse.reference}</div>
-            <div class="verse-theme">${currentChapterData.memorizeVerse.theme}</div>
+            <div class="verse-text">"${(currentChapterData.document?.memorizeVerse?.text || currentChapterData.memorizeVerse?.text || '')}"</div>
+            <div class="verse-ref">${(currentChapterData.document?.memorizeVerse?.reference || currentChapterData.memorizeVerse?.reference || '')}</div>
+            <div class="verse-theme">${(currentChapterData.document?.memorizeVerse?.theme || currentChapterData.memorizeVerse?.theme || '')}</div>
           </div>
         </div>
       `;
@@ -1235,11 +1334,12 @@
     // Update datos content
     function updateDatosContent() {
       const container = document.getElementById('datosContent');
-      if (!container || !currentChapterData.interestingFacts) return;
+      const facts = currentChapterData.document?.interestingFacts || currentChapterData.interestingFacts;
+      if (!container || !facts) return;
 
       const html = `
         <div class="facts-grid">
-          ${currentChapterData.interestingFacts.map(fact => `
+          ${facts.map(fact => `
             <div class="fact-card" data-fact-id="${fact.id}">
               <div class="fact-title">${fact.title}</div>
               <div class="fact-summary">${fact.summary}</div>
@@ -1269,11 +1369,12 @@
     // Update reflexion content
     function updateReflexionContent() {
       const container = document.getElementById('reflexionContent');
-      if (!container || !currentChapterData.reflectionQuestions) return;
+      const questions = currentChapterData.document?.reflectionQuestions || currentChapterData.reflectionQuestions;
+      if (!container || !questions) return;
 
       const html = `
         <div class="questions-grid">
-          ${currentChapterData.reflectionQuestions.map((question, index) => `
+          ${questions.map((question, index) => `
             <div class="question-card" data-question-id="${question.id}">
               <div class="question-category">${question.category}</div>
               <div class="question-text">${question.question}</div>
@@ -1326,20 +1427,37 @@
     // Update trivia content
     function updateTriviaContent() {
       const container = document.getElementById('triviaContent');
-      if (!container || !currentChapterData.trivia) return;
+      console.log('=== Trivia Debug ===');
+      console.log('currentChapterData.document?.trivia:', currentChapterData.document?.trivia);
+      console.log('currentChapterData.document?.trivia?.items:', currentChapterData.document?.trivia?.items);
+      console.log('currentChapterData.trivia:', currentChapterData.trivia);
 
-      if (currentTrivia >= currentChapterData.trivia.length) {
+      const trivia = currentChapterData.document?.trivia?.items || currentChapterData.trivia;
+      console.log('Final trivia data:', trivia);
+
+      if (!container) {
+        console.error('Trivia container not found');
+        return;
+      }
+
+      if (!trivia) {
+        console.error('No trivia data found');
+        container.innerHTML = '<p>⚠️ No hay datos de trivia disponibles</p>';
+        return;
+      }
+
+      if (currentTrivia >= trivia.length) {
         showTriviaResults();
         return;
       }
 
-      const question = currentChapterData.trivia[currentTrivia];
+      const question = trivia[currentTrivia];
       const isAnswered = triviaAnswers[currentTrivia] !== undefined;
 
       const html = `
         <div class="trivia-container">
           <div class="trivia-question">
-            <h3>Pregunta ${currentTrivia + 1} de ${currentChapterData.trivia.length}</h3>
+            <h3>Pregunta ${currentTrivia + 1} de ${trivia.length}</h3>
             <p>${question.question}</p>
             <div class="trivia-options">
               ${question.options.map((option, index) => {
@@ -1365,10 +1483,10 @@
               Anterior
             </button>
             <div class="trivia-progress">
-              ${currentTrivia + 1} / ${currentChapterData.trivia.length}
+              ${currentTrivia + 1} / ${trivia.length}
             </div>
             <button class="trivia-nav" id="triviaNext" ${isAnswered ? '' : 'disabled'}>
-              ${currentTrivia === currentChapterData.trivia.length - 1 ? 'Finalizar' : 'Siguiente'}
+              ${currentTrivia === trivia.length - 1 ? 'Finalizar' : 'Siguiente'}
             </button>
           </div>
         </div>
@@ -1377,42 +1495,68 @@
       container.innerHTML = html;
 
       // Add option click handlers
+      console.log('Setting up trivia option handlers. Is answered:', isAnswered);
       if (!isAnswered) {
-        document.querySelectorAll('.trivia-option').forEach(option => {
+        const options = document.querySelectorAll('.trivia-option');
+        console.log('Found trivia options:', options.length);
+
+        options.forEach((option, index) => {
+          console.log('Adding click listener to option', index, 'with data-option:', option.dataset.option);
+          option.style.cursor = 'pointer';
           option.addEventListener('click', () => {
             const selectedIndex = parseInt(option.dataset.option);
+            console.log('Trivia option clicked:', selectedIndex);
             answerTrivia(selectedIndex);
           });
         });
+      } else {
+        console.log('Question already answered, not adding click handlers');
       }
 
       // Re-attach navigation handlers
       const prevBtn = document.getElementById('triviaPrev');
       const nextBtn = document.getElementById('triviaNext');
 
-      if (prevBtn) prevBtn.addEventListener('click', () => navigateTrivia(-1));
-      if (nextBtn) nextBtn.addEventListener('click', () => navigateTrivia(1));
+      console.log('Trivia navigation buttons - Prev:', !!prevBtn, 'Next:', !!nextBtn);
+
+      if (prevBtn) {
+        prevBtn.addEventListener('click', () => {
+          console.log('Previous trivia button clicked');
+          navigateTrivia(-1);
+        });
+      }
+      if (nextBtn) {
+        nextBtn.addEventListener('click', () => {
+          console.log('Next trivia button clicked');
+          navigateTrivia(1);
+        });
+      }
     }
 
     // Answer trivia question
     function answerTrivia(selectedIndex) {
+      console.log('answerTrivia called with:', selectedIndex, 'for question:', currentTrivia);
       triviaAnswers[currentTrivia] = selectedIndex;
+      console.log('Updated triviaAnswers:', triviaAnswers);
       updateTriviaContent(); // Refresh to show results
     }
 
     // Navigate trivia
     function navigateTrivia(direction) {
       console.log('Navigating trivia:', direction, 'from index:', currentTrivia);
+      const trivia = currentChapterData.document?.trivia?.items || currentChapterData.trivia;
       const newIndex = currentTrivia + direction;
-      console.log('New index would be:', newIndex, 'Total questions:', currentChapterData.trivia.length);
+      console.log('New index would be:', newIndex, 'Total questions:', trivia ? trivia.length : 'unknown');
 
-      if (newIndex >= 0 && newIndex < currentChapterData.trivia.length) {
+      if (trivia && newIndex >= 0 && newIndex < trivia.length) {
         currentTrivia = newIndex;
         console.log('Moving to question:', currentTrivia + 1);
         updateTriviaContent();
-      } else if (newIndex >= currentChapterData.trivia.length) {
+      } else if (trivia && newIndex >= trivia.length) {
         console.log('Showing results');
         showTriviaResults();
+      } else {
+        console.log('Invalid navigation - staying at current question');
       }
     }
 
@@ -1421,10 +1565,11 @@
       const container = document.getElementById('triviaContent');
       if (!container) return;
 
+      const trivia = currentChapterData.document?.trivia?.items || currentChapterData.trivia;
       const correct = triviaAnswers.filter((answer, index) =>
-        answer === currentChapterData.trivia[index].correct
+        answer === trivia[index].correct
       ).length;
-      const total = currentChapterData.trivia.length;
+      const total = trivia.length;
       const percentage = Math.round((correct / total) * 100);
 
       let message = '';
@@ -1631,9 +1776,8 @@
     // Update comparacion content
     function updateComparacionContent() {
       const container = document.getElementById('comparacionContent');
-      if (!container || !currentChapterData.comparison) return;
-
-      const comparison = currentChapterData.comparison;
+      const comparison = currentChapterData.document?.comparison || currentChapterData.comparison;
+      if (!container || !comparison) return;
 
       const html = `
         <div class="comparison-container">

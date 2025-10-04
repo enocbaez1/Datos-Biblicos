@@ -219,5 +219,97 @@
     "Busca señales prudentes antes de tomar decisiones importantes.",
     "Levanta \"altares\" de adoración en respuesta a la misericordia recibida.",
     "Asume con responsabilidad el nuevo comienzo que Dios te concede."
-  ]
+  ],
+  "extendedContent": {
+    "keyThemes": [
+      {
+        "id": "gen8-theme-memoria",
+        "title": "Memoria divina",
+        "summary": "Dios se acuerda de Noe y comienza a revertir el juicio."
+      },
+      {
+        "id": "gen8-theme-paciencia",
+        "title": "Paciencia obediente",
+        "summary": "Noe espera la orden de Dios antes de abandonar el arca."
+      },
+      {
+        "id": "gen8-theme-adoracion",
+        "title": "Adoracion agradecida",
+        "summary": "El altar de Noe produce promesa de estabilidad para la tierra."
+      }
+    ],
+    "characterProfiles": [
+      {
+        "name": "Noe",
+        "role": "Adorador agradecido",
+        "description": "Prueba con aves, espera la voz divina y ofrece sacrificio de olor grato.",
+        "verses": "Genesis 8:6-20"
+      },
+      {
+        "name": "Paloma",
+        "role": "Mensajera de paz",
+        "description": "Regresa con hoja de olivo anunciando tierra renovada.",
+        "verses": "Genesis 8:10-11"
+      },
+      {
+        "name": "Dios",
+        "role": "Garantia del pacto",
+        "description": "Promete ciclos estables de siembra y cosecha.",
+        "verses": "Genesis 8:21-22"
+      }
+    ],
+    "geography": [
+      {
+        "place": "Montes de Ararat",
+        "summary": "Cordillera donde el arca descansa cuando disminuyen las aguas.",
+        "presentDay": "Region de Turquía y Armenia",
+        "verses": "Genesis 8:4"
+      },
+      {
+        "place": "Tierra renovada",
+        "summary": "Superficie seca que aparece tras un año completo dentro del arca.",
+        "presentDay": "Tierra habitada",
+        "verses": "Genesis 8:13-14"
+      }
+    ],
+    "gospelConnections": [
+      {
+        "title": "Olor agradable",
+        "description": "El sacrificio acepto anticipa la ofrenda de Cristo como olor fragante.",
+        "reference": "Efesios 5:2"
+      },
+      {
+        "title": "Providencia constante",
+        "description": "Pablo proclama que Dios no deja de dar lluvias y cosechas para beneficio de todos.",
+        "reference": "Hechos 14:17"
+      }
+    ],
+    "outline": [
+      {
+        "section": "1",
+        "title": "Descenso de las aguas",
+        "verses": "8:1-5",
+        "summary": "Dios envia viento, las fuentes se cierran y el arca reposa en Ararat."
+      },
+      {
+        "section": "2",
+        "title": "Mensajeros alados",
+        "verses": "8:6-14",
+        "summary": "Noe envia cuervo y palomas para evaluar la tierra."
+      },
+      {
+        "section": "3",
+        "title": "Altar y promesa",
+        "verses": "8:15-22",
+        "summary": "Noe sale, ofrece sacrificio y recibe promesa de ciclos estables."
+      }
+    ],
+    "studyInsights": [
+      "Acordarse significa actuar en favor, no simple memoria.",
+      "El cuervo queda fuera, pero la paloma busca lugar limpio.",
+      "Noe espera 57 dias despues de ver tierra seca hasta recibir la orden divina.",
+      "La promesa de estaciones prepara el escenario para la historia redentiva."
+    ],
+    "prayerFocus": "Da gracias por la fidelidad de Dios y pide vivir con paciencia expectante."
+  }
 }

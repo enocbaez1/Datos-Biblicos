@@ -219,5 +219,97 @@
     "Busca ritmos de comunión con Dios que sostengan tu vida diaria.",
     "Recuerda que la mortalidad invita a vivir con propósito eterno.",
     "Confía en que Dios prepara alivio incluso cuando la disciplina se acerca."
-  ]
+  ],
+  "extendedContent": {
+    "keyThemes": [
+      {
+        "id": "gen5-theme-fidelidad",
+        "title": "Fidelidad generacional",
+        "summary": "La genealogia demuestra que Dios mantiene su plan a traves de generaciones."
+      },
+      {
+        "id": "gen5-theme-mortalidad",
+        "title": "Recordatorio de mortalidad",
+        "summary": "La frase y murio recuerda las consecuencias permanentes del pecado."
+      },
+      {
+        "id": "gen5-theme-esperanza",
+        "title": "Esperanza en Enoc y Noe",
+        "summary": "Enoc y Noe muestran que caminar con Dios trae consuelo y futuro."
+      }
+    ],
+    "characterProfiles": [
+      {
+        "name": "Adan",
+        "role": "Padre de la humanidad",
+        "description": "Transmite su imagen a Set y encabeza la genealogia piadosa.",
+        "verses": "Genesis 5:1-5"
+      },
+      {
+        "name": "Enoc",
+        "role": "Camino con Dios",
+        "description": "Camino con Dios hasta que fue llevado sin ver muerte.",
+        "verses": "Genesis 5:21-24"
+      },
+      {
+        "name": "Noe",
+        "role": "Portador de consuelo",
+        "description": "Su nombre anuncia alivio para la tierra trabajada con dolor.",
+        "verses": "Genesis 5:28-32"
+      }
+    ],
+    "geography": [
+      {
+        "place": "Mundo antediluviano",
+        "summary": "Epoca de longevidad extraordinaria antes del diluvio.",
+        "presentDay": "Civilizaciones tempranas",
+        "verses": "Genesis 5:1-32"
+      },
+      {
+        "place": "Campos trabajados",
+        "summary": "La tierra produce con esfuerzo mientras espera el consuelo prometido.",
+        "presentDay": "Simbolo del trabajo humano",
+        "verses": "Genesis 5:29"
+      }
+    ],
+    "gospelConnections": [
+      {
+        "title": "Libro de genealogia",
+        "description": "Mateo conecta a Jesus con la historia de Genesis mediante una genealogia.",
+        "reference": "Mateo 1:1"
+      },
+      {
+        "title": "Fe que camina",
+        "description": "Hebreos presenta a Enoc como ejemplo de fe que agrada a Dios.",
+        "reference": "Hebreos 11:5-6"
+      }
+    ],
+    "outline": [
+      {
+        "section": "1",
+        "title": "Prologo teologico",
+        "verses": "5:1-2",
+        "summary": "Se afirma que Dios creo al hombre, lo bendijo y lo hizo a su semejanza."
+      },
+      {
+        "section": "2",
+        "title": "Linea de Set",
+        "verses": "5:3-20",
+        "summary": "Registro repetitivo de nombre, edad al engendrar, hijos y muerte."
+      },
+      {
+        "section": "3",
+        "title": "Enoc y nacimiento de Noe",
+        "verses": "5:21-32",
+        "summary": "Excepcion de Enoc y esperanza de consuelo con el nacimiento de Noe."
+      }
+    ],
+    "studyInsights": [
+      "La estructura repetitiva refuerza la certeza de la muerte despues del Eden.",
+      "Las edades extensas muestran la paciencia divina antes del juicio del diluvio.",
+      "Enoc rompe el patron y murio, anunciando posibilidad de comunion restaurada.",
+      "Noe es la decima generacion desde Adan, simbolizando cumplimiento."
+    ],
+    "prayerFocus": "Ora para caminar fielmente con Dios y transmitir esa fidelidad a tu descendencia."
+  }
 }

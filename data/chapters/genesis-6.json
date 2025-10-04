@@ -219,5 +219,97 @@
     "Obedece los detalles de lo que Dios te ha mostrado aunque parezcan ilógicos.",
     "Agradece la gracia recibida y compártela con tu familia y comunidad.",
     "Construye \"arcas\" de protección espiritual para quienes te rodean."
-  ]
+  ],
+  "extendedContent": {
+    "keyThemes": [
+      {
+        "id": "gen6-theme-corrupcion",
+        "title": "Corrupcion universal",
+        "summary": "La maldad se vuelve universal y violenta antes del diluvio."
+      },
+      {
+        "id": "gen6-theme-gracia",
+        "title": "Gracia inmerecida",
+        "summary": "Noe halla gracia ante Dios a pesar de la corrupcion generalizada."
+      },
+      {
+        "id": "gen6-theme-obediencia",
+        "title": "Obediencia detallada",
+        "summary": "Las instrucciones del arca exigen obediencia precisa para preservar la vida."
+      }
+    ],
+    "characterProfiles": [
+      {
+        "name": "Noe",
+        "role": "Justo en su generacion",
+        "description": "Camina con Dios, recibe el plan del arca y obedece en todo.",
+        "verses": "Genesis 6:8-22"
+      },
+      {
+        "name": "Dios",
+        "role": "Juez y salvador",
+        "description": "Declara juicio sobre la tierra pero establece pacto con Noe.",
+        "verses": "Genesis 6:5-18"
+      },
+      {
+        "name": "Nefilim",
+        "role": "Gigantes violentos",
+        "description": "Guerreros famosos cuyo estilo de vida resalta la corrupcion y violencia.",
+        "verses": "Genesis 6:1-4"
+      }
+    ],
+    "geography": [
+      {
+        "place": "Tierra corrompida",
+        "summary": "La tierra se llena de violencia y queda arruinada moralmente.",
+        "presentDay": "Humanidad antediluviana",
+        "verses": "Genesis 6:11-12"
+      },
+      {
+        "place": "Arca en construccion",
+        "summary": "Barca masiva edificada por fe en medio de tierra seca.",
+        "presentDay": "Regiones montanosas de Ararat",
+        "verses": "Genesis 6:14-16"
+      }
+    ],
+    "gospelConnections": [
+      {
+        "title": "Arca como refugio",
+        "description": "Pedro compara el arca con la salvacion en Cristo y el bautismo.",
+        "reference": "1 Pedro 3:20-21"
+      },
+      {
+        "title": "Justicia por fe",
+        "description": "Hebreos presenta a Noe como heredero de la justicia que es por la fe.",
+        "reference": "Hebreos 11:7"
+      }
+    ],
+    "outline": [
+      {
+        "section": "1",
+        "title": "Corrupcion humana",
+        "verses": "6:1-7",
+        "summary": "La violencia y la mezcla prohibida provocan el dolor de Dios."
+      },
+      {
+        "section": "2",
+        "title": "Gracia hacia Noe",
+        "verses": "6:8-12",
+        "summary": "Noe es descrito como justo y perfecto en su generacion."
+      },
+      {
+        "section": "3",
+        "title": "Instrucciones del arca",
+        "verses": "6:13-22",
+        "summary": "Dios revela el plan de salvacion y las medidas exactas para el arca."
+      }
+    ],
+    "studyInsights": [
+      "La expresion hijos de Dios tiene varias interpretaciones historicas.",
+      "El limite de 120 anos puede indicar plazo hasta el diluvio.",
+      "La palabra arca (tebah) se usa tambien para el canasto de Moises.",
+      "Noe obedece sin evidencia previa de lluvia, mostrando fe genuina."
+    ],
+    "prayerFocus": "Pide obedecer detalladamente aunque la cultura ignore la voz de Dios."
+  }
 }
