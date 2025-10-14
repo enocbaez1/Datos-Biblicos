@@ -1,315 +1,348 @@
 {
-  "book": "Génesis",
-  "chapter": 2,
-  "title": "El Jardín del Edén",
-  "subtitle": "Diseño divino para la vida humana",
-  "summary": "Se describen con detalle la formación del ser humano, el jardín de Edén, el mandato de obediencia y la institución del matrimonio como una unión complementaria destinada a reflejar la imagen de Dios.",
-  "timeline": {
-    "period": "Creación temprana",
-    "context": "Adán y Eva colocados en el Edén antes de la caída",
-    "placement": "Fundamentos de la vida humana"
+  "meta": {
+    "id": "genesis-2-el-jardin",
+    "slug": "genesis-2-el-jardin",
+    "lang": "es",
+    "available_locales": ["es"],
+    "version": 1,
+    "created_at": "2025-10-03T00:00:00Z",
+    "updated_at": "2025-10-03T00:00:00Z",
+    "status": "published"
   },
-  "days": [
-    {
-      "day": 1,
-      "title": "Formación del hombre",
-      "icon": ">>",
-      "description": "Dios forma al hombre del polvo y sopla aliento de vida en él.",
-      "verse": "Entonces Jehová Dios formó al hombre del polvo de la tierra.",
+  "seo": {
+    "title": "Génesis 2 — El Jardín del Edén | Estudio bíblico",
+    "description": "Estudio de Génesis 2: El jardín del Edén, la creación del hombre y la mujer, y la institución del matrimonio. Material interactivo.",
+    "keywords": ["Génesis 2", "Edén", "Adán", "Eva", "matrimonio", "estudio bíblico"],
+    "canonical_url": "https://tusitio.com/genesis/2",
+    "og": {
+      "title": "Génesis 2 — El Jardín del Edén",
+      "description": "La creación del paraíso terrenal y los primeros seres humanos. Material interactivo con reflexiones y aplicaciones prácticas.",
+      "image": "https://tusitio.com/assets/og/genesis-2.png",
+      "type": "article"
+    },
+    "breadcrumbs": [
+      {"name": "Inicio", "url": "/"},
+      {"name": "Génesis", "url": "/genesis"},
+      {"name": "Capítulo 2", "url": "/genesis/2"}
+    ]
+  },
+  "source": {
+    "bible_version": {
+      "code": "RVR1960",
+      "name": "Reina-Valera 1960",
+      "license": "Dominio público en algunos países; verifica en tu jurisdicción",
+      "attribution": "Sociedades Bíblicas"
+    },
+    "passage_range": "Génesis 2:4-25",
+    "cross_references": [
+      {"ref": "Mateo 19:3-9", "note": "Jesús cita la institución del matrimonio"},
+      {"ref": "Efesios 5:22-33", "note": "El matrimonio como símbolo de Cristo y la Iglesia"},
+      {"ref": "1 Corintios 11:8-9", "note": "Orden en la creación"}
+    ]
+  },
+  "document": {
+    "book": "Génesis",
+    "chapter": 2,
+    "title": "El Jardín del Edén",
+    "subtitle": "Y plantó Jehová Dios un huerto en Edén",
+    "summary": "Después de la creación general, Dios forma al hombre del polvo de la tierra y sopla en él aliento de vida. Planta un jardín perfecto en Edén, coloca allí al hombre para labrarlo y guardarlo, y le da una sola prohibición. Al ver que no es bueno que el hombre esté solo, crea a la mujer de su costilla, estableciendo así la primera familia y el matrimonio como institución divina.",
+    "timeline": {
+      "period": "Los primeros días de la humanidad",
+      "context": "Creación específica del hombre y la mujer en el paraíso",
+      "placement": "Sexto día de la creación (ampliado)",
+      "era_tag": "Edén",
+      "timeline_points": [
+        {"label": "Formación del hombre", "ref": "Gn 2:7"},
+        {"label": "Plantación del jardín", "ref": "Gn 2:8"},
+        {"label": "El mandamiento", "ref": "Gn 2:16-17"},
+        {"label": "Creación de Eva", "ref": "Gn 2:21-22"},
+        {"label": "Primera boda", "ref": "Gn 2:23-25"}
+      ]
+    },
+    "days": [
+      {
+        "day": 1,
+        "title": "Formación del Hombre",
+        "icon": "👤",
+        "description": "Dios forma al hombre del polvo de la tierra",
+        "verse": "Entonces Jehová Dios formó al hombre del polvo de la tierra, y sopló en su nariz aliento de vida",
+        "reference": "Génesis 2:7",
+        "significance": "Primera creación directa y personal de Dios",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen2/formation.jpg", "alt": "Formación del hombre del polvo"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 2,
+        "title": "El Jardín Plantado",
+        "icon": "🌳",
+        "description": "Dios planta un jardín en Edén hacia el oriente",
+        "verse": "Y Jehová Dios plantó un huerto en Edén, al oriente",
+        "reference": "Génesis 2:8",
+        "significance": "Provisión perfecta para la humanidad",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen2/garden.jpg", "alt": "El jardín del Edén"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 3,
+        "title": "Ríos y Árboles",
+        "icon": "🌊",
+        "description": "Cuatro ríos y árboles especiales en el jardín",
+        "verse": "Y salía de Edén un río para regar el huerto",
+        "reference": "Génesis 2:10",
+        "significance": "Abundancia y orden en la creación",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen2/rivers.jpg", "alt": "Los cuatro ríos del Edén"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 4,
+        "title": "Trabajo y Mandamiento",
+        "icon": "⚖️",
+        "description": "Adán recibe trabajo y una prohibición",
+        "verse": "Del árbol de la ciencia del bien y del mal no comerás",
+        "reference": "Génesis 2:17",
+        "significance": "Primera ley moral dada al hombre",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen2/command.jpg", "alt": "El mandamiento divino"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 5,
+        "title": "Búsqueda de Compañía",
+        "icon": "🔍",
+        "description": "Adán nombra a los animales pero no halla ayuda idónea",
+        "verse": "Y no se halló ayuda idónea para él",
+        "reference": "Génesis 2:20",
+        "significance": "Reconocimiento de la necesidad de compañía",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen2/animals.jpg", "alt": "Adán nombrando los animales"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 6,
+        "title": "Creación de Eva",
+        "icon": "👥",
+        "description": "Dios crea a la mujer de la costilla de Adán",
+        "verse": "De la costilla que Jehová Dios tomó del hombre, hizo una mujer",
+        "reference": "Génesis 2:22",
+        "significance": "Completamiento de la humanidad",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen2/eve.jpg", "alt": "Creación de Eva"},
+          "audio": null,
+          "video": null
+        }
+      }
+    ],
+    "interestingFacts": [
+      {
+        "id": "eden-meaning",
+        "title": "Significado de Edén",
+        "summary": "Edén significa 'delicia' o 'placer' en hebreo",
+        "explanation": "El nombre del jardín revela el propósito divino: un lugar de gozo perfecto donde Dios y el hombre convivían en armonía total.",
+        "verse": "Y Jehová Dios plantó un huerto en Edén",
+        "reference": "Génesis 2:8"
+      },
+      {
+        "id": "breath-of-life",
+        "title": "Aliento de Vida",
+        "summary": "Dios 'sopló' directamente en Adán",
+        "explanation": "Esta es la única vez que se describe a Dios dando vida de manera tan personal e íntima, mostrando la especial relación entre Dios y la humanidad.",
+        "verse": "Y sopló en su nariz aliento de vida; y fue el hombre un ser viviente",
+        "reference": "Génesis 2:7"
+      },
+      {
+        "id": "four-rivers",
+        "title": "Cuatro Ríos",
+        "summary": "Pisón, Gihón, Hidekel y Éufrates regaban el jardín",
+        "explanation": "Estos ríos muestran que Edén estaba en una ubicación geográfica real, probablemente en Mesopotamia, y proporcionaban abundante agua para toda la creación.",
+        "verse": "El nombre del uno era Pisón... el segundo río es Gihón... el tercero es Hidekel... y el cuarto río es el Éufrates",
+        "reference": "Génesis 2:11-14"
+      },
+      {
+        "id": "bone-of-bones",
+        "title": "Hueso de mis Huesos",
+        "summary": "Primera poesía de la humanidad",
+        "explanation": "La exclamación de Adán al ver a Eva es considerada el primer poema de la historia, expresando gozo, reconocimiento y unidad perfecta.",
+        "verse": "Esto es ahora hueso de mis huesos y carne de mi carne",
+        "reference": "Génesis 2:23"
+      }
+    ],
+    "reflectionQuestions": [
+      {
+        "id": "work-purpose",
+        "question": "¿Qué nos enseña sobre el trabajo el hecho de que Dios pusiera a Adán a labrar y guardar el jardín antes de la caída?",
+        "category": "práctica",
+        "hints": ["Dignidad del trabajo", "Propósito divino", "Mayordomía"]
+      },
+      {
+        "id": "marriage-design",
+        "question": "¿Cómo refleja el diseño original del matrimonio la naturaleza relacional de Dios?",
+        "category": "teológica",
+        "hints": ["Imagen de Dios", "Complementariedad", "Unidad en diversidad"]
+      },
+      {
+        "id": "solitude-community",
+        "question": "¿Qué significa que 'no es bueno que el hombre esté solo' para nuestra vida en comunidad hoy?",
+        "category": "personal",
+        "hints": ["Necesidad de relación", "Vida en comunidad", "Interdependencia"]
+      },
+      {
+        "id": "tree-knowledge",
+        "question": "¿Por qué crees que Dios puso el árbol del conocimiento del bien y del mal en el jardín?",
+        "category": "teológica",
+        "hints": ["Libre albedrío", "Confianza", "Obediencia"]
+      }
+    ],
+    "trivia": {
+      "difficulty": "medium",
+      "passing_score": 3,
+      "items": [
+        {
+          "question": "¿De qué fue formado el hombre según Génesis 2:7?",
+          "options": ["Del barro", "Del polvo de la tierra", "De la roca"],
+          "correct": 1,
+          "explanation": "Dios formó al hombre del polvo de la tierra, mostrando su origen humilde pero noble."
+        },
+        {
+          "question": "¿Cuántos ríos salían de Edén para regar el huerto?",
+          "options": ["Dos", "Cuatro", "Siete"],
+          "correct": 1,
+          "explanation": "Cuatro ríos: Pisón, Gihón, Hidekel y Éufrates, proporcionando abundante irrigación."
+        },
+        {
+          "question": "¿De qué parte de Adán fue formada Eva?",
+          "options": ["De su brazo", "De su costilla", "De su corazón"],
+          "correct": 1,
+          "explanation": "Eva fue formada de la costilla de Adán, mostrando igualdad y complementariedad."
+        },
+        {
+          "question": "¿Cuál era el único árbol prohibido en el jardín?",
+          "options": ["Árbol de la vida", "Árbol de la ciencia del bien y del mal", "Árbol de la sabiduría"],
+          "correct": 1,
+          "explanation": "El árbol de la ciencia del bien y del mal era el único prohibido al hombre."
+        }
+      ]
+    },
+    "comparison": {
+      "title": "Antes y Después de Eva",
+      "before": {
+        "title": "Adán Solo",
+        "description": "El hombre en soledad, a pesar de estar en el paraíso",
+        "elements": ["Sin compañía humana", "Necesidad no satisfecha", "Trabajo solitario", "Nombrando animales"],
+        "verse": "No es bueno que el hombre esté solo",
+        "reference": "Génesis 2:18"
+      },
+      "after": {
+        "title": "Adán y Eva Unidos",
+        "description": "La primera pareja en perfecta armonía y propósito",
+        "elements": ["Compañía ideal", "Complementariedad perfecta", "Trabajo compartido", "Una sola carne"],
+        "verse": "Por tanto, dejará el hombre a su padre y a su madre, y se unirá a su mujer, y serán una sola carne",
+        "reference": "Génesis 2:24"
+      }
+    },
+    "memorizeVerse": {
+      "text": "Y Jehová Dios formó al hombre del polvo de la tierra, y sopló en su nariz aliento de vida; y fue el hombre un ser viviente.",
       "reference": "Génesis 2:7",
-      "significance": "La vida humana depende totalmente del soplo divino."
+      "theme": "Dignidad humana y origen divino",
+      "audio_url": null
     },
-    {
-      "day": 2,
-      "title": "El huerto plantado",
-      "icon": "**",
-      "description": "Jehová Dios planta el Edén, un jardín abundante y agradable.",
-      "verse": "Y Jehová Dios plantó un huerto en Edén, al oriente.",
-      "reference": "Génesis 2:8-9",
-      "significance": "Dios provee un ambiente de belleza y propósito para el hombre."
-    },
-    {
-      "day": 3,
-      "title": "Ríos y recursos",
-      "icon": "~~",
-      "description": "Cuatro ríos riegan el huerto y describen la riqueza de la tierra.",
-      "verse": "De Edén salía un río para regar el huerto, y de allí se repartía en cuatro brazos.",
-      "reference": "Génesis 2:10-14",
-      "significance": "La creación contiene abundancia administrada por Dios para el bien humano."
-    },
-    {
-      "day": 4,
-      "title": "Mandato de obediencia",
-      "icon": "!!",
-      "description": "El hombre recibe la responsabilidad de cultivar y guardar, con una prohibición clara.",
-      "verse": "De todo árbol del huerto podrás comer; mas del árbol de la ciencia del bien y del mal no comerás.",
-      "reference": "Génesis 2:15-17",
-      "significance": "La libertad humana implica límites saludables establecidos por Dios."
-    },
-    {
-      "day": 5,
-      "title": "Nombrar a los animales",
-      "icon": "::",
-      "description": "Adán ejerce autoridad nombrando a cada criatura, pero no halla ayuda idónea.",
-      "verse": "Jehová Dios trajo al hombre los animales... y todo lo que Adán llamó a los animales vivientes, ese es su nombre.",
-      "reference": "Génesis 2:19-20",
-      "significance": "El ser humano participa en la administración de la creación, reflejando el gobierno divino."
-    },
-    {
-      "day": 6,
-      "title": "Creación de la mujer",
-      "icon": "||",
-      "description": "Dios forma a la mujer de la costilla del hombre y establece el matrimonio.",
-      "verse": "Por tanto dejará el hombre a su padre y a su madre, y se unirá a su mujer.",
-      "reference": "Génesis 2:21-25",
-      "significance": "El matrimonio es una unión santa y complementaria ordenada por Dios."
-    }
-  ],
-  "interestingFacts": [
-    {
-      "id": "eden-delight",
-      "title": "Edén significa deleite",
-      "summary": "El nombre del jardín transmite gozo y plenitud.",
-      "explanation": "Edén proviene de una raíz que implica placer y abundancia. Dios diseñó el entorno humano original para la alegría y la comunión con Él.",
-      "verse": "Jehová Dios plantó un huerto en Edén, al oriente.",
-      "reference": "Génesis 2:8"
-    },
-    {
-      "id": "helper-suitable",
-      "title": "Ayuda idónea no implica inferioridad",
-      "summary": "\"Ezer\" se usa para describir incluso la ayuda de Dios.",
-      "explanation": "La expresión hebrea «ezer kenegdo» comunica una ayuda fuerte y complementaria. Lejos de ser secundaria, la mujer refleja atributos divinos de apoyo poderoso.",
-      "verse": "Le haré ayuda idónea para él.",
-      "reference": "Génesis 2:18"
-    },
-    {
-      "id": "four-rivers",
-      "title": "Cuatro corrientes estratégicas",
-      "summary": "Pisón, Gihón, Hidekel y Éufrates conectan Edén con el mundo.",
-      "explanation": "Los ríos parten del Edén hacia regiones ricas en oro, bedelio y piedra ónice, sugiriendo la vocación humana de extender la bendición divina.",
-      "verse": "El nombre del primero es Pisón... el nombre del segundo, Gihón.",
-      "reference": "Génesis 2:11-14"
-    },
-    {
-      "id": "marriage-covenant",
-      "title": "La primera alianza matrimonial",
-      "summary": "El matrimonio es instituido antes de la caída.",
-      "explanation": "La unión de Adán y Eva modela la intimidad, exclusividad y permanencia que Dios desea para cada matrimonio bajo su pacto.",
-      "verse": "Serán una sola carne.",
-      "reference": "Génesis 2:24"
-    }
-  ],
-  "reflectionQuestions": [
-    {
-      "id": "life-breath",
-      "question": "¿Qué te enseña que Dios sopló aliento de vida directamente en el hombre?",
-      "category": "teológica",
-      "hints": [
-        "Dependencia",
-        "Valor",
-        "Propósito personal"
-      ]
-    },
-    {
-      "id": "obedience-boundaries",
-      "question": "¿Cómo ves los límites divinos en tu vida: restricciones o protección amorosa?",
-      "category": "práctica",
-      "hints": [
-        "Mandamientos",
-        "Confianza",
-        "Libertad verdadera"
-      ]
-    },
-    {
-      "id": "companionship-design",
-      "question": "¿De qué manera refleja tu comunidad o familia la idea de ayuda idónea y complementariedad?",
-      "category": "relacional",
-      "hints": [
-        "Cooperación",
-        "Respeto mutuo",
-        "Servicio"
-      ]
-    },
-    {
-      "id": "stewardship-eden",
-      "question": "¿Cómo puedes cultivar y guardar los espacios que Dios ha puesto bajo tu cuidado?",
-      "category": "mayordomía",
-      "hints": [
-        "Trabajo con propósito",
-        "Cuidado de la creación",
-        "Responsabilidad diaria"
-      ]
-    }
-  ],
-  "trivia": [
-    {
-      "question": "¿De qué formó Dios al hombre según Génesis 2?",
-      "options": [
-        "Del polvo de la tierra",
-        "Del agua pura",
-        "De la luz del firmamento"
+    "mainTeaching": "Dios no solo crea al ser humano con cuidado personal, sino que provee para todas sus necesidades: trabajo significativo, compañía perfecta, y un ambiente ideal. El matrimonio es diseño divino original para la complementariedad, la compañía y la multiplicación de la imagen de Dios en la tierra.",
+    "practicalApplication": [
+      "Valorar el trabajo como vocación divina, no como maldición",
+      "Honrar el matrimonio como institución sagrada diseñada por Dios",
+      "Reconocer la necesidad humana de comunidad y relación",
+      "Practicar la mayordomía responsable de la creación",
+      "Buscar la voluntad de Dios en las decisiones importantes de la vida",
+      "Apreciar la complementariedad entre hombre y mujer en el plan divino"
+    ],
+    "extendedContent": {
+      "keyThemes": [
+        {"id": "gen2-theme-formation", "title": "Formación personal", "summary": "Dios forma al hombre con cuidado individual, no en masa."},
+        {"id": "gen2-theme-provision", "title": "Provisión perfecta", "summary": "Todo lo necesario para la vida plena está disponible en Edén."},
+        {"id": "gen2-theme-companionship", "title": "Compañía diseñada", "summary": "La relación humana es necesidad creada y satisfecha por Dios."}
       ],
-      "correct": 0,
-      "explanation": "Génesis 2:7 afirma que Dios formó al hombre del polvo y sopló en su nariz aliento de vida."
-    },
-    {
-      "question": "¿Cuántos ríos principales salían del Edén?",
-      "options": [
-        "Dos",
-        "Cuatro",
-        "Siete"
+      "characterProfiles": [
+        {"name": "Adán", "role": "Primer hombre", "description": "Formado del polvo, recibe aliento divino y responsabilidad de mayordomía.", "verses": "Génesis 2:7-25"},
+        {"name": "Eva", "role": "Primera mujer", "description": "Creada como ayuda idónea, madre de todos los vivientes.", "verses": "Génesis 2:18-25"}
       ],
-      "correct": 1,
-      "explanation": "El relato menciona cuatro ríos: Pisón, Gihón, Hidekel y Éufrates."
-    },
-    {
-      "question": "¿Cuál árbol estaba prohibido para Adán?",
-      "options": [
-        "El árbol de la vida",
-        "El árbol de la ciencia del bien y del mal",
-        "El árbol del conocimiento de la tierra"
+      "geography": [
+        {"place": "Edén", "summary": "Jardín perfecto plantado por Dios hacia el oriente.", "presentDay": "Posiblemente Mesopotamia", "verses": "Génesis 2:8-14"},
+        {"place": "Cuatro ríos", "summary": "Sistema de irrigación que dividía y regaba toda la región.", "presentDay": "Solo Éufrates claramente identificable", "verses": "Génesis 2:10-14"}
       ],
-      "correct": 1,
-      "explanation": "Dios prohibió comer del árbol de la ciencia del bien y del mal para proteger la integridad espiritual del hombre."
-    },
-    {
-      "question": "¿Qué establece Génesis 2:24 acerca del matrimonio?",
-      "options": [
-        "Que el hombre dominará a la mujer",
-        "Que el hombre dejará a sus padres y se unirá a su mujer",
-        "Que es mejor no casarse"
+      "gospelConnections": [
+        {"title": "Segundo Adán", "description": "Cristo es el segundo Adán que cumple donde el primero falló.", "reference": "1 Corintios 15:45-47"},
+        {"title": "Esposo de la Iglesia", "description": "El matrimonio de Adán y Eva prefigura la unión de Cristo con su Iglesia.", "reference": "Efesios 5:31-32"}
       ],
-      "correct": 1,
-      "explanation": "El versículo declara el principio de dejar, unirse y hacerse una sola carne dentro del matrimonio."
-    }
-  ],
-  "comparison": {
-    "title": "De la soledad a la comunión",
-    "before": {
-      "title": "Adán sin compañía",
-      "description": "Trabajo y responsabilidad sin una contraparte humana.",
-      "elements": [
-        "Soledad",
-        "Búsqueda de ayuda",
-        "Tarea incompleta"
+      "outline": [
+        {"section": "1", "title": "Formación del hombre", "verses": "2:4-7", "summary": "Dios forma personalmente al hombre del polvo."},
+        {"section": "2", "title": "Provisión del jardín", "verses": "2:8-17", "summary": "Edén como hogar perfecto con trabajo y límites."},
+        {"section": "3", "title": "Creación de la mujer", "verses": "2:18-25", "summary": "Eva como respuesta a la necesidad de compañía."}
       ],
-      "verse": "No es bueno que el hombre esté solo.",
-      "reference": "Génesis 2:18"
-    },
-    "after": {
-      "title": "Matrimonio y misión compartida",
-      "description": "Unidad amorosa para gobernar y guardar juntos.",
-      "elements": [
-        "Complementariedad",
-        "Unidad",
-        "Propósito conjunto"
+      "studyInsights": [
+        "El verbo 'formar' (yatsar) se usa para un alfarero, mostrando cuidado artesanal.",
+        "'Ayuda idónea' (ezer kenegdo) implica fortaleza complementaria, no subordinación.",
+        "La 'costilla' puede traducirse como 'lado', sugiriendo igualdad completa.",
+        "El matrimonio precede a la familia extendida en el orden divino."
       ],
-      "verse": "Serán una sola carne.",
-      "reference": "Génesis 2:24"
+      "prayerFocus": "Padre amoroso, gracias por formar al ser humano con cuidado personal y proveer para todas nuestras necesidades. Ayúdanos a valorar el trabajo como vocación sagrada y el matrimonio como tu diseño perfecto. Que sepamos ser buenos mayordomos de tu creación y vivir en relaciones que reflejen tu amor. Amén."
     }
   },
-  "memorizeVerse": {
-    "text": "Por tanto dejará el hombre a su padre y a su madre, y se unirá a su mujer, y serán una sola carne.",
-    "reference": "Génesis 2:24",
-    "theme": "Pacto matrimonial"
+  "ui": {
+    "theme": "light",
+    "accent_color": "#2e7d32",
+    "layout": "article",
+    "show_timeline": true,
+    "show_quiz": true,
+    "cta": {
+      "label": "Leer el siguiente capítulo",
+      "url": "/genesis/3"
+    }
   },
-  "mainTeaching": "Dios diseñó al ser humano para vivir bajo su presencia, con límites saludables, trabajo significativo y relaciones de compañerismo que reflejan su imagen.",
-  "practicalApplication": [
-    "Agradece a Dios por el don de la vida y reconoce tu dependencia diaria de Él.",
-    "Abraza los límites divinos como protección que dirige tu libertad.",
-    "Cultiva relaciones caracterizadas por respeto, servicio y complementariedad.",
-    "Cuida de los recursos y espacios que Dios te confía, practicando la mayordomía."
+  "relations": {
+    "prev": {"slug": "genesis-1-la-creacion", "title": "Génesis 1 — La Creación"},
+    "next": {"slug": "genesis-3-la-caida", "title": "Génesis 3 — La Caída"}
+  },
+  "taxonomy": {
+    "tags": ["edén", "matrimonio", "adán", "eva", "antiguo-testamento"],
+    "category": "Antiguo Testamento",
+    "series": "Génesis"
+  },
+  "index": {
+    "scripture_refs": [
+      "Génesis 2:7", "Génesis 2:8", "Génesis 2:10-14", "Génesis 2:16-17",
+      "Génesis 2:18", "Génesis 2:20", "Génesis 2:21-22", "Génesis 2:23-25",
+      "Mateo 19:3-9", "Efesios 5:22-33", "1 Corintios 11:8-9"
+    ]
+  },
+  "accessibility": {
+    "lang_reading_level": "B1",
+    "has_alt_text": true,
+    "captions_available": false
+  },
+  "analytics": {
+    "estimated_read_time_min": 9,
+    "word_count": 920,
+    "engagement_goal": "quiz_completed"
+  },
+  "contributors": [
+    {"name": "Equipo Editorial", "role": "Edición", "url": null},
+    {"name": "Revisor Teológico", "role": "Revisión", "url": null},
+    {"name": "Enoc Báez", "role": "Autor", "url": "https://posibilia.com"}
   ],
-  "extendedContent": {
-    "keyThemes": [
-      {
-        "id": "gen2-theme-presencia",
-        "title": "Presencia personal de Dios",
-        "summary": "El Dios trascendente se involucra de forma personal al formar y soplar vida."
-      },
-      {
-        "id": "gen2-theme-mayordomia",
-        "title": "Trabajo como adoracion",
-        "summary": "Trabajar el jardin es parte del diseno original de adoracion."
-      },
-      {
-        "id": "gen2-theme-matrimonio",
-        "title": "Unidad matrimonial",
-        "summary": "El matrimonio surge como pacto de complementariedad y permanencia."
-      }
-    ],
-    "characterProfiles": [
-      {
-        "name": "Adan",
-        "role": "Primer hombre",
-        "description": "Recibe aliento de vida, tareas de cultivar y nombrar a las criaturas.",
-        "verses": "Genesis 2:7,15,19"
-      },
-      {
-        "name": "Eva",
-        "role": "Ayuda idonea",
-        "description": "Formada de la costilla para ser contraparte fuerte que acompana la mision.",
-        "verses": "Genesis 2:21-24"
-      },
-      {
-        "name": "Dios",
-        "role": "Arquitecto del Eden",
-        "description": "Planta el jardin, provee recursos y establece limites protectores.",
-        "verses": "Genesis 2:8-17"
-      }
-    ],
-    "geography": [
-      {
-        "place": "Jardin de Eden",
-        "summary": "Huerto plantado por Dios con arboles agradables y utiles.",
-        "presentDay": "Ubicacion desconocida",
-        "verses": "Genesis 2:8-9"
-      },
-      {
-        "place": "Rios de Eden",
-        "summary": "Cuatro corrientes conectan el jardin con regiones ricas en recursos.",
-        "presentDay": "Zona mesopotamica ampliada",
-        "verses": "Genesis 2:10-14"
-      }
-    ],
-    "gospelConnections": [
-      {
-        "title": "Arbol de la vida",
-        "description": "El arbol de la vida reaparece en la nueva Jerusalen como simbolo de restauracion en Cristo.",
-        "reference": "Apocalipsis 22:1-2"
-      },
-      {
-        "title": "Segundo Adan",
-        "description": "Jesus como segundo Adan restaura la obediencia y reabre el acceso a la presencia de Dios.",
-        "reference": "Romanos 5:12-19"
-      }
-    ],
-    "outline": [
-      {
-        "section": "1",
-        "title": "Formacion del hombre",
-        "verses": "2:4-7",
-        "summary": "Dios modela al ser humano y le da aliento de vida."
-      },
-      {
-        "section": "2",
-        "title": "Instalacion en el jardin",
-        "verses": "2:8-17",
-        "summary": "Se describe el Eden, sus rios y el mandato de obediencia."
-      },
-      {
-        "section": "3",
-        "title": "Creacion de la mujer",
-        "verses": "2:18-25",
-        "summary": "Dios suple la soledad de Adan y establece el matrimonio."
-      }
-    ],
-    "studyInsights": [
-      "El verbo hebreo formar evoca a un alfarero que trabaja con cuidado.",
-      "La palabra ezer indica ayuda fuerte, usada tambien para Dios en los Salmos.",
-      "Las menciones de oro y onice resaltan la abundancia del mundo sin pecado.",
-      "Dejar padre y madre implica decision adulta de crear una nueva unidad familiar."
-    ],
-    "prayerFocus": "Pide cultivar relaciones sanas y obedecer los limites que protegen la vida plena."
+  "moderation": {
+    "doctrinal_position": "histórico-gramatical",
+    "notes": null
   }
 }

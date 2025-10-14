@@ -1,223 +1,364 @@
 {
-  "book": "Génesis",
-  "chapter": 17,
-  "title": "Señal del pacto: la circuncisión",
-  "subtitle": "Abraham y Sara reciben nuevos nombres",
-  "summary": "Dios se revela como El Shaddai, cambia el nombre de Abram a Abraham y de Sarai a Sara, instituye la circuncisión como señal del pacto y promete el nacimiento milagroso de Isaac, mientras también bendice a Ismael.",
-  "timeline": {
-    "period": "Año 24 en Canaán",
-    "context": "Renovación del pacto",
-    "placement": "Definición de la identidad del pueblo de Dios"
+  "meta": {
+    "id": "genesis-17-circuncision-pacto",
+    "title": "Génesis 17 — Señal del pacto: la circuncisión",
+    "subtitle": "Abraham y Sara reciben nuevos nombres",
+    "slug": "genesis-17-circuncision-pacto",
+    "keywords": ["Génesis 17", "circuncisión", "Abraham", "Sara", "El Shaddai", "pacto", "Isaac", "nuevos nombres", "Ismael"],
+    "author": "Equipo Editorial",
+    "created": "2024-01-17T00:00:00Z",
+    "modified": "2024-01-17T00:00:00Z",
+    "version": 1,
+    "status": "published",
+    "type": "chapter",
+    "language": "es"
   },
-  "days": [
-    {
-      "day": 1,
-      "title": "El Shaddai se aparece",
-      "icon": "!!",
-      "description": "Dios llama a Abram a vivir irreprensible y promete multiplicación.",
-      "verse": "Yo soy el Dios Todopoderoso; anda delante de mí y sé perfecto.",
-      "reference": "Génesis 17:1-2",
-      "significance": "La identidad divina impulsa una vida de santidad."
+  "seo": {
+    "title": "Génesis 17 — Señal del pacto: la circuncisión | Estudio bíblico",
+    "description": "Dios se revela como El Shaddai, cambia nombres a Abraham y Sara, instituye la circuncisión y promete a Isaac. Estudio sobre identidad y pacto.",
+    "canonical": "https://tusitio.com/genesis/17",
+    "openGraph": {
+      "title": "Génesis 17 — Señal del pacto: la circuncisión",
+      "description": "Abraham y Sara reciben nuevos nombres. Estudio sobre la renovación del pacto, la circuncisión como señal y la promesa de Isaac.",
+      "image": "https://tusitio.com/assets/og/genesis-17.png",
+      "type": "article"
     },
-    {
-      "day": 2,
-      "title": "Nuevo nombre: Abraham",
-      "icon": "++",
-      "description": "Abram se postra y recibe el nombre Abraham, padre de muchedumbre.",
-      "verse": "No se llamará más tu nombre Abram, sino Abraham será tu nombre.",
-      "reference": "Génesis 17:3-6",
-      "significance": "El nombre refleja destino y propósito."
-    },
-    {
-      "day": 3,
-      "title": "Pacto perpetuo",
-      "icon": "::",
-      "description": "Dios promete ser Dios de Abraham y su descendencia y darles la tierra.",
-      "verse": "Estableceré mi pacto entre mí y ti... será pacto perpetuo.",
-      "reference": "Génesis 17:7-8",
-      "significance": "La relación se basa en la fidelidad eterna de Dios."
-    },
-    {
-      "day": 4,
-      "title": "Señal de la circuncisión",
-      "icon": "##",
-      "description": "Todo varón debe circuncidarse al octavo día como señal del pacto.",
-      "verse": "Circuncidaréis, pues, la carne de vuestro prepucio.",
-      "reference": "Génesis 17:9-14",
-      "significance": "El pacto involucra cuerpo, identidad y obediencia."
-    },
-    {
-      "day": 5,
-      "title": "Sara será madre",
-      "icon": "??",
-      "description": "Sarai pasa a llamarse Sara; Dios promete un hijo llamado Isaac.",
-      "verse": "Bendeciré... y te dará un hijo; y llamarás su nombre Isaac.",
-      "reference": "Génesis 17:15-19",
-      "significance": "La promesa incluye alegría y risa santificada."
-    },
-    {
-      "day": 6,
-      "title": "Bendición sobre Ismael y obediencia inmediata",
-      "icon": "[]",
-      "description": "Dios bendice a Ismael con doce príncipes; Abraham circuncida a todos ese mismo día.",
-      "verse": "Tomó Abraham a Ismael... y circuncidó la carne de su prepucio en aquel mismo día.",
-      "reference": "Génesis 17:20-27",
-      "significance": "La obediencia completa ratifica la fe."
-    }
-  ],
-  "interestingFacts": [
-    {
-      "id": "el-shaddai",
-      "title": "El Shaddai",
-      "summary": "Primera vez que Dios se presenta como Todopoderoso.",
-      "explanation": "El nombre enfatiza su capacidad de cumplir un hijo milagroso.",
-      "verse": "Yo soy el Dios Todopoderoso.",
-      "reference": "Génesis 17:1"
-    },
-    {
-      "id": "name-change",
-      "title": "Cambio de nombres",
-      "summary": "Abram (padre exaltado) se vuelve Abraham (padre de multitudes). Sarai (mi princesa) se convierte en Sara (princesa).",
-      "explanation": "Los nombres alinean identidad y misión.",
-      "verse": "No se llamará más tu nombre Abram... también Sarai, tu mujer, no se llamará Sarai, mas Sara será su nombre.",
-      "reference": "Génesis 17:5,15"
-    },
-    {
-      "id": "circumcision-sign",
-      "title": "Sello corporal",
-      "summary": "La circuncisión distingue al pueblo de Dios.",
-      "explanation": "Significa apartamiento y compromiso generacional.",
-      "verse": "Será por señal del pacto entre mí y vosotros.",
-      "reference": "Génesis 17:11"
-    },
-    {
-      "id": "same-day",
-      "title": "Obediencia en el mismo día",
-      "summary": "Abraham circuncida a todo varón ese mismo día.",
-      "explanation": "Demuestra la prontitud y la fe sin reservas.",
-      "verse": "En aquel mismo día fue circuncidado Abraham.",
-      "reference": "Génesis 17:26"
-    }
-  ],
-  "reflectionQuestions": [
-    {
-      "id": "identity-name",
-      "question": "¿Qué nombre o identidad nueva te está dando Dios para alinearte con su propósito?",
-      "category": "identidad",
-      "hints": [
-        "Destino",
-        "Llamado",
-        "Transformación"
-      ]
-    },
-    {
-      "id": "covenant-obedience",
-      "question": "¿Qué señales prácticas muestran tu pertenencia al pacto de Dios hoy?",
-      "category": "obediencia",
-      "hints": [
-        "Santificación",
-        "Disciplina espiritual",
-        "Sacramentos"
-      ]
-    },
-    {
-      "id": "promise-laughter",
-      "question": "¿Puedes creer que Dios traerá alegría donde antes hubo incredulidad?",
-      "category": "fe",
-      "hints": [
-        "Isaac = risa",
-        "Milagros",
-        "Esperanza"
-      ]
-    },
-    {
-      "id": "obedience-swift",
-      "question": "¿Cómo puedes obedecer inmediatamente una instrucción difícil?",
-      "category": "discipulado",
-      "hints": [
-        "Decisión",
-        "Confianza",
-        "Acción"
-      ]
-    }
-  ],
-  "trivia": [
-    {
-      "question": "¿Cuántos años tenía Abraham cuando recibió la orden de circuncidarse?",
-      "options": [
-        "75 años",
-        "86 años",
-        "99 años"
-      ],
-      "correct": 2,
-      "explanation": "Tenía 99 años (Génesis 17:1)."
-    },
-    {
-      "question": "¿Qué significa el nombre Isaac?",
-      "options": [
-        "Dios oye",
-        "Risa",
-        "Padre de multitudes"
-      ],
-      "correct": 1,
-      "explanation": "Isaac significa \"él se ríe\"."
-    },
-    {
-      "question": "¿Quién debía ser circuncidado según el pacto?",
-      "options": [
-        "Solo los descendientes directos",
-        "Todo varón nacido en casa o comprado",
-        "Solo los sacerdotes"
-      ],
-      "correct": 1,
-      "explanation": "Todo varón en la casa, nacido o comprado, debía circuncidarse."
-    },
-    {
-      "question": "¿Cuántos príncipes saldrían de Ismael?",
-      "options": [
-        "Doce",
-        "Siete",
-        "Catorce"
-      ],
-      "correct": 0,
-      "explanation": "Dios promete doce príncipes (Génesis 17:20)."
-    }
-  ],
-  "comparison": {
-    "title": "Identidad antigua vs identidad pactada",
-    "before": {
-      "title": "Abram/Sarai",
-      "description": "Nombres que reflejan pasado y expectativas humanas.",
-      "elements": [
-        "Infertilidad",
-        "Esperanza diferida",
-        "Identidad limitada"
-      ],
-      "verse": "Era Abram de edad de noventa y nueve años.",
-      "reference": "Génesis 17:1"
-    },
-    "after": {
-      "title": "Abraham/Sara",
-      "description": "Nombres alineados con la promesa y el pacto.",
-      "elements": [
-        "Multitudes",
-        "Reyes",
-        "Santidad"
-      ],
-      "verse": "Te he puesto por padre de muchedumbre de gentes.",
-      "reference": "Génesis 17:5"
+    "schema": {
+      "@type": "Article",
+      "headline": "Génesis 17: Señal del pacto - la circuncisión",
+      "description": "Estudio interactivo sobre la renovación del pacto, cambio de nombres y la institución de la circuncisión",
+      "keywords": "Génesis 17, circuncisión, Abraham, Sara, pacto, El Shaddai, Isaac"
     }
   },
-  "memorizeVerse": {
-    "text": "Y estableceré mi pacto entre mí y ti, y tu descendencia después de ti en sus generaciones, por pacto perpetuo, para ser tu Dios, y el de tu descendencia después de ti.",
-    "reference": "Génesis 17:7",
-    "theme": "Pacto perpetuo"
+  "source": {
+    "book": "Génesis",
+    "chapter": 17,
+    "verses": "1-27",
+    "version": "RVR1960",
+    "reference": "Génesis 17:1-27"
   },
-  "mainTeaching": "Dios define la identidad de su pueblo, sella su pacto con señales y demanda obediencia inmediata en respuesta a sus promesas.",
-  "practicalApplication": [
-    "Abraza la identidad que Dios te otorga en Cristo.",
-    "Vive prácticas visibles que confirmen tu pertenencia al pacto.",
-    "Cree que Dios puede transformar la risa incrédula en gozo.",
-    "Obedece con prontitud las instrucciones divinas, aunque sean costosas."
-  ]
+  "document": {
+    "book": "Génesis",
+    "chapter": 17,
+    "title": "Señal del pacto: la circuncisión",
+    "subtitle": "Abraham y Sara reciben nuevos nombres",
+    "summary": "Dios se revela como El Shaddai, cambia el nombre de Abram a Abraham y de Sarai a Sara, instituye la circuncisión como señal del pacto y promete el nacimiento milagroso de Isaac, mientras también bendice a Ismael.",
+    "timeline": {
+      "period": "Año 24 en Canaán (c. 1985 a.C.)",
+      "context": "Abraham a los 99 años - renovación del pacto",
+      "placement": "Definición de la identidad del pueblo de Dios",
+      "era_tag": "Era Patriarcal",
+      "timeline_points": [
+        {"label": "El Shaddai se aparece", "ref": "Gn 17:1-2"},
+        {"label": "Nuevo nombre: Abraham", "ref": "Gn 17:3-6"},
+        {"label": "Pacto perpetuo", "ref": "Gn 17:7-8"},
+        {"label": "Señal de circuncisión", "ref": "Gn 17:9-14"},
+        {"label": "Sara será madre", "ref": "Gn 17:15-19"},
+        {"label": "Obediencia inmediata", "ref": "Gn 17:20-27"}
+      ]
+    },
+    "days": [
+      {
+        "day": 1,
+        "title": "El Shaddai se aparece",
+        "icon": "⚡",
+        "description": "Dios llama a Abram a vivir irreprensible y promete multiplicación",
+        "verse": "Yo soy el Dios Todopoderoso; anda delante de mí y sé perfecto",
+        "reference": "Génesis 17:1-2",
+        "significance": "La identidad divina impulsa una vida de santidad",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen17/elshaddai.jpg", "alt": "El Shaddai se aparece a Abram"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 2,
+        "title": "Nuevo nombre: Abraham",
+        "icon": "📝",
+        "description": "Abram se postra y recibe el nombre Abraham, padre de muchedumbre",
+        "verse": "No se llamará más tu nombre Abram, sino Abraham será tu nombre",
+        "reference": "Génesis 17:3-6",
+        "significance": "El nombre refleja destino y propósito divino",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen17/newname.jpg", "alt": "Abraham recibe su nuevo nombre"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 3,
+        "title": "Pacto perpetuo",
+        "icon": "🤝",
+        "description": "Dios promete ser Dios de Abraham y su descendencia y darles la tierra",
+        "verse": "Estableceré mi pacto entre mí y ti... será pacto perpetuo",
+        "reference": "Génesis 17:7-8",
+        "significance": "La relación se basa en la fidelidad eterna de Dios",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen17/covenant.jpg", "alt": "Establecimiento del pacto perpetuo"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 4,
+        "title": "Señal de la circuncisión",
+        "icon": "✂️",
+        "description": "Todo varón debe circuncidarse al octavo día como señal del pacto",
+        "verse": "Circuncidaréis, pues, la carne de vuestro prepucio",
+        "reference": "Génesis 17:9-14",
+        "significance": "El pacto involucra cuerpo, identidad y obediencia",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen17/circumcision.jpg", "alt": "Institución de la circuncisión"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 5,
+        "title": "Sara será madre",
+        "icon": "👑",
+        "description": "Sarai pasa a llamarse Sara; Dios promete un hijo llamado Isaac",
+        "verse": "Bendeciré... y te dará un hijo; y llamarás su nombre Isaac",
+        "reference": "Génesis 17:15-19",
+        "significance": "La promesa incluye alegría y risa santificada",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen17/sara.jpg", "alt": "Sara recibe promesa de maternidad"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 6,
+        "title": "Bendición sobre Ismael y obediencia inmediata",
+        "icon": "⚡",
+        "description": "Dios bendice a Ismael con doce príncipes; Abraham circuncida a todos ese mismo día",
+        "verse": "Tomó Abraham a Ismael... y circuncidó la carne de su prepucio en aquel mismo día",
+        "reference": "Génesis 17:20-27",
+        "significance": "La obediencia completa ratifica la fe",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen17/obedience.jpg", "alt": "Obediencia inmediata de Abraham"},
+          "audio": null,
+          "video": null
+        }
+      }
+    ],
+    "interestingFacts": [
+      {
+        "id": "el-shaddai",
+        "title": "El Shaddai",
+        "summary": "Primera vez que Dios se presenta como Todopoderoso",
+        "explanation": "El nombre enfatiza su capacidad de cumplir promesas imposibles, especialmente dar un hijo milagroso a Abraham y Sara en su vejez.",
+        "verse": "Yo soy el Dios Todopoderoso",
+        "reference": "Génesis 17:1"
+      },
+      {
+        "id": "name-change",
+        "title": "Cambio de nombres",
+        "summary": "Abram (padre exaltado) se vuelve Abraham (padre de multitudes). Sarai (mi princesa) se convierte en Sara (princesa)",
+        "explanation": "Los nombres alinean identidad personal con propósito divino. Abraham declara fe en la promesa antes de verla cumplida.",
+        "verse": "No se llamará más tu nombre Abram... también Sarai, tu mujer, no se llamará Sarai, mas Sara será su nombre",
+        "reference": "Génesis 17:5,15"
+      },
+      {
+        "id": "circumcision-sign",
+        "title": "Sello corporal",
+        "summary": "La circuncisión distingue al pueblo de Dios",
+        "explanation": "Significa apartamiento del mundo y compromiso generacional. Es señal visible de una realidad espiritual invisible.",
+        "verse": "Será por señal del pacto entre mí y vosotros",
+        "reference": "Génesis 17:11"
+      },
+      {
+        "id": "same-day",
+        "title": "Obediencia en el mismo día",
+        "summary": "Abraham circuncida a todo varón ese mismo día",
+        "explanation": "Demuestra la prontitud y la fe sin reservas. La obediencia inmediata refleja confianza total en Dios.",
+        "verse": "En aquel mismo día fue circuncidado Abraham",
+        "reference": "Génesis 17:26"
+      }
+    ],
+    "reflectionQuestions": [
+      {
+        "id": "identity-name",
+        "question": "¿Qué nombre o identidad nueva te está dando Dios para alinearte con su propósito?",
+        "category": "personal",
+        "hints": ["Destino", "Llamado", "Transformación"]
+      },
+      {
+        "id": "covenant-obedience",
+        "question": "¿Qué señales prácticas muestran tu pertenencia al pacto de Dios hoy?",
+        "category": "práctica",
+        "hints": ["Santificación", "Disciplina espiritual", "Sacramentos"]
+      },
+      {
+        "id": "promise-laughter",
+        "question": "¿Puedes creer que Dios traerá alegría donde antes hubo incredulidad?",
+        "category": "personal",
+        "hints": ["Isaac = risa", "Milagros", "Esperanza"]
+      },
+      {
+        "id": "obedience-swift",
+        "question": "¿Cómo puedes obedecer inmediatamente una instrucción difícil?",
+        "category": "práctica",
+        "hints": ["Decisión", "Confianza", "Acción"]
+      }
+    ],
+    "trivia": {
+      "difficulty": "medio",
+      "passing_score": 3,
+      "items": [
+        {
+          "question": "¿Cuántos años tenía Abraham cuando recibió la orden de circuncidarse?",
+          "options": ["75 años", "86 años", "99 años"],
+          "correct": 2,
+          "explanation": "Tenía 99 años (Génesis 17:1)."
+        },
+        {
+          "question": "¿Qué significa el nombre Isaac?",
+          "options": ["Dios oye", "Risa", "Padre de multitudes"],
+          "correct": 1,
+          "explanation": "Isaac significa \"él se ríe\"."
+        },
+        {
+          "question": "¿Quién debía ser circuncidado según el pacto?",
+          "options": ["Solo los descendientes directos", "Todo varón nacido en casa o comprado", "Solo los sacerdotes"],
+          "correct": 1,
+          "explanation": "Todo varón en la casa, nacido o comprado, debía circuncidarse."
+        },
+        {
+          "question": "¿Cuántos príncipes saldrían de Ismael?",
+          "options": ["Doce", "Siete", "Catorce"],
+          "correct": 0,
+          "explanation": "Dios promete doce príncipes (Génesis 17:20)."
+        }
+      ]
+    },
+    "comparison": {
+      "title": "Identidad antigua vs identidad pactada",
+      "before": {
+        "title": "Abram/Sarai",
+        "description": "Nombres que reflejan pasado y expectativas humanas",
+        "elements": ["Infertilidad", "Esperanza diferida", "Identidad limitada"],
+        "verse": "Era Abram de edad de noventa y nueve años",
+        "reference": "Génesis 17:1"
+      },
+      "after": {
+        "title": "Abraham/Sara",
+        "description": "Nombres alineados con la promesa y el pacto",
+        "elements": ["Multitudes", "Reyes", "Santidad"],
+        "verse": "Te he puesto por padre de muchedumbre de gentes",
+        "reference": "Génesis 17:5"
+      }
+    },
+    "memorizeVerse": {
+      "text": "Y estableceré mi pacto entre mí y ti, y tu descendencia después de ti en sus generaciones, por pacto perpetuo, para ser tu Dios, y el de tu descendencia después de ti.",
+      "reference": "Génesis 17:7",
+      "theme": "Pacto perpetuo",
+      "audio_url": null
+    },
+    "mainTeaching": "Dios define la identidad de su pueblo por medio de nombres que reflejan su carácter y propósito, sella su pacto con señales visibles y demanda obediencia inmediata en respuesta a sus promesas. El pacto no es solo promesa sino también compromiso mutuo que transforma la identidad del creyente.",
+    "practicalApplication": [
+      "Abraza la identidad que Dios te otorga en Cristo, no la que el mundo te asigna",
+      "Vive prácticas visibles que confirmen tu pertenencia al nuevo pacto",
+      "Cree que Dios puede transformar la risa incrédula en gozo genuino",
+      "Obedece con prontitud las instrucciones divinas, aunque sean costosas o difíciles",
+      "Permite que Dios redefina tu identidad según sus propósitos eternos",
+      "Camina en santidad delante de Dios como respuesta a su gracia"
+    ],
+    "extendedContent": {
+      "keyThemes": [
+        {"id": "gen17-theme-identidad", "title": "Nueva identidad", "summary": "Dios redefine la identidad de sus siervos según su propósito y carácter."},
+        {"id": "gen17-theme-pacto", "title": "Pacto perpetuo", "summary": "El compromiso divino trasciende generaciones y abarca toda la existencia."},
+        {"id": "gen17-theme-señal", "title": "Señales del pacto", "summary": "Prácticas visibles que distinguen al pueblo de Dios y confirman su pertenencia."}
+      ],
+      "characterProfiles": [
+        {"name": "Abraham", "role": "Padre de multitudes", "description": "Recibe nueva identidad y misión como ancestro de naciones, respondiendo con obediencia inmediata.", "verses": "Génesis 17:1-8, 23-27"},
+        {"name": "Sara", "role": "Madre de naciones", "description": "Transformada de estéril a madre prometida, su nombre refleja dignidad real.", "verses": "Génesis 17:15-16"},
+        {"name": "Ismael", "role": "Padre de doce príncipes", "description": "Bendecido por Dios con promesas específicas, aunque no es el hijo de la promesa principal.", "verses": "Génesis 17:20"},
+        {"name": "Isaac", "role": "Hijo de la promesa", "description": "Prometido como fruto milagroso que traerá alegría y cumplimiento del pacto.", "verses": "Génesis 17:19, 21"}
+      ],
+      "geography": [
+        {"place": "Tierra de Canaán", "summary": "Herencia perpetua prometida a Abraham y su descendencia.", "presentDay": "Israel/Palestina", "verses": "Génesis 17:8"}
+      ],
+      "gospelConnections": [
+        {"title": "Nueva identidad en Cristo", "description": "Como Abraham recibió nuevo nombre, los creyentes reciben nueva identidad en Cristo.", "reference": "2 Corintios 5:17"},
+        {"title": "Circuncisión del corazón", "description": "Pablo explica que la verdadera circuncisión es espiritual, del corazón.", "reference": "Romanos 2:28-29"},
+        {"title": "Descendencia espiritual", "description": "Los creyentes son descendencia espiritual de Abraham por la fe.", "reference": "Gálatas 3:29"}
+      ],
+      "outline": [
+        {"section": "1", "title": "Aparición de El Shaddai", "verses": "17:1-2", "summary": "Dios se revela con poder para cumplir lo imposible."},
+        {"section": "2", "title": "Nueva identidad y pacto", "verses": "17:3-8", "summary": "Abraham recibe nombre y promesas que definen su futuro."},
+        {"section": "3", "title": "Señal de la circuncisión", "verses": "17:9-14", "summary": "Institución de la marca visible del pacto."},
+        {"section": "4", "title": "Promesa de Isaac", "verses": "17:15-22", "summary": "Sara será madre del hijo prometido llamado Isaac."},
+        {"section": "5", "title": "Obediencia inmediata", "verses": "17:23-27", "summary": "Abraham cumple el mandato el mismo día."}
+      ],
+      "studyInsights": [
+        "El nombre 'El Shaddai' enfatiza el poder de Dios para lo imposible",
+        "Los cambios de nombres preceden al cumplimiento de las promesas",
+        "La circuncisión al octavo día establece un patrón para toda la descendencia",
+        "La obediencia inmediata demuestra fe genuina en las promesas divinas"
+      ],
+      "prayerFocus": "Padre Todopoderoso, gracias por definir mi identidad según tus propósitos eternos. Ayúdame a caminar en santidad delante de ti y a obedecer tus mandatos con prontitud. Como diste nueva identidad a Abraham y Sara, renueva mi corazón para reflejar tu carácter. Que mi vida sea señal visible de tu pacto. Amén."
+    }
+  },
+  "ui": {
+    "theme": "light",
+    "color": "#805AD5",
+    "icon": "✂️",
+    "layout": "article",
+    "navigation": {
+      "prev": {"slug": "genesis-16-hagar-ismael", "title": "Génesis 16"},
+      "next": {"slug": "genesis-18-visitantes-abraham", "title": "Génesis 18"}
+    },
+    "components": {
+      "timeline": true,
+      "trivia": true,
+      "comparison": true,
+      "memorization": true
+    }
+  },
+  "relations": {
+    "relatedChapters": [
+      {"slug": "genesis-15-pacto-abram", "title": "Pacto con Abram", "reason": "Promesas iniciales"},
+      {"slug": "genesis-21-isaac-ismael", "title": "Isaac e Ismael", "reason": "Cumplimiento de promesas"},
+      {"slug": "genesis-22-sacrificio-isaac", "title": "Sacrificio de Isaac", "reason": "Prueba de fe"}
+    ],
+    "themes": ["pacto", "identidad", "obediencia", "promesas divinas"],
+    "characters": ["Abraham", "Sara", "Ismael", "Isaac prometido"]
+  },
+  "taxonomy": {
+    "testament": "Antiguo",
+    "book": "Génesis",
+    "section": "Historia Primitiva",
+    "category": "Narrativa Patriarcal",
+    "period": "Era Patriarcal",
+    "genre": "Narrativa de pacto",
+    "themes": ["pacto", "identidad", "circuncisión", "obediencia", "promesas"],
+    "characters": ["Abraham", "Sara", "Ismael", "Isaac"],
+    "places": ["Canaán"],
+    "timeline": "c. 1985 a.C."
+  },
+  "index": {
+    "searchTerms": ["circuncisión", "Abraham", "Sara", "El Shaddai", "pacto perpetuo", "Isaac", "nuevos nombres", "obediencia"],
+    "keyVerses": ["Génesis 17:1", "Génesis 17:5", "Génesis 17:7", "Génesis 17:11"],
+    "mainConcepts": ["nueva identidad", "pacto perpetuo", "señal corporal", "obediencia inmediata"]
+  },
+  "accessibility": {
+    "lang_reading_level": "B2",
+    "has_alt_text": true,
+    "captions_available": false
+  },
+  "analytics": {
+    "estimated_read_time_min": 13,
+    "word_count": 1150,
+    "engagement_goal": "memorization_completed"
+  },
+  "contributors": [
+    {"name": "Equipo Editorial", "role": "Edición", "url": null},
+    {"name": "Revisor Teológico", "role": "Revisión", "url": null}
+  ],
+  "moderation": {
+    "doctrinal_position": "histórico-gramatical",
+    "notes": "Énfasis en la permanencia del pacto y la transformación de identidad"
+  }
 }

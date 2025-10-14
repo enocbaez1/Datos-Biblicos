@@ -1867,3 +1867,184 @@
 
       document.addEventListener('touchend', stopDragging);
     }
+
+    // === ENHANCED HERO FUNCTIONALITY ===
+
+    // Random verse in hero preview card
+    function refreshHeroVerse() {
+      if (famousVerses.length === 0) return;
+
+      const versePreview = document.getElementById('heroRandomVerse');
+      if (!versePreview) return;
+
+      const randomIndex = Math.floor(Math.random() * famousVerses.length);
+      const verse = famousVerses[randomIndex];
+
+      const textEl = versePreview.querySelector('.preview-text');
+      const refEl = versePreview.querySelector('.preview-ref');
+
+      if (textEl && refEl) {
+        // Fade out
+        versePreview.style.opacity = '0';
+
+        setTimeout(() => {
+          textEl.textContent = `"${verse.text}"`;
+          refEl.textContent = verse.reference;
+
+          // Fade in
+          versePreview.style.opacity = '1';
+        }, 300);
+      }
+    }
+
+    // Initialize hero verse refresh button
+    function initHeroVerseRefresh() {
+      const refreshBtn = document.getElementById('heroRefreshVerse');
+      if (refreshBtn) {
+        refreshBtn.addEventListener('click', refreshHeroVerse);
+      }
+
+      // Auto-refresh every 15 seconds
+      setInterval(refreshHeroVerse, 15000);
+    }
+
+    // Handle "Ver Demo" button click
+    function initDemoButton() {
+      const demoBtn = document.getElementById('verDemoBtn');
+      if (demoBtn) {
+        demoBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+
+          // Create simple demo modal
+          const demoModal = document.createElement('div');
+          demoModal.className = 'modal';
+          demoModal.style.display = 'block';
+          demoModal.innerHTML = `
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3>Demo Rápida - 1 minuto</h3>
+                <button class="modal-close" id="closeDemoModal">&times;</button>
+              </div>
+              <div class="modal-body" style="padding: 30px;">
+                <h4 style="color: #667eea; margin-bottom: 15px;">🎯 Funcionalidades Principales</h4>
+                <ul style="line-height: 2; color: #555;">
+                  <li><strong>📚 Explora 66 libros</strong> - Navega por toda la Biblia de forma interactiva</li>
+                  <li><strong>📖 Versículo del día</strong> - Inspiración diaria con versículos famosos</li>
+                  <li><strong>📋 Planes de lectura</strong> - Planes de 7, 30 y 365 días personalizados</li>
+                  <li><strong>⭐ Guarda favoritos</strong> - Marca y organiza tus versículos preferidos</li>
+                  <li><strong>🔍 Datos curiosos</strong> - Descubre estadísticas fascinantes de cada libro</li>
+                  <li><strong>🎯 Trivia interactiva</strong> - Pon a prueba tu conocimiento bíblico</li>
+                </ul>
+                <div style="margin-top: 30px; text-align: center;">
+                  <a href="#explorar" class="btn-primary" id="startDemoExplore">Comenzar a Explorar</a>
+                </div>
+              </div>
+            </div>
+          `;
+
+          document.body.appendChild(demoModal);
+
+          // Close button handler
+          document.getElementById('closeDemoModal').addEventListener('click', () => {
+            demoModal.remove();
+          });
+
+          // Start explore button handler
+          document.getElementById('startDemoExplore').addEventListener('click', () => {
+            demoModal.remove();
+            document.querySelector('a[href="#explorar"]').click();
+          });
+
+          // Close on backdrop click
+          demoModal.addEventListener('click', (e) => {
+            if (e.target === demoModal) {
+              demoModal.remove();
+            }
+          });
+        });
+      }
+    }
+
+    // Animated counter for hero stats badges
+    function animateHeroStatBadges() {
+      const badges = document.querySelectorAll('.hero-stat-badge .stat-text');
+      badges.forEach(badge => {
+        const text = badge.textContent;
+        const match = text.match(/\+?(\d{1,3}(,\d{3})*)/);
+
+        if (match) {
+          const targetNumber = parseInt(match[1].replace(/,/g, ''));
+          const prefix = text.match(/\+/) ? '+' : '';
+          const suffix = text.replace(match[0], '').trim();
+
+          let currentNumber = 0;
+          const increment = Math.ceil(targetNumber / 50);
+          const interval = 40;
+
+          const timer = setInterval(() => {
+            currentNumber += increment;
+            if (currentNumber >= targetNumber) {
+              currentNumber = targetNumber;
+              clearInterval(timer);
+            }
+
+            badge.textContent = `${prefix}${currentNumber.toLocaleString()} ${suffix}`;
+          }, interval);
+        }
+      });
+    }
+
+    // Parallax effect for hero particles
+    function initHeroParallax() {
+      const particles = document.querySelectorAll('.particle');
+      if (particles.length === 0) return;
+
+      window.addEventListener('mousemove', (e) => {
+        const x = e.clientX / window.innerWidth;
+        const y = e.clientY / window.innerHeight;
+
+        particles.forEach((particle, index) => {
+          const speed = (index + 1) * 0.5;
+          const xOffset = (x - 0.5) * speed * 20;
+          const yOffset = (y - 0.5) * speed * 20;
+
+          particle.style.transform = `translate(${xOffset}px, ${yOffset}px)`;
+        });
+      });
+    }
+
+    // Pulse animation for CTA buttons
+    function initCTAPulse() {
+      const primaryBtn = document.querySelector('.cta-button-enhanced.primary-enhanced');
+      if (primaryBtn) {
+        setInterval(() => {
+          primaryBtn.style.transform = 'scale(1.02)';
+          setTimeout(() => {
+            primaryBtn.style.transform = 'translateY(-5px)';
+          }, 200);
+        }, 5000);
+      }
+    }
+
+    // Initialize all enhanced hero features
+    function initEnhancedHeroFeatures() {
+      // Initialize hero verse refresh
+      initHeroVerseRefresh();
+
+      // Initialize demo button
+      initDemoButton();
+
+      // Animate stat badges after a short delay
+      setTimeout(animateHeroStatBadges, 500);
+
+      // Initialize parallax effect
+      initHeroParallax();
+
+      // Initialize CTA pulse
+      initCTAPulse();
+    }
+
+    // Call initialization when DOM is loaded
+    document.addEventListener('DOMContentLoaded', () => {
+      initEnhancedHeroFeatures();
+    });

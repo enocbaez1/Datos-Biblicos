@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Datos Bíblicos Interactivos</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="reading-plans-styles.css" />
+    <link rel="stylesheet" href="hero-enhanced-v2.css" />
 
 </head>
 <body>
@@ -46,6 +48,19 @@
   <div class="container">
     <!-- Hero Section Enhanced -->
     <div class="hero" id="inicio">
+      <!-- Wave Banner Top -->
+      <div class="hero-wave-banner"></div>
+
+      <!-- Biblical Constellations -->
+      <div class="hero-constellations">
+        <div class="constellation star" style="top: 15%; left: 20%;"></div>
+        <div class="constellation star" style="top: 25%; left: 80%;"></div>
+        <div class="constellation star" style="top: 60%; left: 10%;"></div>
+        <div class="constellation star" style="top: 70%; left: 90%;"></div>
+        <div class="constellation cross" style="top: 40%; right: 15%;"></div>
+        <div class="constellation dove" style="top: 20%; right: 25%;"></div>
+      </div>
+
       <!-- Animated Particles Background -->
       <div class="particles-container">
         <div class="particle"></div>
@@ -61,73 +76,169 @@
         <div class="scroll-pattern"></div>
       </div>
 
+      <!-- Visual Dashboard Mockup (Right Side) -->
+      <div class="hero-dashboard-mockup">
+        <div class="mockup-card">
+          <div class="mockup-chart">
+            <svg viewBox="0 0 100 100" class="progress-ring">
+              <circle cx="50" cy="50" r="40" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="8"/>
+              <circle cx="50" cy="50" r="40" fill="none" stroke="url(#gradient)" stroke-width="8"
+                      stroke-dasharray="251" stroke-dashoffset="63" class="progress-ring-circle"/>
+              <defs>
+                <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#4ecdc4;stop-opacity:1" />
+                  <stop offset="100%" style="stop-color:#44a08d;stop-opacity:1" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <div class="mockup-stat">75%</div>
+          </div>
+          <p class="mockup-label">Progreso de Lectura</p>
+        </div>
+        <div class="mockup-activity">
+          <div class="activity-dot"></div>
+          <div class="activity-dot"></div>
+          <div class="activity-dot"></div>
+        </div>
+      </div>
+
       <div class="hero-content">
-        <!-- Hero Stats -->
-        <div class="hero-stats">
-          <div class="hero-stat-item">
-            <span class="hero-stat-number" data-target="700">0</span>
-            <span class="hero-stat-label">Traducciones Disponibles</span>
+        <!-- Hero Stats with Live Data -->
+        <div class="hero-stats-live">
+          <div class="hero-stat-badge">
+            <span class="stat-icon">📊</span>
+            <span class="stat-text">+31,000 versículos analizados</span>
+          </div>
+          <div class="hero-stat-badge">
+            <span class="stat-icon">🌍</span>
+            <span class="stat-text">700+ traducciones</span>
+          </div>
+          <div class="hero-stat-badge">
+            <span class="stat-icon">✨</span>
+            <span class="stat-text">1,800+ profecías conectadas</span>
           </div>
         </div>
 
         <h1>Datos Bíblicos Interactivos</h1>
-        <p>Explora las estadísticas y curiosidades de las Sagradas Escrituras con herramientas modernas e interactivas</p>
+        <p class="hero-subtitle">Descubre patrones, historias y estadísticas que nunca habías visto en la Biblia</p>
 
-        <!-- Benefits Summary -->
-        <div class="hero-benefits">
-          <div class="benefit-item" data-action="plan" role="button" tabindex="0">
-            <div class="benefit-icon">📋</div>
-            <span>Plan inicial</span>
+        <!-- Mini Interactive Preview: Random Daily Verse -->
+        <div class="hero-preview-card">
+          <div class="preview-label">
+            <span class="preview-icon">💡</span>
+            Versículo del día
           </div>
-          <div class="benefit-item" data-action="verse" role="button" tabindex="0">
-            <div class="benefit-icon">📖</div>
-            <span>Versículo diario</span>
+          <div class="preview-verse" id="heroRandomVerse">
+            <p class="preview-text">"Tu palabra es lámpara a mis pies y lumbrera a mi camino"</p>
+            <p class="preview-ref">Salmos 119:105</p>
           </div>
-          <div class="benefit-item" data-action="explore" role="button" tabindex="0">
-            <div class="benefit-icon">🎯</div>
-            <span>Guía por temas</span>
+          <button class="preview-refresh" id="heroRefreshVerse" title="Ver otro versículo">🔄</button>
+        </div>
+
+        <!-- Testimonial / Impact Statement with Avatar -->
+        <div class="hero-testimonial">
+          <div class="testimonial-quote">
+            <div class="testimonial-avatar">
+              <div class="avatar-circle">MG</div>
+            </div>
+            <div class="testimonial-content">
+              <span class="quote-icon">"</span>
+              <p>Ahora puedo ver conexiones que antes no notaba. Mi estudio bíblico pasó de ser confuso a revelador.</p>
+              <span class="testimonial-author">— María G., lectora desde 2024</span>
+            </div>
           </div>
         </div>
 
-        <!-- Rotating Inspirational Verse -->
-        <div class="hero-inspiration">
-          <div class="inspiration-chip" id="inspirationChip">
-            <span class="inspiration-text">"Tu palabra es lámpara a mis pies y lumbrera a mi camino"</span>
-            <span class="inspiration-ref">Salmos 119:105</span>
+        <!-- Enhanced CTA Buttons with Contrast -->
+        <div class="hero-cta-enhanced">
+          <a href="#empezar" class="cta-button-enhanced primary-enhanced">
+            <span class="cta-icon">🚀</span>
+            <span class="cta-text">Comenzar Ahora</span>
+            <span class="cta-subtitle">Gratis, sin registro</span>
+          </a>
+          <a href="#demo" class="cta-button-enhanced secondary-enhanced" id="verDemoBtn">
+            <span class="cta-icon">▶️</span>
+            <span class="cta-text">Ver Demo en 1 min</span>
+            <span class="cta-subtitle">Descubre cómo funciona</span>
+          </a>
+        </div>
+
+        <!-- Micro Benefits with Icons -->
+        <div class="hero-micro-benefits">
+          <a href="#planes-lectura" class="micro-benefit-item micro-benefit-link">
+            <div class="micro-icon">📋</div>
+            <div class="micro-text">
+              <strong>Planifica tu lectura</strong>
+              <span>Planes de 7, 30 y 365 días</span>
+            </div>
+          </a>
+          <a href="#explorar" class="micro-benefit-item micro-benefit-link">
+            <div class="micro-icon">🔮</div>
+            <div class="micro-text">
+              <strong>Explora temas proféticos</strong>
+              <span>1,800+ conexiones reveladas</span>
+            </div>
+          </a>
+          <a href="#favoritos" class="micro-benefit-item micro-benefit-link">
+            <div class="micro-icon">💾</div>
+            <div class="micro-text">
+              <strong>Guarda tus hallazgos</strong>
+              <span>Favoritos y notas personales</span>
+            </div>
+          </a>
+        </div>
+
+        <!-- What's New Section -->
+        <div class="hero-whats-new">
+          <div class="whats-new-header">
+            <span class="new-badge">Nuevo</span>
+            <span class="whats-new-title">Novedades de esta semana</span>
+          </div>
+          <div class="whats-new-items">
+            <div class="new-item">
+              <span class="new-icon">🎯</span>
+              <span>10+ planes de lectura personalizados</span>
+            </div>
+            <div class="new-item">
+              <span class="new-icon">📊</span>
+              <span>Sistema de progreso con tracking</span>
+            </div>
           </div>
         </div>
 
-        <!-- CTA Buttons -->
-        <div class="hero-cta">
-          <a href="#empezar" class="cta-button primary">Comenzar Ahora</a>
-          <a href="#explorar" class="cta-button secondary">Explorar Libros</a>
+        <!-- Live Activity Map -->
+        <div class="hero-activity-map">
+          <div class="activity-header">
+            <span class="activity-icon">🌍</span>
+            <span>Usuarios leyendo ahora</span>
+            <span class="activity-count" id="activeUsers">247</span>
+          </div>
+          <div class="activity-dots-container">
+            <div class="activity-pulse" style="left: 30%; top: 40%;"></div>
+            <div class="activity-pulse" style="left: 60%; top: 25%;"></div>
+            <div class="activity-pulse" style="left: 45%; top: 60%;"></div>
+            <div class="activity-pulse" style="left: 75%; top: 45%;"></div>
+            <div class="activity-pulse" style="left: 20%; top: 70%;"></div>
+          </div>
         </div>
 
-        <!-- Steps Guide -->
-        <div class="hero-stepper">
-          <div class="step-item" data-step="1" role="button" tabindex="0">
-            <div class="step-number">1</div>
-            <div class="step-content">
-              <div class="step-icon">📚</div>
-              <span>Elige un plan</span>
-            </div>
-          </div>
-          <div class="step-divider"></div>
-          <div class="step-item" data-step="2" role="button" tabindex="0">
-            <div class="step-number">2</div>
-            <div class="step-content">
-              <div class="step-icon">🔍</div>
-              <span>Explora libros</span>
-            </div>
-          </div>
-          <div class="step-divider"></div>
-          <div class="step-item" data-step="3" role="button" tabindex="0">
-            <div class="step-number">3</div>
-            <div class="step-content">
-              <div class="step-icon">⭐</div>
-              <span>Guarda favoritos</span>
-            </div>
-          </div>
+        <!-- Social Share Button -->
+        <div class="hero-social-share">
+          <button class="share-btn" id="heroShareBtn">
+            <span class="share-icon">🔗</span>
+            <span>Comparte con tu grupo</span>
+          </button>
+          <button class="mobile-btn" id="heroMobileBtn">
+            <span class="mobile-icon">📱</span>
+            <span>Ver en móvil</span>
+          </button>
+        </div>
+
+        <!-- Personalization Hint -->
+        <div class="hero-personalization-hint">
+          <span class="hint-icon">⚙️</span>
+          <span class="hint-text">Elige tu traducción favorita</span>
+          <span class="hint-badge">Pronto más opciones</span>
         </div>
       </div>
 
@@ -138,6 +249,12 @@
         <div class="floating-icon advanced">🕊️</div>
         <div class="floating-icon advanced">📜</div>
         <div class="floating-icon advanced">💫</div>
+      </div>
+
+      <!-- Scroll Indicator -->
+      <div class="hero-scroll-indicator">
+        <span class="scroll-text">Explora más</span>
+        <span class="scroll-arrow">↓</span>
       </div>
     </div>
 
@@ -262,15 +379,39 @@
       </div>
     </div>
 
+    <!-- Reading Plans Showcase Section - NEW SECTION -->
+    <div class="reading-plans-section" id="planes-lectura">
+      <h2 class="section-title">Planes de Lectura</h2>
+      <div class="reading-plans-showcase">
+        <h3 class="showcase-subtitle">Elige tu plan de lectura ideal</h3>
+        <p class="showcase-description">Desde principiantes hasta estudios profundos, tenemos el plan perfecto para ti</p>
+
+        <div class="plans-grid" id="plansGrid">
+          <!-- Plans will be loaded dynamically -->
+        </div>
+      </div>
+    </div>
+
     <!-- Reading Plan Modal -->
     <div class="modal" id="readingPlanModal">
-      <div class="modal-content">
+      <div class="modal-content reading-plan-modal-content">
         <div class="modal-header">
-          <h3>Plan de Lectura - 7 Días</h3>
+          <div class="plan-header-info">
+            <span class="plan-icon-large" id="planIconLarge">📖</span>
+            <div class="plan-title-group">
+              <h3 id="planModalTitle">Plan de Lectura</h3>
+              <p class="plan-modal-meta" id="planModalMeta"></p>
+            </div>
+          </div>
           <button class="modal-close" id="closeReadingPlan">&times;</button>
         </div>
-        <div class="modal-body" id="readingPlanContent">
+        <div class="modal-body reading-plan-modal-body" id="readingPlanContent">
           <!-- Content will be loaded dynamically -->
+        </div>
+        <div class="modal-footer reading-plan-footer">
+          <div class="plan-progress-info" id="planProgressInfo">
+            <!-- Progress will be shown here -->
+          </div>
         </div>
       </div>
     </div>
@@ -382,6 +523,8 @@
   </div>
 
     <script src="app.js" defer></script>
+    <script src="reading-plans.js" defer></script>
+    <script src="hero-enhanced-v2.js" defer></script>
 
 </body>
 </html>

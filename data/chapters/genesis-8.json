@@ -1,315 +1,473 @@
 {
-  "book": "Génesis",
-  "chapter": 8,
-  "title": "Fin del diluvio",
-  "subtitle": "Dios recuerda a Noé y renueva la tierra",
-  "summary": "Dios se acuerda de Noé, las aguas retroceden gradualmente, el arca descansa en los montes de Ararat, Noé envía aves para comprobar la tierra seca y finalmente ofrece un altar que conduce a la promesa de estabilidad futura.",
-  "timeline": {
-    "period": "Restauración postdiluviana",
-    "context": "Transición del juicio a la misericordia",
-    "placement": "Nuevo comienzo de la humanidad"
+  "meta": {
+    "id": "genesis-8-fin-diluvio",
+    "slug": "genesis-8-fin-diluvio",
+    "lang": "es",
+    "available_locales": ["es"],
+    "version": 1,
+    "created_at": "2025-10-03T00:00:00Z",
+    "updated_at": "2025-10-03T00:00:00Z",
+    "status": "published"
   },
-  "days": [
-    {
-      "day": 1,
-      "title": "Dios se acuerda",
-      "icon": "!!",
-      "description": "Dios recuerda a Noé y hace pasar un viento sobre la tierra.",
-      "verse": "Se acordó Dios de Noé, y de todos los animales.",
-      "reference": "Génesis 8:1",
-      "significance": "La memoria divina implica acción salvadora."
-    },
-    {
-      "day": 2,
-      "title": "Aguas en retroceso",
-      "icon": "~~",
-      "description": "Se cierran las fuentes del abismo y la lluvia se detiene; las aguas decrecen poco a poco.",
-      "verse": "Fueron detenidas las fuentes del abismo... y las aguas decrecían.",
-      "reference": "Génesis 8:2-5",
-      "significance": "El juicio se retira gradualmente bajo el control de Dios."
-    },
-    {
-      "day": 3,
-      "title": "El cuervo enviado",
-      "icon": "##",
-      "description": "Noé suelta un cuervo que va y viene hasta que se secan las aguas.",
-      "verse": "Envió un cuervo, el cual salió y estuvo yendo y volviendo.",
-      "reference": "Génesis 8:6-7",
-      "significance": "La paciencia y observación preceden a la acción."
-    },
-    {
-      "day": 4,
-      "title": "La paloma y la hoja de olivo",
-      "icon": "^^",
-      "description": "Una paloma regresa con una hoja de olivo; luego no vuelve.",
-      "verse": "La paloma volvió a él... he aquí una hoja de olivo traída en el pico.",
-      "reference": "Génesis 8:8-12",
-      "significance": "El olivo anuncia paz y renovada esperanza."
-    },
-    {
-      "day": 5,
-      "title": "Tierra seca y salida",
-      "icon": ">>",
-      "description": "Noé retira la cubierta del arca, ve la tierra seca y recibe la orden de salir.",
-      "verse": "Habló Dios a Noé, diciendo: Sal del arca tú, y tu mujer...",
-      "reference": "Génesis 8:13-19",
-      "significance": "Solo la palabra de Dios autoriza el nuevo comienzo."
-    },
-    {
-      "day": 6,
-      "title": "Altar y promesa",
-      "icon": "::",
-      "description": "Noé ofrece holocausto; Dios promete no maldecir más la tierra.",
-      "verse": "Noé edificó un altar a Jehová... y Jehová dijo: No volveré más a maldecir la tierra.",
-      "reference": "Génesis 8:20-22",
-      "significance": "La adoración provoca una promesa de estabilidad y gracia."
-    }
-  ],
-  "interestingFacts": [
-    {
-      "id": "remembered",
-      "title": "\"Se acordó\" significa actuar",
-      "summary": "Cuando Dios \"recuerda\" siempre actúa a favor de su pacto.",
-      "explanation": "No implica olvido previo, sino intervención fiel en el momento adecuado.",
-      "verse": "Se acordó Dios de Noé.",
-      "reference": "Génesis 8:1"
-    },
-    {
-      "id": "ararat-mountains",
-      "title": "Montes de Ararat",
-      "summary": "El arca reposó en una cordillera identificada con Armenia moderna.",
-      "explanation": "El lugar simboliza el reposo después del juicio y tiene eco en la tradición histórica.",
-      "verse": "Reposó el arca... sobre los montes de Ararat.",
-      "reference": "Génesis 8:4"
-    },
-    {
-      "id": "olive-leaf",
-      "title": "Hoja de olivo",
-      "summary": "Señal de vida y reconstrucción.",
-      "explanation": "El olivo resiste inundaciones y representa paz, por eso la paloma con olivo es símbolo universal de esperanza.",
-      "verse": "Traía una hoja de olivo en el pico.",
-      "reference": "Génesis 8:11"
-    },
-    {
-      "id": "seedtime-harvest",
-      "title": "Ciclos garantizados",
-      "summary": "Dios promete la continuidad de las estaciones.",
-      "explanation": "Mientras la tierra permanezca, no cesarán siembra y siega, asegurando estabilidad agrícola.",
-      "verse": "Mientras la tierra permanezca, no cesarán la sementera y la siega.",
-      "reference": "Génesis 8:22"
-    }
-  ],
-  "reflectionQuestions": [
-    {
-      "id": "remembered-by-god",
-      "question": "¿En qué momentos necesitas recordar que Dios no se olvida de ti?",
-      "category": "fe",
-      "hints": [
-        "Promesas",
-        "Silencios",
-        "Intervenciones"
-      ]
-    },
-    {
-      "id": "waiting-signs",
-      "question": "¿Qué \"hojas de olivo\" ha puesto Dios para confirmar su guía?",
-      "category": "discernimiento",
-      "hints": [
-        "Pequeñas señales",
-        "Confirmación",
-        "Consejo sabio"
-      ]
-    },
-    {
-      "id": "response-worship",
-      "question": "¿Cómo respondes a la liberación de Dios: con adoración o con olvido?",
-      "category": "adoración",
-      "hints": [
-        "Altares",
-        "Gratitud",
-        "Consagración"
-      ]
-    },
-    {
-      "id": "stewardship-newstart",
-      "question": "¿Qué responsabilidades nuevas debes asumir en tu \"tierra seca\"?",
-      "category": "mayordomía",
-      "hints": [
-        "Trabajo",
-        "Familia",
-        "Misión"
-      ]
-    }
-  ],
-  "trivia": [
-    {
-      "question": "¿Qué ave envió Noé primero?",
-      "options": [
-        "Una paloma",
-        "Un cuervo",
-        "Un águila"
-      ],
-      "correct": 1,
-      "explanation": "El cuervo fue enviado antes que la paloma."
-    },
-    {
-      "question": "¿Qué traía la paloma en su segunda salida?",
-      "options": [
-        "Un grano de trigo",
-        "Una hoja de olivo",
-        "Nada"
-      ],
-      "correct": 1,
-      "explanation": "La hoja de olivo indicaba que las aguas habían disminuido."
-    },
-    {
-      "question": "¿Qué hizo Noé al salir del arca?",
-      "options": [
-        "Construyó una ciudad",
-        "Edificó un altar",
-        "Fue a sembrar inmediatamente"
-      ],
-      "correct": 1,
-      "explanation": "Su primera acción fue adorar a Dios mediante un holocausto."
-    },
-    {
-      "question": "¿Qué promete Dios acerca de las estaciones en Génesis 8:22?",
-      "options": [
-        "Que cesarán en el invierno",
-        "Que dependerán de la conducta humana",
-        "Que nunca cesarán mientras la tierra exista"
-      ],
-      "correct": 2,
-      "explanation": "La promesa asegura la continuidad de los ciclos naturales."
-    }
-  ],
-  "comparison": {
-    "title": "Juicio retirado vs nueva oportunidad",
-    "before": {
-      "title": "Tierra sumergida",
-      "description": "Aguas cubriendo todo, sin vida visible.",
-      "elements": [
-        "Oscuridad",
-        "Incógnita",
-        "Juicio activo"
-      ],
-      "verse": "Las aguas iban decreciendo.",
-      "reference": "Génesis 8:3"
-    },
-    "after": {
-      "title": "Tierra restaurada",
-      "description": "Seca, apta para repoblar, bendecida con promesa.",
-      "elements": [
-        "Vida vegetal",
-        "Altar",
-        "Ciclos garantizados"
-      ],
-      "verse": "No volveré más a maldecir la tierra por causa del hombre.",
-      "reference": "Génesis 8:21"
-    }
+  "seo": {
+    "title": "Génesis 8: Fin del diluvio - Dios recuerda a Noé y renueva la tierra",
+    "description": "Dios se acuerda de Noé, las aguas retroceden gradualmente, el arca descansa en los montes de Ararat, Noé envía aves para comprobar la tierra seca y finalmente ofrece un altar que conduce a la promesa de estabilidad futura.",
+    "keywords": ["génesis 8", "fin diluvio", "noé", "ararat", "paloma olivo", "altar", "promesa estaciones", "dios recuerda"],
+    "canonical": "https://datos-biblicos.com/genesis/8",
+    "og_image": "https://datos-biblicos.com/images/genesis-8-ark-ararat.jpg",
+    "robots": "index, follow"
   },
-  "memorizeVerse": {
-    "text": "Mientras la tierra permanezca, no cesarán la sementera y la siega, el frío y el calor, el verano y el invierno, y el día y la noche.",
-    "reference": "Génesis 8:22",
-    "theme": "Fidelidad constante"
+  "source": {
+    "bible_version": "RVR1960",
+    "reference": "Génesis 8:1-22",
+    "cross_references": ["Hechos 14:17", "Efesios 5:2", "Salmos 136:25", "Jeremías 33:20"],
+    "parallel_accounts": []
   },
-  "mainTeaching": "Dios no olvida a su pueblo, transforma el juicio en oportunidad y establece ciclos de gracia para sostener la vida.",
-  "practicalApplication": [
-    "Recuerda la fidelidad pasada de Dios cuando parezca que el juicio se prolonga.",
-    "Busca señales prudentes antes de tomar decisiones importantes.",
-    "Levanta \"altares\" de adoración en respuesta a la misericordia recibida.",
-    "Asume con responsabilidad el nuevo comienzo que Dios te concede."
-  ],
-  "extendedContent": {
-    "keyThemes": [
+  "document": {
+    "book": "Génesis",
+    "chapter": 8,
+    "title": "Fin del diluvio",
+    "subtitle": "Dios recuerda a Noé y renueva la tierra",
+    "summary": "Dios se acuerda de Noé, las aguas retroceden gradualmente, el arca descansa en los montes de Ararat, Noé envía aves para comprobar la tierra seca y finalmente ofrece un altar que conduce a la promesa de estabilidad futura.",
+    "timeline": {
+      "period": "Restauración postdiluviana",
+      "context": "Transición del juicio a la misericordia",
+      "placement": "Nuevo comienzo de la humanidad"
+    },
+    "days": [
       {
-        "id": "gen8-theme-memoria",
-        "title": "Memoria divina",
-        "summary": "Dios se acuerda de Noe y comienza a revertir el juicio."
+        "day": 1,
+        "title": "Dios se acuerda",
+        "icon": "!!",
+        "description": "Dios recuerda a Noé y hace pasar un viento sobre la tierra.",
+        "verse": "Se acordó Dios de Noé, y de todos los animales.",
+        "reference": "Génesis 8:1",
+        "significance": "La memoria divina implica acción salvadora."
       },
       {
-        "id": "gen8-theme-paciencia",
-        "title": "Paciencia obediente",
-        "summary": "Noe espera la orden de Dios antes de abandonar el arca."
+        "day": 2,
+        "title": "Aguas en retroceso",
+        "icon": "~~",
+        "description": "Se cierran las fuentes del abismo y la lluvia se detiene; las aguas decrecen poco a poco.",
+        "verse": "Fueron detenidas las fuentes del abismo... y las aguas decrecían.",
+        "reference": "Génesis 8:2-5",
+        "significance": "El juicio se retira gradualmente bajo el control de Dios."
       },
       {
-        "id": "gen8-theme-adoracion",
-        "title": "Adoracion agradecida",
-        "summary": "El altar de Noe produce promesa de estabilidad para la tierra."
-      }
-    ],
-    "characterProfiles": [
-      {
-        "name": "Noe",
-        "role": "Adorador agradecido",
-        "description": "Prueba con aves, espera la voz divina y ofrece sacrificio de olor grato.",
-        "verses": "Genesis 8:6-20"
+        "day": 3,
+        "title": "El cuervo enviado",
+        "icon": "##",
+        "description": "Noé suelta un cuervo que va y viene hasta que se secan las aguas.",
+        "verse": "Envió un cuervo, el cual salió y estuvo yendo y volviendo.",
+        "reference": "Génesis 8:6-7",
+        "significance": "La paciencia y observación preceden a la acción."
       },
       {
-        "name": "Paloma",
-        "role": "Mensajera de paz",
-        "description": "Regresa con hoja de olivo anunciando tierra renovada.",
-        "verses": "Genesis 8:10-11"
+        "day": 4,
+        "title": "La paloma y la hoja de olivo",
+        "icon": "^^",
+        "description": "Una paloma regresa con una hoja de olivo; luego no vuelve.",
+        "verse": "La paloma volvió a él... he aquí una hoja de olivo traída en el pico.",
+        "reference": "Génesis 8:8-12",
+        "significance": "El olivo anuncia paz y renovada esperanza."
       },
       {
-        "name": "Dios",
-        "role": "Garantia del pacto",
-        "description": "Promete ciclos estables de siembra y cosecha.",
-        "verses": "Genesis 8:21-22"
-      }
-    ],
-    "geography": [
-      {
-        "place": "Montes de Ararat",
-        "summary": "Cordillera donde el arca descansa cuando disminuyen las aguas.",
-        "presentDay": "Region de Turquía y Armenia",
-        "verses": "Genesis 8:4"
+        "day": 5,
+        "title": "Tierra seca y salida",
+        "icon": ">>",
+        "description": "Noé retira la cubierta del arca, ve la tierra seca y recibe la orden de salir.",
+        "verse": "Habló Dios a Noé, diciendo: Sal del arca tú, y tu mujer...",
+        "reference": "Génesis 8:13-19",
+        "significance": "Solo la palabra de Dios autoriza el nuevo comienzo."
       },
       {
-        "place": "Tierra renovada",
-        "summary": "Superficie seca que aparece tras un año completo dentro del arca.",
-        "presentDay": "Tierra habitada",
-        "verses": "Genesis 8:13-14"
-      }
-    ],
-    "gospelConnections": [
-      {
-        "title": "Olor agradable",
-        "description": "El sacrificio acepto anticipa la ofrenda de Cristo como olor fragante.",
-        "reference": "Efesios 5:2"
-      },
-      {
-        "title": "Providencia constante",
-        "description": "Pablo proclama que Dios no deja de dar lluvias y cosechas para beneficio de todos.",
-        "reference": "Hechos 14:17"
-      }
-    ],
-    "outline": [
-      {
-        "section": "1",
-        "title": "Descenso de las aguas",
-        "verses": "8:1-5",
-        "summary": "Dios envia viento, las fuentes se cierran y el arca reposa en Ararat."
-      },
-      {
-        "section": "2",
-        "title": "Mensajeros alados",
-        "verses": "8:6-14",
-        "summary": "Noe envia cuervo y palomas para evaluar la tierra."
-      },
-      {
-        "section": "3",
+        "day": 6,
         "title": "Altar y promesa",
-        "verses": "8:15-22",
-        "summary": "Noe sale, ofrece sacrificio y recibe promesa de ciclos estables."
+        "icon": "::",
+        "description": "Noé ofrece holocausto; Dios promete no maldecir más la tierra.",
+        "verse": "Noé edificó un altar a Jehová... y Jehová dijo: No volveré más a maldecir la tierra.",
+        "reference": "Génesis 8:20-22",
+        "significance": "La adoración provoca una promesa de estabilidad y gracia."
       }
     ],
-    "studyInsights": [
-      "Acordarse significa actuar en favor, no simple memoria.",
-      "El cuervo queda fuera, pero la paloma busca lugar limpio.",
-      "Noe espera 57 dias despues de ver tierra seca hasta recibir la orden divina.",
-      "La promesa de estaciones prepara el escenario para la historia redentiva."
+    "interestingFacts": [
+      {
+        "id": "remembered",
+        "title": "\"Se acordó\" significa actuar",
+        "summary": "Cuando Dios \"recuerda\" siempre actúa a favor de su pacto.",
+        "explanation": "No implica olvido previo, sino intervención fiel en el momento adecuado.",
+        "verse": "Se acordó Dios de Noé.",
+        "reference": "Génesis 8:1"
+      },
+      {
+        "id": "ararat-mountains",
+        "title": "Montes de Ararat",
+        "summary": "El arca reposó en una cordillera identificada con Armenia moderna.",
+        "explanation": "El lugar simboliza el reposo después del juicio y tiene eco en la tradición histórica.",
+        "verse": "Reposó el arca... sobre los montes de Ararat.",
+        "reference": "Génesis 8:4"
+      },
+      {
+        "id": "olive-leaf",
+        "title": "Hoja de olivo",
+        "summary": "Señal de vida y reconstrucción.",
+        "explanation": "El olivo resiste inundaciones y representa paz, por eso la paloma con olivo es símbolo universal de esperanza.",
+        "verse": "Traía una hoja de olivo en el pico.",
+        "reference": "Génesis 8:11"
+      },
+      {
+        "id": "seedtime-harvest",
+        "title": "Ciclos garantizados",
+        "summary": "Dios promete la continuidad de las estaciones.",
+        "explanation": "Mientras la tierra permanezca, no cesarán siembra y siega, asegurando estabilidad agrícola.",
+        "verse": "Mientras la tierra permanezca, no cesarán la sementera y la siega.",
+        "reference": "Génesis 8:22"
+      }
     ],
-    "prayerFocus": "Da gracias por la fidelidad de Dios y pide vivir con paciencia expectante."
+    "reflectionQuestions": [
+      {
+        "id": "remembered-by-god",
+        "question": "¿En qué momentos necesitas recordar que Dios no se olvida de ti?",
+        "category": "fe",
+        "hints": [
+          "Promesas",
+          "Silencios",
+          "Intervenciones"
+        ]
+      },
+      {
+        "id": "waiting-signs",
+        "question": "¿Qué \"hojas de olivo\" ha puesto Dios para confirmar su guía?",
+        "category": "discernimiento",
+        "hints": [
+          "Pequeñas señales",
+          "Confirmación",
+          "Consejo sabio"
+        ]
+      },
+      {
+        "id": "response-worship",
+        "question": "¿Cómo respondes a la liberación de Dios: con adoración o con olvido?",
+        "category": "adoración",
+        "hints": [
+          "Altares",
+          "Gratitud",
+          "Consagración"
+        ]
+      },
+      {
+        "id": "stewardship-newstart",
+        "question": "¿Qué responsabilidades nuevas debes asumir en tu \"tierra seca\"?",
+        "category": "mayordomía",
+        "hints": [
+          "Trabajo",
+          "Familia",
+          "Misión"
+        ]
+      }
+    ],
+    "trivia": [
+      {
+        "question": "¿Qué ave envió Noé primero?",
+        "options": [
+          "Una paloma",
+          "Un cuervo",
+          "Un águila"
+        ],
+        "correct": 1,
+        "explanation": "El cuervo fue enviado antes que la paloma."
+      },
+      {
+        "question": "¿Qué traía la paloma en su segunda salida?",
+        "options": [
+          "Un grano de trigo",
+          "Una hoja de olivo",
+          "Nada"
+        ],
+        "correct": 1,
+        "explanation": "La hoja de olivo indicaba que las aguas habían disminuido."
+      },
+      {
+        "question": "¿Qué hizo Noé al salir del arca?",
+        "options": [
+          "Construyó una ciudad",
+          "Edificó un altar",
+          "Fue a sembrar inmediatamente"
+        ],
+        "correct": 1,
+        "explanation": "Su primera acción fue adorar a Dios mediante un holocausto."
+      },
+      {
+        "question": "¿Qué promete Dios acerca de las estaciones en Génesis 8:22?",
+        "options": [
+          "Que cesarán en el invierno",
+          "Que dependerán de la conducta humana",
+          "Que nunca cesarán mientras la tierra exista"
+        ],
+        "correct": 2,
+        "explanation": "La promesa asegura la continuidad de los ciclos naturales."
+      }
+    ],
+    "comparison": {
+      "title": "Juicio retirado vs nueva oportunidad",
+      "before": {
+        "title": "Tierra sumergida",
+        "description": "Aguas cubriendo todo, sin vida visible.",
+        "elements": [
+          "Oscuridad",
+          "Incógnita",
+          "Juicio activo"
+        ],
+        "verse": "Las aguas iban decreciendo.",
+        "reference": "Génesis 8:3"
+      },
+      "after": {
+        "title": "Tierra restaurada",
+        "description": "Seca, apta para repoblar, bendecida con promesa.",
+        "elements": [
+          "Vida vegetal",
+          "Altar",
+          "Ciclos garantizados"
+        ],
+        "verse": "No volveré más a maldecir la tierra por causa del hombre.",
+        "reference": "Génesis 8:21"
+      }
+    },
+    "memorizeVerse": {
+      "text": "Mientras la tierra permanezca, no cesarán la sementera y la siega, el frío y el calor, el verano y el invierno, y el día y la noche.",
+      "reference": "Génesis 8:22",
+      "theme": "Fidelidad constante"
+    },
+    "mainTeaching": "Dios no olvida a su pueblo, transforma el juicio en oportunidad y establece ciclos de gracia para sostener la vida.",
+    "practicalApplication": [
+      "Recuerda la fidelidad pasada de Dios cuando parezca que el juicio se prolonga.",
+      "Busca señales prudentes antes de tomar decisiones importantes.",
+      "Levanta \"altares\" de adoración en respuesta a la misericordia recibida.",
+      "Asume con responsabilidad el nuevo comienzo que Dios te concede."
+    ],
+    "extendedContent": {
+      "keyThemes": [
+        {
+          "id": "gen8-theme-memoria",
+          "title": "Memoria divina",
+          "summary": "Dios se acuerda de Noe y comienza a revertir el juicio."
+        },
+        {
+          "id": "gen8-theme-paciencia",
+          "title": "Paciencia obediente",
+          "summary": "Noe espera la orden de Dios antes de abandonar el arca."
+        },
+        {
+          "id": "gen8-theme-adoracion",
+          "title": "Adoracion agradecida",
+          "summary": "El altar de Noe produce promesa de estabilidad para la tierra."
+        }
+      ],
+      "characterProfiles": [
+        {
+          "name": "Noe",
+          "role": "Adorador agradecido",
+          "description": "Prueba con aves, espera la voz divina y ofrece sacrificio de olor grato.",
+          "verses": "Genesis 8:6-20"
+        },
+        {
+          "name": "Paloma",
+          "role": "Mensajera de paz",
+          "description": "Regresa con hoja de olivo anunciando tierra renovada.",
+          "verses": "Genesis 8:10-11"
+        },
+        {
+          "name": "Dios",
+          "role": "Garantia del pacto",
+          "description": "Promete ciclos estables de siembra y cosecha.",
+          "verses": "Genesis 8:21-22"
+        }
+      ],
+      "geography": [
+        {
+          "place": "Montes de Ararat",
+          "summary": "Cordillera donde el arca descansa cuando disminuyen las aguas.",
+          "presentDay": "Region de Turquía y Armenia",
+          "verses": "Genesis 8:4"
+        },
+        {
+          "place": "Tierra renovada",
+          "summary": "Superficie seca que aparece tras un año completo dentro del arca.",
+          "presentDay": "Tierra habitada",
+          "verses": "Genesis 8:13-14"
+        }
+      ],
+      "gospelConnections": [
+        {
+          "title": "Olor agradable",
+          "description": "El sacrificio acepto anticipa la ofrenda de Cristo como olor fragante.",
+          "reference": "Efesios 5:2"
+        },
+        {
+          "title": "Providencia constante",
+          "description": "Pablo proclama que Dios no deja de dar lluvias y cosechas para beneficio de todos.",
+          "reference": "Hechos 14:17"
+        }
+      ],
+      "outline": [
+        {
+          "section": "1",
+          "title": "Descenso de las aguas",
+          "verses": "8:1-5",
+          "summary": "Dios envia viento, las fuentes se cierran y el arca reposa en Ararat."
+        },
+        {
+          "section": "2",
+          "title": "Mensajeros alados",
+          "verses": "8:6-14",
+          "summary": "Noe envia cuervo y palomas para evaluar la tierra."
+        },
+        {
+          "section": "3",
+          "title": "Altar y promesa",
+          "verses": "8:15-22",
+          "summary": "Noe sale, ofrece sacrificio y recibe promesa de ciclos estables."
+        }
+      ],
+      "studyInsights": [
+        "Acordarse significa actuar en favor, no simple memoria.",
+        "El cuervo queda fuera, pero la paloma busca lugar limpio.",
+        "Noe espera 57 dias despues de ver tierra seca hasta recibir la orden divina.",
+        "La promesa de estaciones prepara el escenario para la historia redentiva."
+      ],
+      "prayerFocus": "Da gracias por la fidelidad de Dios y pide vivir con paciencia expectante."
+    }
+  },
+  "ui": {
+    "navigation": {
+      "previous": {
+        "chapter": 7,
+        "title": "El diluvio",
+        "slug": "genesis-7-diluvio"
+      },
+      "next": {
+        "chapter": 9,
+        "title": "Pacto con Noé",
+        "slug": "genesis-9-pacto-noe"
+      }
+    },
+    "colors": {
+      "primary": "#228B22",
+      "secondary": "#32CD32",
+      "accent": "#98FB98",
+      "text": "#006400"
+    },
+    "icons": {
+      "chapter": "🕊️",
+      "theme": "renewal",
+      "categories": ["restauración", "promesa", "adoración", "nuevo comienzo"]
+    }
+  },
+  "relations": {
+    "themes": [
+      {
+        "id": "flood-narrative",
+        "chapters": [6, 7, 8, 9],
+        "description": "La historia completa del diluvio"
+      },
+      {
+        "id": "divine-remembrance",
+        "chapters": [8, 19, 30],
+        "description": "Ocasiones donde Dios se acuerda de su pueblo"
+      }
+    ],
+    "characters": [
+      {
+        "name": "Noé",
+        "chapters": [5, 6, 7, 8, 9, 10]
+      },
+      {
+        "name": "Sem",
+        "chapters": [6, 7, 8, 9, 10, 11]
+      },
+      {
+        "name": "Cam",
+        "chapters": [6, 7, 8, 9, 10]
+      },
+      {
+        "name": "Jafet",
+        "chapters": [6, 7, 8, 9, 10]
+      }
+    ],
+    "keywords": [
+      "ararat",
+      "paloma",
+      "olivo",
+      "altar",
+      "estaciones"
+    ]
+  },
+  "taxonomy": {
+    "book_section": "Primordial History",
+    "literary_genre": "Narrative",
+    "theological_themes": [
+      "Divine Remembrance",
+      "Post-Judgment Restoration",
+      "Covenant Faithfulness",
+      "Worship and Gratitude",
+      "Natural Order"
+    ],
+    "historical_period": "Post-Flood Era",
+    "geographical_setting": "Mount Ararat and renewed earth"
+  },
+  "index": {
+    "search_terms": [
+      "génesis 8",
+      "fin diluvio",
+      "dios recuerda noé",
+      "montes ararat",
+      "paloma olivo",
+      "altar holocausto",
+      "promesa estaciones",
+      "cuervo paloma",
+      "tierra seca",
+      "olor grato"
+    ],
+    "key_concepts": [
+      "divine remembrance",
+      "dove with olive leaf",
+      "ark rests on Ararat",
+      "altar of gratitude",
+      "promise of seasons"
+    ]
+  },
+  "accessibility": {
+    "readingLevel": "intermediate",
+    "language": "es",
+    "audioAvailable": false,
+    "visualAids": [
+      "ararat-location",
+      "dove-olive-branch",
+      "altar-sacrifice"
+    ]
+  },
+  "analytics": {
+    "readingTime": 8,
+    "difficulty": "intermediate",
+    "popularity": "high",
+    "completionRate": 0,
+    "interactions": {
+      "trivia_attempts": 0,
+      "reflection_responses": 0,
+      "sharing_count": 0
+    }
+  },
+  "contributors": [
+    {
+      "role": "content_creator",
+      "name": "Biblical Content Team",
+      "date": "2025-10-03"
+    }
+  ],
+  "moderation": {
+    "content_warnings": [],
+    "theological_review": "approved",
+    "fact_check_status": "verified",
+    "last_review": "2025-10-03"
   }
 }

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test</title>
+</head>
+<body>
+    <button id="testBtn">Test Genesis Load</button>
+    <div id="result"></div>
+
+    <script>
+        document.getElementById('testBtn').addEventListener('click', async () => {
+            try {
+                const url = './data/chapters/genesis-1.json';
+                console.log('Attempting to load:', url);
+                const response = await fetch(url);
+                console.log('Response status:', response.status);
+                if (!response.ok) throw new Error(`Chapter data not found: ${response.status}`);
+                const data = await response.json();
+                console.log('Data loaded:', data);
+                document.getElementById('result').innerHTML = `<pre>${JSON.stringify(data.document.title, null, 2)}</pre>`;
+            } catch (error) {
+                console.error('Error:', error);
+                document.getElementById('result').innerHTML = `Error: ${error.message}`;
+            }
+        });
+    </script>
+</body>
+</html>

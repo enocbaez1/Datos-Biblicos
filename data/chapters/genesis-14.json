@@ -1,223 +1,363 @@
 {
-  "book": "Génesis",
-  "chapter": 14,
-  "title": "Rescate de Lot y encuentro con Melquisedec",
-  "subtitle": "Fe en medio de la guerra",
-  "summary": "Una coalición de reyes captura a Lot; Abram moviliza a sus siervos y lo rescata. De regreso es bendecido por Melquisedec, sacerdote de Dios Altísimo, y rechaza los bienes del rey de Sodoma.",
-  "timeline": {
-    "period": "Conflictos cananeos",
-    "context": "Abram defensor",
-    "placement": "Primera intervención militar de los patriarcas"
+  "meta": {
+    "id": "genesis-14-rescate-lot-melquisedec",
+    "title": "Génesis 14 — Rescate de Lot y encuentro con Melquisedec",
+    "subtitle": "Fe en medio de la guerra",
+    "slug": "genesis-14-rescate-lot-melquisedec",
+    "keywords": ["Génesis 14", "Melquisedec", "Abram", "rescate de Lot", "diezmo", "guerra", "fe activa", "sacerdocio"],
+    "author": "Equipo Editorial",
+    "created": "2024-01-14T00:00:00Z",
+    "modified": "2024-01-14T00:00:00Z",
+    "version": 1,
+    "status": "published",
+    "type": "chapter",
+    "language": "es"
   },
-  "days": [
-    {
-      "day": 1,
-      "title": "Guerra de los reyes",
-      "icon": "!!",
-      "description": "Cuatro reyes orientales pelean contra cinco reinos del valle del Jordán.",
-      "verse": "Aconteció en los días de Amrafel... que estos hicieron guerra.",
-      "reference": "Génesis 14:1-9",
-      "significance": "La geopolítica afecta directamente a la familia de Abram."
+  "seo": {
+    "title": "Génesis 14 — Rescate de Lot y encuentro con Melquisedec | Estudio bíblico",
+    "description": "Abram rescata a Lot de una coalición de reyes y se encuentra con Melquisedec, quien lo bendice. Estudio sobre fe activa, diezmo y tipo de Cristo.",
+    "canonical": "https://tusitio.com/genesis/14",
+    "openGraph": {
+      "title": "Génesis 14 — Rescate de Lot y encuentro con Melquisedec",
+      "description": "Fe que actúa con valentía y reconoce a Dios como fuente de victoria. Material interactivo sobre guerra, rescate y bendición.",
+      "image": "https://tusitio.com/assets/og/genesis-14.png",
+      "type": "article"
     },
-    {
-      "day": 2,
-      "title": "Lot es capturado",
-      "icon": "XX",
-      "description": "Los reyes victoriosos saquean Sodoma y se llevan a Lot y sus bienes.",
-      "verse": "Tomaron a Lot... y se fueron.",
-      "reference": "Génesis 14:10-12",
-      "significance": "Las elecciones de Lot lo exponen a peligro."
-    },
-    {
-      "day": 3,
-      "title": "Abram responde",
-      "icon": "++",
-      "description": "Abram arma a 318 siervos entrenados, persigue a los reyes y libera a Lot.",
-      "verse": "Armandó sus criados nacidos en su casa, trescientos dieciocho.",
-      "reference": "Génesis 14:13-16",
-      "significance": "La fe actúa con valentía y estrategia."
-    },
-    {
-      "day": 4,
-      "title": "Encuentro en el valle de Save",
-      "icon": "::",
-      "description": "Melquisedec, rey de Salem, sale al encuentro con pan y vino.",
-      "verse": "Melquisedec, rey de Salem, sacó pan y vino.",
-      "reference": "Génesis 14:17-18",
-      "significance": "Aparece un sacerdote-rey que prefigura a Cristo."
-    },
-    {
-      "day": 5,
-      "title": "Bendición y diezmo",
-      "icon": "$$",
-      "description": "Melquisedec bendice a Abram; Abram le da los diezmos de todo.",
-      "verse": "Bendito sea Abram del Dios Altísimo... y le dio Abram los diezmos de todo.",
-      "reference": "Génesis 14:19-20",
-      "significance": "Reconoce que la victoria proviene de Dios."
-    },
-    {
-      "day": 6,
-      "title": "Rechazo del botín",
-      "icon": "[]",
-      "description": "Abram rehúsa enriquecerse con el rey de Sodoma para que nadie diga que lo hizo rico.",
-      "verse": "No tomaré desde un hilo hasta una correa de calzado... para que no digas: yo enriquecí a Abram.",
-      "reference": "Génesis 14:21-24",
-      "significance": "La integridad mantiene a Abram dependiente solo de Dios."
-    }
-  ],
-  "interestingFacts": [
-    {
-      "id": "318-servants",
-      "title": "318 siervos entrenados",
-      "summary": "Abram posee un pequeño ejército privado.",
-      "explanation": "Muestra su capacidad organizativa y la bendición material recibida de Dios.",
-      "verse": "Armandó sus criados... trescientos dieciocho.",
-      "reference": "Génesis 14:14"
-    },
-    {
-      "id": "melchizedek-type",
-      "title": "Melquisedec como tipo de Cristo",
-      "summary": "Sacerdote y rey, sin genealogía registrada.",
-      "explanation": "Hebreos 7 usa a Melquisedec como figura de Cristo, sacerdote eterno.",
-      "verse": "Sacó pan y vino; él era sacerdote del Dios Altísimo.",
-      "reference": "Génesis 14:18"
-    },
-    {
-      "id": "first-tithe",
-      "title": "Primer diezmo registrado",
-      "summary": "Abram entrega el diezmo a Melquisedec antes de la ley.",
-      "explanation": "Demuestra gratitud y reconoce la fuente de la victoria.",
-      "verse": "Le dio Abram los diezmos de todo.",
-      "reference": "Génesis 14:20"
-    },
-    {
-      "id": "king-sodom-offer",
-      "title": "Oferta rechazada",
-      "summary": "El rey de Sodoma ofrece bienes a Abram.",
-      "explanation": "Abram rechaza para dejar claro que solo Dios es su benefactor.",
-      "verse": "No tomaré nada de lo que es tuyo.",
-      "reference": "Génesis 14:23"
-    }
-  ],
-  "reflectionQuestions": [
-    {
-      "id": "rescue-risk",
-      "question": "¿Qué estás dispuesto a arriesgar para rescatar a quienes amas?",
-      "category": "amor",
-      "hints": [
-        "Valentía",
-        "Sacrificio",
-        "Fe activa"
-      ]
-    },
-    {
-      "id": "honor-god-victory",
-      "question": "¿Cómo reconoces públicamente que tus victorias provienen de Dios?",
-      "category": "adoración",
-      "hints": [
-        "Gratitud",
-        "Testimonio",
-        "Generosidad"
-      ]
-    },
-    {
-      "id": "melchizedek-figure",
-      "question": "¿Qué te enseña Melquisedec sobre el sacerdocio de Cristo?",
-      "category": "teológica",
-      "hints": [
-        "Rey-Priede",
-        "Pan y vino",
-        "Bendición"
-      ]
-    },
-    {
-      "id": "integrity-gain",
-      "question": "¿Qué ofertas has rechazado para mantener tu integridad?",
-      "category": "ética",
-      "hints": [
-        "Dependencia",
-        "Pureza",
-        "Testimonio"
-      ]
-    }
-  ],
-  "trivia": [
-    {
-      "question": "¿Cuántos siervos armados llevó Abram para rescatar a Lot?",
-      "options": [
-        "118",
-        "218",
-        "318"
-      ],
-      "correct": 2,
-      "explanation": "Eran 318 siervos entrenados."
-    },
-    {
-      "question": "¿Qué elementos ofreció Melquisedec a Abram?",
-      "options": [
-        "Leche y miel",
-        "Pan y vino",
-        "Aceite y agua"
-      ],
-      "correct": 1,
-      "explanation": "Melquisedec sacó pan y vino (Génesis 14:18)."
-    },
-    {
-      "question": "¿A quién le dio Abram los diezmos?",
-      "options": [
-        "Al rey de Sodoma",
-        "A Melquisedec",
-        "A Lot"
-      ],
-      "correct": 1,
-      "explanation": "Los diezmos fueron para Melquisedec, sacerdote del Dios Altísimo."
-    },
-    {
-      "question": "¿Por qué Abram rechazó los bienes de Sodoma?",
-      "options": [
-        "Porque no los necesitaba",
-        "Para no deberle favores",
-        "Para no destruir la ciudad"
-      ],
-      "correct": 1,
-      "explanation": "No quiso que el rey de Sodoma dijera que lo había enriquecido."
-    }
-  ],
-  "comparison": {
-    "title": "Dependencia humana vs dependencia divina",
-    "before": {
-      "title": "Oferta del mundo",
-      "description": "Sodoma ofrece riquezas a cambio de reconocimiento.",
-      "elements": [
-        "Beneficios dudosos",
-        "Compromiso",
-        "Prestigio"
-      ],
-      "verse": "Dame las personas, y toma para ti los bienes.",
-      "reference": "Génesis 14:21"
-    },
-    "after": {
-      "title": "Bendición del Altísimo",
-      "description": "Abram recibe bendición de Melquisedec y reconoce a Dios.",
-      "elements": [
-        "Pan y vino",
-        "Diezmo",
-        "Gratitud"
-      ],
-      "verse": "Bendito sea el Dios Altísimo, que entregó tus enemigos en tu mano.",
-      "reference": "Génesis 14:20"
+    "schema": {
+      "@type": "Article",
+      "headline": "Génesis 14: Rescate de Lot y encuentro con Melquisedec",
+      "description": "Estudio interactivo sobre la guerra de los reyes, el rescate heroico de Abram y su encuentro con Melquisedec",
+      "keywords": "Génesis 14, Melquisedec, Abram, rescate, fe activa, diezmo, guerra"
     }
   },
-  "memorizeVerse": {
-    "text": "Y bendito sea el Dios Altísimo, que entregó tus enemigos en tu mano. Y le dio Abram los diezmos de todo.",
-    "reference": "Génesis 14:20",
-    "theme": "Gratitud en la victoria"
+  "source": {
+    "book": "Génesis",
+    "chapter": 14,
+    "verses": "1-24",
+    "version": "RVR1960",
+    "reference": "Génesis 14:1-24"
   },
-  "mainTeaching": "La fe verdadera actúa con valentía, honra a Dios en la victoria y rechaza dependencias que comprometan el testimonio.",
-  "practicalApplication": [
-    "Defiende a tu familia y amigos con acciones concretas respaldadas por la fe.",
-    "Reconoce a Dios como la fuente de cada triunfo.",
-    "Practica la generosidad como respuesta a la bendición.",
-    "Mantén tu integridad rechazando las ganancias que comprometan tu lealtad a Dios."
-  ]
+  "document": {
+    "book": "Génesis",
+    "chapter": 14,
+    "title": "Rescate de Lot y encuentro con Melquisedec",
+    "subtitle": "Fe en medio de la guerra",
+    "summary": "Una coalición de reyes captura a Lot; Abram moviliza a sus siervos y lo rescata. De regreso es bendecido por Melquisedec, sacerdote de Dios Altísimo, y rechaza los bienes del rey de Sodoma.",
+    "timeline": {
+      "period": "Conflictos cananeos (c. 2000 a.C.)",
+      "context": "Abram como defensor y líder militar",
+      "placement": "Primera intervención militar de los patriarcas",
+      "era_tag": "Era Patriarcal",
+      "timeline_points": [
+        {"label": "Guerra de reyes", "ref": "Gn 14:1-9"},
+        {"label": "Captura de Lot", "ref": "Gn 14:10-12"},
+        {"label": "Rescate heroico", "ref": "Gn 14:13-16"},
+        {"label": "Encuentro con Melquisedec", "ref": "Gn 14:17-20"},
+        {"label": "Rechazo del botín", "ref": "Gn 14:21-24"}
+      ]
+    },
+    "days": [
+      {
+        "day": 1,
+        "title": "Guerra de los reyes",
+        "icon": "⚔️",
+        "description": "Cuatro reyes orientales pelean contra cinco reinos del valle del Jordán",
+        "verse": "Aconteció en los días de Amrafel... que estos hicieron guerra",
+        "reference": "Génesis 14:1-9",
+        "significance": "La geopolítica afecta directamente a la familia de Abram",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen14/war.jpg", "alt": "Guerra de los reyes antiguos"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 2,
+        "title": "Lot es capturado",
+        "icon": "⛓️",
+        "description": "Los reyes victoriosos saquean Sodoma y se llevan a Lot y sus bienes",
+        "verse": "Tomaron a Lot... y se fueron",
+        "reference": "Génesis 14:10-12",
+        "significance": "Las elecciones de Lot lo exponen a peligro",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen14/capture.jpg", "alt": "Captura de Lot"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 3,
+        "title": "Abram responde",
+        "icon": "🛡️",
+        "description": "Abram arma a 318 siervos entrenados, persigue a los reyes y libera a Lot",
+        "verse": "Armó sus criados nacidos en su casa, trescientos dieciocho",
+        "reference": "Génesis 14:13-16",
+        "significance": "La fe actúa con valentía y estrategia",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen14/rescue.jpg", "alt": "Abram rescata a Lot"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 4,
+        "title": "Encuentro en el valle de Save",
+        "icon": "👑",
+        "description": "Melquisedec, rey de Salem, sale al encuentro con pan y vino",
+        "verse": "Melquisedec, rey de Salem, sacó pan y vino",
+        "reference": "Génesis 14:17-18",
+        "significance": "Aparece un sacerdote-rey que prefigura a Cristo",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen14/melchizedek.jpg", "alt": "Encuentro con Melquisedec"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 5,
+        "title": "Bendición y diezmo",
+        "icon": "🙏",
+        "description": "Melquisedec bendice a Abram; Abram le da los diezmos de todo",
+        "verse": "Bendito sea Abram del Dios Altísimo... y le dio Abram los diezmos de todo",
+        "reference": "Génesis 14:19-20",
+        "significance": "Reconoce que la victoria proviene de Dios",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen14/blessing.jpg", "alt": "Bendición y diezmo"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 6,
+        "title": "Rechazo del botín",
+        "icon": "❌",
+        "description": "Abram rehúsa enriquecerse con el rey de Sodoma para que nadie diga que lo hizo rico",
+        "verse": "No tomaré desde un hilo hasta una correa de calzado... para que no digas: yo enriquecí a Abram",
+        "reference": "Génesis 14:21-24",
+        "significance": "La integridad mantiene a Abram dependiente solo de Dios",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen14/rejection.jpg", "alt": "Rechazo del botín"},
+          "audio": null,
+          "video": null
+        }
+      }
+    ],
+    "interestingFacts": [
+      {
+        "id": "318-servants",
+        "title": "318 siervos entrenados",
+        "summary": "Abram posee un pequeño ejército privado",
+        "explanation": "Muestra su capacidad organizativa y la bendición material recibida de Dios. Estos siervos 'nacidos en su casa' demuestran su liderazgo y prosperidad.",
+        "verse": "Armó sus criados... trescientos dieciocho",
+        "reference": "Génesis 14:14"
+      },
+      {
+        "id": "melchizedek-type",
+        "title": "Melquisedec como tipo de Cristo",
+        "summary": "Sacerdote y rey, sin genealogía registrada",
+        "explanation": "Hebreos 7 usa a Melquisedec como figura de Cristo, sacerdote eterno según el orden de Melquisedec, no según Aarón.",
+        "verse": "Sacó pan y vino; él era sacerdote del Dios Altísimo",
+        "reference": "Génesis 14:18"
+      },
+      {
+        "id": "first-tithe",
+        "title": "Primer diezmo registrado",
+        "summary": "Abram entrega el diezmo a Melquisedec antes de la ley",
+        "explanation": "Demuestra gratitud y reconoce la fuente de la victoria. Establece el principio del diezmo como expresión de adoración.",
+        "verse": "Le dio Abram los diezmos de todo",
+        "reference": "Génesis 14:20"
+      },
+      {
+        "id": "king-sodom-offer",
+        "title": "Oferta rechazada",
+        "summary": "El rey de Sodoma ofrece bienes a Abram",
+        "explanation": "Abram rechaza para dejar claro que solo Dios es su benefactor y evitar comprometer su testimonio.",
+        "verse": "No tomaré nada de lo que es tuyo",
+        "reference": "Génesis 14:23"
+      }
+    ],
+    "reflectionQuestions": [
+      {
+        "id": "rescue-risk",
+        "question": "¿Qué estás dispuesto a arriesgar para rescatar a quienes amas?",
+        "category": "personal",
+        "hints": ["Valentía", "Sacrificio", "Fe activa"]
+      },
+      {
+        "id": "honor-god-victory",
+        "question": "¿Cómo reconoces públicamente que tus victorias provienen de Dios?",
+        "category": "práctica",
+        "hints": ["Gratitud", "Testimonio", "Generosidad"]
+      },
+      {
+        "id": "melchizedek-figure",
+        "question": "¿Qué te enseña Melquisedec sobre el sacerdocio de Cristo?",
+        "category": "teológica",
+        "hints": ["Rey-Sacerdote", "Pan y vino", "Bendición"]
+      },
+      {
+        "id": "integrity-gain",
+        "question": "¿Qué ofertas has rechazado para mantener tu integridad?",
+        "category": "personal",
+        "hints": ["Dependencia", "Pureza", "Testimonio"]
+      }
+    ],
+    "trivia": {
+      "difficulty": "medio",
+      "passing_score": 3,
+      "items": [
+        {
+          "question": "¿Cuántos siervos armados llevó Abram para rescatar a Lot?",
+          "options": ["118", "218", "318"],
+          "correct": 2,
+          "explanation": "Eran 318 siervos entrenados nacidos en su casa."
+        },
+        {
+          "question": "¿Qué elementos ofreció Melquisedec a Abram?",
+          "options": ["Leche y miel", "Pan y vino", "Aceite y agua"],
+          "correct": 1,
+          "explanation": "Melquisedec sacó pan y vino (Génesis 14:18)."
+        },
+        {
+          "question": "¿A quién le dio Abram los diezmos?",
+          "options": ["Al rey de Sodoma", "A Melquisedec", "A Lot"],
+          "correct": 1,
+          "explanation": "Los diezmos fueron para Melquisedec, sacerdote del Dios Altísimo."
+        },
+        {
+          "question": "¿Por qué Abram rechazó los bienes de Sodoma?",
+          "options": ["Porque no los necesitaba", "Para no deberle favores", "Para no destruir la ciudad"],
+          "correct": 1,
+          "explanation": "No quiso que el rey de Sodoma dijera que lo había enriquecido."
+        }
+      ]
+    },
+    "comparison": {
+      "title": "Dependencia humana vs dependencia divina",
+      "before": {
+        "title": "Oferta del mundo",
+        "description": "Sodoma ofrece riquezas a cambio de reconocimiento",
+        "elements": ["Beneficios dudosos", "Compromiso", "Prestigio"],
+        "verse": "Dame las personas, y toma para ti los bienes",
+        "reference": "Génesis 14:21"
+      },
+      "after": {
+        "title": "Bendición del Altísimo",
+        "description": "Abram recibe bendición de Melquisedec y reconoce a Dios",
+        "elements": ["Pan y vino", "Diezmo", "Gratitud"],
+        "verse": "Bendito sea el Dios Altísimo, que entregó tus enemigos en tu mano",
+        "reference": "Génesis 14:20"
+      }
+    },
+    "memorizeVerse": {
+      "text": "Y bendito sea el Dios Altísimo, que entregó tus enemigos en tu mano. Y le dio Abram los diezmos de todo.",
+      "reference": "Génesis 14:20",
+      "theme": "Gratitud en la victoria",
+      "audio_url": null
+    },
+    "mainTeaching": "La fe verdadera actúa con valentía cuando el amor lo demanda, honra a Dios como fuente de toda victoria, y mantiene la integridad rechazando dependencias que comprometan el testimonio. Melquisedec aparece como figura profética del sacerdocio eterno de Cristo, quien bendice a los suyos con pan y vino.",
+    "practicalApplication": [
+      "Defiende a tu familia y amigos con acciones concretas respaldadas por la fe",
+      "Reconoce a Dios como la fuente de cada triunfo mediante testimonio público",
+      "Practica la generosidad como respuesta natural a la bendición recibida",
+      "Mantén tu integridad rechazando las ganancias que comprometan tu lealtad a Dios",
+      "Busca bendición espiritual antes que ganancia material",
+      "Actúa con valentía cuando el deber y el amor lo requieran"
+    ],
+    "extendedContent": {
+      "keyThemes": [
+        {"id": "gen14-theme-fe-activa", "title": "Fe que actúa", "summary": "La fe verdadera se manifiesta en acciones valientes cuando la situación lo demanda."},
+        {"id": "gen14-theme-melquisedec", "title": "Tipo de Cristo", "summary": "Melquisedec prefigura el sacerdocio eterno de Cristo como rey-sacerdote."},
+        {"id": "gen14-theme-integridad", "title": "Integridad financiera", "summary": "Rechazar ganancias que comprometan la dependencia exclusiva en Dios."}
+      ],
+      "characterProfiles": [
+        {"name": "Abram", "role": "Libertador", "description": "Actúa como guerrero valiente y hombre íntegro que reconoce a Dios como fuente de victoria.", "verses": "Génesis 14:13-24"},
+        {"name": "Melquisedec", "role": "Rey-Sacerdote", "description": "Misterioso sacerdote del Dios Altísimo que bendice a Abram con pan y vino.", "verses": "Génesis 14:18-20"},
+        {"name": "Lot", "role": "Víctima rescatada", "description": "Sus decisiones lo exponen al peligro, pero es rescatado por la lealtad de Abram.", "verses": "Génesis 14:12, 16"},
+        {"name": "Rey de Sodoma", "role": "Tentador", "description": "Ofrece riquezas que Abram rechaza para mantener su testimonio.", "verses": "Génesis 14:21-24"}
+      ],
+      "geography": [
+        {"place": "Valle del Jordán", "summary": "Escenario de la guerra entre coaliciones de reyes orientales y occidentales.", "presentDay": "Jordania/Israel", "verses": "Génesis 14:1-11"},
+        {"place": "Dan", "summary": "Punto hasta donde Abram persigue a los reyes captores de Lot.", "presentDay": "Norte de Israel", "verses": "Génesis 14:14"},
+        {"place": "Valle de Save", "summary": "Lugar del encuentro con Melquisedec, cerca de Jerusalén.", "presentDay": "Jerusalén", "verses": "Génesis 14:17"}
+      ],
+      "gospelConnections": [
+        {"title": "Melquisedec y Cristo", "description": "Hebreos usa a Melquisedec como tipo del sacerdocio eterno de Cristo.", "reference": "Hebreos 7:1-17"},
+        {"title": "Pan y vino", "description": "Los elementos que Melquisedec ofrece prefiguran la Cena del Señor.", "reference": "Mateo 26:26-28"}
+      ],
+      "outline": [
+        {"section": "1", "title": "Guerra de los reyes", "verses": "14:1-11", "summary": "Conflicto geopolítico que afecta a Lot."},
+        {"section": "2", "title": "Rescate heroico", "verses": "14:12-16", "summary": "Abram libera a Lot con fe y estrategia."},
+        {"section": "3", "title": "Encuentro con Melquisedec", "verses": "14:17-20", "summary": "Bendición y diezmo como reconocimiento a Dios."},
+        {"section": "4", "title": "Rechazo del botín", "verses": "14:21-24", "summary": "Integridad que preserva el testimonio."}
+      ],
+      "studyInsights": [
+        "Los 318 siervos muestran la prosperidad y liderazgo de Abram",
+        "Melquisedec aparece sin genealogía, enfatizando su carácter tipológico",
+        "El diezmo precede a la ley mosaica como expresión de gratitud",
+        "El rechazo del botín demuestra dependencia exclusiva en Dios"
+      ],
+      "prayerFocus": "Señor, concédeme fe que actúe con valentía cuando el amor lo demande. Ayúdame a reconocerte como fuente de toda victoria y a mantener la integridad rechazando lo que comprometa mi testimonio. Como Melquisedec bendijo a Abram, bendíceme para ser canal de bendición a otros. Amén."
+    }
+  },
+  "ui": {
+    "theme": "light",
+    "color": "#8B4513",
+    "icon": "⚔️",
+    "layout": "article",
+    "navigation": {
+      "prev": {"slug": "genesis-13-separacion-lot", "title": "Génesis 13"},
+      "next": {"slug": "genesis-15-pacto-promesa", "title": "Génesis 15"}
+    },
+    "components": {
+      "timeline": true,
+      "trivia": true,
+      "comparison": true,
+      "memorization": true
+    }
+  },
+  "relations": {
+    "relatedChapters": [
+      {"slug": "genesis-13-separacion-lot", "title": "Separación de Lot", "reason": "Antecedente directo"},
+      {"slug": "genesis-15-pacto-promesa", "title": "Pacto con Abram", "reason": "Continuación narrativa"},
+      {"slug": "genesis-19-destruccion-sodoma", "title": "Destrucción de Sodoma", "reason": "Destino de Lot"}
+    ],
+    "themes": ["fe activa", "guerra espiritual", "integridad", "sacerdocio"],
+    "characters": ["Abram", "Lot", "Melquisedec", "Rey de Sodoma"]
+  },
+  "taxonomy": {
+    "testament": "Antiguo",
+    "book": "Génesis",
+    "section": "Historia Primitiva",
+    "category": "Narrativa Patriarcal",
+    "period": "Era Patriarcal",
+    "genre": "Narrativa histórica",
+    "themes": ["guerra", "rescate", "sacerdocio", "integridad", "bendición"],
+    "characters": ["Abram", "Lot", "Melquisedec", "reyes"],
+    "places": ["Sodoma", "Dan", "Valle de Save", "Salem"],
+    "timeline": "c. 2000 a.C."
+  },
+  "index": {
+    "searchTerms": ["Melquisedec", "rescate", "Lot", "guerra", "diezmo", "pan y vino", "318 siervos", "rey de Sodoma"],
+    "keyVerses": ["Génesis 14:14", "Génesis 14:18-20", "Génesis 14:23"],
+    "mainConcepts": ["fe activa", "tipo de Cristo", "integridad financiera", "dependencia en Dios"]
+  },
+  "accessibility": {
+    "lang_reading_level": "B2",
+    "has_alt_text": true,
+    "captions_available": false
+  },
+  "analytics": {
+    "estimated_read_time_min": 12,
+    "word_count": 1050,
+    "engagement_goal": "trivia_completed"
+  },
+  "contributors": [
+    {"name": "Equipo Editorial", "role": "Edición", "url": null},
+    {"name": "Revisor Teológico", "role": "Revisión", "url": null}
+  ],
+  "moderation": {
+    "doctrinal_position": "histórico-gramatical",
+    "notes": "Enfoque en tipología de Melquisedec como prefigura de Cristo"
+  }
 }

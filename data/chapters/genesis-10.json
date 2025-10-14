@@ -1,222 +1,500 @@
 {
-  "book": "Génesis",
-  "chapter": 10,
-  "title": "Tabla de las naciones",
-  "subtitle": "Descendientes de los hijos de Noé",
-  "summary": "Se enumeran los linajes de Sem, Cam y Jafet después del diluvio, mostrando la expansión de la humanidad y los orígenes de naciones clave como Nínive, Babel y los filisteos.",
-  "timeline": {
-    "period": "Población postdiluviana",
-    "context": "Origen de las naciones",
-    "placement": "Marco geográfico antes de Babel"
+  "meta": {
+    "id": "genesis-10-tabla-naciones",
+    "slug": "genesis-10-tabla-naciones",
+    "lang": "es",
+    "available_locales": ["es"],
+    "version": 1,
+    "created_at": "2025-10-03T00:00:00Z",
+    "updated_at": "2025-10-03T00:00:00Z",
+    "status": "published"
   },
-  "days": [
-    {
-      "day": 1,
-      "title": "Resumen genealógico",
-      "icon": "##",
-      "description": "Se introduce la lista de los hijos de Noé y sus descendientes.",
-      "verse": "Éstas son las generaciones de los hijos de Noé.",
-      "reference": "Génesis 10:1",
-      "significance": "La historia se despliega a través de familias específicas."
+  "seo": {
+    "title": "Génesis 10: Tabla de las naciones - Descendientes de los hijos de Noé",
+    "description": "Se enumeran los linajes de Sem, Cam y Jafet después del diluvio, mostrando la expansión de la humanidad y los orígenes de naciones clave como Nínive, Babel y los filisteos.",
+    "keywords": ["génesis 10", "tabla naciones", "descendientes noé", "nimrod", "babel", "sem cam jafet", "setenta naciones", "peleg división"],
+    "canonical": "https://datos-biblicos.com/genesis/10",
+    "og_image": "https://datos-biblicos.com/images/genesis-10-table-nations.jpg",
+    "robots": "index, follow"
+  },
+  "source": {
+    "bible_version": "RVR1960",
+    "reference": "Génesis 10:1-32",
+    "cross_references": ["1 Crónicas 1:4-23", "Lucas 3:36", "Hechos 17:26", "Apocalipsis 5:9"],
+    "parallel_accounts": ["1 Crónicas 1:4-23"]
+  },
+  "document": {
+    "book": "Génesis",
+    "chapter": 10,
+    "title": "Tabla de las naciones",
+    "subtitle": "Descendientes de los hijos de Noé",
+    "summary": "Se enumeran los linajes de Sem, Cam y Jafet después del diluvio, mostrando la expansión de la humanidad y los orígenes de naciones clave como Nínive, Babel y los filisteos.",
+    "timeline": {
+      "period": "Población postdiluviana",
+      "context": "Origen de las naciones",
+      "placement": "Marco geográfico antes de Babel"
     },
-    {
-      "day": 2,
-      "title": "Hijos de Jafet",
-      "icon": ">>",
-      "description": "De Jafet surgen pueblos marítimos y naciones de las costas.",
-      "verse": "De éstos se poblaron las costas, cada cual según su lengua.",
-      "reference": "Génesis 10:2-5",
-      "significance": "Se traza el origen de pueblos europeos y septentrionales."
+    "days": [
+      {
+        "day": 1,
+        "title": "Resumen genealógico",
+        "icon": "##",
+        "description": "Se introduce la lista de los hijos de Noé y sus descendientes.",
+        "verse": "Éstas son las generaciones de los hijos de Noé.",
+        "reference": "Génesis 10:1",
+        "significance": "La historia se despliega a través de familias específicas."
+      },
+      {
+        "day": 2,
+        "title": "Hijos de Jafet",
+        "icon": ">>",
+        "description": "De Jafet surgen pueblos marítimos y naciones de las costas.",
+        "verse": "De éstos se poblaron las costas, cada cual según su lengua.",
+        "reference": "Génesis 10:2-5",
+        "significance": "Se traza el origen de pueblos europeos y septentrionales."
+      },
+      {
+        "day": 3,
+        "title": "Hijos de Cam",
+        "icon": "??",
+        "description": "De Cam proceden Cus, Mizraim, Fut y Canaán, formadores de civilizaciones poderosas.",
+        "verse": "Los hijos de Cam: Cus, Mizraim, Fut y Canaán.",
+        "reference": "Génesis 10:6-20",
+        "significance": "Incluye a potencias como Egipto, Canaán y caldeos."
+      },
+      {
+        "day": 4,
+        "title": "Nimrod el poderoso",
+        "icon": "!!",
+        "description": "Nimrod se describe como cazador poderoso y fundador de Babel y Nínive.",
+        "verse": "Este fue vigoroso cazador delante de Jehová.",
+        "reference": "Génesis 10:8-12",
+        "significance": "Se introducen ciudades que dominarán la historia bíblica."
+      },
+      {
+        "day": 5,
+        "title": "Linaje de Sem",
+        "icon": "++",
+        "description": "Sem engendra a Elam, Asur, Arfaxad, Lud y Aram; de allí saldrá Abram.",
+        "verse": "También le nacieron hijos a Sem, padre de todos los hijos de Heber.",
+        "reference": "Génesis 10:21-31",
+        "significance": "Se destaca la línea mesiánica a través de Heber y Peleg."
+      },
+      {
+        "day": 6,
+        "title": "Setenta naciones",
+        "icon": "::",
+        "description": "La lista se cierra contabilizando a todos los clanes separados por lenguas y tierras.",
+        "verse": "De éstos se poblaron las naciones en la tierra después del diluvio.",
+        "reference": "Génesis 10:32",
+        "significance": "La humanidad se dispersa según el plan divino."
+      }
+    ],
+    "interestingFacts": [
+      {
+        "id": "seventy-nations",
+        "title": "Setenta naciones",
+        "summary": "Tradicionalmente se cuentan 70 núcleos nacionales.",
+        "explanation": "Este número simboliza plenitud y se refleja en Lucas 10 y Apocalipsis 5, mostrando el deseo de Dios por todas las etnias.",
+        "verse": "De éstos se poblaron las naciones.",
+        "reference": "Génesis 10:32"
+      },
+      {
+        "id": "nimrod-empire",
+        "title": "Nimrod y los imperios",
+        "summary": "Fundador de ciudades clave: Babel, Erec, Acad, Nínive.",
+        "explanation": "Su figura combina poder político y orgullo, preludio de la arrogancia de Babel.",
+        "verse": "El comienzo de su reino fue Babel.",
+        "reference": "Génesis 10:10"
+      },
+      {
+        "id": "peleg-division",
+        "title": "Peleg y la división",
+        "summary": "\"Porque en sus días fue repartida la tierra\".",
+        "explanation": "Peleg anticipa la dispersión de Babel o una división geográfica significativa.",
+        "verse": "El nombre de uno fue Peleg, porque en sus días fue repartida la tierra.",
+        "reference": "Génesis 10:25"
+      },
+      {
+        "id": "languages",
+        "title": "Lenguas y clanes",
+        "summary": "Se repite la frase \"cada uno según su lengua\".",
+        "explanation": "Aun antes de explicar Babel, el capítulo destaca diversidad cultural bajo la soberanía de Dios.",
+        "verse": "Según sus lenguas, en sus tierras, por sus naciones.",
+        "reference": "Génesis 10:5,20,31"
+      }
+    ],
+    "reflectionQuestions": [
+      {
+        "id": "global-mission",
+        "question": "¿Cómo influye en tu misión saber que Dios se interesa por todas las naciones?",
+        "category": "misional",
+        "hints": [
+          "Evangelización",
+          "Intercesión",
+          "Unidad"
+        ]
+      },
+      {
+        "id": "heritage-identity",
+        "question": "¿Qué rasgos de tu identidad cultural puedes consagrar a Dios?",
+        "category": "cultural",
+        "hints": [
+          "Costumbres",
+          "Lengua",
+          "Historia"
+        ]
+      },
+      {
+        "id": "power-nimrod",
+        "question": "¿Qué lecciones tomas del poder ambicioso de Nimrod?",
+        "category": "ética",
+        "hints": [
+          "Orgullo",
+          "Dependencia",
+          "Liderazgo santo"
+        ]
+      },
+      {
+        "id": "family-legacies",
+        "question": "¿Cómo puedes asegurar que tu familia forme parte de la historia redentora?",
+        "category": "familia",
+        "hints": [
+          "Instrucción",
+          "Fe",
+          "Testimonio"
+        ]
+      }
+    ],
+    "trivia": [
+      {
+        "question": "¿Cuántos hijos directos de Jafet se mencionan?",
+        "options": [
+          "Tres",
+          "Siete",
+          "Diez"
+        ],
+        "correct": 1,
+        "explanation": "Se listan siete hijos: Gomer, Magog, Madai, Javán, Tubal, Mesec y Tiras."
+      },
+      {
+        "question": "¿Qué ciudad fundó Nimrod entre otras?",
+        "options": [
+          "Jericó",
+          "Babel",
+          "Hebrón"
+        ],
+        "correct": 1,
+        "explanation": "Babel (Babilonia) fue parte del reino de Nimrod."
+      },
+      {
+        "question": "¿Cuál hijo de Noé es ancestro de los cananeos?",
+        "options": [
+          "Sem",
+          "Cam",
+          "Jafet"
+        ],
+        "correct": 1,
+        "explanation": "Los cananeos descienden de Cam."
+      },
+      {
+        "question": "¿Qué significa el nombre de Peleg?",
+        "options": [
+          "División",
+          "Esperanza",
+          "Guerrero"
+        ],
+        "correct": 0,
+        "explanation": "Peleg significa \"división\" porque en sus días fue repartida la tierra."
+      }
+    ],
+    "comparison": {
+      "title": "Familia única vs comunidades diversas",
+      "before": {
+        "title": "Una sola familia",
+        "description": "Tres hijos y sus esposas sobreviven al diluvio.",
+        "elements": [
+          "Unidad familiar",
+          "Cultura compartida"
+        ],
+        "verse": "Los hijos de Noé que salieron del arca fueron Sem, Cam y Jafet.",
+        "reference": "Génesis 9:18"
+      },
+      "after": {
+        "title": "Muchas naciones",
+        "description": "Lenguas, territorios y clanes extendidos por toda la tierra.",
+        "elements": [
+          "Diversidad",
+          "Geografía",
+          "Identidades únicas"
+        ],
+        "verse": "Cada uno según su lengua, en sus tierras, por sus naciones.",
+        "reference": "Génesis 10:5"
+      }
     },
-    {
-      "day": 3,
-      "title": "Hijos de Cam",
-      "icon": "??",
-      "description": "De Cam proceden Cus, Mizraim, Fut y Canaán, formadores de civilizaciones poderosas.",
-      "verse": "Los hijos de Cam: Cus, Mizraim, Fut y Canaán.",
-      "reference": "Génesis 10:6-20",
-      "significance": "Incluye a potencias como Egipto, Canaán y caldeos."
-    },
-    {
-      "day": 4,
-      "title": "Nimrod el poderoso",
-      "icon": "!!",
-      "description": "Nimrod se describe como cazador poderoso y fundador de Babel y Nínive.",
-      "verse": "Este fue vigoroso cazador delante de Jehová.",
-      "reference": "Génesis 10:8-12",
-      "significance": "Se introducen ciudades que dominarán la historia bíblica."
-    },
-    {
-      "day": 5,
-      "title": "Linaje de Sem",
-      "icon": "++",
-      "description": "Sem engendra a Elam, Asur, Arfaxad, Lud y Aram; de allí saldrá Abram.",
-      "verse": "También le nacieron hijos a Sem, padre de todos los hijos de Heber.",
-      "reference": "Génesis 10:21-31",
-      "significance": "Se destaca la línea mesiánica a través de Heber y Peleg."
-    },
-    {
-      "day": 6,
-      "title": "Setenta naciones",
-      "icon": "::",
-      "description": "La lista se cierra contabilizando a todos los clanes separados por lenguas y tierras.",
-      "verse": "De éstos se poblaron las naciones en la tierra después del diluvio.",
+    "memorizeVerse": {
+      "text": "De éstos se poblaron las naciones en la tierra después del diluvio.",
       "reference": "Génesis 10:32",
-      "significance": "La humanidad se dispersa según el plan divino."
-    }
-  ],
-  "interestingFacts": [
-    {
-      "id": "seventy-nations",
-      "title": "Setenta naciones",
-      "summary": "Tradicionalmente se cuentan 70 núcleos nacionales.",
-      "explanation": "Este número simboliza plenitud y se refleja en Lucas 10 y Apocalipsis 5, mostrando el deseo de Dios por todas las etnias.",
-      "verse": "De éstos se poblaron las naciones.",
-      "reference": "Génesis 10:32"
+      "theme": "Propósito global"
     },
-    {
-      "id": "nimrod-empire",
-      "title": "Nimrod y los imperios",
-      "summary": "Fundador de ciudades clave: Babel, Erec, Acad, Nínive.",
-      "explanation": "Su figura combina poder político y orgullo, preludio de la arrogancia de Babel.",
-      "verse": "El comienzo de su reino fue Babel.",
-      "reference": "Génesis 10:10"
-    },
-    {
-      "id": "peleg-division",
-      "title": "Peleg y la división",
-      "summary": "\"Porque en sus días fue repartida la tierra\".",
-      "explanation": "Peleg anticipa la dispersión de Babel o una división geográfica significativa.",
-      "verse": "El nombre de uno fue Peleg, porque en sus días fue repartida la tierra.",
-      "reference": "Génesis 10:25"
-    },
-    {
-      "id": "languages",
-      "title": "Lenguas y clanes",
-      "summary": "Se repite la frase \"cada uno según su lengua\".",
-      "explanation": "Aun antes de explicar Babel, el capítulo destaca diversidad cultural bajo la soberanía de Dios.",
-      "verse": "Según sus lenguas, en sus tierras, por sus naciones.",
-      "reference": "Génesis 10:5,20,31"
-    }
-  ],
-  "reflectionQuestions": [
-    {
-      "id": "global-mission",
-      "question": "¿Cómo influye en tu misión saber que Dios se interesa por todas las naciones?",
-      "category": "misional",
-      "hints": [
-        "Evangelización",
-        "Intercesión",
-        "Unidad"
-      ]
-    },
-    {
-      "id": "heritage-identity",
-      "question": "¿Qué rasgos de tu identidad cultural puedes consagrar a Dios?",
-      "category": "cultural",
-      "hints": [
-        "Costumbres",
-        "Lengua",
-        "Historia"
-      ]
-    },
-    {
-      "id": "power-nimrod",
-      "question": "¿Qué lecciones tomas del poder ambicioso de Nimrod?",
-      "category": "ética",
-      "hints": [
-        "Orgullo",
-        "Dependencia",
-        "Liderazgo santo"
-      ]
-    },
-    {
-      "id": "family-legacies",
-      "question": "¿Cómo puedes asegurar que tu familia forme parte de la historia redentora?",
-      "category": "familia",
-      "hints": [
-        "Instrucción",
-        "Fe",
-        "Testimonio"
-      ]
-    }
-  ],
-  "trivia": [
-    {
-      "question": "¿Cuántos hijos directos de Jafet se mencionan?",
-      "options": [
-        "Tres",
-        "Siete",
-        "Diez"
+    "mainTeaching": "Dios gobierna la expansión de la humanidad, dando origen a las naciones que luego alcanzará con su plan redentor.",
+    "practicalApplication": [
+      "Ora por pueblos y naciones específicos, sabiendo que Dios los conoce por nombre.",
+      "Celebra y consagra tu herencia cultural al servicio de Cristo.",
+      "Evita usar el poder para autoexaltación, siguiendo el ejemplo contrario de Nimrod.",
+      "Enseña a tu familia a verse como parte del propósito global de Dios."
+    ],
+    "extendedContent": {
+      "keyThemes": [
+        {
+          "id": "gen10-theme-naciones",
+          "title": "Origen de las naciones",
+          "summary": "La tabla muestra como Dios forma las naciones a partir de una familia."
+        },
+        {
+          "id": "gen10-theme-diversidad",
+          "title": "Diversidad cultural",
+          "summary": "Lenguas, territorios y culturas distintas bajo la soberania divina."
+        },
+        {
+          "id": "gen10-theme-imperio",
+          "title": "Poder humano ambicioso",
+          "summary": "Nimrod representa el intento humano de construir imperios sin Dios."
+        }
       ],
-      "correct": 1,
-      "explanation": "Se listan siete hijos: Gomer, Magog, Madai, Javán, Tubal, Mesec y Tiras."
-    },
-    {
-      "question": "¿Qué ciudad fundó Nimrod entre otras?",
-      "options": [
-        "Jericó",
-        "Babel",
-        "Hebrón"
+      "characterProfiles": [
+        {
+          "name": "Nimrod",
+          "role": "Cazador poderoso",
+          "description": "Fundador de Babel y constructor de ciudades, simbolo del poder humano.",
+          "verses": "Genesis 10:8-12"
+        },
+        {
+          "name": "Jafet",
+          "role": "Padre de pueblos costeros",
+          "description": "Sus descendientes pueblan las islas y costas, extendiendose hacia Europa.",
+          "verses": "Genesis 10:2-5"
+        },
+        {
+          "name": "Cam",
+          "role": "Padre de imperios",
+          "description": "Sus descendientes fundan Egipto, Canaan y poderosas civilizaciones.",
+          "verses": "Genesis 10:6-20"
+        },
+        {
+          "name": "Sem",
+          "role": "Padre de hebreos",
+          "description": "Ancestro de Abraham y la linea mesianica a traves de Heber.",
+          "verses": "Genesis 10:21-31"
+        }
       ],
-      "correct": 1,
-      "explanation": "Babel (Babilonia) fue parte del reino de Nimrod."
-    },
-    {
-      "question": "¿Cuál hijo de Noé es ancestro de los cananeos?",
-      "options": [
-        "Sem",
-        "Cam",
-        "Jafet"
+      "geography": [
+        {
+          "place": "Babel y Mesopotamia",
+          "summary": "Reino de Nimrod que incluye las primeras ciudades importantes.",
+          "presentDay": "Iraq moderno",
+          "verses": "Genesis 10:10-12"
+        },
+        {
+          "place": "Canaan",
+          "summary": "Tierra prometida habitada por descendientes de Cam.",
+          "presentDay": "Israel/Palestina",
+          "verses": "Genesis 10:15-19"
+        },
+        {
+          "place": "Costas e islas",
+          "summary": "Territorios de los descendientes de Jafet hacia el norte y oeste.",
+          "presentDay": "Europa y Asia Menor",
+          "verses": "Genesis 10:2-5"
+        }
       ],
-      "correct": 1,
-      "explanation": "Los cananeos descienden de Cam."
-    },
-    {
-      "question": "¿Qué significa el nombre de Peleg?",
-      "options": [
-        "División",
-        "Esperanza",
-        "Guerrero"
+      "gospelConnections": [
+        {
+          "title": "Todas las naciones",
+          "description": "La Gran Comision busca hacer discipulos de todas las naciones mencionadas aqui.",
+          "reference": "Mateo 28:19"
+        },
+        {
+          "title": "Multitud de Apocalipsis",
+          "description": "La vision final muestra representantes de toda tribu, lengua, pueblo y nacion.",
+          "reference": "Apocalipsis 7:9"
+        }
       ],
-      "correct": 0,
-      "explanation": "Peleg significa \"división\" porque en sus días fue repartida la tierra."
-    }
-  ],
-  "comparison": {
-    "title": "Familia única vs comunidades diversas",
-    "before": {
-      "title": "Una sola familia",
-      "description": "Tres hijos y sus esposas sobreviven al diluvio.",
-      "elements": [
-        "Unidad familiar",
-        "Cultura compartida"
+      "outline": [
+        {
+          "section": "1",
+          "title": "Introduccion genealogica",
+          "verses": "10:1",
+          "summary": "Presentacion de los tres hijos de Noe y su descendencia."
+        },
+        {
+          "section": "2",
+          "title": "Descendientes de Jafet",
+          "verses": "10:2-5",
+          "summary": "Pueblos costeros y septentrionales, cada uno segun su lengua."
+        },
+        {
+          "section": "3",
+          "title": "Descendientes de Cam",
+          "verses": "10:6-20",
+          "summary": "Incluye a Nimrod, Egipto, Canaan y otras civilizaciones poderosas."
+        },
+        {
+          "section": "4",
+          "title": "Descendientes de Sem",
+          "verses": "10:21-31",
+          "summary": "Linea que incluye a Heber y conduce hacia Abraham."
+        },
+        {
+          "section": "5",
+          "title": "Conclusion",
+          "verses": "10:32",
+          "summary": "Todas las naciones se poblaron a partir de los hijos de Noe."
+        }
       ],
-      "verse": "Los hijos de Noé que salieron del arca fueron Sem, Cam y Jafet.",
-      "reference": "Génesis 9:18"
-    },
-    "after": {
-      "title": "Muchas naciones",
-      "description": "Lenguas, territorios y clanes extendidos por toda la tierra.",
-      "elements": [
-        "Diversidad",
-        "Geografía",
-        "Identidades únicas"
+      "studyInsights": [
+        "Las 70 naciones tradicionales se reflejan en los 70 ancianos de Israel.",
+        "Nimrod es el primer conquistador mencionado en la Biblia.",
+        "La frase 'cada uno segun su lengua' anticipa la confusion de Babel.",
+        "Heber da nombre a los hebreos, destacando la linea de la promesa."
       ],
-      "verse": "Cada uno según su lengua, en sus tierras, por sus naciones.",
-      "reference": "Génesis 10:5"
+      "prayerFocus": "Ora por las naciones del mundo y por el cumplimiento de la Gran Comision."
     }
   },
-  "memorizeVerse": {
-    "text": "De éstos se poblaron las naciones en la tierra después del diluvio.",
-    "reference": "Génesis 10:32",
-    "theme": "Propósito global"
+  "ui": {
+    "navigation": {
+      "previous": {
+        "chapter": 9,
+        "title": "Pacto con Noé",
+        "slug": "genesis-9-pacto-noe"
+      },
+      "next": {
+        "chapter": 11,
+        "title": "Torre de Babel",
+        "slug": "genesis-11-torre-babel"
+      }
+    },
+    "colors": {
+      "primary": "#8B4513",
+      "secondary": "#A0522D",
+      "accent": "#DEB887",
+      "text": "#654321"
+    },
+    "icons": {
+      "chapter": "🌍",
+      "theme": "nations",
+      "categories": ["genealogía", "naciones", "diversidad", "expansión"]
+    }
   },
-  "mainTeaching": "Dios gobierna la expansión de la humanidad, dando origen a las naciones que luego alcanzará con su plan redentor.",
-  "practicalApplication": [
-    "Ora por pueblos y naciones específicos, sabiendo que Dios los conoce por nombre.",
-    "Celebra y consagra tu herencia cultural al servicio de Cristo.",
-    "Evita usar el poder para autoexaltación, siguiendo el ejemplo contrario de Nimrod.",
-    "Enseña a tu familia a verse como parte del propósito global de Dios."
-  ]
+  "relations": {
+    "themes": [
+      {
+        "id": "genealogies",
+        "chapters": [5, 10, 11],
+        "description": "Genealogías que trazan la historia humana"
+      },
+      {
+        "id": "nation-building",
+        "chapters": [10, 11, 12],
+        "description": "Formación y dispersión de las naciones"
+      }
+    ],
+    "characters": [
+      {
+        "name": "Noé",
+        "chapters": [5, 6, 7, 8, 9, 10]
+      },
+      {
+        "name": "Sem",
+        "chapters": [6, 7, 8, 9, 10, 11]
+      },
+      {
+        "name": "Cam",
+        "chapters": [6, 7, 8, 9, 10]
+      },
+      {
+        "name": "Jafet",
+        "chapters": [6, 7, 8, 9, 10]
+      },
+      {
+        "name": "Nimrod",
+        "chapters": [10]
+      }
+    ],
+    "keywords": [
+      "naciones",
+      "genealogía",
+      "nimrod",
+      "babel",
+      "lenguas"
+    ]
+  },
+  "taxonomy": {
+    "book_section": "Primordial History",
+    "literary_genre": "Genealogy",
+    "theological_themes": [
+      "Divine Sovereignty",
+      "Cultural Diversity",
+      "Nations Formation",
+      "Human Expansion",
+      "Redemptive History"
+    ],
+    "historical_period": "Post-Flood Era",
+    "geographical_setting": "Ancient Near East and beyond"
+  },
+  "index": {
+    "search_terms": [
+      "génesis 10",
+      "tabla naciones",
+      "descendientes noé",
+      "nimrod cazador",
+      "babel reino",
+      "sem cam jafet",
+      "setenta naciones",
+      "peleg división tierra",
+      "heber hebreos",
+      "lenguas territorios"
+    ],
+    "key_concepts": [
+      "table of nations",
+      "seventy nations",
+      "Nimrod empire",
+      "cultural diversity",
+      "post-flood expansion"
+    ]
+  },
+  "accessibility": {
+    "readingLevel": "intermediate",
+    "language": "es",
+    "audioAvailable": false,
+    "visualAids": [
+      "genealogy-tree",
+      "ancient-world-map",
+      "nation-origins-chart"
+    ]
+  },
+  "analytics": {
+    "readingTime": 7,
+    "difficulty": "intermediate",
+    "popularity": "medium",
+    "completionRate": 0,
+    "interactions": {
+      "trivia_attempts": 0,
+      "reflection_responses": 0,
+      "sharing_count": 0
+    }
+  },
+  "contributors": [
+    {
+      "role": "content_creator",
+      "name": "Biblical Content Team",
+      "date": "2025-10-03"
+    }
+  ],
+  "moderation": {
+    "content_warnings": [],
+    "theological_review": "approved",
+    "fact_check_status": "verified",
+    "last_review": "2025-10-03"
+  }
 }

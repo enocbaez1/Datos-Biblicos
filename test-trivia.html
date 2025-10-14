@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Trivia Debug</title>
+</head>
+<body>
+    <h1>Debug Trivia</h1>
+    <button onclick="testTrivia()">Test Trivia</button>
+    <div id="result"></div>
+
+    <script>
+        async function testTrivia() {
+            try {
+                console.log('Loading JSON...');
+                const response = await fetch('./data/chapters/genesis-1.json');
+                const data = await response.json();
+
+                console.log('Full data:', data);
+                console.log('data.document:', data.document);
+                console.log('data.document.trivia:', data.document.trivia);
+                console.log('data.document.trivia.items:', data.document.trivia.items);
+
+                const result = document.getElementById('result');
+
+                if (data.document && data.document.trivia && data.document.trivia.items) {
+                    const items = data.document.trivia.items;
+                    result.innerHTML = `
+                        <h2>✅ Trivia encontrada!</h2>
+                        <p><strong>Cantidad:</strong> ${items.length} preguntas</p>
+                        <p><strong>Dificultad:</strong> ${data.document.trivia.difficulty}</p>
+                        <h3>Preguntas:</h3>
+                        <ol>
+                            ${items.map(item => `<li>${item.question}</li>`).join('')}
+                        </ol>
+                        <h3>Primera pregunta completa:</h3>
+                        <pre>${JSON.stringify(items[0], null, 2)}</pre>
+                    `;
+                } else {
+                    result.innerHTML = `
+                        <h2>❌ No se encontró trivia</h2>
+                        <p>Estructura actual:</p>
+                        <pre>${JSON.stringify({
+                            hasDocument: !!data.document,
+                            hasTrivia: !!(data.document && data.document.trivia),
+                            hasItems: !!(data.document && data.document.trivia && data.document.trivia.items),
+                            triviaKeys: data.document && data.document.trivia ? Object.keys(data.document.trivia) : 'N/A'
+                        }, null, 2)}</pre>
+                    `;
+                }
+
+            } catch (error) {
+                console.error('Error:', error);
+                document.getElementById('result').innerHTML = `<h2>❌ Error: ${error.message}</h2>`;
+            }
+        }
+
+        // Auto-run
+        window.addEventListener('load', testTrivia);
+    </script>
+</body>
+</html>

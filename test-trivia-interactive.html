@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Trivia Interactiva</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body { padding: 20px; max-width: 800px; margin: 0 auto; }
+        .test-controls { margin: 20px 0; text-align: center; }
+        .test-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            margin: 0 10px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+        }
+        .test-btn:hover {
+            background: linear-gradient(135deg, #5a67d8 0%, #6b46c1 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        }
+        .debug-info { background: #f5f5f5; padding: 15px; border-radius: 5px; margin: 20px 0; font-family: monospace; font-size: 12px; }
+
+        /* Preview area styling */
+        #triviaContent {
+            margin: 30px 0;
+            min-height: 400px;
+            border: 2px dashed #e2e8f0;
+            border-radius: 12px;
+            padding: 20px;
+            background: rgba(248, 250, 252, 0.5);
+        }
+
+        .demo-note {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+            text-align: center;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎯 Test - Trivia Interactiva de Génesis 1</h1>
+
+    <div class="demo-note">
+        ✨ <strong>Botones de navegación mejorados:</strong> Gradientes llamativos, efectos hover, iconos direccionales, y diseño responsivo
+    </div>
+
+    <div class="test-controls">
+        <button class="test-btn" onclick="loadData()">Cargar Datos</button>
+        <button class="test-btn" onclick="resetTrivia()">Reiniciar Trivia</button>
+        <button class="test-btn" onclick="showDebugInfo()">Mostrar Debug</button>
+    </div>
+
+    <div id="triviaContent" class="chapter-tab-content"></div>
+
+    <div id="debugInfo" class="debug-info" style="display: none;"></div>
+
+    <script>
+        // Variables globales
+        let currentChapterData = null;
+        let currentTrivia = 0;
+        let triviaAnswers = [];
+
+        async function loadData() {
+            try {
+                const response = await fetch('./data/chapters/genesis-1.json');
+                currentChapterData = await response.json();
+                console.log('Data loaded:', currentChapterData);
+
+                resetTrivia();
+                updateTriviaContent();
+
+                alert('✅ Datos cargados. Ahora puedes usar la trivia.');
+            } catch (error) {
+                console.error('Error:', error);
+                alert('❌ Error al cargar datos: ' + error.message);
+            }
+        }
+
+        function resetTrivia() {
+            currentTrivia = 0;
+            triviaAnswers = [];
+            console.log('Trivia reset');
+        }
+
+        function showDebugInfo() {
+            const debugDiv = document.getElementById('debugInfo');
+            const trivia = currentChapterData?.document?.trivia?.items || [];
+
+            debugDiv.innerHTML = \`
+                <h3>Debug Info</h3>
+                <p><strong>Current Question:</strong> \${currentTrivia + 1} / \${trivia.length}</p>
+                <p><strong>Answers:</strong> \${JSON.stringify(triviaAnswers)}</p>
+                <p><strong>Trivia Data:</strong> \${trivia.length} questions loaded</p>
+                <p><strong>First Question:</strong> \${trivia[0]?.question || 'N/A'}</p>
+                <p><strong>Current Chapter Data:</strong> \${currentChapterData ? 'Loaded' : 'Not loaded'}</p>
+            \`;
+
+            debugDiv.style.display = debugDiv.style.display === 'none' ? 'block' : 'none';
+        }
+
+        // Copiar las funciones del app.js principal
+        function updateTriviaContent() {
+            const container = document.getElementById('triviaContent');
+            console.log('=== Trivia Debug ===');
+            console.log('currentChapterData.document?.trivia:', currentChapterData.document?.trivia);
+            console.log('currentChapterData.document?.trivia?.items:', currentChapterData.document?.trivia?.items);
+            console.log('currentChapterData.trivia:', currentChapterData.trivia);
+
+            const trivia = currentChapterData.document?.trivia?.items || currentChapterData.trivia;
+            console.log('Final trivia data:', trivia);
+
+            if (!container) {
+                console.error('Trivia container not found');
+                return;
+            }
+
+            if (!trivia) {
+                console.error('No trivia data found');
+                container.innerHTML = '<p>⚠️ No hay datos de trivia disponibles</p>';
+                return;
+            }
+
+            if (currentTrivia >= trivia.length) {
+                showTriviaResults();
+                return;
+            }
+
+            const question = trivia[currentTrivia];
+            const isAnswered = triviaAnswers[currentTrivia] !== undefined;
+
+            const html = \`
+                <div class="trivia-container">
+                    <div class="trivia-question">
+                        <h3>Pregunta \${currentTrivia + 1} de \${trivia.length}</h3>
+                        <p>\${question.question}</p>
+                        <div class="trivia-options">
+                            \${question.options.map((option, index) => {
+                                let className = 'trivia-option';
+                                if (isAnswered) {
+                                    if (index === question.correct) {
+                                        className += ' correct';
+                                    } else if (index === triviaAnswers[currentTrivia]) {
+                                        className += ' incorrect';
+                                    }
+                                }
+                                return \`<div class="\${className}" data-option="\${index}">\${option}</div>\`;
+                            }).join('')}
+                        </div>
+                        \${isAnswered ? \`
+                            <div class="trivia-explanation show">
+                                \${question.explanation}
+                            </div>
+                        \` : ''}
+                    </div>
+                    <div class="trivia-controls">
+                        <button class="trivia-nav" id="triviaPrev" \${currentTrivia === 0 ? 'disabled' : ''}>
+                            Anterior
+                        </button>
+                        <div class="trivia-progress">
+                            \${currentTrivia + 1} / \${trivia.length}
+                        </div>
+                        <button class="trivia-nav" id="triviaNext" \${isAnswered ? '' : 'disabled'}>
+                            \${currentTrivia === trivia.length - 1 ? 'Finalizar' : 'Siguiente'}
+                        </button>
+                    </div>
+                </div>
+            \`;
+
+            container.innerHTML = html;
+
+            // Add option click handlers
+            console.log('Setting up trivia option handlers. Is answered:', isAnswered);
+            if (!isAnswered) {
+                const options = document.querySelectorAll('.trivia-option');
+                console.log('Found trivia options:', options.length);
+
+                options.forEach((option, index) => {
+                    console.log('Adding click listener to option', index, 'with data-option:', option.dataset.option);
+                    option.style.cursor = 'pointer';
+                    option.addEventListener('click', () => {
+                        const selectedIndex = parseInt(option.dataset.option);
+                        console.log('Trivia option clicked:', selectedIndex);
+                        answerTrivia(selectedIndex);
+                    });
+                });
+            } else {
+                console.log('Question already answered, not adding click handlers');
+            }
+
+            // Re-attach navigation handlers
+            const prevBtn = document.getElementById('triviaPrev');
+            const nextBtn = document.getElementById('triviaNext');
+
+            console.log('Trivia navigation buttons - Prev:', !!prevBtn, 'Next:', !!nextBtn);
+
+            if (prevBtn) {
+                prevBtn.addEventListener('click', () => {
+                    console.log('Previous trivia button clicked');
+                    navigateTrivia(-1);
+                });
+            }
+            if (nextBtn) {
+                nextBtn.addEventListener('click', () => {
+                    console.log('Next trivia button clicked');
+                    navigateTrivia(1);
+                });
+            }
+        }
+
+        function answerTrivia(selectedIndex) {
+            console.log('answerTrivia called with:', selectedIndex, 'for question:', currentTrivia);
+            triviaAnswers[currentTrivia] = selectedIndex;
+            console.log('Updated triviaAnswers:', triviaAnswers);
+            updateTriviaContent(); // Refresh to show results
+        }
+
+        function navigateTrivia(direction) {
+            console.log('Navigating trivia:', direction, 'from index:', currentTrivia);
+            const trivia = currentChapterData.document?.trivia?.items || currentChapterData.trivia;
+            const newIndex = currentTrivia + direction;
+            console.log('New index would be:', newIndex, 'Total questions:', trivia ? trivia.length : 'unknown');
+
+            if (trivia && newIndex >= 0 && newIndex < trivia.length) {
+                currentTrivia = newIndex;
+                console.log('Moving to question:', currentTrivia + 1);
+                updateTriviaContent();
+            } else if (trivia && newIndex >= trivia.length) {
+                console.log('Showing results');
+                showTriviaResults();
+            } else {
+                console.log('Invalid navigation - staying at current question');
+            }
+        }
+
+        function showTriviaResults() {
+            const container = document.getElementById('triviaContent');
+            if (!container) return;
+
+            const trivia = currentChapterData.document?.trivia?.items || currentChapterData.trivia;
+            const correct = triviaAnswers.filter((answer, index) =>
+                answer === trivia[index].correct
+            ).length;
+            const total = trivia.length;
+            const percentage = Math.round((correct / total) * 100);
+
+            let message = '';
+            let emoji = '';
+            if (percentage >= 80) {
+                message = '¡Excelente! Tienes un gran conocimiento del capítulo.';
+                emoji = '🎉';
+            } else if (percentage >= 60) {
+                message = '¡Bien hecho! Conoces bien el contenido.';
+                emoji = '👏';
+            } else {
+                message = 'Sigue estudiando. ¡Puedes mejorar!';
+                emoji = '📚';
+            }
+
+            const html = \`
+                <div class="trivia-results">
+                    <div class="results-header">
+                        <h2>\${emoji} Resultados de la Trivia</h2>
+                        <div class="score-circle">
+                            <div class="score-number">\${correct}/\${total}</div>
+                            <div class="score-percentage">\${percentage}%</div>
+                        </div>
+                    </div>
+                    <p class="results-message">\${message}</p>
+                    <div class="results-details">
+                        <h3>Respuestas Detalladas:</h3>
+                        \${trivia.map((question, index) => {
+                            const userAnswer = triviaAnswers[index];
+                            const isCorrect = userAnswer === question.correct;
+                            return \`
+                                <div class="result-item \${isCorrect ? 'correct' : 'incorrect'}">
+                                    <h4>Pregunta \${index + 1}: \${question.question}</h4>
+                                    <p><strong>Tu respuesta:</strong> \${question.options[userAnswer]} \${isCorrect ? '✅' : '❌'}</p>
+                                    \${!isCorrect ? \`<p><strong>Respuesta correcta:</strong> \${question.options[question.correct]} ✅</p>\` : ''}
+                                    <p><em>\${question.explanation}</em></p>
+                                </div>
+                            \`;
+                        }).join('')}
+                    </div>
+                    <div class="results-actions">
+                        <button class="test-btn" onclick="resetTrivia(); updateTriviaContent();">Reintentar</button>
+                    </div>
+                </div>
+            \`;
+
+            container.innerHTML = html;
+        }
+
+        // Auto-load on page load
+        window.addEventListener('load', loadData);
+    </script>
+
+    <style>
+        .trivia-results {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .score-circle {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 20px auto;
+        }
+
+        .score-number {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .score-percentage {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .result-item {
+            text-align: left;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border-left: 4px solid;
+        }
+
+        .result-item.correct {
+            background: rgba(16, 185, 129, 0.1);
+            border-left-color: #10b981;
+        }
+
+        .result-item.incorrect {
+            background: rgba(239, 68, 68, 0.1);
+            border-left-color: #ef4444;
+        }
+
+        .results-actions {
+            margin-top: 20px;
+        }
+    </style>
+</body>
+</html>

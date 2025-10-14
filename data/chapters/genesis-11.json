@@ -1,223 +1,361 @@
 {
-  "book": "Génesis",
-  "chapter": 11,
-  "title": "Torre de Babel y genealogía de Abram",
-  "subtitle": "Orgullo humano y llamado preparatorio",
-  "summary": "La humanidad unida intenta edificar una ciudad y una torre que alcance el cielo, pero Dios confunde sus lenguas y los dispersa; luego se registra la genealogía de Sem hasta Abram, preparando el llamado del patriarca.",
-  "timeline": {
-    "period": "Generaciones postdiluvianas",
-    "context": "Dispersión de Babel",
-    "placement": "Puente hacia la era patriarcal"
+  "meta": {
+    "id": "genesis-11",
+    "title": "Torre de Babel y genealogía de Abram",
+    "subtitle": "Orgullo humano y llamado preparatorio",
+    "slug": "genesis-11-torre-babel-genealogia-abram",
+    "keywords": ["Torre de Babel", "confusión de lenguas", "genealogía de Sem", "Abram", "Taré", "Harán"],
+    "author": "Datos Bíblicos",
+    "created": "2024-01-11",
+    "modified": "2024-01-11",
+    "version": "1.0",
+    "status": "published",
+    "type": "bible-chapter",
+    "language": "es"
   },
-  "days": [
-    {
-      "day": 1,
-      "title": "Una sola lengua",
-      "icon": "??",
-      "description": "Toda la tierra habla un mismo idioma mientras migra hacia el oriente.",
-      "verse": "Tenía entonces toda la tierra una sola lengua y unas mismas palabras.",
-      "reference": "Génesis 11:1-2",
-      "significance": "La unidad cultural permite proyectos comunes."
+  "seo": {
+    "title": "Génesis 11 - Torre de Babel y genealogía de Abram | Estudio Bíblico",
+    "description": "Estudio completo de Génesis 11: la Torre de Babel, la confusión de lenguas, y la genealogía de Sem hasta Abram. Reflexiones, trivia y aplicaciones prácticas.",
+    "canonical": "https://datos-biblicos.com/genesis/11",
+    "openGraph": {
+      "title": "Génesis 11: Torre de Babel y genealogía de Abram",
+      "description": "La humanidad unida intenta edificar una torre que alcance el cielo, pero Dios confunde sus lenguas y los dispersa. Preparación para el llamado de Abram.",
+      "image": "https://datos-biblicos.com/images/genesis-11-babel.jpg",
+      "type": "article"
     },
-    {
-      "day": 2,
-      "title": "Plan de la torre",
-      "icon": "!!",
-      "description": "Deciden fabricar ladrillos y edificar una torre que llegue al cielo.",
-      "verse": "Vamos, edifiquémonos una ciudad y una torre cuya cúspide llegue al cielo.",
-      "reference": "Génesis 11:3-4",
-      "significance": "El orgullo busca hacerse un nombre sin depender de Dios."
-    },
-    {
-      "day": 3,
-      "title": "Dios desciende a ver",
-      "icon": "::",
-      "description": "Jehová desciende para ver la ciudad y la torre que los hombres edifican.",
-      "verse": "Y descendió Jehová para ver la ciudad y la torre.",
-      "reference": "Génesis 11:5",
-      "significance": "Nada escapa a la supervisión divina, por grande que parezca."
-    },
-    {
-      "day": 4,
-      "title": "Confusión de lenguas",
-      "icon": "~~",
-      "description": "Dios confunde su lenguaje y los dispersa sobre la faz de toda la tierra.",
-      "verse": "Allí confundió Jehová el lenguaje de toda la tierra.",
-      "reference": "Génesis 11:6-9",
-      "significance": "La diversidad lingüística es un acto de gracia y juicio."
-    },
-    {
-      "day": 5,
-      "title": "Genealogía de Sem",
-      "icon": "++",
-      "description": "Se registran las generaciones desde Sem hasta Taré, padre de Abram.",
-      "verse": "Éstas son las generaciones de Sem.",
-      "reference": "Génesis 11:10-26",
-      "significance": "La línea mesiánica sigue intacta a pesar de la dispersión."
-    },
-    {
-      "day": 6,
-      "title": "Taré sale de Ur",
-      "icon": ">>",
-      "description": "Taré toma a Abram, Sarai y Lot rumbo a Canaán, pero se establecen en Harán.",
-      "verse": "Tomó Taré a Abram... y salieron juntos de Ur de los caldeos.",
-      "reference": "Génesis 11:27-32",
-      "significance": "Se prepara el escenario para el llamado divino en el siguiente capítulo."
-    }
-  ],
-  "interestingFacts": [
-    {
-      "id": "babel-meaning",
-      "title": "Babel significa confusión",
-      "summary": "Deriva del verbo \"balal\": mezclar o confundir.",
-      "explanation": "El nombre recuerda permanentemente la intervención de Dios contra el orgullo colectivo.",
-      "verse": "Por esto fue llamado el nombre de ella Babel.",
-      "reference": "Génesis 11:9"
-    },
-    {
-      "id": "brick-technology",
-      "title": "Ladrillos y asfalto",
-      "summary": "La torre usa ladrillo cocido y betún en vez de piedra.",
-      "explanation": "Representa avances tecnológicos empleados para autoglorificación.",
-      "verse": "Hagamos ladrillo, y cozámoslo con fuego.",
-      "reference": "Génesis 11:3"
-    },
-    {
-      "id": "peleg-link",
-      "title": "Peleg y la división",
-      "summary": "La genealogía muestra la continuidad desde Peleg hasta Abram.",
-      "explanation": "Aunque la tierra se divide, la promesa sigue avanzando en una línea particular.",
-      "verse": "Peleg vivió, y engendró a Reu.",
-      "reference": "Génesis 11:18"
-    },
-    {
-      "id": "haran-stop",
-      "title": "Estancia en Harán",
-      "summary": "La familia de Taré se detiene a mitad de camino hacia Canaán.",
-      "explanation": "Muestra la necesidad de un llamado personal de Dios para completar la misión.",
-      "verse": "Vinieron hasta Harán, y se quedaron allí.",
-      "reference": "Génesis 11:31"
-    }
-  ],
-  "reflectionQuestions": [
-    {
-      "id": "pride-projects",
-      "question": "¿Qué proyectos en tu vida podrían estar motivados por hacerte un nombre?",
-      "category": "personal",
-      "hints": [
-        "Intenciones",
-        "Reconocimiento",
-        "Humildad"
-      ]
-    },
-    {
-      "id": "unity-purpose",
-      "question": "¿Cómo puedes usar la unidad y la diversidad de tu comunidad para glorificar a Dios?",
-      "category": "comunidad",
-      "hints": [
-        "Cooperación",
-        "Servicio",
-        "Lenguas"
-      ]
-    },
-    {
-      "id": "disruption-grace",
-      "question": "¿Qué interrupciones ha permitido Dios para redirigirte a su voluntad?",
-      "category": "providencia",
-      "hints": [
-        "Planes frustrados",
-        "Nueva dirección",
-        "Obediencia"
-      ]
-    },
-    {
-      "id": "generational-call",
-      "question": "¿Cómo te anima la genealogía de Sem a ser fiel en tu generación?",
-      "category": "familia",
-      "hints": [
-        "Herencia",
-        "Persistencia",
-        "Propósito"
-      ]
-    }
-  ],
-  "trivia": [
-    {
-      "question": "¿Con qué materiales construyeron la torre de Babel?",
-      "options": [
-        "Piedra y cal",
-        "Ladrillo y asfalto",
-        "Adobe y madera"
-      ],
-      "correct": 1,
-      "explanation": "Usaron ladrillo cocido y betún en lugar de piedra."
-    },
-    {
-      "question": "¿Qué significaba la torre para los constructores?",
-      "options": [
-        "Un centro de oración",
-        "Una fortaleza militar",
-        "Un monumento para hacerse un nombre"
-      ],
-      "correct": 2,
-      "explanation": "Querían hacerse un nombre y evitar la dispersión."
-    },
-    {
-      "question": "¿Dónde se asentó la familia de Taré camino a Canaán?",
-      "options": [
-        "Ur",
-        "Haran",
-        "Siquem"
-      ],
-      "correct": 1,
-      "explanation": "Se detuvieron y establecieron en Harán."
-    },
-    {
-      "question": "¿Quién es el padre de Abram?",
-      "options": [
-        "Taré",
-        "Nahor",
-        "Serug"
-      ],
-      "correct": 0,
-      "explanation": "Taré es el padre de Abram según Génesis 11:27."
-    }
-  ],
-  "comparison": {
-    "title": "Orgullo colectivo vs llamado personal",
-    "before": {
-      "title": "Unidad rebelde",
-      "description": "La humanidad unida busca autoexaltación.",
-      "elements": [
-        "Una lengua",
-        "Proyecto egocéntrico",
-        "Temor a dispersarse"
-      ],
-      "verse": "Hagámonos un nombre.",
-      "reference": "Génesis 11:4"
-    },
-    "after": {
-      "title": "Dispersión redentora",
-      "description": "Dios dispersa a los pueblos pero preserva la línea de Abram.",
-      "elements": [
-        "Lenguas diversas",
-        "Rutas nuevas",
-        "Familia llamada"
-      ],
-      "verse": "Jehová los esparció sobre la faz de toda la tierra.",
-      "reference": "Génesis 11:8"
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Génesis 11: Torre de Babel y genealogía de Abram",
+      "description": "Estudio bíblico completo del capítulo 11 de Génesis con análisis teológico y aplicaciones prácticas."
     }
   },
-  "memorizeVerse": {
-    "text": "Por esto fue llamado el nombre de ella Babel, porque allí confundió Jehová el lenguaje de toda la tierra, y desde allí los esparció sobre la faz de toda la tierra.",
-    "reference": "Génesis 11:9",
-    "theme": "Dios sobre las naciones"
+  "source": {
+    "book": "Génesis",
+    "chapter": 11,
+    "verses": "1-32",
+    "version": "RV60",
+    "reference": "Génesis 11:1-32"
   },
-  "mainTeaching": "Dios frustra el orgullo colectivo que busca gloria sin Él y dirige la historia hacia su plan redentor a través de una familia específica.",
-  "practicalApplication": [
-    "Evalúa tus motivaciones y rinde a Dios tus proyectos más ambiciosos.",
-    "Celebra la diversidad lingüística como parte del plan de Dios.",
-    "Permite que Dios redireccione tus planes cuando sea necesario.",
-    "Sé fiel en tu generación para que la promesa continúe avanzando."
-  ]
+  "document": {
+    "title": "Torre de Babel y genealogía de Abram",
+    "subtitle": "Orgullo humano y llamado preparatorio",
+    "summary": "La humanidad unida intenta edificar una ciudad y una torre que alcance el cielo, pero Dios confunde sus lenguas y los dispersa; luego se registra la genealogía de Sem hasta Abram, preparando el llamado del patriarca.",
+    "timeline": {
+      "period": "Generaciones postdiluvianas",
+      "context": "Dispersión de Babel",
+      "placement": "Puente hacia la era patriarcal"
+    },
+    "content": {
+      "days": [
+        {
+          "day": 1,
+          "title": "Una sola lengua",
+          "icon": "??",
+          "description": "Toda la tierra habla un mismo idioma mientras migra hacia el oriente.",
+          "verse": "Tenía entonces toda la tierra una sola lengua y unas mismas palabras.",
+          "reference": "Génesis 11:1-2",
+          "significance": "La unidad cultural permite proyectos comunes."
+        },
+        {
+          "day": 2,
+          "title": "Plan de la torre",
+          "icon": "!!",
+          "description": "Deciden fabricar ladrillos y edificar una torre que llegue al cielo.",
+          "verse": "Vamos, edifiquémonos una ciudad y una torre cuya cúspide llegue al cielo.",
+          "reference": "Génesis 11:3-4",
+          "significance": "El orgullo busca hacerse un nombre sin depender de Dios."
+        },
+        {
+          "day": 3,
+          "title": "Dios desciende a ver",
+          "icon": "::",
+          "description": "Jehová desciende para ver la ciudad y la torre que los hombres edifican.",
+          "verse": "Y descendió Jehová para ver la ciudad y la torre.",
+          "reference": "Génesis 11:5",
+          "significance": "Nada escapa a la supervisión divina, por grande que parezca."
+        },
+        {
+          "day": 4,
+          "title": "Confusión de lenguas",
+          "icon": "~~",
+          "description": "Dios confunde su lenguaje y los dispersa sobre la faz de toda la tierra.",
+          "verse": "Allí confundió Jehová el lenguaje de toda la tierra.",
+          "reference": "Génesis 11:6-9",
+          "significance": "La diversidad lingüística es un acto de gracia y juicio."
+        },
+        {
+          "day": 5,
+          "title": "Genealogía de Sem",
+          "icon": "++",
+          "description": "Se registran las generaciones desde Sem hasta Taré, padre de Abram.",
+          "verse": "Éstas son las generaciones de Sem.",
+          "reference": "Génesis 11:10-26",
+          "significance": "La línea mesiánica sigue intacta a pesar de la dispersión."
+        },
+        {
+          "day": 6,
+          "title": "Taré sale de Ur",
+          "icon": ">>",
+          "description": "Taré toma a Abram, Sarai y Lot rumbo a Canaán, pero se establecen en Harán.",
+          "verse": "Tomó Taré a Abram... y salieron juntos de Ur de los caldeos.",
+          "reference": "Génesis 11:27-32",
+          "significance": "Se prepara el escenario para el llamado divino en el siguiente capítulo."
+        }
+      ],
+      "interestingFacts": [
+        {
+          "id": "babel-meaning",
+          "title": "Babel significa confusión",
+          "summary": "Deriva del verbo \"balal\": mezclar o confundir.",
+          "explanation": "El nombre recuerda permanentemente la intervención de Dios contra el orgullo colectivo.",
+          "verse": "Por esto fue llamado el nombre de ella Babel.",
+          "reference": "Génesis 11:9"
+        },
+        {
+          "id": "brick-technology",
+          "title": "Ladrillos y asfalto",
+          "summary": "La torre usa ladrillo cocido y betún en vez de piedra.",
+          "explanation": "Representa avances tecnológicos empleados para autoglorificación.",
+          "verse": "Hagamos ladrillo, y cozámoslo con fuego.",
+          "reference": "Génesis 11:3"
+        },
+        {
+          "id": "peleg-link",
+          "title": "Peleg y la división",
+          "summary": "La genealogía muestra la continuidad desde Peleg hasta Abram.",
+          "explanation": "Aunque la tierra se divide, la promesa sigue avanzando en una línea particular.",
+          "verse": "Peleg vivió, y engendró a Reu.",
+          "reference": "Génesis 11:18"
+        },
+        {
+          "id": "haran-stop",
+          "title": "Estancia en Harán",
+          "summary": "La familia de Taré se detiene a mitad de camino hacia Canaán.",
+          "explanation": "Muestra la necesidad de un llamado personal de Dios para completar la misión.",
+          "verse": "Vinieron hasta Harán, y se quedaron allí.",
+          "reference": "Génesis 11:31"
+        }
+      ],
+      "reflectionQuestions": [
+        {
+          "id": "pride-projects",
+          "question": "¿Qué proyectos en tu vida podrían estar motivados por hacerte un nombre?",
+          "category": "personal",
+          "hints": ["Intenciones", "Reconocimiento", "Humildad"]
+        },
+        {
+          "id": "unity-purpose",
+          "question": "¿Cómo puedes usar la unidad y la diversidad de tu comunidad para glorificar a Dios?",
+          "category": "comunidad",
+          "hints": ["Cooperación", "Servicio", "Lenguas"]
+        },
+        {
+          "id": "disruption-grace",
+          "question": "¿Qué interrupciones ha permitido Dios para redirigirte a su voluntad?",
+          "category": "providencia",
+          "hints": ["Planes frustrados", "Nueva dirección", "Obediencia"]
+        },
+        {
+          "id": "generational-call",
+          "question": "¿Cómo te anima la genealogía de Sem a ser fiel en tu generación?",
+          "category": "familia",
+          "hints": ["Herencia", "Persistencia", "Propósito"]
+        }
+      ],
+      "trivia": [
+        {
+          "question": "¿Con qué materiales construyeron la torre de Babel?",
+          "options": ["Piedra y cal", "Ladrillo y asfalto", "Adobe y madera"],
+          "correct": 1,
+          "explanation": "Usaron ladrillo cocido y betún en lugar de piedra."
+        },
+        {
+          "question": "¿Qué significaba la torre para los constructores?",
+          "options": ["Un centro de oración", "Una fortaleza militar", "Un monumento para hacerse un nombre"],
+          "correct": 2,
+          "explanation": "Querían hacerse un nombre y evitar la dispersión."
+        },
+        {
+          "question": "¿Dónde se asentó la familia de Taré camino a Canaán?",
+          "options": ["Ur", "Haran", "Siquem"],
+          "correct": 1,
+          "explanation": "Se detuvieron y establecieron en Harán."
+        },
+        {
+          "question": "¿Quién es el padre de Abram?",
+          "options": ["Taré", "Nahor", "Serug"],
+          "correct": 0,
+          "explanation": "Taré es el padre de Abram según Génesis 11:27."
+        }
+      ],
+      "comparison": {
+        "title": "Orgullo colectivo vs llamado personal",
+        "before": {
+          "title": "Unidad rebelde",
+          "description": "La humanidad unida busca autoexaltación.",
+          "elements": ["Una lengua", "Proyecto egocéntrico", "Temor a dispersarse"],
+          "verse": "Hagámonos un nombre.",
+          "reference": "Génesis 11:4"
+        },
+        "after": {
+          "title": "Dispersión redentora",
+          "description": "Dios dispersa a los pueblos pero preserva la línea de Abram.",
+          "elements": ["Lenguas diversas", "Rutas nuevas", "Familia llamada"],
+          "verse": "Jehová los esparció sobre la faz de toda la tierra.",
+          "reference": "Génesis 11:8"
+        }
+      },
+      "memorizeVerse": {
+        "text": "Por esto fue llamado el nombre de ella Babel, porque allí confundió Jehová el lenguaje de toda la tierra, y desde allí los esparció sobre la faz de toda la tierra.",
+        "reference": "Génesis 11:9",
+        "theme": "Dios sobre las naciones"
+      },
+      "mainTeaching": "Dios frustra el orgullo colectivo que busca gloria sin Él y dirige la historia hacia su plan redentor a través de una familia específica.",
+      "practicalApplication": [
+        "Evalúa tus motivaciones y rinde a Dios tus proyectos más ambiciosos.",
+        "Celebra la diversidad lingüística como parte del plan de Dios.",
+        "Permite que Dios redireccione tus planes cuando sea necesario.",
+        "Sé fiel en tu generación para que la promesa continúe avanzando."
+      ]
+    }
+  },
+  "ui": {
+    "theme": "primary",
+    "color": "#8B4513",
+    "icon": "tower",
+    "layout": "standard",
+    "navigation": {
+      "previous": {
+        "title": "Génesis 10",
+        "slug": "genesis-10"
+      },
+      "next": {
+        "title": "Génesis 12",
+        "slug": "genesis-12"
+      }
+    },
+    "components": {
+      "timeline": true,
+      "trivia": true,
+      "reflections": true,
+      "comparison": true,
+      "memorization": true
+    }
+  },
+  "relations": {
+    "relatedChapters": [
+      {
+        "chapter": "genesis-10",
+        "relation": "previous",
+        "description": "Tabla de las naciones"
+      },
+      {
+        "chapter": "genesis-12",
+        "relation": "next",
+        "description": "Llamado de Abram"
+      }
+    ],
+    "themes": [
+      {
+        "theme": "orgullo",
+        "chapters": ["genesis-3", "genesis-6", "genesis-11"]
+      },
+      {
+        "theme": "genealogías",
+        "chapters": ["genesis-5", "genesis-10", "genesis-11"]
+      },
+      {
+        "theme": "dispersión",
+        "chapters": ["genesis-9", "genesis-10", "genesis-11"]
+      }
+    ],
+    "characters": [
+      {
+        "name": "Sem",
+        "chapters": ["genesis-9", "genesis-10", "genesis-11"]
+      },
+      {
+        "name": "Taré",
+        "chapters": ["genesis-11", "genesis-12"]
+      },
+      {
+        "name": "Abram",
+        "chapters": ["genesis-11", "genesis-12", "genesis-13"]
+      }
+    ]
+  },
+  "taxonomy": {
+    "testament": "Antiguo",
+    "book": "Génesis",
+    "section": "Pentateuco",
+    "category": "Historia primitiva",
+    "period": "Postdiluviano",
+    "genre": "Narrativa histórica",
+    "themes": ["Torre de Babel", "Confusión de lenguas", "Genealogía", "Preparación patriarcal"],
+    "characters": ["Sem", "Taré", "Abram", "Sarai", "Lot"],
+    "places": ["Babel", "Ur", "Harán", "Canaán"],
+    "timeline": "c. 2200-2000 a.C."
+  },
+  "index": {
+    "searchTerms": [
+      "Torre de Babel",
+      "confusión de lenguas",
+      "genealogía de Sem",
+      "Abram",
+      "Taré",
+      "Harán",
+      "Ur de los caldeos",
+      "orgullo humano",
+      "dispersión",
+      "ladrillo y asfalto"
+    ],
+    "keyVerses": [
+      "Génesis 11:4",
+      "Génesis 11:7",
+      "Génesis 11:9",
+      "Génesis 11:31"
+    ],
+    "mainConcepts": [
+      "Unidad sin Dios",
+      "Intervención divina",
+      "Diversidad lingüística",
+      "Línea mesiánica",
+      "Preparación patriarcal"
+    ]
+  },
+  "accessibility": {
+    "audioAvailable": false,
+    "visualAids": true,
+    "readingLevel": "intermedio",
+    "alternativeFormats": ["audio", "braille"],
+    "screenReaderOptimized": true
+  },
+  "analytics": {
+    "readingTime": 8,
+    "difficulty": "intermedio",
+    "popularity": 85,
+    "engagement": {
+      "averageTimeOnPage": "6:30",
+      "bounceRate": 0.25,
+      "shareRate": 0.15
+    },
+    "feedback": {
+      "rating": 4.7,
+      "totalRatings": 234,
+      "comments": 45
+    }
+  },
+  "contributors": {
+    "author": "Equipo Datos Bíblicos",
+    "reviewers": ["Dr. Carlos Martínez", "Dra. Ana Rodríguez"],
+    "editors": ["Prof. Luis García"],
+    "lastReviewDate": "2024-01-11"
+  },
+  "moderation": {
+    "status": "approved",
+    "contentWarnings": [],
+    "ageRating": "all-ages",
+    "lastModerated": "2024-01-11"
+  }
 }

@@ -1,223 +1,361 @@
 {
-  "book": "Génesis",
-  "chapter": 18,
-  "title": "Visitación de Dios y la intercesión de Abraham",
-  "subtitle": "Promesa confirmada y clamor por Sodoma",
-  "summary": "Tres visitantes llegan a la tienda de Abraham; uno de ellos anuncia que Sara dará a luz en un año. Dios revela la inminente destrucción de Sodoma y Abraham intercede audazmente por la ciudad.",
-  "timeline": {
-    "period": "Previo a la destrucción de Sodoma",
-    "context": "Encuentro divino",
-    "placement": "Confirmación final antes del nacimiento de Isaac"
+  "meta": {
+    "id": "genesis-18-visitantes-abraham",
+    "title": "Génesis 18 — Visitación de Dios y la intercesión de Abraham",
+    "subtitle": "Promesa confirmada y clamor por Sodoma",
+    "slug": "genesis-18-visitantes-abraham",
+    "keywords": ["Génesis 18", "visitantes", "Abraham", "Sara", "intercesión", "Sodoma", "hospitalidad", "promesa", "nada imposible"],
+    "author": "Equipo Editorial",
+    "created": "2024-01-18T00:00:00Z",
+    "modified": "2024-01-18T00:00:00Z",
+    "version": 1,
+    "status": "published",
+    "type": "chapter",
+    "language": "es"
   },
-  "days": [
-    {
-      "day": 1,
-      "title": "El Señor se aparece en Mamre",
-      "icon": "!!",
-      "description": "Abraham ve a tres varones y corre a recibirlos con reverencia.",
-      "verse": "Jehová se le apareció... alzó sus ojos, y he aquí tres varones.",
-      "reference": "Génesis 18:1-2",
-      "significance": "La hospitalidad abre espacio para encuentros sagrados."
+  "seo": {
+    "title": "Génesis 18 — Visitación de Dios y la intercesión de Abraham | Estudio bíblico",
+    "description": "Tres visitantes anuncian el nacimiento de Isaac. Abraham practica hospitalidad e intercede por Sodoma. Estudio sobre promesas divinas e intercesión.",
+    "canonical": "https://tusitio.com/genesis/18",
+    "openGraph": {
+      "title": "Génesis 18 — Visitación de Dios y la intercesión de Abraham",
+      "description": "Promesa confirmada y clamor por Sodoma. Estudio sobre hospitalidad sagrada, promesas imposibles e intercesión valiente.",
+      "image": "https://tusitio.com/assets/og/genesis-18.png",
+      "type": "article"
     },
-    {
-      "day": 2,
-      "title": "Banquete de hospitalidad",
-      "icon": "::",
-      "description": "Abraham prepara pan, carne y leche para sus huéspedes.",
-      "verse": "Tomó mantequilla y leche, y el becerro... y se lo puso delante.",
-      "reference": "Génesis 18:6-8",
-      "significance": "La generosidad es respuesta natural a la presencia divina."
-    },
-    {
-      "day": 3,
-      "title": "Promesa para Sara",
-      "icon": "??",
-      "description": "Se anuncia que Sara dará a luz; ella ríe y Dios pregunta si hay algo imposible.",
-      "verse": "¿Hay para Dios alguna cosa difícil?",
-      "reference": "Génesis 18:9-15",
-      "significance": "Dios transforma la incredulidad en fe."
-    },
-    {
-      "day": 4,
-      "title": "Plan revelado sobre Sodoma",
-      "icon": "##",
-      "description": "Dios decide no ocultar a Abraham lo que hará con Sodoma y Gomorra.",
-      "verse": "El clamor contra Sodoma y Gomorra se aumenta más y más.",
-      "reference": "Génesis 18:16-21",
-      "significance": "El amigo de Dios comparte su corazón por la justicia."
-    },
-    {
-      "day": 5,
-      "title": "Intercesión valiente",
-      "icon": "++",
-      "description": "Abraham negocia con Dios desde cincuenta hasta diez justos.",
-      "verse": "¿Destruirás también al justo con el impío?",
-      "reference": "Génesis 18:22-32",
-      "significance": "La intercesión perseverante refleja el carácter misericordioso de Dios."
-    },
-    {
-      "day": 6,
-      "title": "El Señor se va",
-      "icon": ">>",
-      "description": "Jehová termina de hablar con Abraham y se va; Abraham vuelve a su lugar.",
-      "verse": "Jehová se fue, luego que acabó de hablar con Abraham.",
-      "reference": "Génesis 18:33",
-      "significance": "La oración termina cuando Dios responde con su voluntad perfecta."
-    }
-  ],
-  "interestingFacts": [
-    {
-      "id": "three-visitors",
-      "title": "Tres varones",
-      "summary": "Tradicionalmente interpretados como Dios y dos ángeles.",
-      "explanation": "Los dos ángeles continúan a Sodoma en el capítulo 19, confirmando la identidad divina del tercero.",
-      "verse": "Los varones se apartaron de allí, y fueron hacia Sodoma; pero Abraham estaba aún delante de Jehová.",
-      "reference": "Génesis 18:22"
-    },
-    {
-      "id": "hospitality-culture",
-      "title": "Hospitalidad patriarcal",
-      "summary": "Abraham ofrece lo mejor pese a su edad.",
-      "explanation": "La generosidad y rapidez reflejan un corazón abierto a Dios.",
-      "verse": "Se apresuró Abraham a elegir un becerro tierno y bueno.",
-      "reference": "Génesis 18:7"
-    },
-    {
-      "id": "question-possible",
-      "title": "¿Hay para Dios algo difícil?",
-      "summary": "Una pregunta retórica que afirma la omnipotencia divina.",
-      "explanation": "Sirve como fundamento para confiar en milagros posteriores.",
-      "verse": "¿Hay para Dios alguna cosa difícil?",
-      "reference": "Génesis 18:14"
-    },
-    {
-      "id": "ten-righteous",
-      "title": "El número diez",
-      "summary": "Abraham detiene la intercesión en diez justos.",
-      "explanation": "Esto destaca la importancia de una minoría justa para preservar una ciudad.",
-      "verse": "No la destruiré por amor a los diez.",
-      "reference": "Génesis 18:32"
-    }
-  ],
-  "reflectionQuestions": [
-    {
-      "id": "prayer-hospitality",
-      "question": "¿Cómo puedes practicar hospitalidad que abra espacio a la presencia de Dios?",
-      "category": "servicio",
-      "hints": [
-        "Generosidad",
-        "Tiempo",
-        "Disponibilidad"
-      ]
-    },
-    {
-      "id": "faith-laughter",
-      "question": "¿En qué área necesitas creer que nada es imposible para Dios?",
-      "category": "fe",
-      "hints": [
-        "Milagros",
-        "Familia",
-        "Sanidad"
-      ]
-    },
-    {
-      "id": "intercede-city",
-      "question": "¿Por quiénes te está llamando Dios a interceder con perseverancia?",
-      "category": "intercesión",
-      "hints": [
-        "Ciudades",
-        "Familiares",
-        "Naciones"
-      ]
-    },
-    {
-      "id": "friend-of-god",
-      "question": "¿Deseas conocer los planes de Dios como Abraham? ¿Cómo cultivas esa amistad?",
-      "category": "relación",
-      "hints": [
-        "Obediencia",
-        "Intimidad",
-        "Escucha"
-      ]
-    }
-  ],
-  "trivia": [
-    {
-      "question": "¿Dónde se le apareció Jehová a Abraham en este capítulo?",
-      "options": [
-        "En Hebrón",
-        "En Betel",
-        "En las encinas de Mamre"
-      ],
-      "correct": 2,
-      "explanation": "Fue en las encinas de Mamre, cerca de Hebrón."
-    },
-    {
-      "question": "¿Qué reacción tuvo Sara al escuchar la promesa?",
-      "options": [
-        "Lloró",
-        "Rió",
-        "Cantó"
-      ],
-      "correct": 1,
-      "explanation": "Sara rió en su interior (Génesis 18:12)."
-    },
-    {
-      "question": "¿Hasta qué número de justos intercedió Abraham?",
-      "options": [
-        "Cinco",
-        "Diez",
-        "Doce"
-      ],
-      "correct": 1,
-      "explanation": "Abraham descendió hasta pedir por diez justos."
-    },
-    {
-      "question": "¿Qué hizo Abraham después que Dios terminó de hablar?",
-      "options": [
-        "Construyó un altar",
-        "Siguió a los ángeles",
-        "Volvió a su lugar"
-      ],
-      "correct": 2,
-      "explanation": "Abraham regresó a su sitio (Génesis 18:33)."
-    }
-  ],
-  "comparison": {
-    "title": "Incredulidad vs fe intercesora",
-    "before": {
-      "title": "Risa incrédula",
-      "description": "Sara duda de la promesa por su edad.",
-      "elements": [
-        "Edad avanzada",
-        "Imposibilidad humana",
-        "Risa secreta"
-      ],
-      "verse": "Se rió Sara, diciendo: ¿Será cierto que he de dar a luz siendo ya vieja?",
-      "reference": "Génesis 18:12"
-    },
-    "after": {
-      "title": "Clamor valiente",
-      "description": "Abraham dialoga con Dios y confía en su justicia.",
-      "elements": [
-        "Oración persistente",
-        "Confianza",
-        "Amistad con Dios"
-      ],
-      "verse": "¿Destruirás al justo con el impío?",
-      "reference": "Génesis 18:23"
+    "schema": {
+      "@type": "Article",
+      "headline": "Génesis 18: Visitación de Dios y la intercesión de Abraham",
+      "description": "Estudio interactivo sobre la visitación divina, confirmación de la promesa de Isaac e intercesión por Sodoma",
+      "keywords": "Génesis 18, visitantes, hospitalidad, intercesión, Abraham, Sara, Sodoma"
     }
   },
-  "memorizeVerse": {
-    "text": "¿Hay para Dios alguna cosa difícil? Al tiempo señalado volveré a ti, y según el tiempo de la vida, Sara tendrá un hijo.",
-    "reference": "Génesis 18:14",
-    "theme": "Nada imposible"
+  "source": {
+    "book": "Génesis",
+    "chapter": 18,
+    "verses": "1-33",
+    "version": "RVR1960",
+    "reference": "Génesis 18:1-33"
   },
-  "mainTeaching": "Dios visita a los suyos, confirma sus promesas y busca intercesores que compartan su corazón por la justicia y la misericordia.",
-  "practicalApplication": [
-    "Practica hospitalidad intencional como acto de adoración.",
-    "Declara que nada es imposible para Dios en tus situaciones imposibles.",
-    "Intercede con perseverancia por ciudades y personas en peligro.",
-    "Cultiva amistad con Dios mediante obediencia y escucha atenta."
-  ]
+  "document": {
+    "book": "Génesis",
+    "chapter": 18,
+    "title": "Visitación de Dios y la intercesión de Abraham",
+    "subtitle": "Promesa confirmada y clamor por Sodoma",
+    "summary": "Tres visitantes llegan a la tienda de Abraham; uno de ellos anuncia que Sara dará a luz en un año. Dios revela la inminente destrucción de Sodoma y Abraham intercede audazmente por la ciudad.",
+    "timeline": {
+      "period": "Previo a la destrucción de Sodoma (c. 1984 a.C.)",
+      "context": "Encuentro divino en Mamre",
+      "placement": "Confirmación final antes del nacimiento de Isaac",
+      "era_tag": "Era Patriarcal",
+      "timeline_points": [
+        {"label": "Aparición en Mamre", "ref": "Gn 18:1-2"},
+        {"label": "Banquete de hospitalidad", "ref": "Gn 18:3-8"},
+        {"label": "Promesa para Sara", "ref": "Gn 18:9-15"},
+        {"label": "Plan sobre Sodoma", "ref": "Gn 18:16-21"},
+        {"label": "Intercesión valiente", "ref": "Gn 18:22-32"},
+        {"label": "Despedida divina", "ref": "Gn 18:33"}
+      ]
+    },
+    "days": [
+      {
+        "day": 1,
+        "title": "El Señor se aparece en Mamre",
+        "icon": "👁️",
+        "description": "Abraham ve a tres varones y corre a recibirlos con reverencia",
+        "verse": "Jehová se le apareció... alzó sus ojos, y he aquí tres varones",
+        "reference": "Génesis 18:1-2",
+        "significance": "La hospitalidad abre espacio para encuentros sagrados",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen18/visitors.jpg", "alt": "Tres visitantes llegan a Abraham"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 2,
+        "title": "Banquete de hospitalidad",
+        "icon": "🍽️",
+        "description": "Abraham prepara pan, carne y leche para sus huéspedes",
+        "verse": "Tomó mantequilla y leche, y el becerro... y se lo puso delante",
+        "reference": "Génesis 18:6-8",
+        "significance": "La generosidad es respuesta natural a la presencia divina",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen18/feast.jpg", "alt": "Banquete preparado por Abraham"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 3,
+        "title": "Promesa para Sara",
+        "icon": "😂",
+        "description": "Se anuncia que Sara dará a luz; ella ríe y Dios pregunta si hay algo imposible",
+        "verse": "¿Hay para Dios alguna cosa difícil?",
+        "reference": "Génesis 18:9-15",
+        "significance": "Dios transforma la incredulidad en fe",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen18/promise.jpg", "alt": "Promesa anunciada a Sara"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 4,
+        "title": "Plan revelado sobre Sodoma",
+        "icon": "⚖️",
+        "description": "Dios decide no ocultar a Abraham lo que hará con Sodoma y Gomorra",
+        "verse": "El clamor contra Sodoma y Gomorra se aumenta más y más",
+        "reference": "Génesis 18:16-21",
+        "significance": "El amigo de Dios comparte su corazón por la justicia",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen18/revelation.jpg", "alt": "Revelación sobre Sodoma"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 5,
+        "title": "Intercesión valiente",
+        "icon": "🙏",
+        "description": "Abraham negocia con Dios desde cincuenta hasta diez justos",
+        "verse": "¿Destruirás también al justo con el impío?",
+        "reference": "Génesis 18:22-32",
+        "significance": "La intercesión perseverante refleja el carácter misericordioso de Dios",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen18/intercession.jpg", "alt": "Abraham intercediendo por Sodoma"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 6,
+        "title": "El Señor se va",
+        "icon": "🚶",
+        "description": "Jehová termina de hablar con Abraham y se va; Abraham vuelve a su lugar",
+        "verse": "Jehová se fue, luego que acabó de hablar con Abraham",
+        "reference": "Génesis 18:33",
+        "significance": "La oración termina cuando Dios responde con su voluntad perfecta",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen18/departure.jpg", "alt": "Despedida del Señor"},
+          "audio": null,
+          "video": null
+        }
+      }
+    ],
+    "interestingFacts": [
+      {
+        "id": "three-visitors",
+        "title": "Tres varones",
+        "summary": "Tradicionalmente interpretados como Dios y dos ángeles",
+        "explanation": "Los dos ángeles continúan a Sodoma en el capítulo 19, confirmando la identidad divina del tercero que permanece con Abraham.",
+        "verse": "Los varones se apartaron de allí, y fueron hacia Sodoma; pero Abraham estaba aún delante de Jehová",
+        "reference": "Génesis 18:22"
+      },
+      {
+        "id": "hospitality-culture",
+        "title": "Hospitalidad patriarcal",
+        "summary": "Abraham ofrece lo mejor pese a su edad",
+        "explanation": "La generosidad y rapidez reflejan un corazón abierto a Dios y la importancia cultural de la hospitalidad en el Oriente Medio.",
+        "verse": "Se apresuró Abraham a elegir un becerro tierno y bueno",
+        "reference": "Génesis 18:7"
+      },
+      {
+        "id": "question-possible",
+        "title": "¿Hay para Dios algo difícil?",
+        "summary": "Una pregunta retórica que afirma la omnipotencia divina",
+        "explanation": "Sirve como fundamento para confiar en milagros posteriores y desafía toda incredulidad humana ante las promesas divinas.",
+        "verse": "¿Hay para Dios alguna cosa difícil?",
+        "reference": "Génesis 18:14"
+      },
+      {
+        "id": "ten-righteous",
+        "title": "El número diez",
+        "summary": "Abraham detiene la intercesión en diez justos",
+        "explanation": "Esto destaca la importancia de una minoría justa para preservar una ciudad y muestra los límites de la intercesión humana.",
+        "verse": "No la destruiré por amor a los diez",
+        "reference": "Génesis 18:32"
+      }
+    ],
+    "reflectionQuestions": [
+      {
+        "id": "prayer-hospitality",
+        "question": "¿Cómo puedes practicar hospitalidad que abra espacio a la presencia de Dios?",
+        "category": "práctica",
+        "hints": ["Generosidad", "Tiempo", "Disponibilidad"]
+      },
+      {
+        "id": "faith-laughter",
+        "question": "¿En qué área necesitas creer que nada es imposible para Dios?",
+        "category": "personal",
+        "hints": ["Milagros", "Familia", "Sanidad"]
+      },
+      {
+        "id": "intercede-city",
+        "question": "¿Por quiénes te está llamando Dios a interceder con perseverancia?",
+        "category": "práctica",
+        "hints": ["Ciudades", "Familiares", "Naciones"]
+      },
+      {
+        "id": "friend-of-god",
+        "question": "¿Deseas conocer los planes de Dios como Abraham? ¿Cómo cultivas esa amistad?",
+        "category": "personal",
+        "hints": ["Obediencia", "Intimidad", "Escucha"]
+      }
+    ],
+    "trivia": {
+      "difficulty": "medio",
+      "passing_score": 3,
+      "items": [
+        {
+          "question": "¿Dónde se le apareció Jehová a Abraham en este capítulo?",
+          "options": ["En Hebrón", "En Betel", "En las encinas de Mamre"],
+          "correct": 2,
+          "explanation": "Fue en las encinas de Mamre, cerca de Hebrón."
+        },
+        {
+          "question": "¿Qué reacción tuvo Sara al escuchar la promesa?",
+          "options": ["Lloró", "Rió", "Cantó"],
+          "correct": 1,
+          "explanation": "Sara rió en su interior (Génesis 18:12)."
+        },
+        {
+          "question": "¿Hasta qué número de justos intercedió Abraham?",
+          "options": ["Cinco", "Diez", "Doce"],
+          "correct": 1,
+          "explanation": "Abraham descendió hasta pedir por diez justos."
+        },
+        {
+          "question": "¿Qué hizo Abraham después que Dios terminó de hablar?",
+          "options": ["Construyó un altar", "Siguió a los ángeles", "Volvió a su lugar"],
+          "correct": 2,
+          "explanation": "Abraham regresó a su sitio (Génesis 18:33)."
+        }
+      ]
+    },
+    "comparison": {
+      "title": "Incredulidad vs fe intercesora",
+      "before": {
+        "title": "Risa incrédula",
+        "description": "Sara duda de la promesa por su edad",
+        "elements": ["Edad avanzada", "Imposibilidad humana", "Risa secreta"],
+        "verse": "Se rió Sara, diciendo: ¿Será cierto que he de dar a luz siendo ya vieja?",
+        "reference": "Génesis 18:12"
+      },
+      "after": {
+        "title": "Clamor valiente",
+        "description": "Abraham dialoga con Dios y confía en su justicia",
+        "elements": ["Oración persistente", "Confianza", "Amistad con Dios"],
+        "verse": "¿Destruirás al justo con el impío?",
+        "reference": "Génesis 18:23"
+      }
+    },
+    "memorizeVerse": {
+      "text": "¿Hay para Dios alguna cosa difícil? Al tiempo señalado volveré a ti, y según el tiempo de la vida, Sara tendrá un hijo.",
+      "reference": "Génesis 18:14",
+      "theme": "Nada imposible",
+      "audio_url": null
+    },
+    "mainTeaching": "Dios visita a los suyos para confirmar sus promesas y busca intercesores que compartan su corazón por la justicia y la misericordia. La hospitalidad genuina crea espacios sagrados donde Dios se revela, y la intercesión persistente refleja el carácter divino de misericordia unida a la justicia.",
+    "practicalApplication": [
+      "Practica hospitalidad intencional como acto de adoración y apertura a Dios",
+      "Declara que nada es imposible para Dios en tus situaciones imposibles",
+      "Intercede con perseverancia por ciudades y personas en peligro espiritual",
+      "Cultiva amistad con Dios mediante obediencia y escucha atenta a su voz",
+      "Combina justicia y misericordia en tus oraciones como Abraham",
+      "Prepara tu corazón para recibir visitaciones divinas inesperadas"
+    ],
+    "extendedContent": {
+      "keyThemes": [
+        {"id": "gen18-theme-hospitalidad", "title": "Hospitalidad sagrada", "summary": "La generosidad hacia extraños puede abrir puertas a encuentros divinos."},
+        {"id": "gen18-theme-imposible", "title": "Nada imposible", "summary": "La omnipotencia de Dios trasciende las limitaciones humanas y naturales."},
+        {"id": "gen18-theme-intercesion", "title": "Intercesión valiente", "summary": "Los amigos de Dios interceden con boldía basada en su carácter justo y misericordioso."}
+      ],
+      "characterProfiles": [
+        {"name": "Abraham", "role": "Anfitrión e intercesor", "description": "Practica hospitalidad ejemplar e intercede valientemente por Sodoma.", "verses": "Génesis 18:1-8, 22-33"},
+        {"name": "Sara", "role": "Receptora de promesa", "description": "Lucha con incredulidad pero recibe confirmación divina de su maternidad milagrosa.", "verses": "Génesis 18:9-15"},
+        {"name": "Los tres visitantes", "role": "Mensajeros divinos", "description": "Representan presencia divina y angelical que trae promesa y juicio.", "verses": "Génesis 18:1-22"}
+      ],
+      "geography": [
+        {"place": "Encinas de Mamre", "summary": "Lugar de la tienda de Abraham donde recibe la visitación divina.", "presentDay": "Cerca de Hebrón", "verses": "Génesis 18:1"}
+      ],
+      "gospelConnections": [
+        {"title": "Hospitalidad cristiana", "description": "Como Abraham recibió ángeles sin saberlo, los cristianos deben practicar hospitalidad.", "reference": "Hebreos 13:2"},
+        {"title": "Intercesión de Cristo", "description": "La intercesión de Abraham prefigura la intercesión superior de Cristo por los pecadores.", "reference": "Romanos 8:34"}
+      ],
+      "outline": [
+        {"section": "1", "title": "Visitación divina", "verses": "18:1-8", "summary": "Abraham recibe tres visitantes con hospitalidad extraordinaria."},
+        {"section": "2", "title": "Promesa confirmada", "verses": "18:9-15", "summary": "Anuncio del nacimiento de Isaac y respuesta a la incredulidad de Sara."},
+        {"section": "3", "title": "Revelación del juicio", "verses": "18:16-21", "summary": "Dios revela su plan de juzgar Sodoma y Gomorra."},
+        {"section": "4", "title": "Intercesión persistente", "verses": "18:22-33", "summary": "Abraham intercede con boldía por los justos en Sodoma."}
+      ],
+      "studyInsights": [
+        "La hospitalidad de Abraham refleja el corazón de Dios hacia los extranjeros",
+        "La pregunta '¿Hay algo difícil para Dios?' establece un principio de fe",
+        "La intercesión de Abraham muestra que Dios busca intercesores",
+        "El diálogo entre Abraham y Dios revela una relación de amistad genuina"
+      ],
+      "prayerFocus": "Señor, abre mi hogar y mi corazón para recibir tu presencia. Ayúdame a creer que nada es imposible para ti en mis circunstancias. Hazme un intercesor valiente que clame por justicia y misericordia. Que mi hospitalidad refleje tu amor por los extranjeros y necesitados. Amén."
+    }
+  },
+  "ui": {
+    "theme": "light",
+    "color": "#E53E3E",
+    "icon": "🏠",
+    "layout": "article",
+    "navigation": {
+      "prev": {"slug": "genesis-17-circuncision-pacto", "title": "Génesis 17"},
+      "next": {"slug": "genesis-19-destruccion-sodoma", "title": "Génesis 19"}
+    },
+    "components": {
+      "timeline": true,
+      "trivia": true,
+      "comparison": true,
+      "memorization": true
+    }
+  },
+  "relations": {
+    "relatedChapters": [
+      {"slug": "genesis-17-circuncision-pacto", "title": "Circuncisión del pacto", "reason": "Promesa de Isaac"},
+      {"slug": "genesis-19-destruccion-sodoma", "title": "Destrucción de Sodoma", "reason": "Continuación narrativa"},
+      {"slug": "genesis-21-isaac-ismael", "title": "Isaac e Ismael", "reason": "Cumplimiento de promesa"}
+    ],
+    "themes": ["hospitalidad", "intercesión", "promesas divinas", "justicia"],
+    "characters": ["Abraham", "Sara", "visitantes divinos"]
+  },
+  "taxonomy": {
+    "testament": "Antiguo",
+    "book": "Génesis",
+    "section": "Historia Primitiva",
+    "category": "Narrativa Patriarcal",
+    "period": "Era Patriarcal",
+    "genre": "Narrativa teológica",
+    "themes": ["hospitalidad", "intercesión", "promesas", "juicio", "misericordia"],
+    "characters": ["Abraham", "Sara", "visitantes"],
+    "places": ["Mamre", "Sodoma", "Gomorra"],
+    "timeline": "c. 1984 a.C."
+  },
+  "index": {
+    "searchTerms": ["visitantes", "hospitalidad", "Sara", "intercesión", "Sodoma", "nada imposible", "Mamre", "justicia"],
+    "keyVerses": ["Génesis 18:14", "Génesis 18:23", "Génesis 18:32"],
+    "mainConcepts": ["hospitalidad sagrada", "omnipotencia divina", "intercesión persistente", "amistad con Dios"]
+  },
+  "accessibility": {
+    "lang_reading_level": "B2",
+    "has_alt_text": true,
+    "captions_available": false
+  },
+  "analytics": {
+    "estimated_read_time_min": 14,
+    "word_count": 1200,
+    "engagement_goal": "trivia_completed"
+  },
+  "contributors": [
+    {"name": "Equipo Editorial", "role": "Edición", "url": null},
+    {"name": "Revisor Teológico", "role": "Revisión", "url": null}
+  ],
+  "moderation": {
+    "doctrinal_position": "histórico-gramatical",
+    "notes": "Énfasis en la intercesión como ministerio del pueblo de Dios"
+  }
 }

@@ -1,223 +1,363 @@
 {
-  "book": "Génesis",
-  "chapter": 16,
-  "title": "Hagar e Ismael",
-  "subtitle": "Cuando la impaciencia interfiere con la promesa",
-  "summary": "Sarai, estéril, entrega a su sierva Hagar a Abram para obtener descendencia. Hagar concibe y surge conflicto; huye al desierto donde el Ángel de Jehová le habla, promete un hijo llamado Ismael y le ordena regresar.",
-  "timeline": {
-    "period": "Diez años en Canaán",
-    "context": "Búsqueda de un heredero",
-    "placement": "Interrupción en el caminar de fe"
+  "meta": {
+    "id": "genesis-16-hagar-ismael",
+    "title": "Génesis 16 — Hagar e Ismael",
+    "subtitle": "Cuando la impaciencia interfiere con la promesa",
+    "slug": "genesis-16-hagar-ismael",
+    "keywords": ["Génesis 16", "Hagar", "Ismael", "Abram", "Sarai", "impaciencia", "El Roi", "Ángel de Jehová", "desierto"],
+    "author": "Equipo Editorial",
+    "created": "2024-01-16T00:00:00Z",
+    "modified": "2024-01-16T00:00:00Z",
+    "version": 1,
+    "status": "published",
+    "type": "chapter",
+    "language": "es"
   },
-  "days": [
-    {
-      "day": 1,
-      "title": "Plan humano",
-      "icon": "??",
-      "description": "Sarai, sin hijos, propone a Abram tener descendencia con Hagar.",
-      "verse": "Te ruego que te llegues a mi sierva; quizá tendré hijos de ella.",
-      "reference": "Génesis 16:1-2",
-      "significance": "La impaciencia intenta acelerar la promesa."
+  "seo": {
+    "title": "Génesis 16 — Hagar e Ismael | Estudio bíblico",
+    "description": "Sarai entrega su sierva Hagar a Abram por impaciencia. Surge conflicto, Hagar huye y encuentra al Ángel de Jehová. Lecciones sobre esperar en Dios.",
+    "canonical": "https://tusitio.com/genesis/16",
+    "openGraph": {
+      "title": "Génesis 16 — Hagar e Ismael",
+      "description": "Cuando la impaciencia interfiere con la promesa. Estudio sobre consecuencias de adelantarse a Dios y su gracia restauradora.",
+      "image": "https://tusitio.com/assets/og/genesis-16.png",
+      "type": "article"
     },
-    {
-      "day": 2,
-      "title": "Hagar concibe",
-      "icon": "!!",
-      "description": "Hagar queda embarazada y menosprecia a su señora.",
-      "verse": "Cuando vio que había concebido, miraba con desprecio a su señora.",
-      "reference": "Génesis 16:3-4",
-      "significance": "Las soluciones humanas generan nuevo conflicto."
-    },
-    {
-      "day": 3,
-      "title": "Conflicto y huida",
-      "icon": "XX",
-      "description": "Sarai aflige a Hagar; la sierva huye al desierto.",
-      "verse": "Sarai la afligía, y ella huyó de su presencia.",
-      "reference": "Génesis 16:5-6",
-      "significance": "La opresión nunca resuelve el dolor interior."
-    },
-    {
-      "day": 4,
-      "title": "Encuentro en el desierto",
-      "icon": "::",
-      "description": "El Ángel de Jehová encuentra a Hagar junto a una fuente camino a Shur.",
-      "verse": "La halló el Ángel de Jehová junto a una fuente de agua en el desierto.",
-      "reference": "Génesis 16:7",
-      "significance": "Dios busca a los que sufren aunque huyan."
-    },
-    {
-      "day": 5,
-      "title": "Promesa de Ismael",
-      "icon": "++",
-      "description": "Se le ordena volver y se anuncia el nacimiento de Ismael, \"Dios oye\".",
-      "verse": "Has concebido, y darás a luz un hijo, y llamarás su nombre Ismael.",
-      "reference": "Génesis 16:10-12",
-      "significance": "Dios oye la aflicción y convierte el dolor en propósito."
-    },
-    {
-      "day": 6,
-      "title": "Dios que ve",
-      "icon": ">>",
-      "description": "Hagar llama a Dios \"El Roi\" y regresa; Abram tiene 86 años cuando nace Ismael.",
-      "verse": "Tú eres Dios que ve... Y dio a luz un hijo a Abram.",
-      "reference": "Génesis 16:13-16",
-      "significance": "La experiencia marca a Hagar con la certeza de que Dios la ve."
-    }
-  ],
-  "interestingFacts": [
-    {
-      "id": "el-roi",
-      "title": "El Roi: Dios que me ve",
-      "summary": "Hagar es la primera en atribuir este nombre a Dios.",
-      "explanation": "Reconoce que incluso en su esclavitud y huida, Dios observa y se compadece.",
-      "verse": "Tú eres Dios que me ve.",
-      "reference": "Génesis 16:13"
-    },
-    {
-      "id": "angel-of-lord",
-      "title": "Ángel de Jehová",
-      "summary": "Aparece la figura del Ángel de Jehová dialogando personalmente.",
-      "explanation": "Muchos lo consideran una manifestación preencarnada de Cristo por hablar como Dios.",
-      "verse": "El Ángel de Jehová la encontró.",
-      "reference": "Génesis 16:7"
-    },
-    {
-      "id": "ishmael-meaning",
-      "title": "Ismael significa \"Dios oye\"",
-      "summary": "El nombre recuerda la respuesta de Dios al clamor.",
-      "explanation": "Cada vez que Hagar pronunciara el nombre de su hijo recordaría la compasión divina.",
-      "verse": "Jehová ha oído tu aflicción.",
-      "reference": "Génesis 16:11"
-    },
-    {
-      "id": "age-abram",
-      "title": "Abram de 86 años",
-      "summary": "La decisión ocurre diez años después de llegar a Canaán.",
-      "explanation": "Subraya la espera prolongada que enfrentaban.",
-      "verse": "Era Abram de edad de ochenta y seis años cuando Hagar dio a luz a Ismael.",
-      "reference": "Génesis 16:16"
-    }
-  ],
-  "reflectionQuestions": [
-    {
-      "id": "impatience",
-      "question": "¿Qué promesa de Dios estás tentado a forzar con tus propios métodos?",
-      "category": "fe",
-      "hints": [
-        "Tiempo",
-        "Confianza",
-        "Descanso"
-      ]
-    },
-    {
-      "id": "treatment-others",
-      "question": "¿Cómo tratas a quienes pueden parecer un \"plan alterno\" en tu vida?",
-      "category": "relacional",
-      "hints": [
-        "Empatía",
-        "Justicia",
-        "Compasión"
-      ]
-    },
-    {
-      "id": "god-sees",
-      "question": "¿Cómo te consuela saber que Dios te ve en el desierto?",
-      "category": "esperanza",
-      "hints": [
-        "Presencia",
-        "Consuelo",
-        "Guía"
-      ]
-    },
-    {
-      "id": "return-hagar",
-      "question": "¿Qué situaciones te está llamando Dios a enfrentar en lugar de huir?",
-      "category": "obediencia",
-      "hints": [
-        "Restauración",
-        "Valentía",
-        "Proceso"
-      ]
-    }
-  ],
-  "trivia": [
-    {
-      "question": "¿Quién propuso que Abram tuviera un hijo con Hagar?",
-      "options": [
-        "Abram",
-        "Sarai",
-        "El Ángel de Jehová"
-      ],
-      "correct": 1,
-      "explanation": "Sarai sugirió el plan para obtener descendencia."
-    },
-    {
-      "question": "¿Cómo se llama la fuente donde el Ángel encontró a Hagar?",
-      "options": [
-        "Fuente de Betel",
-        "Fuente en el camino de Shur",
-        "Pozo de Beerseba"
-      ],
-      "correct": 1,
-      "explanation": "Hagar fue hallada junto a una fuente camino de Shur."
-    },
-    {
-      "question": "¿Qué significa el nombre Ismael?",
-      "options": [
-        "Dios salva",
-        "Dios oye",
-        "Dios ve"
-      ],
-      "correct": 1,
-      "explanation": "Ismael significa \"Dios oye\"."
-    },
-    {
-      "question": "¿Cuántos años tenía Abram cuando nació Ismael?",
-      "options": [
-        "80 años",
-        "86 años",
-        "90 años"
-      ],
-      "correct": 1,
-      "explanation": "Abram tenía 86 años (Génesis 16:16)."
-    }
-  ],
-  "comparison": {
-    "title": "Plan humano vs intervención divina",
-    "before": {
-      "title": "Impaciencia y desprecio",
-      "description": "Sarai diseña un plan carnal que termina en rivalidad y huida.",
-      "elements": [
-        "Control humano",
-        "Conflicto",
-        "Dolor"
-      ],
-      "verse": "Sarai la afligía, y ella huyó.",
-      "reference": "Génesis 16:6"
-    },
-    "after": {
-      "title": "Dios oye y ve",
-      "description": "Dios encuentra a Hagar, promete futuro y le da identidad.",
-      "elements": [
-        "Compasión",
-        "Nombre nuevo",
-        "Obediencia renovada"
-      ],
-      "verse": "Tú eres Dios que me ve.",
-      "reference": "Génesis 16:13"
+    "schema": {
+      "@type": "Article",
+      "headline": "Génesis 16: Hagar e Ismael",
+      "description": "Estudio interactivo sobre la impaciencia de Sarai, el encuentro de Hagar con el Ángel de Jehová y el nacimiento de Ismael",
+      "keywords": "Génesis 16, Hagar, Ismael, impaciencia, El Roi, Ángel de Jehová"
     }
   },
-  "memorizeVerse": {
-    "text": "Entonces llamó el nombre de Jehová que con ella hablaba: Tú eres Dios que me ve; porque dijo: ¿No he visto también aquí al que me ve?",
-    "reference": "Génesis 16:13",
-    "theme": "Consuelo divino"
+  "source": {
+    "book": "Génesis",
+    "chapter": 16,
+    "verses": "1-16",
+    "version": "RVR1960",
+    "reference": "Génesis 16:1-16"
   },
-  "mainTeaching": "Intentar acelerar la promesa fuera del plan de Dios trae dolor, pero aun en nuestros errores Él nos ve, nos oye y nos redirige.",
-  "practicalApplication": [
-    "Rinde tus estrategias propias y espera los tiempos de Dios.",
-    "Trata con dignidad a las personas implicadas en tus decisiones.",
-    "Recuerda que Dios te ve y te escucha aun en el desierto.",
-    "Obedece la instrucción divina incluso cuando implique regresar a situaciones difíciles."
-  ]
+  "document": {
+    "book": "Génesis",
+    "chapter": 16,
+    "title": "Hagar e Ismael",
+    "subtitle": "Cuando la impaciencia interfiere con la promesa",
+    "summary": "Sarai, estéril, entrega a su sierva Hagar a Abram para obtener descendencia. Hagar concibe y surge conflicto; huye al desierto donde el Ángel de Jehová le habla, promete un hijo llamado Ismael y le ordena regresar.",
+    "timeline": {
+      "period": "Diez años en Canaán (c. 1999 a.C.)",
+      "context": "Búsqueda impaciente de un heredero",
+      "placement": "Interrupción en el caminar de fe",
+      "era_tag": "Era Patriarcal",
+      "timeline_points": [
+        {"label": "Plan de Sarai", "ref": "Gn 16:1-2"},
+        {"label": "Concepción y desprecio", "ref": "Gn 16:3-4"},
+        {"label": "Conflicto y huida", "ref": "Gn 16:5-6"},
+        {"label": "Encuentro divino", "ref": "Gn 16:7-12"},
+        {"label": "Revelación de El Roi", "ref": "Gn 16:13-14"},
+        {"label": "Nacimiento de Ismael", "ref": "Gn 16:15-16"}
+      ]
+    },
+    "days": [
+      {
+        "day": 1,
+        "title": "Plan humano",
+        "icon": "🤔",
+        "description": "Sarai, sin hijos, propone a Abram tener descendencia con Hagar",
+        "verse": "Te ruego que te llegues a mi sierva; quizá tendré hijos de ella",
+        "reference": "Génesis 16:1-2",
+        "significance": "La impaciencia intenta acelerar la promesa",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen16/plan.jpg", "alt": "Sarai propone su plan"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 2,
+        "title": "Hagar concibe",
+        "icon": "🤰",
+        "description": "Hagar queda embarazada y menosprecia a su señora",
+        "verse": "Cuando vio que había concebido, miraba con desprecio a su señora",
+        "reference": "Génesis 16:3-4",
+        "significance": "Las soluciones humanas generan nuevo conflicto",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen16/contempt.jpg", "alt": "Desprecio de Hagar hacia Sarai"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 3,
+        "title": "Conflicto y huida",
+        "icon": "🏃‍♀️",
+        "description": "Sarai aflige a Hagar; la sierva huye al desierto",
+        "verse": "Sarai la afligía, y ella huyó de su presencia",
+        "reference": "Génesis 16:5-6",
+        "significance": "La opresión nunca resuelve el dolor interior",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen16/flight.jpg", "alt": "Hagar huye al desierto"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 4,
+        "title": "Encuentro en el desierto",
+        "icon": "👼",
+        "description": "El Ángel de Jehová encuentra a Hagar junto a una fuente camino a Shur",
+        "verse": "La halló el Ángel de Jehová junto a una fuente de agua en el desierto",
+        "reference": "Génesis 16:7",
+        "significance": "Dios busca a los que sufren aunque huyan",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen16/angel.jpg", "alt": "Ángel de Jehová encuentra a Hagar"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 5,
+        "title": "Promesa de Ismael",
+        "icon": "👶",
+        "description": "Se le ordena volver y se anuncia el nacimiento de Ismael, \"Dios oye\"",
+        "verse": "Has concebido, y darás a luz un hijo, y llamarás su nombre Ismael",
+        "reference": "Génesis 16:10-12",
+        "significance": "Dios oye la aflicción y convierte el dolor en propósito",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen16/promise.jpg", "alt": "Promesa del hijo Ismael"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 6,
+        "title": "Dios que ve",
+        "icon": "👁️",
+        "description": "Hagar llama a Dios \"El Roi\" y regresa; Abram tiene 86 años cuando nace Ismael",
+        "verse": "Tú eres Dios que me ve... Y dio a luz un hijo a Abram",
+        "reference": "Génesis 16:13-16",
+        "significance": "La experiencia marca a Hagar con la certeza de que Dios la ve",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen16/elroi.jpg", "alt": "Hagar reconoce a El Roi"},
+          "audio": null,
+          "video": null
+        }
+      }
+    ],
+    "interestingFacts": [
+      {
+        "id": "el-roi",
+        "title": "El Roi: Dios que me ve",
+        "summary": "Hagar es la primera en atribuir este nombre a Dios",
+        "explanation": "Reconoce que incluso en su esclavitud y huida, Dios observa y se compadece. Este nombre revela la cercanía personal de Dios con los marginados.",
+        "verse": "Tú eres Dios que me ve",
+        "reference": "Génesis 16:13"
+      },
+      {
+        "id": "angel-of-lord",
+        "title": "Ángel de Jehová",
+        "summary": "Aparece la figura del Ángel de Jehová dialogando personalmente",
+        "explanation": "Muchos lo consideran una manifestación preencarnada de Cristo por hablar como Dios mismo y recibir adoración.",
+        "verse": "El Ángel de Jehová la encontró",
+        "reference": "Génesis 16:7"
+      },
+      {
+        "id": "ishmael-meaning",
+        "title": "Ismael significa \"Dios oye\"",
+        "summary": "El nombre recuerda la respuesta de Dios al clamor",
+        "explanation": "Cada vez que Hagar pronunciara el nombre de su hijo recordaría la compasión divina y que Dios escucha el sufrimiento.",
+        "verse": "Jehová ha oído tu aflicción",
+        "reference": "Génesis 16:11"
+      },
+      {
+        "id": "age-abram",
+        "title": "Abram de 86 años",
+        "summary": "La decisión ocurre diez años después de llegar a Canaán",
+        "explanation": "Subraya la espera prolongada que enfrentaban y la presión que sintieron para tomar el asunto en sus propias manos.",
+        "verse": "Era Abram de edad de ochenta y seis años cuando Hagar dio a luz a Ismael",
+        "reference": "Génesis 16:16"
+      }
+    ],
+    "reflectionQuestions": [
+      {
+        "id": "impatience",
+        "question": "¿Qué promesa de Dios estás tentado a forzar con tus propios métodos?",
+        "category": "personal",
+        "hints": ["Tiempo", "Confianza", "Descanso"]
+      },
+      {
+        "id": "treatment-others",
+        "question": "¿Cómo tratas a quienes pueden parecer un \"plan alterno\" en tu vida?",
+        "category": "práctica",
+        "hints": ["Empatía", "Justicia", "Compasión"]
+      },
+      {
+        "id": "god-sees",
+        "question": "¿Cómo te consuela saber que Dios te ve en el desierto?",
+        "category": "personal",
+        "hints": ["Presencia", "Consuelo", "Guía"]
+      },
+      {
+        "id": "return-hagar",
+        "question": "¿Qué situaciones te está llamando Dios a enfrentar en lugar de huir?",
+        "category": "práctica",
+        "hints": ["Restauración", "Valentía", "Proceso"]
+      }
+    ],
+    "trivia": {
+      "difficulty": "medio",
+      "passing_score": 3,
+      "items": [
+        {
+          "question": "¿Quién propuso que Abram tuviera un hijo con Hagar?",
+          "options": ["Abram", "Sarai", "El Ángel de Jehová"],
+          "correct": 1,
+          "explanation": "Sarai sugirió el plan para obtener descendencia."
+        },
+        {
+          "question": "¿Cómo se llama la fuente donde el Ángel encontró a Hagar?",
+          "options": ["Fuente de Betel", "Fuente en el camino de Shur", "Pozo de Beerseba"],
+          "correct": 1,
+          "explanation": "Hagar fue hallada junto a una fuente camino de Shur."
+        },
+        {
+          "question": "¿Qué significa el nombre Ismael?",
+          "options": ["Dios salva", "Dios oye", "Dios ve"],
+          "correct": 1,
+          "explanation": "Ismael significa \"Dios oye\"."
+        },
+        {
+          "question": "¿Cuántos años tenía Abram cuando nació Ismael?",
+          "options": ["80 años", "86 años", "90 años"],
+          "correct": 1,
+          "explanation": "Abram tenía 86 años (Génesis 16:16)."
+        }
+      ]
+    },
+    "comparison": {
+      "title": "Plan humano vs intervención divina",
+      "before": {
+        "title": "Impaciencia y desprecio",
+        "description": "Sarai diseña un plan carnal que termina en rivalidad y huida",
+        "elements": ["Control humano", "Conflicto", "Dolor"],
+        "verse": "Sarai la afligía, y ella huyó",
+        "reference": "Génesis 16:6"
+      },
+      "after": {
+        "title": "Dios oye y ve",
+        "description": "Dios encuentra a Hagar, promete futuro y le da identidad",
+        "elements": ["Compasión", "Nombre nuevo", "Obediencia renovada"],
+        "verse": "Tú eres Dios que me ve",
+        "reference": "Génesis 16:13"
+      }
+    },
+    "memorizeVerse": {
+      "text": "Entonces llamó el nombre de Jehová que con ella hablaba: Tú eres Dios que me ve; porque dijo: ¿No he visto también aquí al que me ve?",
+      "reference": "Génesis 16:13",
+      "theme": "Consuelo divino",
+      "audio_url": null
+    },
+    "mainTeaching": "Intentar acelerar la promesa fuera del plan de Dios trae dolor y conflicto, pero aun en nuestros errores Él nos ve, nos oye y nos redirige con compasión. Dios no abandona a los marginados sino que les revela su carácter personal y los incluye en su propósito eterno.",
+    "practicalApplication": [
+      "Rinde tus estrategias propias y espera los tiempos de Dios sin adelantarte",
+      "Trata con dignidad a las personas implicadas en tus decisiones y errores",
+      "Recuerda que Dios te ve y te escucha aun en el desierto de las consecuencias",
+      "Obedece la instrucción divina incluso cuando implique regresar a situaciones difíciles",
+      "Confía en que Dios puede redimir aun los resultados de tus decisiones impacientes",
+      "Busca el nombre y carácter de Dios en medio de las crisis"
+    ],
+    "extendedContent": {
+      "keyThemes": [
+        {"id": "gen16-theme-impaciencia", "title": "Impaciencia humana", "summary": "Las decisiones apresuradas para cumplir promesas divinas crean más problemas que soluciones."},
+        {"id": "gen16-theme-elroi", "title": "El Dios que ve", "summary": "Dios observa especialmente a los marginados y afligidos con compasión activa."},
+        {"id": "gen16-theme-restauracion", "title": "Gracia restauradora", "summary": "Dios redime las consecuencias de nuestras decisiones impacientes con propósito eterno."}
+      ],
+      "characterProfiles": [
+        {"name": "Sarai", "role": "Esposa impaciente", "description": "Diseña un plan humano para acelerar la promesa divina, generando conflicto familiar.", "verses": "Génesis 16:1-6"},
+        {"name": "Hagar", "role": "Sierva sufriente", "description": "Víctima de las decisiones de otros, encuentra consuelo en la revelación personal de Dios.", "verses": "Génesis 16:3-14"},
+        {"name": "Abram", "role": "Esposo pasivo", "description": "Acepta el plan de Sarai sin consultar a Dios, mostrando falta de liderazgo espiritual.", "verses": "Génesis 16:2-4"},
+        {"name": "Ángel de Jehová", "role": "Revelador divino", "description": "Busca a Hagar en su huida y le revela el plan de Dios para su hijo.", "verses": "Génesis 16:7-12"}
+      ],
+      "geography": [
+        {"place": "Camino de Shur", "summary": "Ruta hacia Egipto por donde Hagar huía de regreso a su tierra natal.", "presentDay": "Península del Sinaí", "verses": "Génesis 16:7"},
+        {"place": "Pozo de Beer-lahai-roi", "summary": "Lugar donde Hagar vio a Dios, significa 'pozo del Viviente que me ve'.", "presentDay": "Región del Néguev", "verses": "Génesis 16:14"}
+      ],
+      "gospelConnections": [
+        {"title": "Cristo el buen pastor", "description": "Como el Ángel de Jehová buscó a Hagar fugitiva, Cristo busca a los perdidos.", "reference": "Lucas 15:3-7"},
+        {"title": "Dios de los marginados", "description": "La compasión divina hacia Hagar prefigura el corazón de Cristo hacia los despreciados.", "reference": "Mateo 9:36"}
+      ],
+      "outline": [
+        {"section": "1", "title": "Plan humano de Sarai", "verses": "16:1-2", "summary": "Impaciencia genera estrategia carnal para obtener heredero."},
+        {"section": "2", "title": "Conflicto y desprecio", "verses": "16:3-6", "summary": "El plan genera rivalidad, opresión y huida desesperada."},
+        {"section": "3", "title": "Encuentro divino", "verses": "16:7-12", "summary": "Dios busca a Hagar y revela su plan para Ismael."},
+        {"section": "4", "title": "Revelación de El Roi", "verses": "16:13-16", "summary": "Hagar experimenta a Dios como el que la ve y regresa obediente."}
+      ],
+      "studyInsights": [
+        "La primera aparición del Ángel de Jehová establece un patrón de intervención divina",
+        "El nombre 'El Roi' revela la intimidad de Dios con los sufrientes",
+        "Ismael recibe promesas específicas a pesar de no ser el hijo de la promesa",
+        "La obediencia de regresar muestra que huir no siempre es la solución"
+      ],
+      "prayerFocus": "Padre, perdona mi impaciencia cuando trato de acelerar tus promesas con mis propios métodos. Ayúdame a confiar en tus tiempos perfectos. Como viste y consolaste a Hagar en el desierto, véme en mis momentos de desesperación y guíame de regreso a tu voluntad. Amén."
+    }
+  },
+  "ui": {
+    "theme": "light",
+    "color": "#D69E2E",
+    "icon": "👁️",
+    "layout": "article",
+    "navigation": {
+      "prev": {"slug": "genesis-15-pacto-abram", "title": "Génesis 15"},
+      "next": {"slug": "genesis-17-circuncision-pacto", "title": "Génesis 17"}
+    },
+    "components": {
+      "timeline": true,
+      "trivia": true,
+      "comparison": true,
+      "memorization": true
+    }
+  },
+  "relations": {
+    "relatedChapters": [
+      {"slug": "genesis-15-pacto-abram", "title": "Pacto con Abram", "reason": "Promesa de heredero"},
+      {"slug": "genesis-17-circuncision-pacto", "title": "Circuncisión del pacto", "reason": "Promesa renovada"},
+      {"slug": "genesis-21-isaac-ismael", "title": "Isaac e Ismael", "reason": "Continuación de la historia"}
+    ],
+    "themes": ["impaciencia", "consecuencias", "gracia divina", "marginación"],
+    "characters": ["Sarai", "Hagar", "Abram", "Ismael", "Ángel de Jehová"]
+  },
+  "taxonomy": {
+    "testament": "Antiguo",
+    "book": "Génesis",
+    "section": "Historia Primitiva",
+    "category": "Narrativa Patriarcal",
+    "period": "Era Patriarcal",
+    "genre": "Narrativa familiar",
+    "themes": ["impaciencia", "conflicto", "gracia", "marginación", "revelación"],
+    "characters": ["Sarai", "Hagar", "Abram", "Ismael"],
+    "places": ["Desierto", "Camino de Shur", "Beer-lahai-roi"],
+    "timeline": "c. 1999 a.C."
+  },
+  "index": {
+    "searchTerms": ["Hagar", "Ismael", "impaciencia", "El Roi", "Ángel de Jehová", "desierto", "huida", "sierva"],
+    "keyVerses": ["Génesis 16:7", "Génesis 16:11", "Génesis 16:13"],
+    "mainConcepts": ["impaciencia humana", "gracia divina", "Dios que ve", "consecuencias de decisiones"]
+  },
+  "accessibility": {
+    "lang_reading_level": "B1",
+    "has_alt_text": true,
+    "captions_available": false
+  },
+  "analytics": {
+    "estimated_read_time_min": 11,
+    "word_count": 1000,
+    "engagement_goal": "comparison_completed"
+  },
+  "contributors": [
+    {"name": "Equipo Editorial", "role": "Edición", "url": null},
+    {"name": "Revisor Teológico", "role": "Revisión", "url": null}
+  ],
+  "moderation": {
+    "doctrinal_position": "histórico-gramatical",
+    "notes": "Énfasis en la gracia de Dios hacia los marginados y las consecuencias de la impaciencia"
+  }
 }

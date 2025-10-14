@@ -1,223 +1,361 @@
 {
-  "book": "Génesis",
-  "chapter": 15,
-  "title": "Pacto con Abram",
-  "subtitle": "Justicia por la fe y promesa asegurada",
-  "summary": "Dios reafirma sus promesas a Abram, quien cree y es declarado justo. Se realiza un pacto solemne con animales partidos, y Dios revela el futuro de su descendencia, incluyendo la esclavitud y liberación de Egipto.",
-  "timeline": {
-    "period": "Confirmación de la promesa",
-    "context": "Visión nocturna",
-    "placement": "Fundamento de la fe bíblica"
+  "meta": {
+    "id": "genesis-15-pacto-abram",
+    "title": "Génesis 15 — Pacto con Abram",
+    "subtitle": "Justicia por la fe y promesa asegurada",
+    "slug": "genesis-15-pacto-abram",
+    "keywords": ["Génesis 15", "pacto", "Abram", "justicia por fe", "promesa", "heredero", "sacrificio", "visión"],
+    "author": "Equipo Editorial",
+    "created": "2024-01-15T00:00:00Z",
+    "modified": "2024-01-15T00:00:00Z",
+    "version": 1,
+    "status": "published",
+    "type": "chapter",
+    "language": "es"
   },
-  "days": [
-    {
-      "day": 1,
-      "title": "No temas, Abram",
-      "icon": "!!",
-      "description": "Dios promete protección y recompensa después de la batalla.",
-      "verse": "No temas, Abram; yo soy tu escudo, y tu galardón será sobremanera grande.",
-      "reference": "Génesis 15:1",
-      "significance": "La seguridad proviene de la presencia de Dios, no de aliados humanos."
+  "seo": {
+    "title": "Génesis 15 — Pacto con Abram | Estudio bíblico",
+    "description": "Dios reafirma sus promesas a Abram, quien cree y es declarado justo. Pacto solemne y profecía sobre la descendencia. Fundamento de la justificación por fe.",
+    "canonical": "https://tusitio.com/genesis/15",
+    "openGraph": {
+      "title": "Génesis 15 — Pacto con Abram",
+      "description": "Justicia por la fe y promesa asegurada. Estudio sobre el pacto divino, visión profética y fundamento de la salvación.",
+      "image": "https://tusitio.com/assets/og/genesis-15.png",
+      "type": "article"
     },
-    {
-      "day": 2,
-      "title": "Promesa de un heredero",
-      "icon": "++",
-      "description": "Dios asegura que el heredero será un hijo propio, no Eliezer.",
-      "verse": "No te heredará éste, sino un hijo tuyo será el que te heredará.",
-      "reference": "Génesis 15:2-4",
-      "significance": "La promesa se vuelve personal y milagrosa."
-    },
-    {
-      "day": 3,
-      "title": "Contar las estrellas",
-      "icon": "**",
-      "description": "Abram mira el cielo y cree; su fe le es contada por justicia.",
-      "verse": "Mira ahora los cielos, y cuenta las estrellas... Y creyó a Jehová, y le fue contado por justicia.",
-      "reference": "Génesis 15:5-6",
-      "significance": "Se establece el principio de justificación por la fe."
-    },
-    {
-      "day": 4,
-      "title": "Pregunta por la tierra",
-      "icon": "??",
-      "description": "Abram pide una señal de que heredará la tierra.",
-      "verse": "¿En qué conoceré que la he de heredar?",
-      "reference": "Génesis 15:7-8",
-      "significance": "Dios no reprende la pregunta honesta."
-    },
-    {
-      "day": 5,
-      "title": "Pacto de los animales partidos",
-      "icon": "::",
-      "description": "Abram prepara animales y espanta aves de rapiña; cae un profundo sueño.",
-      "verse": "Partió por la mitad... mas no partió las aves.",
-      "reference": "Génesis 15:9-12",
-      "significance": "La ceremonia prepara un pacto unilateral de Dios."
-    },
-    {
-      "day": 6,
-      "title": "Futuro revelado",
-      "icon": "~~",
-      "description": "Dios anuncia 400 años de aflicción en tierra ajena y confirma límites de la tierra.",
-      "verse": "En la cuarta generación volverán acá... a tu descendencia he dado esta tierra.",
-      "reference": "Génesis 15:13-21",
-      "significance": "La promesa incluye proceso, sufrimiento y victoria final."
-    }
-  ],
-  "interestingFacts": [
-    {
-      "id": "justification-faith",
-      "title": "Primera mención de la justificación",
-      "summary": "\"Le fue contado por justicia\" es la base del evangelio.",
-      "explanation": "Pablo y Santiago citan este versículo para explicar la salvación por fe.",
-      "verse": "Y creyó a Jehová, y le fue contado por justicia.",
-      "reference": "Génesis 15:6"
-    },
-    {
-      "id": "smoking-pot",
-      "title": "Horno humeante y antorcha",
-      "summary": "Dios pasa entre los animales en forma de fuego y humo.",
-      "explanation": "Simboliza la presencia divina y su compromiso unilateral con el pacto.",
-      "verse": "Un horno humeante y una antorcha de fuego pasaron por entre los animales.",
-      "reference": "Génesis 15:17"
-    },
-    {
-      "id": "four-hundred-years",
-      "title": "Profecía de 400 años",
-      "summary": "Dios anuncia la esclavitud israelita y su liberación.",
-      "explanation": "Preparó a Abram para saber que la promesa incluiría un tiempo de espera prolongado.",
-      "verse": "Tu descendencia será extranjera... y la afligirán cuatrocientos años.",
-      "reference": "Génesis 15:13"
-    },
-    {
-      "id": "land-borders",
-      "title": "Tierra desde el Nilo al Éufrates",
-      "summary": "Se definen límites amplios para la herencia.",
-      "explanation": "El pacto abarca un territorio enorme que prefigura la restauración futura.",
-      "verse": "Desde el río de Egipto hasta el río grande, el río Éufrates.",
-      "reference": "Génesis 15:18"
-    }
-  ],
-  "reflectionQuestions": [
-    {
-      "id": "faith-righteousness",
-      "question": "¿Crees que Dios puede cumplir promesas que parecen imposibles?",
-      "category": "fe",
-      "hints": [
-        "Confianza",
-        "Imposibles",
-        "Esperanza"
-      ]
-    },
-    {
-      "id": "ask-sign",
-      "question": "¿Te atreves a pedirle a Dios señales de confirmación con un corazón sincero?",
-      "category": "oración",
-      "hints": [
-        "Transparencia",
-        "Paciencia",
-        "Fe humilde"
-      ]
-    },
-    {
-      "id": "waiting-process",
-      "question": "¿Cómo respondes al saber que la promesa puede incluir procesos largos?",
-      "category": "perseverancia",
-      "hints": [
-        "Tiempo",
-        "Preparación",
-        "Confianza"
-      ]
-    },
-    {
-      "id": "covenant-security",
-      "question": "¿Descansas en que el pacto depende más de Dios que de tus méritos?",
-      "category": "gracia",
-      "hints": [
-        "Iniciativa divina",
-        "Seguridad",
-        "Descanso"
-      ]
-    }
-  ],
-  "trivia": [
-    {
-      "question": "¿Quién era el heredero según Abram antes de la promesa?",
-      "options": [
-        "Lot",
-        "Eliezer de Damasco",
-        "Ismael"
-      ],
-      "correct": 1,
-      "explanation": "Abram pensaba dejar la herencia a Eliezer, su mayordomo."
-    },
-    {
-      "question": "¿Qué animal no partió Abram por la mitad en el pacto?",
-      "options": [
-        "La becerra",
-        "El carnero",
-        "Las aves"
-      ],
-      "correct": 2,
-      "explanation": "Las aves no fueron partidas."
-    },
-    {
-      "question": "¿Cuánto tiempo dijo Dios que la descendencia de Abram sería afligida?",
-      "options": [
-        "70 años",
-        "400 años",
-        "490 años"
-      ],
-      "correct": 1,
-      "explanation": "Serían afligidos durante 400 años."
-    },
-    {
-      "question": "¿Qué pasó entre los animales despedazados?",
-      "options": [
-        "Abram caminó",
-        "Un horno humeante y una antorcha de fuego",
-        "Un ángel"
-      ],
-      "correct": 1,
-      "explanation": "Un horno humeante y una antorcha de fuego, símbolos de Dios, pasaron por medio."
-    }
-  ],
-  "comparison": {
-    "title": "Incertidumbre vs certeza del pacto",
-    "before": {
-      "title": "Corazón inquieto",
-      "description": "Abram teme carecer de heredero y seguridad.",
-      "elements": [
-        "Temor",
-        "Duda",
-        "Preguntas"
-      ],
-      "verse": "Señor Jehová, ¿qué me darás?",
-      "reference": "Génesis 15:2"
-    },
-    "after": {
-      "title": "Fe fortalecida",
-      "description": "Abram cree y recibe una promesa sellada por Dios mismo.",
-      "elements": [
-        "Justicia por fe",
-        "Pacto ratificado",
-        "Profecía clara"
-      ],
-      "verse": "En aquel día hizo Jehová un pacto con Abram.",
-      "reference": "Génesis 15:18"
+    "schema": {
+      "@type": "Article",
+      "headline": "Génesis 15: Pacto con Abram",
+      "description": "Estudio interactivo sobre la justificación por fe, el pacto divino y la promesa de heredero",
+      "keywords": "Génesis 15, pacto, justicia por fe, Abram, promesa, heredero"
     }
   },
-  "memorizeVerse": {
-    "text": "Y creyó a Jehová, y le fue contado por justicia.",
-    "reference": "Génesis 15:6",
-    "theme": "Justificación por la fe"
+  "source": {
+    "book": "Génesis",
+    "chapter": 15,
+    "verses": "1-21",
+    "version": "RVR1960",
+    "reference": "Génesis 15:1-21"
   },
-  "mainTeaching": "Dios asegura sus promesas por medio de un pacto gracioso y responde a la fe con justicia.",
-  "practicalApplication": [
-    "Confía en que Dios cumple lo que promete aun cuando parezca imposible.",
-    "Presenta tus preguntas a Dios en oración sincera.",
-    "Prepárate para procesos largos sabiendo que Dios ve el panorama completo.",
-    "Descansa en que tu justicia proviene de la fe, no de tu desempeño."
-  ]
+  "document": {
+    "book": "Génesis",
+    "chapter": 15,
+    "title": "Pacto con Abram",
+    "subtitle": "Justicia por la fe y promesa asegurada",
+    "summary": "Dios reafirma sus promesas a Abram, quien cree y es declarado justo. Se realiza un pacto solemne con animales partidos, y Dios revela el futuro de su descendencia, incluyendo la esclavitud y liberación de Egipto.",
+    "timeline": {
+      "period": "Confirmación de la promesa (c. 2000 a.C.)",
+      "context": "Visión nocturna después del rescate de Lot",
+      "placement": "Fundamento de la fe bíblica y la justificación",
+      "era_tag": "Era Patriarcal",
+      "timeline_points": [
+        {"label": "Promesa de protección", "ref": "Gn 15:1"},
+        {"label": "Promesa de heredero", "ref": "Gn 15:2-4"},
+        {"label": "Fe contada por justicia", "ref": "Gn 15:5-6"},
+        {"label": "Ceremonia del pacto", "ref": "Gn 15:7-17"},
+        {"label": "Profecía de 400 años", "ref": "Gn 15:18-21"}
+      ]
+    },
+    "days": [
+      {
+        "day": 1,
+        "title": "No temas, Abram",
+        "icon": "🛡️",
+        "description": "Dios promete protección y recompensa después de la batalla",
+        "verse": "No temas, Abram; yo soy tu escudo, y tu galardón será sobremanera grande",
+        "reference": "Génesis 15:1",
+        "significance": "La seguridad proviene de la presencia de Dios, no de aliados humanos",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen15/shield.jpg", "alt": "Dios como escudo de Abram"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 2,
+        "title": "Promesa de un heredero",
+        "icon": "👶",
+        "description": "Dios asegura que el heredero será un hijo propio, no Eliezer",
+        "verse": "No te heredará éste, sino un hijo tuyo será el que te heredará",
+        "reference": "Génesis 15:2-4",
+        "significance": "La promesa se vuelve personal y milagrosa",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen15/heir.jpg", "alt": "Promesa de heredero"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 3,
+        "title": "Contar las estrellas",
+        "icon": "⭐",
+        "description": "Abram mira el cielo y cree; su fe le es contada por justicia",
+        "verse": "Mira ahora los cielos, y cuenta las estrellas... Y creyó a Jehová, y le fue contado por justicia",
+        "reference": "Génesis 15:5-6",
+        "significance": "Se establece el principio de justificación por la fe",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen15/stars.jpg", "alt": "Abram contando las estrellas"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 4,
+        "title": "Pregunta por la tierra",
+        "icon": "❓",
+        "description": "Abram pide una señal de que heredará la tierra",
+        "verse": "¿En qué conoceré que la he de heredar?",
+        "reference": "Génesis 15:7-8",
+        "significance": "Dios no reprende la pregunta honesta",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen15/question.jpg", "alt": "Abram pregunta por señal"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 5,
+        "title": "Pacto de los animales partidos",
+        "icon": "🔥",
+        "description": "Abram prepara animales y espanta aves de rapiña; cae un profundo sueño",
+        "verse": "Partió por la mitad... mas no partió las aves",
+        "reference": "Génesis 15:9-12",
+        "significance": "La ceremonia prepara un pacto unilateral de Dios",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen15/covenant.jpg", "alt": "Ceremonia del pacto"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 6,
+        "title": "Futuro revelado",
+        "icon": "🔮",
+        "description": "Dios anuncia 400 años de aflicción en tierra ajena y confirma límites de la tierra",
+        "verse": "En la cuarta generación volverán acá... a tu descendencia he dado esta tierra",
+        "reference": "Génesis 15:13-21",
+        "significance": "La promesa incluye proceso, sufrimiento y victoria final",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen15/prophecy.jpg", "alt": "Profecía del futuro"},
+          "audio": null,
+          "video": null
+        }
+      }
+    ],
+    "interestingFacts": [
+      {
+        "id": "justification-faith",
+        "title": "Primera mención de la justificación",
+        "summary": "\"Le fue contado por justicia\" es la base del evangelio",
+        "explanation": "Pablo y Santiago citan este versículo para explicar la salvación por fe. Es el fundamento teológico del Nuevo Testamento.",
+        "verse": "Y creyó a Jehová, y le fue contado por justicia",
+        "reference": "Génesis 15:6"
+      },
+      {
+        "id": "smoking-pot",
+        "title": "Horno humeante y antorcha",
+        "summary": "Dios pasa entre los animales en forma de fuego y humo",
+        "explanation": "Simboliza la presencia divina y su compromiso unilateral con el pacto. Solo Dios pasa entre los animales, asumiendo toda la responsabilidad.",
+        "verse": "Un horno humeante y una antorcha de fuego pasaron por entre los animales",
+        "reference": "Génesis 15:17"
+      },
+      {
+        "id": "four-hundred-years",
+        "title": "Profecía de 400 años",
+        "summary": "Dios anuncia la esclavitud israelita y su liberación",
+        "explanation": "Preparó a Abram para saber que la promesa incluiría un tiempo de espera prolongado y sufrimiento antes de la bendición.",
+        "verse": "Tu descendencia será extranjera... y la afligirán cuatrocientos años",
+        "reference": "Génesis 15:13"
+      },
+      {
+        "id": "land-borders",
+        "title": "Tierra desde el Nilo al Éufrates",
+        "summary": "Se definen límites amplios para la herencia",
+        "explanation": "El pacto abarca un territorio enorme que prefigura la restauración futura y el reino mesiánico.",
+        "verse": "Desde el río de Egipto hasta el río grande, el río Éufrates",
+        "reference": "Génesis 15:18"
+      }
+    ],
+    "reflectionQuestions": [
+      {
+        "id": "faith-righteousness",
+        "question": "¿Crees que Dios puede cumplir promesas que parecen imposibles?",
+        "category": "personal",
+        "hints": ["Confianza", "Imposibles", "Esperanza"]
+      },
+      {
+        "id": "ask-sign",
+        "question": "¿Te atreves a pedirle a Dios señales de confirmación con un corazón sincero?",
+        "category": "práctica",
+        "hints": ["Transparencia", "Paciencia", "Fe humilde"]
+      },
+      {
+        "id": "waiting-process",
+        "question": "¿Cómo respondes al saber que la promesa puede incluir procesos largos?",
+        "category": "personal",
+        "hints": ["Tiempo", "Preparación", "Confianza"]
+      },
+      {
+        "id": "covenant-security",
+        "question": "¿Descansas en que el pacto depende más de Dios que de tus méritos?",
+        "category": "teológica",
+        "hints": ["Iniciativa divina", "Seguridad", "Descanso"]
+      }
+    ],
+    "trivia": {
+      "difficulty": "medio",
+      "passing_score": 3,
+      "items": [
+        {
+          "question": "¿Quién era el heredero según Abram antes de la promesa?",
+          "options": ["Lot", "Eliezer de Damasco", "Ismael"],
+          "correct": 1,
+          "explanation": "Abram pensaba dejar la herencia a Eliezer, su mayordomo."
+        },
+        {
+          "question": "¿Qué animal no partió Abram por la mitad en el pacto?",
+          "options": ["La becerra", "El carnero", "Las aves"],
+          "correct": 2,
+          "explanation": "Las aves no fueron partidas."
+        },
+        {
+          "question": "¿Cuánto tiempo dijo Dios que la descendencia de Abram sería afligida?",
+          "options": ["70 años", "400 años", "490 años"],
+          "correct": 1,
+          "explanation": "Serían afligidos durante 400 años."
+        },
+        {
+          "question": "¿Qué pasó entre los animales despedazados?",
+          "options": ["Abram caminó", "Un horno humeante y una antorcha de fuego", "Un ángel"],
+          "correct": 1,
+          "explanation": "Un horno humeante y una antorcha de fuego, símbolos de Dios, pasaron por medio."
+        }
+      ]
+    },
+    "comparison": {
+      "title": "Incertidumbre vs certeza del pacto",
+      "before": {
+        "title": "Corazón inquieto",
+        "description": "Abram teme carecer de heredero y seguridad",
+        "elements": ["Temor", "Duda", "Preguntas"],
+        "verse": "Señor Jehová, ¿qué me darás?",
+        "reference": "Génesis 15:2"
+      },
+      "after": {
+        "title": "Fe fortalecida",
+        "description": "Abram cree y recibe una promesa sellada por Dios mismo",
+        "elements": ["Justicia por fe", "Pacto ratificado", "Profecía clara"],
+        "verse": "En aquel día hizo Jehová un pacto con Abram",
+        "reference": "Génesis 15:18"
+      }
+    },
+    "memorizeVerse": {
+      "text": "Y creyó a Jehová, y le fue contado por justicia.",
+      "reference": "Génesis 15:6",
+      "theme": "Justificación por la fe",
+      "audio_url": null
+    },
+    "mainTeaching": "Dios asegura sus promesas por medio de un pacto gracioso y responde a la fe con justicia. La justificación no viene por obras sino por creer en las promesas divinas. El pacto depende enteramente de la fidelidad de Dios, no de la capacidad humana.",
+    "practicalApplication": [
+      "Confía en que Dios cumple lo que promete aun cuando parezca imposible",
+      "Presenta tus preguntas a Dios en oración sincera sin temor a ofenderlo",
+      "Prepárate para procesos largos sabiendo que Dios ve el panorama completo",
+      "Descansa en que tu justicia proviene de la fe, no de tu desempeño",
+      "Busca confirmación divina cuando tengas dudas honestas",
+      "Confía en la fidelidad de Dios durante tiempos de espera prolongados"
+    ],
+    "extendedContent": {
+      "keyThemes": [
+        {"id": "gen15-theme-justificacion", "title": "Justificación por fe", "summary": "La fe en las promesas de Dios es contada como justicia, base de toda salvación."},
+        {"id": "gen15-theme-pacto", "title": "Pacto divino", "summary": "Dios asume unilateralmente la responsabilidad del pacto, garantizando su cumplimiento."},
+        {"id": "gen15-theme-profecia", "title": "Revelación profética", "summary": "Dios revela el futuro para fortalecer la fe y preparar para pruebas venideras."}
+      ],
+      "characterProfiles": [
+        {"name": "Abram", "role": "Creyente justificado", "description": "Experimenta dudas honestas pero responde con fe a las promesas divinas.", "verses": "Génesis 15:1-6"},
+        {"name": "Dios", "role": "Pactante fiel", "description": "Inicia, garantiza y sella el pacto asumiendo toda la responsabilidad de cumplirlo.", "verses": "Génesis 15:7-21"},
+        {"name": "Eliezer", "role": "Mayordomo leal", "description": "Representa la solución humana antes de la intervención milagrosa divina.", "verses": "Génesis 15:2"}
+      ],
+      "geography": [
+        {"place": "Río de Egipto", "summary": "Límite sur de la tierra prometida, desde el arroyo de Egipto.", "presentDay": "Wadi el-Arish", "verses": "Génesis 15:18"},
+        {"place": "Río Éufrates", "summary": "Límite norte de la herencia prometida a la descendencia de Abram.", "presentDay": "Irak/Siria", "verses": "Génesis 15:18"}
+      ],
+      "gospelConnections": [
+        {"title": "Justificación por fe", "description": "Pablo usa Génesis 15:6 como base para explicar la salvación por fe en Cristo.", "reference": "Romanos 4:1-25"},
+        {"title": "Nuevo Pacto", "description": "El pacto unilateral con Abram prefigura el nuevo pacto en Cristo.", "reference": "Hebreos 8:6-13"}
+      ],
+      "outline": [
+        {"section": "1", "title": "Promesa de protección", "verses": "15:1", "summary": "Dios se revela como escudo y galardón de Abram."},
+        {"section": "2", "title": "Promesa de heredero", "verses": "15:2-6", "summary": "Fe de Abram contada por justicia ante la promesa de descendencia."},
+        {"section": "3", "title": "Ceremonia del pacto", "verses": "15:7-17", "summary": "Ritual solemne donde solo Dios pasa entre los animales."},
+        {"section": "4", "title": "Revelación profética", "verses": "15:18-21", "summary": "Predicción de 400 años y límites de la tierra prometida."}
+      ],
+      "studyInsights": [
+        "La justificación por fe precede a la ley mosaica por 430 años",
+        "El pacto unilateral muestra que depende solo de la fidelidad divina",
+        "La profecía de 400 años prepara para el cumplimiento futuro en Egipto",
+        "Las preguntas honestas de Abram no ofenden a Dios sino que reciben respuesta"
+      ],
+      "prayerFocus": "Padre fiel, aumenta mi fe para creer en tus promesas aunque parezcan imposibles. Ayúdame a descansar en que mi justicia viene de ti, no de mis obras. Fortalece mi confianza en tu fidelidad durante tiempos de espera. Como sellaste tu pacto con Abram, sella mi corazón con la seguridad de tu amor eterno. Amén."
+    }
+  },
+  "ui": {
+    "theme": "light",
+    "color": "#4A5568",
+    "icon": "⭐",
+    "layout": "article",
+    "navigation": {
+      "prev": {"slug": "genesis-14-rescate-lot-melquisedec", "title": "Génesis 14"},
+      "next": {"slug": "genesis-16-agar-ismael", "title": "Génesis 16"}
+    },
+    "components": {
+      "timeline": true,
+      "trivia": true,
+      "comparison": true,
+      "memorization": true
+    }
+  },
+  "relations": {
+    "relatedChapters": [
+      {"slug": "genesis-12-llamado-abram", "title": "Llamado de Abram", "reason": "Promesas iniciales"},
+      {"slug": "genesis-17-circuncision-pacto", "title": "Circuncisión del pacto", "reason": "Renovación del pacto"},
+      {"slug": "genesis-22-sacrificio-isaac", "title": "Sacrificio de Isaac", "reason": "Prueba de fe"}
+    ],
+    "themes": ["justificación por fe", "pacto divino", "promesas", "profecía"],
+    "characters": ["Abram", "Eliezer", "Dios"]
+  },
+  "taxonomy": {
+    "testament": "Antiguo",
+    "book": "Génesis",
+    "section": "Historia Primitiva",
+    "category": "Narrativa Patriarcal",
+    "period": "Era Patriarcal",
+    "genre": "Narrativa teológica",
+    "themes": ["fe", "pacto", "justificación", "promesa", "profecía"],
+    "characters": ["Abram", "Eliezer"],
+    "places": ["Tierra prometida", "Río de Egipto", "Río Éufrates"],
+    "timeline": "c. 2000 a.C."
+  },
+  "index": {
+    "searchTerms": ["justificación", "fe", "pacto", "heredero", "estrellas", "400 años", "horno humeante", "Eliezer"],
+    "keyVerses": ["Génesis 15:6", "Génesis 15:13", "Génesis 15:17-18"],
+    "mainConcepts": ["justificación por fe", "pacto unilateral", "promesa de heredero", "profecía mesiánica"]
+  },
+  "accessibility": {
+    "lang_reading_level": "B2",
+    "has_alt_text": true,
+    "captions_available": false
+  },
+  "analytics": {
+    "estimated_read_time_min": 10,
+    "word_count": 950,
+    "engagement_goal": "memorization_completed"
+  },
+  "contributors": [
+    {"name": "Equipo Editorial", "role": "Edición", "url": null},
+    {"name": "Revisor Teológico", "role": "Revisión", "url": null}
+  ],
+  "moderation": {
+    "doctrinal_position": "histórico-gramatical",
+    "notes": "Énfasis en la justificación por fe como fundamento soteriológico"
+  }
 }

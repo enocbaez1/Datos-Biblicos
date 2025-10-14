@@ -1,223 +1,361 @@
 {
-  "book": "Génesis",
-  "chapter": 19,
-  "title": "Destrucción de Sodoma y Gomorra",
-  "subtitle": "Salvación de Lot y consecuencias de las decisiones",
-  "summary": "Dos ángeles visitan a Lot en Sodoma, protegen su casa de una multitud perversa y lo instan a huir. Dios destruye las ciudades con fuego y azufre; la esposa de Lot se convierte en estatua de sal, y sus hijas cometen un acto vergonzoso que da origen a Moab y Amón.",
-  "timeline": {
-    "period": "Juicio sobre el Valle del Jordán",
-    "context": "Rescate con urgencia",
-    "placement": "Advertencia sobre la corrupción moral"
+  "meta": {
+    "id": "genesis-19-destruccion-sodoma",
+    "title": "Génesis 19 — Destrucción de Sodoma y Gomorra",
+    "subtitle": "Salvación de Lot y consecuencias de las decisiones",
+    "slug": "genesis-19-destruccion-sodoma",
+    "keywords": ["Génesis 19", "Sodoma", "Gomorra", "Lot", "juicio", "ángeles", "destrucción", "mujer de sal"],
+    "author": "Equipo Editorial",
+    "created": "2024-01-19T00:00:00Z",
+    "modified": "2024-01-19T00:00:00Z",
+    "version": 1,
+    "status": "published",
+    "type": "chapter",
+    "language": "es"
   },
-  "days": [
-    {
-      "day": 1,
-      "title": "Ángeles hospedados",
-      "icon": "!!",
-      "description": "Lot recibe a los ángeles, insiste en alojarlos en su casa y prepara banquete.",
-      "verse": "Llegaron los dos ángeles a Sodoma a la caída de la tarde; y Lot estaba sentado a la puerta.",
-      "reference": "Génesis 19:1-3",
-      "significance": "La hospitalidad de Lot contrasta con la violencia de la ciudad."
+  "seo": {
+    "title": "Génesis 19 — Destrucción de Sodoma y Gomorra | Estudio bíblico",
+    "description": "Dios juzga Sodoma con fuego del cielo. Lot es salvado pero su esposa se convierte en sal. Estudio sobre juicio divino y misericordia.",
+    "canonical": "https://tusitio.com/genesis/19",
+    "openGraph": {
+      "title": "Génesis 19 — Destrucción de Sodoma y Gomorra",
+      "description": "Salvación de Lot y consecuencias de las decisiones. Estudio sobre juicio divino, obediencia urgente y legado generacional.",
+      "image": "https://tusitio.com/assets/og/genesis-19.png",
+      "type": "article"
     },
-    {
-      "day": 2,
-      "title": "Multitud violenta",
-      "icon": "XX",
-      "description": "Los hombres de Sodoma rodean la casa y buscan abusar de los visitantes; los ángeles hieren al pueblo con ceguera.",
-      "verse": "Mas los varones extendieron la mano... y a los que estaban a la puerta hirieron con ceguera.",
-      "reference": "Génesis 19:4-11",
-      "significance": "La maldad llega al punto de no retorno."
-    },
-    {
-      "day": 3,
-      "title": "Advertencia urgente",
-      "icon": "##",
-      "description": "Los ángeles ordenan a Lot reunir a su familia y salir; él se demora y es tomado de la mano.",
-      "verse": "Levántate, toma tu mujer y tus dos hijas... mas él se deteniéndose, los varones lo asieron de la mano.",
-      "reference": "Génesis 19:12-16",
-      "significance": "La misericordia de Dios actúa incluso cuando dudamos."
-    },
-    {
-      "day": 4,
-      "title": "Huida a Zoar y juicio",
-      "icon": "~~",
-      "description": "Lot corre a la pequeña ciudad de Zoar; Dios hace llover azufre y fuego sobre Sodoma y Gomorra.",
-      "verse": "Jehová hizo llover sobre Sodoma y sobre Gomorra azufre y fuego.",
-      "reference": "Génesis 19:17-25",
-      "significance": "Un juicio ejemplar cae sobre la inmoralidad extrema."
-    },
-    {
-      "day": 5,
-      "title": "Mujer de Lot",
-      "icon": "::",
-      "description": "La esposa de Lot mira atrás y se convierte en estatua de sal.",
-      "verse": "Entonces la mujer de Lot miró atrás, a espaldas de él, y se volvió estatua de sal.",
-      "reference": "Génesis 19:26",
-      "significance": "Mirar atrás simboliza nostalgia por lo que Dios condena."
-    },
-    {
-      "day": 6,
-      "title": "Origen de Moab y Amón",
-      "icon": "??",
-      "description": "Las hijas emborrachan a Lot y tienen hijos: Moab y Ben-ammi.",
-      "verse": "La mayor dio a luz un hijo, y llamó su nombre Moab... el menor, Ben-ammi.",
-      "reference": "Génesis 19:30-38",
-      "significance": "Decisiones desesperadas generan consecuencias duraderas."
-    }
-  ],
-  "interestingFacts": [
-    {
-      "id": "lot-sitting",
-      "title": "Lot en la puerta",
-      "summary": "Sentarse en la puerta implicaba posición de liderazgo.",
-      "explanation": "A pesar de ser justo, Lot estaba integrado en una cultura corrupta.",
-      "verse": "Lot estaba sentado a la puerta de Sodoma.",
-      "reference": "Génesis 19:1"
-    },
-    {
-      "id": "zoar-meaning",
-      "title": "Zoar significa \"pequeña\"",
-      "summary": "Lot pide refugio en una ciudad pequeña.",
-      "explanation": "La gracia de Dios se adapta a su debilidad, permitiéndole salvarse allí.",
-      "verse": "¿No es ella pequeña? y salvó mi alma por tu misericordia.",
-      "reference": "Génesis 19:20-21"
-    },
-    {
-      "id": "pillar-of-salt",
-      "title": "Estatua de sal",
-      "summary": "La esposa de Lot es un memorial.",
-      "explanation": "Jesús la menciona como advertencia: \"Acordaos de la mujer de Lot\" (Lucas 17:32).",
-      "verse": "Se volvió estatua de sal.",
-      "reference": "Génesis 19:26"
-    },
-    {
-      "id": "moab-ammon",
-      "title": "Moab y Amón",
-      "summary": "Descendientes de la relación incestuosa de las hijas de Lot.",
-      "explanation": "Estos pueblos serán adversarios posteriores de Israel.",
-      "verse": "Y la menor también dio a luz un hijo... y llamó su nombre Ben-ammi.",
-      "reference": "Génesis 19:37-38"
-    }
-  ],
-  "reflectionQuestions": [
-    {
-      "id": "in-world",
-      "question": "¿Cómo puedes vivir en una cultura corrupta sin perder tu identidad espiritual?",
-      "category": "santidad",
-      "hints": [
-        "Vida justa",
-        "Influencia",
-        "Límites"
-      ]
-    },
-    {
-      "id": "lingering",
-      "question": "¿En qué áreas te cuesta soltar lo que Dios quiere juzgar?",
-      "category": "arrepentimiento",
-      "hints": [
-        "Apegos",
-        "Costumbres",
-        "Relaciones tóxicas"
-      ]
-    },
-    {
-      "id": "urgent-obedience",
-      "question": "¿Qué urgencias espirituales deberías atender hoy?",
-      "category": "obediencia",
-      "hints": [
-        "Advertencias",
-        "Decisión",
-        "Prioridades"
-      ]
-    },
-    {
-      "id": "legacy-choices",
-      "question": "¿Qué impacto tendrán tus decisiones en las generaciones futuras?",
-      "category": "familia",
-      "hints": [
-        "Herencia",
-        "Ejemplo",
-        "Consecuencias"
-      ]
-    }
-  ],
-  "trivia": [
-    {
-      "question": "¿Con qué hirieron los ángeles a los hombres de Sodoma?",
-      "options": [
-        "Con fuego",
-        "Con ceguera",
-        "Con enfermedad"
-      ],
-      "correct": 1,
-      "explanation": "Los hirieron con ceguera (Génesis 19:11)."
-    },
-    {
-      "question": "¿A qué ciudad pequeña pidió Lot huir?",
-      "options": [
-        "Zoar",
-        "Betel",
-        "Hebrón"
-      ],
-      "correct": 0,
-      "explanation": "Lot pidió refugio en Zoar."
-    },
-    {
-      "question": "¿Qué le sucedió a la mujer de Lot?",
-      "options": [
-        "Se perdió en el desierto",
-        "Se convirtió en estatua de sal",
-        "Fue rescatada por los ángeles"
-      ],
-      "correct": 1,
-      "explanation": "Miró atrás y se volvió estatua de sal."
-    },
-    {
-      "question": "¿Cómo se llaman los hijos de las hijas de Lot?",
-      "options": [
-        "Edom y Amalec",
-        "Moab y Ben-ammi",
-        "Esau y Jacob"
-      ],
-      "correct": 1,
-      "explanation": "Moab y Ben-ammi son los ancestros de moabitas y amonitas."
-    }
-  ],
-  "comparison": {
-    "title": "Advertencia ignorada vs obediencia urgente",
-    "before": {
-      "title": "Demora peligrosa",
-      "description": "Lot tarda en salir y su familia vacila.",
-      "elements": [
-        "Retraso",
-        "Apegos",
-        "Riesgo"
-      ],
-      "verse": "Mas él se deteniéndose, los varones lo asieron de la mano.",
-      "reference": "Génesis 19:16"
-    },
-    "after": {
-      "title": "Salvación por gracia",
-      "description": "Dios saca a Lot y destruye la ciudad, mostrando misericordia y justicia.",
-      "elements": [
-        "Zoar",
-        "Fuego del cielo",
-        "Memorial de sal"
-      ],
-      "verse": "Jehová, pues, destruyó las ciudades de la llanura.",
-      "reference": "Génesis 19:24-25"
+    "schema": {
+      "@type": "Article",
+      "headline": "Génesis 19: Destrucción de Sodoma y Gomorra",
+      "description": "Estudio interactivo sobre el juicio divino, la salvación de Lot y las consecuencias del pecado",
+      "keywords": "Génesis 19, Sodoma, Gomorra, juicio, Lot, ángeles, destrucción"
     }
   },
-  "memorizeVerse": {
-    "text": "Escapa por tu vida; no mires tras ti, ni pares en toda esta llanura; escapa al monte, no sea que perezcas.",
-    "reference": "Génesis 19:17",
-    "theme": "Urgencia espiritual"
+  "source": {
+    "book": "Génesis",
+    "chapter": 19,
+    "verses": "1-38",
+    "version": "RVR1960",
+    "reference": "Génesis 19:1-38"
   },
-  "mainTeaching": "Dios juzga la maldad desenfrenada, pero rescata con misericordia a quienes responden, llamándonos a obedecer sin mirar atrás.",
-  "practicalApplication": [
-    "Mantente firme en santidad aun cuando tu entorno sea hostil.",
-    "Obedece de inmediato cuando Dios te llama a salir de situaciones peligrosas.",
-    "No añores lo que Dios está juzgando; avanza hacia la libertad.",
-    "Toma decisiones que construyan un legado santo para las generaciones futuras."
-  ]
+  "document": {
+    "book": "Génesis",
+    "chapter": 19,
+    "title": "Destrucción de Sodoma y Gomorra",
+    "subtitle": "Salvación de Lot y consecuencias de las decisiones",
+    "summary": "Dos ángeles visitan a Lot en Sodoma, protegen su casa de una multitud perversa y lo instan a huir. Dios destruye las ciudades con fuego y azufre; la esposa de Lot se convierte en estatua de sal, y sus hijas cometen un acto vergonzoso que da origen a Moab y Amón.",
+    "timeline": {
+      "period": "Juicio sobre el Valle del Jordán (c. 1984 a.C.)",
+      "context": "Rescate urgente antes de la destrucción",
+      "placement": "Advertencia sobre la corrupción moral extrema",
+      "era_tag": "Era Patriarcal",
+      "timeline_points": [
+        {"label": "Ángeles en Sodoma", "ref": "Gn 19:1-3"},
+        {"label": "Violencia de la multitud", "ref": "Gn 19:4-11"},
+        {"label": "Advertencia urgente", "ref": "Gn 19:12-16"},
+        {"label": "Destrucción y huida", "ref": "Gn 19:17-26"},
+        {"label": "Origen de Moab y Amón", "ref": "Gn 19:30-38"}
+      ]
+    },
+    "days": [
+      {
+        "day": 1,
+        "title": "Ángeles hospedados",
+        "icon": "👼",
+        "description": "Lot recibe a los ángeles, insiste en alojarlos en su casa y prepara banquete",
+        "verse": "Llegaron los dos ángeles a Sodoma a la caída de la tarde; y Lot estaba sentado a la puerta",
+        "reference": "Génesis 19:1-3",
+        "significance": "La hospitalidad de Lot contrasta con la violencia de la ciudad",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen19/angels.jpg", "alt": "Ángeles llegan a Sodoma"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 2,
+        "title": "Multitud violenta",
+        "icon": "👥",
+        "description": "Los hombres de Sodoma rodean la casa y buscan abusar de los visitantes; los ángeles hieren al pueblo con ceguera",
+        "verse": "Mas los varones extendieron la mano... y a los que estaban a la puerta hirieron con ceguera",
+        "reference": "Génesis 19:4-11",
+        "significance": "La maldad llega al punto de no retorno",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen19/violence.jpg", "alt": "Violencia en Sodoma"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 3,
+        "title": "Advertencia urgente",
+        "icon": "⚠️",
+        "description": "Los ángeles ordenan a Lot reunir a su familia y salir; él se demora y es tomado de la mano",
+        "verse": "Levántate, toma tu mujer y tus dos hijas... mas él se deteniéndose, los varones lo asieron de la mano",
+        "reference": "Génesis 19:12-16",
+        "significance": "La misericordia de Dios actúa incluso cuando dudamos",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen19/warning.jpg", "alt": "Advertencia urgente a Lot"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 4,
+        "title": "Huida a Zoar y juicio",
+        "icon": "🔥",
+        "description": "Lot corre a la pequeña ciudad de Zoar; Dios hace llover azufre y fuego sobre Sodoma y Gomorra",
+        "verse": "Jehová hizo llover sobre Sodoma y sobre Gomorra azufre y fuego",
+        "reference": "Génesis 19:17-25",
+        "significance": "Un juicio ejemplar cae sobre la inmoralidad extrema",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen19/destruction.jpg", "alt": "Destrucción de Sodoma y Gomorra"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 5,
+        "title": "Mujer de Lot",
+        "icon": "🧂",
+        "description": "La esposa de Lot mira atrás y se convierte en estatua de sal",
+        "verse": "Entonces la mujer de Lot miró atrás, a espaldas de él, y se volvió estatua de sal",
+        "reference": "Génesis 19:26",
+        "significance": "Mirar atrás simboliza nostalgia por lo que Dios condena",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen19/salt.jpg", "alt": "Mujer de Lot convertida en sal"},
+          "audio": null,
+          "video": null
+        }
+      },
+      {
+        "day": 6,
+        "title": "Origen de Moab y Amón",
+        "icon": "👶",
+        "description": "Las hijas emborrachan a Lot y tienen hijos: Moab y Ben-ammi",
+        "verse": "La mayor dio a luz un hijo, y llamó su nombre Moab... el menor, Ben-ammi",
+        "reference": "Génesis 19:30-38",
+        "significance": "Decisiones desesperadas generan consecuencias duraderas",
+        "media": {
+          "image": {"url": "https://tusitio.com/img/gen19/descendants.jpg", "alt": "Origen de Moab y Amón"},
+          "audio": null,
+          "video": null
+        }
+      }
+    ],
+    "interestingFacts": [
+      {
+        "id": "lot-sitting",
+        "title": "Lot en la puerta",
+        "summary": "Sentarse en la puerta implicaba posición de liderazgo",
+        "explanation": "A pesar de ser justo, Lot estaba integrado en una cultura corrupta, ocupando posición de autoridad en la ciudad.",
+        "verse": "Lot estaba sentado a la puerta de Sodoma",
+        "reference": "Génesis 19:1"
+      },
+      {
+        "id": "zoar-meaning",
+        "title": "Zoar significa \"pequeña\"",
+        "summary": "Lot pide refugio en una ciudad pequeña",
+        "explanation": "La gracia de Dios se adapta a su debilidad, permitiéndole salvarse allí cuando no puede llegar al monte.",
+        "verse": "¿No es ella pequeña? y salvó mi alma por tu misericordia",
+        "reference": "Génesis 19:20-21"
+      },
+      {
+        "id": "pillar-of-salt",
+        "title": "Estatua de sal",
+        "summary": "La esposa de Lot es un memorial",
+        "explanation": "Jesús la menciona como advertencia: \"Acordaos de la mujer de Lot\" (Lucas 17:32), simbolizando el peligro de mirar atrás.",
+        "verse": "Se volvió estatua de sal",
+        "reference": "Génesis 19:26"
+      },
+      {
+        "id": "moab-ammon",
+        "title": "Moab y Amón",
+        "summary": "Descendientes de la relación incestuosa de las hijas de Lot",
+        "explanation": "Estos pueblos serán adversarios posteriores de Israel, mostrando las consecuencias generacionales de decisiones desesperadas.",
+        "verse": "Y la menor también dio a luz un hijo... y llamó su nombre Ben-ammi",
+        "reference": "Génesis 19:37-38"
+      }
+    ],
+    "reflectionQuestions": [
+      {
+        "id": "in-world",
+        "question": "¿Cómo puedes vivir en una cultura corrupta sin perder tu identidad espiritual?",
+        "category": "personal",
+        "hints": ["Vida justa", "Influencia", "Límites"]
+      },
+      {
+        "id": "lingering",
+        "question": "¿En qué áreas te cuesta soltar lo que Dios quiere juzgar?",
+        "category": "personal",
+        "hints": ["Apegos", "Costumbres", "Relaciones tóxicas"]
+      },
+      {
+        "id": "urgent-obedience",
+        "question": "¿Qué urgencias espirituales deberías atender hoy?",
+        "category": "práctica",
+        "hints": ["Advertencias", "Decisión", "Prioridades"]
+      },
+      {
+        "id": "legacy-choices",
+        "question": "¿Qué impacto tendrán tus decisiones en las generaciones futuras?",
+        "category": "práctica",
+        "hints": ["Herencia", "Ejemplo", "Consecuencias"]
+      }
+    ],
+    "trivia": {
+      "difficulty": "medio",
+      "passing_score": 3,
+      "items": [
+        {
+          "question": "¿Con qué hirieron los ángeles a los hombres de Sodoma?",
+          "options": ["Con fuego", "Con ceguera", "Con enfermedad"],
+          "correct": 1,
+          "explanation": "Los hirieron con ceguera (Génesis 19:11)."
+        },
+        {
+          "question": "¿A qué ciudad pequeña pidió Lot huir?",
+          "options": ["Zoar", "Betel", "Hebrón"],
+          "correct": 0,
+          "explanation": "Lot pidió refugio en Zoar."
+        },
+        {
+          "question": "¿Qué le sucedió a la mujer de Lot?",
+          "options": ["Se perdió en el desierto", "Se convirtió en estatua de sal", "Fue rescatada por los ángeles"],
+          "correct": 1,
+          "explanation": "Miró atrás y se volvió estatua de sal."
+        },
+        {
+          "question": "¿Cómo se llaman los hijos de las hijas de Lot?",
+          "options": ["Edom y Amalec", "Moab y Ben-ammi", "Esau y Jacob"],
+          "correct": 1,
+          "explanation": "Moab y Ben-ammi son los ancestros de moabitas y amonitas."
+        }
+      ]
+    },
+    "comparison": {
+      "title": "Advertencia ignorada vs obediencia urgente",
+      "before": {
+        "title": "Demora peligrosa",
+        "description": "Lot tarda en salir y su familia vacila",
+        "elements": ["Retraso", "Apegos", "Riesgo"],
+        "verse": "Mas él se deteniéndose, los varones lo asieron de la mano",
+        "reference": "Génesis 19:16"
+      },
+      "after": {
+        "title": "Salvación por gracia",
+        "description": "Dios saca a Lot y destruye la ciudad, mostrando misericordia y justicia",
+        "elements": ["Zoar", "Fuego del cielo", "Memorial de sal"],
+        "verse": "Jehová, pues, destruyó las ciudades de la llanura",
+        "reference": "Génesis 19:24-25"
+      }
+    },
+    "memorizeVerse": {
+      "text": "Escapa por tu vida; no mires tras ti, ni pares en toda esta llanura; escapa al monte, no sea que perezcas.",
+      "reference": "Génesis 19:17",
+      "theme": "Urgencia espiritual",
+      "audio_url": null
+    },
+    "mainTeaching": "Dios juzga la maldad desenfrenada con justicia perfecta, pero rescata con misericordia a quienes responden a sus advertencias. El juicio divino es real y requiere obediencia urgente sin mirar atrás hacia lo que Dios condena. Las decisiones desesperadas en crisis pueden generar consecuencias generacionales duraderas.",
+    "practicalApplication": [
+      "Mantente firme en santidad aun cuando tu entorno sea hostil",
+      "Obedece de inmediato cuando Dios te llama a salir de situaciones peligrosas",
+      "No añores lo que Dios está juzgando; avanza hacia la libertad",
+      "Toma decisiones que construyan un legado santo para las generaciones futuras",
+      "Practica hospitalidad sin comprometer tus valores",
+      "Reconoce que el juicio divino es real y busca refugio en la misericordia de Dios"
+    ],
+    "extendedContent": {
+      "keyThemes": [
+        {"id": "gen19-theme-juicio", "title": "Juicio divino", "summary": "Dios juzga la maldad extrema con justicia perfecta pero ofrece escape a los justos."},
+        {"id": "gen19-theme-urgencia", "title": "Obediencia urgente", "summary": "Las advertencias divinas requieren respuesta inmediata sin demora ni mirada atrás."},
+        {"id": "gen19-theme-consecuencias", "title": "Consecuencias generacionales", "summary": "Las decisiones desesperadas crean patrones que afectan a las generaciones futuras."}
+      ],
+      "characterProfiles": [
+        {"name": "Lot", "role": "Justo en tierra corrupta", "description": "Vive entre los impíos pero mantiene cierta rectitud, aunque se ve influenciado por el ambiente.", "verses": "Génesis 19:1-16"},
+        {"name": "Ángeles", "role": "Ejecutores del juicio", "description": "Mensajeros divinos que protegen a Lot y ejecutan la destrucción de las ciudades.", "verses": "Génesis 19:1-25"},
+        {"name": "Mujer de Lot", "role": "Memorial de desobediencia", "description": "Su mirada atrás simboliza apego al mundo que Dios condena.", "verses": "Génesis 19:17, 26"}
+      ],
+      "geography": [
+        {"place": "Sodoma", "summary": "Ciudad de extrema corrupción moral destruida por fuego divino.", "presentDay": "Posiblemente bajo el Mar Muerto", "verses": "Génesis 19:1-25"},
+        {"place": "Zoar", "summary": "Ciudad pequeña donde Lot encuentra refugio por misericordia divina.", "presentDay": "Región del Mar Muerto", "verses": "Génesis 19:20-23"}
+      ],
+      "gospelConnections": [
+        {"title": "Juicio final", "description": "La destrucción de Sodoma prefigura el juicio final sobre el mundo.", "reference": "2 Pedro 2:6-9"},
+        {"title": "No mirar atrás", "description": "Jesús usa a la mujer de Lot como ejemplo de no volver atrás.", "reference": "Lucas 17:32"}
+      ],
+      "outline": [
+        {"section": "1", "title": "Hospitalidad en Sodoma", "verses": "19:1-3", "summary": "Lot recibe a los ángeles con hospitalidad."},
+        {"section": "2", "title": "Violencia de la ciudad", "verses": "19:4-11", "summary": "La perversidad de Sodoma se manifiesta plenamente."},
+        {"section": "3", "title": "Escape urgente", "verses": "19:12-26", "summary": "Dios saca a Lot antes de destruir las ciudades."},
+        {"section": "4", "title": "Consecuencias familiares", "verses": "19:30-38", "summary": "Las decisiones desesperadas de las hijas de Lot."}
+      ],
+      "studyInsights": [
+        "La hospitalidad de Lot muestra influencia positiva de Abraham",
+        "El juicio divino es tanto justo como misericordioso",
+        "Mirar atrás representa apego al mundo condenado",
+        "Las decisiones en crisis revelan el verdadero carácter"
+      ],
+      "prayerFocus": "Señor, ayúdame a vivir en santidad aun en ambientes hostiles. Dame sabiduría para obedecer tus advertencias sin demora. Libérame de todo apego al mundo que tú condenas. Que mis decisiones construyan un legado santo para mis descendientes. Amén."
+    }
+  },
+  "ui": {
+    "theme": "light",
+    "color": "#FF6B6B",
+    "icon": "🔥",
+    "layout": "article",
+    "navigation": {
+      "prev": {"slug": "genesis-18-visitantes-abraham", "title": "Génesis 18"},
+      "next": {"slug": "genesis-20-abraham-abimelec", "title": "Génesis 20"}
+    },
+    "components": {
+      "timeline": true,
+      "trivia": true,
+      "comparison": true,
+      "memorization": true
+    }
+  },
+  "relations": {
+    "relatedChapters": [
+      {"slug": "genesis-18-visitantes-abraham", "title": "Visitantes de Abraham", "reason": "Intercesión por Sodoma"},
+      {"slug": "genesis-13-separacion-lot", "title": "Separación de Lot", "reason": "Elección de Sodoma"},
+      {"slug": "genesis-14-rescate-lot-melquisedec", "title": "Rescate de Lot", "reason": "Historia de Lot"}
+    ],
+    "themes": ["juicio divino", "obediencia urgente", "santidad", "consecuencias"],
+    "characters": ["Lot", "ángeles", "mujer de Lot", "hijas de Lot"]
+  },
+  "taxonomy": {
+    "testament": "Antiguo",
+    "book": "Génesis",
+    "section": "Historia Primitiva",
+    "category": "Narrativa Patriarcal",
+    "period": "Era Patriarcal",
+    "genre": "Narrativa de juicio",
+    "themes": ["juicio", "destrucción", "salvación", "obediencia", "consecuencias"],
+    "characters": ["Lot", "ángeles", "mujer de Lot"],
+    "places": ["Sodoma", "Gomorra", "Zoar"],
+    "timeline": "c. 1984 a.C."
+  },
+  "index": {
+    "searchTerms": ["Sodoma", "Gomorra", "destrucción", "Lot", "ángeles", "juicio", "mujer de sal", "Zoar"],
+    "keyVerses": ["Génesis 19:17", "Génesis 19:24", "Génesis 19:26"],
+    "mainConcepts": ["juicio divino", "obediencia urgente", "consecuencias del pecado", "misericordia en el juicio"]
+  },
+  "accessibility": {
+    "lang_reading_level": "B2",
+    "has_alt_text": true,
+    "captions_available": false
+  },
+  "analytics": {
+    "estimated_read_time_min": 12,
+    "word_count": 1100,
+    "engagement_goal": "comparison_completed"
+  },
+  "contributors": [
+    {"name": "Equipo Editorial", "role": "Edición", "url": null},
+    {"name": "Revisor Teológico", "role": "Revisión", "url": null}
+  ],
+  "moderation": {
+    "doctrinal_position": "histórico-gramatical",
+    "notes": "Énfasis en la realidad del juicio divino y la necesidad de obediencia urgente"
+  }
 }

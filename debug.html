@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debug - Génesis</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .debug-btn { background: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; margin: 10px; }
+        .debug-btn:hover { background: #45a049; }
+        .result { margin: 20px 0; padding: 20px; background: #f5f5f5; border-radius: 5px; }
+        .modal { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); display: none; align-items: center; justify-content: center; }
+        .modal.active { display: flex; }
+        .modal-content { background: white; padding: 20px; border-radius: 10px; max-width: 800px; max-height: 80vh; overflow-y: auto; }
+        .close-btn { float: right; font-size: 20px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Debug - Capítulo de Génesis</h1>
+
+    <button class="debug-btn" onclick="testJSONLoad()">Test: Cargar JSON</button>
+    <button class="debug-btn" onclick="testModalOpen()">Test: Abrir Modal</button>
+    <button class="debug-btn" onclick="testFullFlow()">Test: Flujo Completo</button>
+
+    <div id="result" class="result"></div>
+
+    <!-- Modal -->
+    <div class="modal" id="testModal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <h2 id="modalTitle">Título del Capítulo</h2>
+            <p id="modalSubtitle">Subtítulo</p>
+            <div id="modalContent">Contenido aquí...</div>
+        </div>
+    </div>
+
+    <script>
+        async function testJSONLoad() {
+            const result = document.getElementById('result');
+            result.innerHTML = '<p>Cargando JSON...</p>';
+
+            try {
+                const response = await fetch('./data/chapters/genesis-1.json');
+                console.log('Response status:', response.status);
+
+                if (!response.ok) {
+                    throw new Error(`Error: ${response.status}`);
+                }
+
+                const data = await response.json();
+                console.log('Data loaded:', data);
+
+                result.innerHTML = `
+                    <h3>✅ JSON Cargado Exitosamente</h3>
+                    <p><strong>Título:</strong> ${data.document.title}</p>
+                    <p><strong>Subtítulo:</strong> ${data.document.subtitle}</p>
+                    <p><strong>Resumen:</strong> ${data.document.summary.substring(0, 100)}...</p>
+                    <p><strong>Aplicaciones:</strong> ${data.document.practicalApplication.length} items</p>
+                `;
+
+                window.testData = data; // Guardar para otros tests
+
+            } catch (error) {
+                console.error('Error:', error);
+                result.innerHTML = `<h3>❌ Error al cargar JSON</h3><p>${error.message}</p>`;
+            }
+        }
+
+        function testModalOpen() {
+            const modal = document.getElementById('testModal');
+            modal.classList.add('active');
+
+            if (window.testData) {
+                document.getElementById('modalTitle').textContent = `${window.testData.document.book} ${window.testData.document.chapter}`;
+                document.getElementById('modalSubtitle').textContent = window.testData.document.subtitle;
+                document.getElementById('modalContent').innerHTML = `
+                    <h4>📖 Resumen</h4>
+                    <p>${window.testData.document.summary}</p>
+
+                    <h4>💡 Enseñanza Principal</h4>
+                    <p>${window.testData.document.mainTeaching}</p>
+
+                    <h4>🎯 Aplicación Práctica</h4>
+                    <ul>
+                        ${window.testData.document.practicalApplication.map(app => `<li>${app}</li>`).join('')}
+                    </ul>
+                `;
+            }
+        }
+
+        function closeModal() {
+            document.getElementById('testModal').classList.remove('active');
+        }
+
+        async function testFullFlow() {
+            await testJSONLoad();
+            setTimeout(() => {
+                testModalOpen();
+            }, 1000);
+        }
+
+        // Auto-test al cargar la página
+        window.addEventListener('load', () => {
+            testJSONLoad();
+        });
+    </script>
+</body>
+</html>

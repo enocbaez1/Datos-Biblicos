@@ -1,315 +1,473 @@
 {
-  "book": "Génesis",
-  "chapter": 7,
-  "title": "El diluvio",
-  "subtitle": "Juicio global y preservación en el arca",
-  "summary": "Noé entra al arca con su familia y los animales; el diluvio cubre la tierra cuarenta días y destruye toda vida fuera del arca, mientras Dios cierra la puerta y sostiene a los suyos.",
-  "timeline": {
-    "period": "Año del diluvio",
-    "context": "Juicio sobre la humanidad",
-    "placement": "Cumplimiento del decreto divino"
+  "meta": {
+    "id": "genesis-7-diluvio",
+    "slug": "genesis-7-diluvio",
+    "lang": "es",
+    "available_locales": ["es"],
+    "version": 1,
+    "created_at": "2025-10-03T00:00:00Z",
+    "updated_at": "2025-10-03T00:00:00Z",
+    "status": "published"
   },
-  "days": [
-    {
-      "day": 1,
-      "title": "Entrada al arca",
-      "icon": ">>",
-      "description": "Noé recibe la orden final y reúne animales limpios y no limpios.",
-      "verse": "Entra tú y toda tu casa en el arca.",
-      "reference": "Génesis 7:1-5",
-      "significance": "La obediencia inmediata precede al juicio."
-    },
-    {
-      "day": 2,
-      "title": "Comienzo del diluvio",
-      "icon": "!!",
-      "description": "A los siete días, se rompen las fuentes del abismo y se abren las compuertas del cielo.",
-      "verse": "Fueron rotas todas las fuentes del grande abismo.",
-      "reference": "Génesis 7:6-10",
-      "significance": "El juicio divino es simultáneo desde abajo y arriba."
-    },
-    {
-      "day": 3,
-      "title": "Lluvia de cuarenta días",
-      "icon": "~~",
-      "description": "La lluvia cae sin detenerse durante cuarenta días y cuarenta noches.",
-      "verse": "Llovió sobre la tierra cuarenta días y cuarenta noches.",
-      "reference": "Génesis 7:12",
-      "significance": "Número de prueba y transformación en la Biblia."
-    },
-    {
-      "day": 4,
-      "title": "Aguas que prevalecen",
-      "icon": "^^",
-      "description": "Las aguas se elevan quince codos sobre los montes más altos.",
-      "verse": "Prevalecieron las aguas, y fueron cubiertos todos los montes altos.",
-      "reference": "Génesis 7:17-20",
-      "significance": "El juicio es total y universal."
-    },
-    {
-      "day": 5,
-      "title": "Extinción fuera del arca",
-      "icon": "XX",
-      "description": "Todo ser viviente fuera del arca perece.",
-      "verse": "Murió toda carne que se movía sobre la tierra.",
-      "reference": "Génesis 7:21-23",
-      "significance": "La vida apartada de Dios no resiste su juicio."
-    },
-    {
-      "day": 6,
-      "title": "Ciento cincuenta días",
-      "icon": "::",
-      "description": "Las aguas prevalecen y sostienen el arca durante 150 días.",
-      "verse": "Y prevalecieron las aguas sobre la tierra ciento cincuenta días.",
-      "reference": "Génesis 7:24",
-      "significance": "Dios mantiene a salvo a los que están en el arca el tiempo necesario."
-    }
-  ],
-  "interestingFacts": [
-    {
-      "id": "seven-pairs",
-      "title": "Animales limpios por siete",
-      "summary": "Se llevan siete parejas de animales limpios y aves.",
-      "explanation": "Esto permite sacrificios y la rápida repoblación tras el diluvio.",
-      "verse": "Tomarás siete parejas de todo animal limpio.",
-      "reference": "Génesis 7:2-3"
-    },
-    {
-      "id": "calendar-detail",
-      "title": "Fechas exactas",
-      "summary": "El diluvio inicia el mes segundo, día diecisiete.",
-      "explanation": "La precisión cronológica subraya que el evento es histórico.",
-      "verse": "A los diecisiete días del mes, fueron rotas las fuentes.",
-      "reference": "Génesis 7:11"
-    },
-    {
-      "id": "god-shuts-door",
-      "title": "Dios cierra la puerta",
-      "summary": "Jehová sella el arca personalmente.",
-      "explanation": "La salvación no depende de la fuerza humana sino de la protección divina.",
-      "verse": "Y Jehová le cerró la puerta.",
-      "reference": "Génesis 7:16"
-    },
-    {
-      "id": "global-judgment",
-      "title": "Cobertura universal",
-      "summary": "Las aguas cubren los montes quince codos arriba.",
-      "explanation": "No se trata de una inundación local sino global, por la descripción de cobertura total.",
-      "verse": "Cubrieron los montes hasta quince codos más alto.",
-      "reference": "Génesis 7:20"
-    }
-  ],
-  "reflectionQuestions": [
-    {
-      "id": "urgency-obedience",
-      "question": "¿Cómo responderías si Dios te pidiera entrar al arca antes de ver la lluvia?",
-      "category": "obediencia",
-      "hints": [
-        "Confianza",
-        "Urgencia",
-        "Fe práctica"
-      ]
-    },
-    {
-      "id": "divine-protection",
-      "question": "¿Dónde ves a Dios cerrando puertas para protegerte hoy?",
-      "category": "espiritual",
-      "hints": [
-        "Seguridad",
-        "Límites",
-        "Providencia"
-      ]
-    },
-    {
-      "id": "warning-others",
-      "question": "¿Cómo puedes advertir amorosamente a otros sobre las consecuencias del pecado?",
-      "category": "misional",
-      "hints": [
-        "Testimonio",
-        "Evangelio",
-        "Compasión"
-      ]
-    },
-    {
-      "id": "waiting-150",
-      "question": "¿Qué te enseña esperar ciento cincuenta días sin señales externas de cambio?",
-      "category": "paciencia",
-      "hints": [
-        "Perseverancia",
-        "Confianza prolongada",
-        "Silencio de Dios"
-      ]
-    }
-  ],
-  "trivia": [
-    {
-      "question": "¿Cuántos días y noches llovió?",
-      "options": [
-        "30",
-        "40",
-        "70"
-      ],
-      "correct": 1,
-      "explanation": "Llovió cuarenta días y cuarenta noches."
-    },
-    {
-      "question": "¿Quién cerró la puerta del arca?",
-      "options": [
-        "Noé",
-        "Sus hijos",
-        "Jehová"
-      ],
-      "correct": 2,
-      "explanation": "Jehová mismo cerró la puerta (Génesis 7:16)."
-    },
-    {
-      "question": "¿Cuánto tiempo prevalecieron las aguas sobre la tierra?",
-      "options": [
-        "40 días",
-        "110 días",
-        "150 días"
-      ],
-      "correct": 2,
-      "explanation": "Las aguas dominaron durante ciento cincuenta días."
-    },
-    {
-      "question": "¿Cuántas parejas de animales limpios entraron?",
-      "options": [
-        "Una pareja",
-        "Siete parejas",
-        "Diez parejas"
-      ],
-      "correct": 1,
-      "explanation": "Del ganado limpio debía llevar siete parejas."
-    }
-  ],
-  "comparison": {
-    "title": "Destrucción vs salvación",
-    "before": {
-      "title": "Humanidad incrédula",
-      "description": "Gente indiferente al anuncio del juicio.",
-      "elements": [
-        "Incredulidad",
-        "Violencia",
-        "Seguridad falsa"
-      ],
-      "verse": "Murió toda carne... a causa del diluvio.",
-      "reference": "Génesis 7:21"
-    },
-    "after": {
-      "title": "Remanente preservado",
-      "description": "Ocho personas guardadas por la obediencia y la gracia.",
-      "elements": [
-        "Arca",
-        "Pacto",
-        "Nueva oportunidad"
-      ],
-      "verse": "Y quedó solamente Noé, y los que con él estaban en el arca.",
-      "reference": "Génesis 7:23"
-    }
+  "seo": {
+    "title": "Génesis 7: El diluvio - Juicio global y preservación en el arca",
+    "description": "Noé entra al arca con su familia y los animales; el diluvio cubre la tierra cuarenta días y destruye toda vida fuera del arca, mientras Dios cierra la puerta y sostiene a los suyos.",
+    "keywords": ["génesis 7", "diluvio", "noé", "arca", "juicio universal", "lluvia cuarenta días", "aguas prevalecen", "preservación"],
+    "canonical": "https://datos-biblicos.com/genesis/7",
+    "og_image": "https://datos-biblicos.com/images/genesis-7-flood.jpg",
+    "robots": "index, follow"
   },
-  "memorizeVerse": {
-    "text": "Y los que entraron, macho y hembra de toda carne entraron, como Dios le había mandado; y Jehová le cerró la puerta.",
-    "reference": "Génesis 7:16",
-    "theme": "Protección divina"
+  "source": {
+    "bible_version": "RVR1960",
+    "reference": "Génesis 7:1-24",
+    "cross_references": ["Mateo 24:37-39", "2 Pedro 2:5", "2 Pedro 3:6", "Hebreos 11:7"],
+    "parallel_accounts": []
   },
-  "mainTeaching": "El juicio de Dios es real y total, pero su salvación es igualmente segura para quienes obedecen y se refugian en Él.",
-  "practicalApplication": [
-    "Responde a las advertencias de Dios sin retrasos.",
-    "Permanece dentro de los límites que Dios establece para tu protección.",
-    "Comparte con otros la urgencia de buscar refugio en Cristo.",
-    "Aprende a esperar en silencio, confiando en que Dios sostiene tu arca."
-  ],
-  "extendedContent": {
-    "keyThemes": [
+  "document": {
+    "book": "Génesis",
+    "chapter": 7,
+    "title": "El diluvio",
+    "subtitle": "Juicio global y preservación en el arca",
+    "summary": "Noé entra al arca con su familia y los animales; el diluvio cubre la tierra cuarenta días y destruye toda vida fuera del arca, mientras Dios cierra la puerta y sostiene a los suyos.",
+    "timeline": {
+      "period": "Año del diluvio",
+      "context": "Juicio sobre la humanidad",
+      "placement": "Cumplimiento del decreto divino"
+    },
+    "days": [
       {
-        "id": "gen7-theme-obediencia",
-        "title": "Obediencia puntual",
-        "summary": "Noe obedece exactamente en el tiempo indicado por Dios."
-      },
-      {
-        "id": "gen7-theme-juicio",
-        "title": "Juicio global",
-        "summary": "El diluvio cubre toda la tierra como respuesta al pecado humano."
-      },
-      {
-        "id": "gen7-theme-proteccion",
-        "title": "Proteccion divina",
-        "summary": "Dios cierra la puerta del arca y sostiene la vida dentro."
-      }
-    ],
-    "characterProfiles": [
-      {
-        "name": "Noe",
-        "role": "Administrador del arca",
-        "description": "Ingresa con su familia y cuida a los animales limpios e inmundos.",
-        "verses": "Genesis 7:1-9"
-      },
-      {
-        "name": "Familia de Noe",
-        "role": "Resto preservado",
-        "description": "Comparten el refugio y ayudan a conservar la humanidad.",
-        "verses": "Genesis 7:7,13"
-      },
-      {
-        "name": "Dios",
-        "role": "Soberano del diluvio",
-        "description": "Ordena la entrada, cierra la puerta y controla las aguas.",
-        "verses": "Genesis 7:1-16"
-      }
-    ],
-    "geography": [
-      {
-        "place": "Fuentes del abismo",
-        "summary": "Aguas subterraneas y lluvia torrencial cubren la tierra.",
-        "presentDay": "Catastrofe global",
-        "verses": "Genesis 7:11-12"
-      },
-      {
-        "place": "Arca flotante",
-        "summary": "El arca se eleva y finalmente descansa sobre los montes de Ararat.",
-        "presentDay": "Cordillera de Ararat",
-        "verses": "Genesis 7:17-20"
-      }
-    ],
-    "gospelConnections": [
-      {
-        "title": "Dias del Hijo del Hombre",
-        "description": "Jesus compara sus dias con los de Noe para llamar al arrepentimiento.",
-        "reference": "Mateo 24:37-39"
-      },
-      {
-        "title": "Pregonero de justicia",
-        "description": "Pedro describe a Noe como predicador de justicia en medio de una generacion corrupta.",
-        "reference": "2 Pedro 2:5"
-      }
-    ],
-    "outline": [
-      {
-        "section": "1",
+        "day": 1,
         "title": "Entrada al arca",
-        "verses": "7:1-10",
-        "summary": "Noe, su familia y los animales entran segun la orden divina."
+        "icon": ">>",
+        "description": "Noé recibe la orden final y reúne animales limpios y no limpios.",
+        "verse": "Entra tú y toda tu casa en el arca.",
+        "reference": "Génesis 7:1-5",
+        "significance": "La obediencia inmediata precede al juicio."
       },
       {
-        "section": "2",
-        "title": "Inundacion total",
-        "verses": "7:11-20",
-        "summary": "Se abren las fuentes del abismo y las aguas cubren los montes."
+        "day": 2,
+        "title": "Comienzo del diluvio",
+        "icon": "!!",
+        "description": "A los siete días, se rompen las fuentes del abismo y se abren las compuertas del cielo.",
+        "verse": "Fueron rotas todas las fuentes del grande abismo.",
+        "reference": "Génesis 7:6-10",
+        "significance": "El juicio divino es simultáneo desde abajo y arriba."
       },
       {
-        "section": "3",
-        "title": "Perdida de vida",
-        "verses": "7:21-24",
-        "summary": "Todo ser viviente fuera del arca perece y las aguas prevalecen 150 dias."
+        "day": 3,
+        "title": "Lluvia de cuarenta días",
+        "icon": "~~",
+        "description": "La lluvia cae sin detenerse durante cuarenta días y cuarenta noches.",
+        "verse": "Llovió sobre la tierra cuarenta días y cuarenta noches.",
+        "reference": "Génesis 7:12",
+        "significance": "Número de prueba y transformación en la Biblia."
+      },
+      {
+        "day": 4,
+        "title": "Aguas que prevalecen",
+        "icon": "^^",
+        "description": "Las aguas se elevan quince codos sobre los montes más altos.",
+        "verse": "Prevalecieron las aguas, y fueron cubiertos todos los montes altos.",
+        "reference": "Génesis 7:17-20",
+        "significance": "El juicio es total y universal."
+      },
+      {
+        "day": 5,
+        "title": "Extinción fuera del arca",
+        "icon": "XX",
+        "description": "Todo ser viviente fuera del arca perece.",
+        "verse": "Murió toda carne que se movía sobre la tierra.",
+        "reference": "Génesis 7:21-23",
+        "significance": "La vida apartada de Dios no resiste su juicio."
+      },
+      {
+        "day": 6,
+        "title": "Ciento cincuenta días",
+        "icon": "::",
+        "description": "Las aguas prevalecen y sostienen el arca durante 150 días.",
+        "verse": "Y prevalecieron las aguas sobre la tierra ciento cincuenta días.",
+        "reference": "Génesis 7:24",
+        "significance": "Dios mantiene a salvo a los que están en el arca el tiempo necesario."
       }
     ],
-    "studyInsights": [
-      "Los animales limpios entran de siete en siete para futuros sacrificios.",
-      "La cronologia menciona mes segundo y dia diecisiete, mostrando precision historica.",
-      "Las aguas prevalecen ciento cincuenta dias antes de comenzar a descender.",
-      "El verbo cubrir se usa tambien en el cruce del Mar Rojo."
+    "interestingFacts": [
+      {
+        "id": "seven-pairs",
+        "title": "Animales limpios por siete",
+        "summary": "Se llevan siete parejas de animales limpios y aves.",
+        "explanation": "Esto permite sacrificios y la rápida repoblación tras el diluvio.",
+        "verse": "Tomarás siete parejas de todo animal limpio.",
+        "reference": "Génesis 7:2-3"
+      },
+      {
+        "id": "calendar-detail",
+        "title": "Fechas exactas",
+        "summary": "El diluvio inicia el mes segundo, día diecisiete.",
+        "explanation": "La precisión cronológica subraya que el evento es histórico.",
+        "verse": "A los diecisiete días del mes, fueron rotas las fuentes.",
+        "reference": "Génesis 7:11"
+      },
+      {
+        "id": "god-shuts-door",
+        "title": "Dios cierra la puerta",
+        "summary": "Jehová sella el arca personalmente.",
+        "explanation": "La salvación no depende de la fuerza humana sino de la protección divina.",
+        "verse": "Y Jehová le cerró la puerta.",
+        "reference": "Génesis 7:16"
+      },
+      {
+        "id": "global-judgment",
+        "title": "Cobertura universal",
+        "summary": "Las aguas cubren los montes quince codos arriba.",
+        "explanation": "No se trata de una inundación local sino global, por la descripción de cobertura total.",
+        "verse": "Cubrieron los montes hasta quince codos más alto.",
+        "reference": "Génesis 7:20"
+      }
     ],
-    "prayerFocus": "Ora por un estilo de vida que permanezca dentro del refugio de la obediencia."
+    "reflectionQuestions": [
+      {
+        "id": "urgency-obedience",
+        "question": "¿Cómo responderías si Dios te pidiera entrar al arca antes de ver la lluvia?",
+        "category": "obediencia",
+        "hints": [
+          "Confianza",
+          "Urgencia",
+          "Fe práctica"
+        ]
+      },
+      {
+        "id": "divine-protection",
+        "question": "¿Dónde ves a Dios cerrando puertas para protegerte hoy?",
+        "category": "espiritual",
+        "hints": [
+          "Seguridad",
+          "Límites",
+          "Providencia"
+        ]
+      },
+      {
+        "id": "warning-others",
+        "question": "¿Cómo puedes advertir amorosamente a otros sobre las consecuencias del pecado?",
+        "category": "misional",
+        "hints": [
+          "Testimonio",
+          "Evangelio",
+          "Compasión"
+        ]
+      },
+      {
+        "id": "waiting-150",
+        "question": "¿Qué te enseña esperar ciento cincuenta días sin señales externas de cambio?",
+        "category": "paciencia",
+        "hints": [
+          "Perseverancia",
+          "Confianza prolongada",
+          "Silencio de Dios"
+        ]
+      }
+    ],
+    "trivia": [
+      {
+        "question": "¿Cuántos días y noches llovió?",
+        "options": [
+          "30",
+          "40",
+          "70"
+        ],
+        "correct": 1,
+        "explanation": "Llovió cuarenta días y cuarenta noches."
+      },
+      {
+        "question": "¿Quién cerró la puerta del arca?",
+        "options": [
+          "Noé",
+          "Sus hijos",
+          "Jehová"
+        ],
+        "correct": 2,
+        "explanation": "Jehová mismo cerró la puerta (Génesis 7:16)."
+      },
+      {
+        "question": "¿Cuánto tiempo prevalecieron las aguas sobre la tierra?",
+        "options": [
+          "40 días",
+          "110 días",
+          "150 días"
+        ],
+        "correct": 2,
+        "explanation": "Las aguas dominaron durante ciento cincuenta días."
+      },
+      {
+        "question": "¿Cuántas parejas de animales limpios entraron?",
+        "options": [
+          "Una pareja",
+          "Siete parejas",
+          "Diez parejas"
+        ],
+        "correct": 1,
+        "explanation": "Del ganado limpio debía llevar siete parejas."
+      }
+    ],
+    "comparison": {
+      "title": "Destrucción vs salvación",
+      "before": {
+        "title": "Humanidad incrédula",
+        "description": "Gente indiferente al anuncio del juicio.",
+        "elements": [
+          "Incredulidad",
+          "Violencia",
+          "Seguridad falsa"
+        ],
+        "verse": "Murió toda carne... a causa del diluvio.",
+        "reference": "Génesis 7:21"
+      },
+      "after": {
+        "title": "Remanente preservado",
+        "description": "Ocho personas guardadas por la obediencia y la gracia.",
+        "elements": [
+          "Arca",
+          "Pacto",
+          "Nueva oportunidad"
+        ],
+        "verse": "Y quedó solamente Noé, y los que con él estaban en el arca.",
+        "reference": "Génesis 7:23"
+      }
+    },
+    "memorizeVerse": {
+      "text": "Y los que entraron, macho y hembra de toda carne entraron, como Dios le había mandado; y Jehová le cerró la puerta.",
+      "reference": "Génesis 7:16",
+      "theme": "Protección divina"
+    },
+    "mainTeaching": "El juicio de Dios es real y total, pero su salvación es igualmente segura para quienes obedecen y se refugian en Él.",
+    "practicalApplication": [
+      "Responde a las advertencias de Dios sin retrasos.",
+      "Permanece dentro de los límites que Dios establece para tu protección.",
+      "Comparte con otros la urgencia de buscar refugio en Cristo.",
+      "Aprende a esperar en silencio, confiando en que Dios sostiene tu arca."
+    ],
+    "extendedContent": {
+      "keyThemes": [
+        {
+          "id": "gen7-theme-obediencia",
+          "title": "Obediencia puntual",
+          "summary": "Noe obedece exactamente en el tiempo indicado por Dios."
+        },
+        {
+          "id": "gen7-theme-juicio",
+          "title": "Juicio global",
+          "summary": "El diluvio cubre toda la tierra como respuesta al pecado humano."
+        },
+        {
+          "id": "gen7-theme-proteccion",
+          "title": "Proteccion divina",
+          "summary": "Dios cierra la puerta del arca y sostiene la vida dentro."
+        }
+      ],
+      "characterProfiles": [
+        {
+          "name": "Noe",
+          "role": "Administrador del arca",
+          "description": "Ingresa con su familia y cuida a los animales limpios e inmundos.",
+          "verses": "Genesis 7:1-9"
+        },
+        {
+          "name": "Familia de Noe",
+          "role": "Resto preservado",
+          "description": "Comparten el refugio y ayudan a conservar la humanidad.",
+          "verses": "Genesis 7:7,13"
+        },
+        {
+          "name": "Dios",
+          "role": "Soberano del diluvio",
+          "description": "Ordena la entrada, cierra la puerta y controla las aguas.",
+          "verses": "Genesis 7:1-16"
+        }
+      ],
+      "geography": [
+        {
+          "place": "Fuentes del abismo",
+          "summary": "Aguas subterraneas y lluvia torrencial cubren la tierra.",
+          "presentDay": "Catastrofe global",
+          "verses": "Genesis 7:11-12"
+        },
+        {
+          "place": "Arca flotante",
+          "summary": "El arca se eleva y finalmente descansa sobre los montes de Ararat.",
+          "presentDay": "Cordillera de Ararat",
+          "verses": "Genesis 7:17-20"
+        }
+      ],
+      "gospelConnections": [
+        {
+          "title": "Dias del Hijo del Hombre",
+          "description": "Jesus compara sus dias con los de Noe para llamar al arrepentimiento.",
+          "reference": "Mateo 24:37-39"
+        },
+        {
+          "title": "Pregonero de justicia",
+          "description": "Pedro describe a Noe como predicador de justicia en medio de una generacion corrupta.",
+          "reference": "2 Pedro 2:5"
+        }
+      ],
+      "outline": [
+        {
+          "section": "1",
+          "title": "Entrada al arca",
+          "verses": "7:1-10",
+          "summary": "Noe, su familia y los animales entran segun la orden divina."
+        },
+        {
+          "section": "2",
+          "title": "Inundacion total",
+          "verses": "7:11-20",
+          "summary": "Se abren las fuentes del abismo y las aguas cubren los montes."
+        },
+        {
+          "section": "3",
+          "title": "Perdida de vida",
+          "verses": "7:21-24",
+          "summary": "Todo ser viviente fuera del arca perece y las aguas prevalecen 150 dias."
+        }
+      ],
+      "studyInsights": [
+        "Los animales limpios entran de siete en siete para futuros sacrificios.",
+        "La cronologia menciona mes segundo y dia diecisiete, mostrando precision historica.",
+        "Las aguas prevalecen ciento cincuenta dias antes de comenzar a descender.",
+        "El verbo cubrir se usa tambien en el cruce del Mar Rojo."
+      ],
+      "prayerFocus": "Ora por un estilo de vida que permanezca dentro del refugio de la obediencia."
+    }
+  },
+  "ui": {
+    "navigation": {
+      "previous": {
+        "chapter": 6,
+        "title": "Corrupción y el arca",
+        "slug": "genesis-6-corrupcion-arca"
+      },
+      "next": {
+        "chapter": 8,
+        "title": "El fin del diluvio",
+        "slug": "genesis-8-fin-diluvio"
+      }
+    },
+    "colors": {
+      "primary": "#1E90FF",
+      "secondary": "#4682B4",
+      "accent": "#87CEEB",
+      "text": "#191970"
+    },
+    "icons": {
+      "chapter": "🌊",
+      "theme": "flood",
+      "categories": ["diluvio", "juicio", "obediencia", "protección"]
+    }
+  },
+  "relations": {
+    "themes": [
+      {
+        "id": "flood-narrative",
+        "chapters": [6, 7, 8, 9],
+        "description": "La historia completa del diluvio"
+      },
+      {
+        "id": "divine-judgment",
+        "chapters": [7, 19, 38],
+        "description": "Ejemplos del juicio divino"
+      }
+    ],
+    "characters": [
+      {
+        "name": "Noé",
+        "chapters": [5, 6, 7, 8, 9, 10]
+      },
+      {
+        "name": "Sem",
+        "chapters": [6, 7, 8, 9, 10, 11]
+      },
+      {
+        "name": "Cam",
+        "chapters": [6, 7, 8, 9, 10]
+      },
+      {
+        "name": "Jafet",
+        "chapters": [6, 7, 8, 9, 10]
+      }
+    ],
+    "keywords": [
+      "diluvio",
+      "arca",
+      "lluvia",
+      "juicio",
+      "preservación"
+    ]
+  },
+  "taxonomy": {
+    "book_section": "Primordial History",
+    "literary_genre": "Narrative",
+    "theological_themes": [
+      "Divine Judgment",
+      "Divine Protection",
+      "Universal Destruction",
+      "Faithful Obedience",
+      "New Beginning"
+    ],
+    "historical_period": "Flood Era",
+    "geographical_setting": "Global"
+  },
+  "index": {
+    "search_terms": [
+      "génesis 7",
+      "diluvio universal",
+      "noé arca",
+      "lluvia cuarenta días",
+      "aguas prevalecen",
+      "dios cierra puerta",
+      "animales limpios",
+      "juicio global",
+      "ciento cincuenta días",
+      "fuentes abismo"
+    ],
+    "key_concepts": [
+      "global flood",
+      "divine protection",
+      "universal judgment",
+      "forty days rain",
+      "God shuts door"
+    ]
+  },
+  "accessibility": {
+    "readingLevel": "intermediate",
+    "language": "es",
+    "audioAvailable": false,
+    "visualAids": [
+      "flood-timeline",
+      "ark-floating",
+      "water-coverage-map"
+    ]
+  },
+  "analytics": {
+    "readingTime": 9,
+    "difficulty": "intermediate",
+    "popularity": "high",
+    "completionRate": 0,
+    "interactions": {
+      "trivia_attempts": 0,
+      "reflection_responses": 0,
+      "sharing_count": 0
+    }
+  },
+  "contributors": [
+    {
+      "role": "content_creator",
+      "name": "Biblical Content Team",
+      "date": "2025-10-03"
+    }
+  ],
+  "moderation": {
+    "content_warnings": [],
+    "theological_review": "approved",
+    "fact_check_status": "verified",
+    "last_review": "2025-10-03"
   }
 }

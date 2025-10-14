@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test - Sincronización de Pestañas</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; max-width: 900px; margin: 0 auto; }
+        .test-section { background: #f8f9fa; padding: 20px; border-radius: 10px; margin: 20px 0; }
+        .test-btn { background: #007bff; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; margin: 5px; }
+        .test-btn:hover { background: #0056b3; }
+        .test-status { padding: 10px; border-radius: 5px; margin: 10px 0; }
+        .success { background: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+        .error { background: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+        .warning { background: #fff3cd; color: #856404; border: 1px solid #ffeaa7; }
+
+        .mock-tabs { display: flex; gap: 10px; margin: 20px 0; }
+        .mock-tab { padding: 10px 20px; background: #e9ecef; border: none; cursor: pointer; border-radius: 5px 5px 0 0; }
+        .mock-tab.active { background: #007bff; color: white; }
+        .mock-content { border: 2px solid #007bff; border-radius: 0 5px 5px 5px; padding: 20px; min-height: 100px; background: white; }
+        .mock-content:not(.active) { display: none; }
+
+        .log-area { background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 5px; padding: 15px; font-family: monospace; font-size: 12px; max-height: 200px; overflow-y: auto; }
+    </style>
+</head>
+<body>
+    <h1>🔄 Test - Sincronización de Pestañas del Modal</h1>
+
+    <div class="test-section">
+        <h3>Problema Identificado:</h3>
+        <p>Cuando seleccionas una pestaña (ej: Trivia) y luego cambias de capítulo, la pestaña queda seleccionada pero el contenido muestra Resumen.</p>
+
+        <h3>Solución Implementada:</h3>
+        <ul>
+            <li>✅ Reset explícito de pestañas al abrir nuevo capítulo</li>
+            <li>✅ Sincronización forzada entre pestaña activa y contenido</li>
+            <li>✅ Logging detallado para diagnosticar problemas</li>
+            <li>✅ Validación en updateModalContent para corregir desincronización</li>
+        </ul>
+    </div>
+
+    <div class="test-section">
+        <h3>Simulación del Comportamiento:</h3>
+
+        <div class="mock-tabs">
+            <button class="mock-tab active" data-tab="resumen" onclick="switchMockTab('resumen')">Resumen</button>
+            <button class="mock-tab" data-tab="timeline" onclick="switchMockTab('timeline')">Timeline</button>
+            <button class="mock-tab" data-tab="datos" onclick="switchMockTab('datos')">Datos</button>
+            <button class="mock-tab" data-tab="reflexion" onclick="switchMockTab('reflexion')">Reflexión</button>
+            <button class="mock-tab" data-tab="trivia" onclick="switchMockTab('trivia')">Trivia</button>
+            <button class="mock-tab" data-tab="comparacion" onclick="switchMockTab('comparacion')">Comparación</button>
+        </div>
+
+        <div id="resumenContent" class="mock-content active">
+            <h4>📖 Contenido del Resumen</h4>
+            <p>Esta es la pestaña de resumen, que debería ser la predeterminada al cambiar de capítulo.</p>
+        </div>
+
+        <div id="timelineContent" class="mock-content">
+            <h4>⏰ Contenido de Timeline</h4>
+            <p>Línea de tiempo de eventos del capítulo.</p>
+        </div>
+
+        <div id="datosContent" class="mock-content">
+            <h4>🔍 Contenido de Datos</h4>
+            <p>Datos curiosos e interesantes del capítulo.</p>
+        </div>
+
+        <div id="reflexionContent" class="mock-content">
+            <h4>🤔 Contenido de Reflexión</h4>
+            <p>Preguntas de reflexión personal.</p>
+        </div>
+
+        <div id="triviaContent" class="mock-content">
+            <h4>🎯 Contenido de Trivia</h4>
+            <p>¡Esta es la trivia! Si estás viendo esto después de cambiar de capítulo, hay un problema de sincronización.</p>
+        </div>
+
+        <div id="comparacionContent" class="mock-content">
+            <h4>⚖️ Contenido de Comparación</h4>
+            <p>Comparaciones del antes y después.</p>
+        </div>
+
+        <div style="margin: 20px 0;">
+            <button class="test-btn" onclick="simulateChapterChange()">🔄 Simular Cambio de Capítulo</button>
+            <button class="test-btn" onclick="testTabSync()">🧪 Test Sincronización</button>
+            <button class="test-btn" onclick="clearLog()">🗑️ Limpiar Log</button>
+        </div>
+
+        <div id="testStatus" class="test-status warning">
+            <strong>Estado:</strong> Selecciona una pestaña que no sea "Resumen", luego haz clic en "Simular Cambio de Capítulo" para probar la sincronización.
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h3>Log de Acciones:</h3>
+        <div id="logArea" class="log-area">
+            <div>Iniciando test de sincronización...</div>
+        </div>
+    </div>
+
+    <script>
+        let currentMockTab = 'resumen';
+        let mockChapter = 1;
+
+        function log(message) {
+            const logArea = document.getElementById('logArea');
+            const timestamp = new Date().toLocaleTimeString();
+            logArea.innerHTML += `<div>[${timestamp}] ${message}</div>`;
+            logArea.scrollTop = logArea.scrollHeight;
+        }
+
+        function updateStatus(message, type = 'warning') {
+            const status = document.getElementById('testStatus');
+            status.className = `test-status ${type}`;
+            status.innerHTML = `<strong>Estado:</strong> ${message}`;
+        }
+
+        function switchMockTab(tabName) {
+            log(`Usuario hace clic en pestaña: ${tabName}`);
+            currentMockTab = tabName;
+
+            // Update tab appearance
+            document.querySelectorAll('.mock-tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            document.querySelector(`[data-tab="${tabName}"]`).classList.add('active');
+
+            // Update content
+            document.querySelectorAll('.mock-content').forEach(content => {
+                content.classList.remove('active');
+            });
+            document.getElementById(`${tabName}Content`).classList.add('active');
+
+            log(`Pestaña cambiada a: ${tabName}`);
+            updateStatus(`Pestaña activa: ${tabName}. Ahora simula un cambio de capítulo.`);
+        }
+
+        function simulateChapterChange() {
+            const previousTab = currentMockTab;
+            mockChapter = mockChapter === 1 ? 2 : 1;
+
+            log(`=== SIMULANDO CAMBIO DE CAPÍTULO ===`);
+            log(`Cambiando de capítulo a: ${mockChapter}`);
+            log(`Pestaña anterior era: ${previousTab}`);
+
+            // Simulate the fix: reset to 'resumen'
+            log(`Aplicando corrección: resetear a 'resumen'`);
+            currentMockTab = 'resumen';
+
+            // Reset tabs
+            document.querySelectorAll('.mock-tab').forEach(tab => {
+                tab.classList.remove('active');
+                log(`Removida clase active de pestaña: ${tab.dataset.tab}`);
+            });
+
+            const resumenTab = document.querySelector('[data-tab="resumen"]');
+            if (resumenTab) {
+                resumenTab.classList.add('active');
+                log(`Activada pestaña: resumen`);
+            }
+
+            // Reset content
+            document.querySelectorAll('.mock-content').forEach(content => {
+                content.classList.remove('active');
+                log(`Removida clase active de contenido: ${content.id}`);
+            });
+
+            const resumenContent = document.getElementById('resumenContent');
+            if (resumenContent) {
+                resumenContent.classList.add('active');
+                log(`Activado contenido: resumenContent`);
+            }
+
+            log(`=== CAMBIO DE CAPÍTULO COMPLETADO ===`);
+
+            if (previousTab !== 'resumen') {
+                updateStatus(`✅ Corrección aplicada! Pestaña anterior (${previousTab}) fue reseteada a Resumen correctamente.`, 'success');
+            } else {
+                updateStatus(`ℹ️ La pestaña ya era Resumen, no se necesitó corrección.`, 'success');
+            }
+        }
+
+        function testTabSync() {
+            log(`=== INICIANDO TEST DE SINCRONIZACIÓN ===`);
+
+            const activeTab = document.querySelector('.mock-tab.active');
+            const activeContent = document.querySelector('.mock-content.active');
+
+            const tabName = activeTab ? activeTab.dataset.tab : 'ninguna';
+            const contentName = activeContent ? activeContent.id.replace('Content', '') : 'ninguno';
+
+            log(`Pestaña activa detectada: ${tabName}`);
+            log(`Contenido activo detectado: ${contentName}`);
+            log(`Variable currentMockTab: ${currentMockTab}`);
+
+            if (tabName === contentName && tabName === currentMockTab) {
+                log(`✅ SINCRONIZACIÓN CORRECTA`);
+                updateStatus(`✅ Todo sincronizado correctamente! Pestaña: ${tabName}, Contenido: ${contentName}`, 'success');
+            } else {
+                log(`❌ PROBLEMA DE SINCRONIZACIÓN DETECTADO`);
+                log(`  - Pestaña visual: ${tabName}`);
+                log(`  - Contenido visual: ${contentName}`);
+                log(`  - Variable interna: ${currentMockTab}`);
+                updateStatus(`❌ Problema detectado! Pestaña: ${tabName}, Contenido: ${contentName}, Variable: ${currentMockTab}`, 'error');
+            }
+        }
+
+        function clearLog() {
+            document.getElementById('logArea').innerHTML = '<div>Log limpiado...</div>';
+            updateStatus('Log limpiado. Listo para nuevas pruebas.');
+        }
+
+        // Initialize
+        log('Test de sincronización de pestañas iniciado');
+        updateStatus('Listo para probar. Primero cambia a una pestaña diferente a Resumen.');
+    </script>
+
+    <div class="test-section">
+        <h3>Instrucciones de Prueba:</h3>
+        <ol>
+            <li><strong>Cambiar pestaña:</strong> Haz clic en "Trivia" o cualquier pestaña que no sea "Resumen"</li>
+            <li><strong>Simular problema:</strong> Haz clic en "Simular Cambio de Capítulo"</li>
+            <li><strong>Verificar corrección:</strong> La pestaña debería volver automáticamente a "Resumen" con el contenido correcto</li>
+            <li><strong>Validar:</strong> Usa "Test Sincronización" para verificar que todo esté alineado</li>
+        </ol>
+
+        <div class="test-status success">
+            <strong>Resultado esperado:</strong> Después del cambio de capítulo, siempre debe mostrar "Resumen" tanto en la pestaña como en el contenido, sin importar qué pestaña estaba seleccionada anteriormente.
+        </div>
+    </div>
+</body>
+</html>

@@ -1,223 +1,361 @@
 {
-  "book": "Génesis",
-  "chapter": 12,
-  "title": "Llamado de Abram",
-  "subtitle": "Promesa de bendición para todas las familias",
-  "summary": "Dios llama a Abram a salir de su tierra, le promete una gran nación y lo conduce a Canaán, donde levanta altares. Una hambruna lo obliga a descender a Egipto, pero Dios protege a Sarai y los lleva de regreso con abundancia.",
-  "timeline": {
-    "period": "Inicio de la era patriarcal",
-    "context": "Primer encuentro de Abram con Dios",
-    "placement": "Fundamento de la historia de Israel"
+  "meta": {
+    "id": "genesis-12",
+    "title": "Llamado de Abram",
+    "subtitle": "Promesa de bendición para todas las familias",
+    "slug": "genesis-12-llamado-abram",
+    "keywords": ["Llamado de Abram", "promesa divina", "Canaán", "bendición", "altares", "Egipto"],
+    "author": "Datos Bíblicos",
+    "created": "2024-01-12",
+    "modified": "2024-01-12",
+    "version": "1.0",
+    "status": "published",
+    "type": "bible-chapter",
+    "language": "es"
   },
-  "days": [
-    {
-      "day": 1,
-      "title": "Llamado y promesa",
-      "icon": "!!",
-      "description": "Dios ordena a Abram salir y promete hacerlo una gran nación y bendición para todos.",
-      "verse": "Vete de tu tierra... y bendeciré a los que te bendijeren.",
-      "reference": "Génesis 12:1-3",
-      "significance": "La misión global de Dios se enfoca en una familia."
+  "seo": {
+    "title": "Génesis 12 - Llamado de Abram | Estudio Bíblico",
+    "description": "Estudio completo de Génesis 12: el llamado de Abram, la promesa divina, el viaje a Canaán y la estancia en Egipto. Reflexiones, trivia y aplicaciones prácticas.",
+    "canonical": "https://datos-biblicos.com/genesis/12",
+    "openGraph": {
+      "title": "Génesis 12: Llamado de Abram",
+      "description": "Dios llama a Abram a salir de su tierra y le promete una gran nación. Inicio de la era patriarcal y fundamento de la historia de Israel.",
+      "image": "https://datos-biblicos.com/images/genesis-12-abram.jpg",
+      "type": "article"
     },
-    {
-      "day": 2,
-      "title": "Salida de Harán",
-      "icon": ">>",
-      "description": "Abram obedece a los 75 años, llevando a Sarai, Lot y sus bienes.",
-      "verse": "Y se fue Abram, como Jehová le dijo.",
-      "reference": "Génesis 12:4-5",
-      "significance": "La fe implica dejar seguridad y confiar en la promesa."
-    },
-    {
-      "day": 3,
-      "title": "Llegada a Canaán",
-      "icon": "::",
-      "description": "Abram atraviesa la tierra hasta Siquem y recibe la promesa de darla a su descendencia.",
-      "verse": "A tu descendencia daré esta tierra.",
-      "reference": "Génesis 12:6-7",
-      "significance": "La promesa se vincula a un territorio específico."
-    },
-    {
-      "day": 4,
-      "title": "Altares de adoración",
-      "icon": "++",
-      "description": "Abram edifica altares en Siquem y Betel, invocando el nombre de Jehová.",
-      "verse": "Edificó allí altar a Jehová, e invocó el nombre de Jehová.",
-      "reference": "Génesis 12:8-9",
-      "significance": "La adoración sostiene la obediencia en territorio desconocido."
-    },
-    {
-      "day": 5,
-      "title": "Hambruna y descenso a Egipto",
-      "icon": "~~",
-      "description": "Una hambruna severa impulsa a Abram a buscar refugio en Egipto.",
-      "verse": "Hubo hambre en la tierra.",
-      "reference": "Génesis 12:10",
-      "significance": "Las pruebas no anulan la promesa pero exigen discernimiento."
-    },
-    {
-      "day": 6,
-      "title": "Protección en Egipto",
-      "icon": "[]",
-      "description": "Abram teme y presenta a Sarai como hermana; Dios envía plagas y el faraón los despide con bienes.",
-      "verse": "Jehová hirió al faraón... y le devolvió su mujer.",
-      "reference": "Génesis 12:11-20",
-      "significance": "Dios protege su plan aun cuando Abram falla."
-    }
-  ],
-  "interestingFacts": [
-    {
-      "id": "abram-age",
-      "title": "Abram tenía 75 años",
-      "summary": "La obediencia no depende de la edad.",
-      "explanation": "Abram inicia su aventura de fe a una edad avanzada, demostrando que Dios llama en cualquier etapa.",
-      "verse": "Era Abram de edad de setenta y cinco años cuando salió de Harán.",
-      "reference": "Génesis 12:4"
-    },
-    {
-      "id": "blessing-global",
-      "title": "Bendición para todas las familias",
-      "summary": "La promesa abarca a todas las etnias.",
-      "explanation": "Se anticipa la inclusión de los gentiles en la salvación por medio de la descendencia de Abram: Cristo.",
-      "verse": "Serán benditas en ti todas las familias de la tierra.",
-      "reference": "Génesis 12:3"
-    },
-    {
-      "id": "altars",
-      "title": "Altares itinerantes",
-      "summary": "Abram marca el territorio con adoración.",
-      "explanation": "Cada altar es un recordatorio de la presencia de Dios en la nueva tierra.",
-      "verse": "Edificó allí altar a Jehová.",
-      "reference": "Génesis 12:7-8"
-    },
-    {
-      "id": "plagues-egypt",
-      "title": "Primeras plagas en Egipto",
-      "summary": "Dios hiere al faraón para proteger a Sarai.",
-      "explanation": "Anticipa la futura liberación de Israel y muestra la fidelidad de Dios a su promesa matrimonial.",
-      "verse": "Jehová hirió al faraón y a su casa con grandes plagas.",
-      "reference": "Génesis 12:17"
-    }
-  ],
-  "reflectionQuestions": [
-    {
-      "id": "leave-comfort",
-      "question": "¿Qué \"Harán\" debes dejar para obedecer el llamado de Dios?",
-      "category": "obediencia",
-      "hints": [
-        "Seguridad",
-        "Idolatría",
-        "Confianza"
-      ]
-    },
-    {
-      "id": "mission-vision",
-      "question": "¿Cómo participas en la bendición de todas las familias de la tierra?",
-      "category": "misional",
-      "hints": [
-        "Oración",
-        "Envío",
-        "Generosidad"
-      ]
-    },
-    {
-      "id": "fear-egypt",
-      "question": "¿Qué temores te llevan a tomar decisiones impulsivas como Abram en Egipto?",
-      "category": "personal",
-      "hints": [
-        "Confianza",
-        "Protección",
-        "Verdad"
-      ]
-    },
-    {
-      "id": "altars-life",
-      "question": "¿Qué altares (momentos de adoración) necesitas levantar en tu rutina?",
-      "category": "adoración",
-      "hints": [
-        "Devoción",
-        "Memoriales",
-        "Espacios sagrados"
-      ]
-    }
-  ],
-  "trivia": [
-    {
-      "question": "¿Qué edad tenía Abram cuando salió de Harán?",
-      "options": [
-        "65 años",
-        "75 años",
-        "85 años"
-      ],
-      "correct": 1,
-      "explanation": "Tenía 75 años (Génesis 12:4)."
-    },
-    {
-      "question": "¿Cuál fue la razón por la que Abram descendió a Egipto?",
-      "options": [
-        "Guerra",
-        "Hambruna",
-        "Fiesta"
-      ],
-      "correct": 1,
-      "explanation": "Una hambruna severa lo llevó a refugiarse en Egipto."
-    },
-    {
-      "question": "¿Cómo presentó Abram a Sarai en Egipto?",
-      "options": [
-        "Como su esposa",
-        "Como su hermana",
-        "Como su criada"
-      ],
-      "correct": 1,
-      "explanation": "La presentó como su hermana por temor."
-    },
-    {
-      "question": "¿Qué hizo el faraón al descubrir la verdad sobre Sarai?",
-      "options": [
-        "Los encarceló",
-        "Los expulsó con provisiones",
-        "Los dejó quedarse"
-      ],
-      "correct": 1,
-      "explanation": "El faraón los envió con todo lo que tenían, protegiendo la promesa."
-    }
-  ],
-  "comparison": {
-    "title": "Vida anterior vs vida de fe",
-    "before": {
-      "title": "Vida en Harán",
-      "description": "Estabilidad y familiaridad sin propósito eterno claro.",
-      "elements": [
-        "Familia extendida",
-        "Seguridad",
-        "Idolatría de los caldeos"
-      ],
-      "verse": "Taré tomó a Abram... y se quedaron en Harán.",
-      "reference": "Génesis 11:31"
-    },
-    "after": {
-      "title": "Caminata con promesa",
-      "description": "Movilidad, altares y dependencia total de Dios.",
-      "elements": [
-        "Fe",
-        "Promesa",
-        "Adoración"
-      ],
-      "verse": "Se fue Abram, como Jehová le dijo.",
-      "reference": "Génesis 12:4"
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Génesis 12: Llamado de Abram",
+      "description": "Estudio bíblico completo del capítulo 12 de Génesis con análisis teológico y aplicaciones prácticas."
     }
   },
-  "memorizeVerse": {
-    "text": "Haré de ti una nación grande, y te bendeciré, y engrandeceré tu nombre, y serás bendición.",
-    "reference": "Génesis 12:2",
-    "theme": "Llamado misional"
+  "source": {
+    "book": "Génesis",
+    "chapter": 12,
+    "verses": "1-20",
+    "version": "RV60",
+    "reference": "Génesis 12:1-20"
   },
-  "mainTeaching": "La vida de fe implica dejar lo conocido, confiar en las promesas de Dios y ser canal de bendición para el mundo.",
-  "practicalApplication": [
-    "Escucha el llamado de Dios por encima de la comodidad personal.",
-    "Participa activamente en la misión global de llevar bendición.",
-    "Confía en la protección divina en medio del temor y la incertidumbre.",
-    "Marca tu camino con momentos intencionales de adoración y gratitud."
-  ]
+  "document": {
+    "title": "Llamado de Abram",
+    "subtitle": "Promesa de bendición para todas las familias",
+    "summary": "Dios llama a Abram a salir de su tierra, le promete una gran nación y lo conduce a Canaán, donde levanta altares. Una hambruna lo obliga a descender a Egipto, pero Dios protege a Sarai y los lleva de regreso con abundancia.",
+    "timeline": {
+      "period": "Inicio de la era patriarcal",
+      "context": "Primer encuentro de Abram con Dios",
+      "placement": "Fundamento de la historia de Israel"
+    },
+    "content": {
+      "days": [
+        {
+          "day": 1,
+          "title": "Llamado y promesa",
+          "icon": "!!",
+          "description": "Dios ordena a Abram salir y promete hacerlo una gran nación y bendición para todos.",
+          "verse": "Vete de tu tierra... y bendeciré a los que te bendijeren.",
+          "reference": "Génesis 12:1-3",
+          "significance": "La misión global de Dios se enfoca en una familia."
+        },
+        {
+          "day": 2,
+          "title": "Salida de Harán",
+          "icon": ">>",
+          "description": "Abram obedece a los 75 años, llevando a Sarai, Lot y sus bienes.",
+          "verse": "Y se fue Abram, como Jehová le dijo.",
+          "reference": "Génesis 12:4-5",
+          "significance": "La fe implica dejar seguridad y confiar en la promesa."
+        },
+        {
+          "day": 3,
+          "title": "Llegada a Canaán",
+          "icon": "::",
+          "description": "Abram atraviesa la tierra hasta Siquem y recibe la promesa de darla a su descendencia.",
+          "verse": "A tu descendencia daré esta tierra.",
+          "reference": "Génesis 12:6-7",
+          "significance": "La promesa se vincula a un territorio específico."
+        },
+        {
+          "day": 4,
+          "title": "Altares de adoración",
+          "icon": "++",
+          "description": "Abram edifica altares en Siquem y Betel, invocando el nombre de Jehová.",
+          "verse": "Edificó allí altar a Jehová, e invocó el nombre de Jehová.",
+          "reference": "Génesis 12:8-9",
+          "significance": "La adoración sostiene la obediencia en territorio desconocido."
+        },
+        {
+          "day": 5,
+          "title": "Hambruna y descenso a Egipto",
+          "icon": "~~",
+          "description": "Una hambruna severa impulsa a Abram a buscar refugio en Egipto.",
+          "verse": "Hubo hambre en la tierra.",
+          "reference": "Génesis 12:10",
+          "significance": "Las pruebas no anulan la promesa pero exigen discernimiento."
+        },
+        {
+          "day": 6,
+          "title": "Protección en Egipto",
+          "icon": "[]",
+          "description": "Abram teme y presenta a Sarai como hermana; Dios envía plagas y el faraón los despide con bienes.",
+          "verse": "Jehová hirió al faraón... y le devolvió su mujer.",
+          "reference": "Génesis 12:11-20",
+          "significance": "Dios protege su plan aun cuando Abram falla."
+        }
+      ],
+      "interestingFacts": [
+        {
+          "id": "abram-age",
+          "title": "Abram tenía 75 años",
+          "summary": "La obediencia no depende de la edad.",
+          "explanation": "Abram inicia su aventura de fe a una edad avanzada, demostrando que Dios llama en cualquier etapa.",
+          "verse": "Era Abram de edad de setenta y cinco años cuando salió de Harán.",
+          "reference": "Génesis 12:4"
+        },
+        {
+          "id": "blessing-global",
+          "title": "Bendición para todas las familias",
+          "summary": "La promesa abarca a todas las etnias.",
+          "explanation": "Se anticipa la inclusión de los gentiles en la salvación por medio de la descendencia de Abram: Cristo.",
+          "verse": "Serán benditas en ti todas las familias de la tierra.",
+          "reference": "Génesis 12:3"
+        },
+        {
+          "id": "altars",
+          "title": "Altares itinerantes",
+          "summary": "Abram marca el territorio con adoración.",
+          "explanation": "Cada altar es un recordatorio de la presencia de Dios en la nueva tierra.",
+          "verse": "Edificó allí altar a Jehová.",
+          "reference": "Génesis 12:7-8"
+        },
+        {
+          "id": "plagues-egypt",
+          "title": "Primeras plagas en Egipto",
+          "summary": "Dios hiere al faraón para proteger a Sarai.",
+          "explanation": "Anticipa la futura liberación de Israel y muestra la fidelidad de Dios a su promesa matrimonial.",
+          "verse": "Jehová hirió al faraón y a su casa con grandes plagas.",
+          "reference": "Génesis 12:17"
+        }
+      ],
+      "reflectionQuestions": [
+        {
+          "id": "leave-comfort",
+          "question": "¿Qué \"Harán\" debes dejar para obedecer el llamado de Dios?",
+          "category": "obediencia",
+          "hints": ["Seguridad", "Idolatría", "Confianza"]
+        },
+        {
+          "id": "mission-vision",
+          "question": "¿Cómo participas en la bendición de todas las familias de la tierra?",
+          "category": "misional",
+          "hints": ["Oración", "Envío", "Generosidad"]
+        },
+        {
+          "id": "fear-egypt",
+          "question": "¿Qué temores te llevan a tomar decisiones impulsivas como Abram en Egipto?",
+          "category": "personal",
+          "hints": ["Confianza", "Protección", "Verdad"]
+        },
+        {
+          "id": "altars-life",
+          "question": "¿Qué altares (momentos de adoración) necesitas levantar en tu rutina?",
+          "category": "adoración",
+          "hints": ["Devoción", "Memoriales", "Espacios sagrados"]
+        }
+      ],
+      "trivia": [
+        {
+          "question": "¿Qué edad tenía Abram cuando salió de Harán?",
+          "options": ["65 años", "75 años", "85 años"],
+          "correct": 1,
+          "explanation": "Tenía 75 años (Génesis 12:4)."
+        },
+        {
+          "question": "¿Cuál fue la razón por la que Abram descendió a Egipto?",
+          "options": ["Guerra", "Hambruna", "Fiesta"],
+          "correct": 1,
+          "explanation": "Una hambruna severa lo llevó a refugiarse en Egipto."
+        },
+        {
+          "question": "¿Cómo presentó Abram a Sarai en Egipto?",
+          "options": ["Como su esposa", "Como su hermana", "Como su criada"],
+          "correct": 1,
+          "explanation": "La presentó como su hermana por temor."
+        },
+        {
+          "question": "¿Qué hizo el faraón al descubrir la verdad sobre Sarai?",
+          "options": ["Los encarceló", "Los expulsó con provisiones", "Los dejó quedarse"],
+          "correct": 1,
+          "explanation": "El faraón los envió con todo lo que tenían, protegiendo la promesa."
+        }
+      ],
+      "comparison": {
+        "title": "Vida anterior vs vida de fe",
+        "before": {
+          "title": "Vida en Harán",
+          "description": "Estabilidad y familiaridad sin propósito eterno claro.",
+          "elements": ["Familia extendida", "Seguridad", "Idolatría de los caldeos"],
+          "verse": "Taré tomó a Abram... y se quedaron en Harán.",
+          "reference": "Génesis 11:31"
+        },
+        "after": {
+          "title": "Caminata con promesa",
+          "description": "Movilidad, altares y dependencia total de Dios.",
+          "elements": ["Fe", "Promesa", "Adoración"],
+          "verse": "Se fue Abram, como Jehová le dijo.",
+          "reference": "Génesis 12:4"
+        }
+      },
+      "memorizeVerse": {
+        "text": "Haré de ti una nación grande, y te bendeciré, y engrandeceré tu nombre, y serás bendición.",
+        "reference": "Génesis 12:2",
+        "theme": "Llamado misional"
+      },
+      "mainTeaching": "La vida de fe implica dejar lo conocido, confiar en las promesas de Dios y ser canal de bendición para el mundo.",
+      "practicalApplication": [
+        "Escucha el llamado de Dios por encima de la comodidad personal.",
+        "Participa activamente en la misión global de llevar bendición.",
+        "Confía en la protección divina en medio del temor y la incertidumbre.",
+        "Marca tu camino con momentos intencionales de adoración y gratitud."
+      ]
+    }
+  },
+  "ui": {
+    "theme": "primary",
+    "color": "#1E90FF",
+    "icon": "call",
+    "layout": "standard",
+    "navigation": {
+      "previous": {
+        "title": "Génesis 11",
+        "slug": "genesis-11"
+      },
+      "next": {
+        "title": "Génesis 13",
+        "slug": "genesis-13"
+      }
+    },
+    "components": {
+      "timeline": true,
+      "trivia": true,
+      "reflections": true,
+      "comparison": true,
+      "memorization": true
+    }
+  },
+  "relations": {
+    "relatedChapters": [
+      {
+        "chapter": "genesis-11",
+        "relation": "previous",
+        "description": "Torre de Babel y genealogía de Abram"
+      },
+      {
+        "chapter": "genesis-13",
+        "relation": "next",
+        "description": "Separación de Abram y Lot"
+      }
+    ],
+    "themes": [
+      {
+        "theme": "llamado",
+        "chapters": ["genesis-12", "genesis-15", "genesis-22"]
+      },
+      {
+        "theme": "promesas",
+        "chapters": ["genesis-12", "genesis-13", "genesis-15"]
+      },
+      {
+        "theme": "fe",
+        "chapters": ["genesis-12", "genesis-15", "genesis-22"]
+      }
+    ],
+    "characters": [
+      {
+        "name": "Abram",
+        "chapters": ["genesis-11", "genesis-12", "genesis-13"]
+      },
+      {
+        "name": "Sarai",
+        "chapters": ["genesis-12", "genesis-16", "genesis-17"]
+      },
+      {
+        "name": "Lot",
+        "chapters": ["genesis-12", "genesis-13", "genesis-19"]
+      }
+    ]
+  },
+  "taxonomy": {
+    "testament": "Antiguo",
+    "book": "Génesis",
+    "section": "Pentateuco",
+    "category": "Historia patriarcal",
+    "period": "Era de Abraham",
+    "genre": "Narrativa histórica",
+    "themes": ["Llamado divino", "Promesa", "Fe", "Bendición global"],
+    "characters": ["Abram", "Sarai", "Lot", "Faraón"],
+    "places": ["Harán", "Canaán", "Siquem", "Betel", "Egipto"],
+    "timeline": "c. 2000 a.C."
+  },
+  "index": {
+    "searchTerms": [
+      "Llamado de Abram",
+      "promesa divina",
+      "bendición",
+      "Canaán",
+      "altares",
+      "Egipto",
+      "Sarai",
+      "hambruna",
+      "fe",
+      "obediencia"
+    ],
+    "keyVerses": [
+      "Génesis 12:1",
+      "Génesis 12:2",
+      "Génesis 12:3",
+      "Génesis 12:7"
+    ],
+    "mainConcepts": [
+      "Llamado divino",
+      "Promesa abrahámica",
+      "Fe obediente",
+      "Bendición universal",
+      "Adoración itinerante"
+    ]
+  },
+  "accessibility": {
+    "audioAvailable": false,
+    "visualAids": true,
+    "readingLevel": "intermedio",
+    "alternativeFormats": ["audio", "braille"],
+    "screenReaderOptimized": true
+  },
+  "analytics": {
+    "readingTime": 8,
+    "difficulty": "intermedio",
+    "popularity": 90,
+    "engagement": {
+      "averageTimeOnPage": "7:00",
+      "bounceRate": 0.20,
+      "shareRate": 0.18
+    },
+    "feedback": {
+      "rating": 4.8,
+      "totalRatings": 312,
+      "comments": 67
+    }
+  },
+  "contributors": {
+    "author": "Equipo Datos Bíblicos",
+    "reviewers": ["Dr. Carlos Martínez", "Dra. Ana Rodríguez"],
+    "editors": ["Prof. Luis García"],
+    "lastReviewDate": "2024-01-12"
+  },
+  "moderation": {
+    "status": "approved",
+    "contentWarnings": [],
+    "ageRating": "all-ages",
+    "lastModerated": "2024-01-12"
+  }
 }

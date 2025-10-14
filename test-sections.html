@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test - Secciones del Modal</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .test-btn { background: #2196F3; color: white; padding: 10px 15px; border: none; border-radius: 5px; cursor: pointer; margin: 5px; }
+        .test-btn:hover { background: #1976D2; }
+        .result { margin: 20px 0; padding: 15px; background: #f5f5f5; border-radius: 5px; min-height: 200px; }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+        .tabs { margin: 20px 0; }
+        .tab { background: #e0e0e0; border: none; padding: 10px 20px; cursor: pointer; margin-right: 5px; }
+        .tab.active { background: #2196F3; color: white; }
+    </style>
+</head>
+<body>
+    <h1>Test - Secciones del Modal de Génesis</h1>
+
+    <button class="test-btn" onclick="loadTestData()">Cargar Datos de Prueba</button>
+    <button class="test-btn" onclick="testAllSections()">Probar Todas las Secciones</button>
+
+    <div class="tabs">
+        <button class="tab active" onclick="showTab('resumen')">Resumen</button>
+        <button class="tab" onclick="showTab('timeline')">Timeline</button>
+        <button class="tab" onclick="showTab('datos')">Datos</button>
+        <button class="tab" onclick="showTab('reflexion')">Reflexión</button>
+        <button class="tab" onclick="showTab('trivia')">Trivia</button>
+        <button class="tab" onclick="showTab('comparacion')">Comparación</button>
+    </div>
+
+    <div id="resumenContent" class="tab-content active"></div>
+    <div id="timelineContent" class="tab-content"></div>
+    <div id="datosContent" class="tab-content"></div>
+    <div id="reflexionContent" class="tab-content"></div>
+    <div id="triviaContent" class="tab-content"></div>
+    <div id="comparacionContent" class="tab-content"></div>
+
+    <script>
+        let currentChapterData = null;
+        let currentTab = 'resumen';
+        let currentDay = 1;
+        let currentTrivia = 0;
+        let triviaAnswers = [];
+
+        async function loadTestData() {
+            try {
+                const response = await fetch('./data/chapters/genesis-1.json');
+                currentChapterData = await response.json();
+                console.log('Test data loaded:', currentChapterData);
+                document.querySelector('.result')?.remove();
+
+                const result = document.createElement('div');
+                result.className = 'result';
+                result.innerHTML = `<p>✅ Datos cargados: ${currentChapterData.document.title}</p>`;
+                document.body.appendChild(result);
+
+                updateAllSections();
+            } catch (error) {
+                console.error('Error:', error);
+                const result = document.createElement('div');
+                result.className = 'result';
+                result.innerHTML = `<p>❌ Error: ${error.message}</p>`;
+                document.body.appendChild(result);
+            }
+        }
+
+        function showTab(tabName) {
+            // Update tabs
+            document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
+            document.querySelector(`[onclick="showTab('${tabName}')"]`).classList.add('active');
+
+            // Update content
+            document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+            document.getElementById(tabName + 'Content').classList.add('active');
+
+            currentTab = tabName;
+        }
+
+        function updateAllSections() {
+            if (!currentChapterData) return;
+
+            updateResumenContent();
+            updateTimelineContent();
+            updateDatosContent();
+            updateReflexionContent();
+            updateTriviaContent();
+            updateComparacionContent();
+        }
+
+        function testAllSections() {
+            if (!currentChapterData) {
+                alert('Primero carga los datos de prueba');
+                return;
+            }
+
+            const sections = ['resumen', 'timeline', 'datos', 'reflexion', 'trivia', 'comparacion'];
+            let index = 0;
+
+            function nextSection() {
+                if (index < sections.length) {
+                    showTab(sections[index]);
+                    index++;
+                    setTimeout(nextSection, 2000);
+                }
+            }
+
+            nextSection();
+        }
+
+        // Copiar las funciones principales del app.js
+        function updateResumenContent() {
+            const container = document.getElementById('resumenContent');
+            if (!container) return;
+
+            const html = \`
+                <div class="resumen-summary">
+                    <h3>📖 Resumen</h3>
+                    <p>\${currentChapterData.document?.summary || currentChapterData.summary || 'Resumen no disponible'}</p>
+                </div>
+
+                <div class="resumen-timeline">
+                    <h4>⏰ Contexto Temporal</h4>
+                    <div class="timeline-info">
+                        <div class="timeline-item">
+                            <strong>Período:</strong> \${currentChapterData.document?.timeline?.period || currentChapterData.timeline?.period || 'No disponible'}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resumen-teaching">
+                    <h4>💡 Enseñanza Principal</h4>
+                    <p>\${currentChapterData.document?.mainTeaching || currentChapterData.mainTeaching || 'Enseñanza no disponible'}</p>
+                </div>
+
+                <div class="resumen-application">
+                    <h4>🎯 Aplicación Práctica</h4>
+                    <ul>
+                        \${(currentChapterData.document?.practicalApplication || currentChapterData.practicalApplication || []).map(app => \`<li>\${app}</li>\`).join('')}
+                    </ul>
+                </div>
+            \`;
+
+            container.innerHTML = html;
+        }
+
+        function updateTimelineContent() {
+            const container = document.getElementById('timelineContent');
+            const days = currentChapterData.document?.days || currentChapterData.days;
+            if (!container || !days) {
+                container.innerHTML = '<p>⚠️ No hay datos de timeline disponibles</p>';
+                return;
+            }
+
+            const html = \`
+                <div class="timeline-container">
+                    <h3>📅 Línea de Tiempo de la Creación</h3>
+                    <div class="timeline-days">
+                        \${days.map((day, index) => \`
+                            <div class="day-card">
+                                <div class="day-header">
+                                    <div class="day-icon">\${day.icon}</div>
+                                    <div class="day-info">
+                                        <h4>\${day.title}</h4>
+                                        <div class="day-number">Día \${day.day}</div>
+                                    </div>
+                                </div>
+                                <div class="day-description">\${day.description}</div>
+                                <div class="day-verse">\${day.verse} - \${day.reference}</div>
+                            </div>
+                        \`).join('')}
+                    </div>
+                </div>
+            \`;
+
+            container.innerHTML = html;
+        }
+
+        function updateDatosContent() {
+            const container = document.getElementById('datosContent');
+            const facts = currentChapterData.document?.interestingFacts || currentChapterData.interestingFacts;
+            if (!container || !facts) {
+                container.innerHTML = '<p>⚠️ No hay datos curiosos disponibles</p>';
+                return;
+            }
+
+            const html = \`
+                <div class="facts-grid">
+                    <h3>🔍 Datos Curiosos</h3>
+                    \${facts.map(fact => \`
+                        <div class="fact-card">
+                            <div class="fact-title">\${fact.title}</div>
+                            <div class="fact-summary">\${fact.summary}</div>
+                            <div class="fact-explanation">\${fact.explanation}</div>
+                            <div class="fact-verse">"\${fact.verse}" - \${fact.reference}</div>
+                        </div>
+                    \`).join('')}
+                </div>
+            \`;
+
+            container.innerHTML = html;
+        }
+
+        function updateReflexionContent() {
+            const container = document.getElementById('reflexionContent');
+            const questions = currentChapterData.document?.reflectionQuestions || currentChapterData.reflectionQuestions;
+            if (!container || !questions) {
+                container.innerHTML = '<p>⚠️ No hay preguntas de reflexión disponibles</p>';
+                return;
+            }
+
+            const html = \`
+                <div class="questions-grid">
+                    <h3>🤔 Preguntas de Reflexión</h3>
+                    \${questions.map((question, index) => \`
+                        <div class="question-card">
+                            <div class="question-category">[\${question.category}]</div>
+                            <div class="question-text">\${question.question}</div>
+                            <div class="question-hints">
+                                \${question.hints.map(hint => \`<span class="hint-tag">\${hint}</span>\`).join(', ')}
+                            </div>
+                            <textarea placeholder="Escribe tu reflexión aquí..."></textarea>
+                        </div>
+                    \`).join('')}
+                </div>
+            \`;
+
+            container.innerHTML = html;
+        }
+
+        function updateTriviaContent() {
+            const container = document.getElementById('triviaContent');
+
+            console.log('=== Trivia Test Debug ===');
+            console.log('currentChapterData.document?.trivia:', currentChapterData.document?.trivia);
+            console.log('currentChapterData.document?.trivia?.items:', currentChapterData.document?.trivia?.items);
+
+            const trivia = currentChapterData.document?.trivia?.items || currentChapterData.trivia;
+            console.log('Final trivia data:', trivia);
+
+            if (!container) {
+                console.error('Container not found');
+                return;
+            }
+
+            if (!trivia) {
+                console.error('No trivia data');
+                container.innerHTML = '<p>⚠️ No hay trivia disponible</p>';
+                return;
+            }
+
+            if (!Array.isArray(trivia)) {
+                console.error('Trivia is not an array:', trivia);
+                container.innerHTML = '<p>⚠️ Datos de trivia en formato incorrecto</p>';
+                return;
+            }
+
+            const html = \`
+                <div class="trivia-container">
+                    <h3>🎯 Trivia Bíblica</h3>
+                    \${trivia.map((question, index) => \`
+                        <div class="trivia-question">
+                            <h4>Pregunta \${index + 1}</h4>
+                            <p>\${question.question}</p>
+                            <div class="trivia-options">
+                                \${question.options.map((option, optIndex) => \`
+                                    <div class="trivia-option">
+                                        \${option} \${optIndex === question.correct ? '✅' : ''}
+                                    </div>
+                                \`).join('')}
+                            </div>
+                            <div class="trivia-explanation">\${question.explanation}</div>
+                        </div>
+                    \`).join('')}
+                </div>
+            \`;
+
+            container.innerHTML = html;
+        }
+
+        function updateComparacionContent() {
+            const container = document.getElementById('comparacionContent');
+            const comparison = currentChapterData.document?.comparison || currentChapterData.comparison;
+            if (!container || !comparison) {
+                container.innerHTML = '<p>⚠️ No hay comparación disponible</p>';
+                return;
+            }
+
+            const html = \`
+                <div class="comparison-container">
+                    <h3>\${comparison.title}</h3>
+                    <div class="comparison-sides">
+                        <div class="comparison-side">
+                            <h4>\${comparison.before.title}</h4>
+                            <p>\${comparison.before.description}</p>
+                            <ul>
+                                \${comparison.before.elements.map(el => \`<li>\${el}</li>\`).join('')}
+                            </ul>
+                            <div class="comparison-verse">"\${comparison.before.verse}" - \${comparison.before.reference}</div>
+                        </div>
+                        <div class="comparison-side">
+                            <h4>\${comparison.after.title}</h4>
+                            <p>\${comparison.after.description}</p>
+                            <ul>
+                                \${comparison.after.elements.map(el => \`<li>\${el}</li>\`).join('')}
+                            </ul>
+                            <div class="comparison-verse">"\${comparison.after.verse}" - \${comparison.after.reference}</div>
+                        </div>
+                    </div>
+                </div>
+            \`;
+
+            container.innerHTML = html;
+        }
+
+        // Auto-load al cargar la página
+        window.addEventListener('load', loadTestData);
+    </script>
+
+    <style>
+        .day-card, .fact-card, .question-card, .trivia-question {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 10px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .comparison-sides {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .comparison-side {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+        }
+
+        .hint-tag {
+            background: #e3f2fd;
+            color: #1565c0;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            margin: 2px;
+        }
+
+        .trivia-option {
+            background: #f5f5f5;
+            padding: 8px 12px;
+            margin: 5px 0;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        textarea {
+            width: 100%;
+            height: 80px;
+            margin-top: 10px;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+    </style>
+</body>
+</html>

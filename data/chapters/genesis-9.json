@@ -1,223 +1,477 @@
 {
-  "book": "Génesis",
-  "chapter": 9,
-  "title": "Pacto con Noé",
-  "subtitle": "Arco iris y responsabilidades postdiluvianas",
-  "summary": "Dios bendice a Noé, establece el respeto por la vida, sella un pacto universal con el arco iris como señal y narra el episodio de la viña de Noé, de donde surge la bendición para Sem y Jafet y la maldición sobre Canaán.",
-  "timeline": {
-    "period": "Después del diluvio",
-    "context": "Nuevo orden para la humanidad",
-    "placement": "Primer pacto universal"
+  "meta": {
+    "id": "genesis-9-pacto-noe",
+    "slug": "genesis-9-pacto-noe",
+    "lang": "es",
+    "available_locales": ["es"],
+    "version": 1,
+    "created_at": "2025-10-03T00:00:00Z",
+    "updated_at": "2025-10-03T00:00:00Z",
+    "status": "published"
   },
-  "days": [
-    {
-      "day": 1,
-      "title": "Mandato de multiplicarse",
-      "icon": "++",
-      "description": "Dios bendice a Noé y sus hijos, otorgándoles dominio sobre los animales.",
-      "verse": "Fructificad y multiplicaos, y llenad la tierra.",
-      "reference": "Génesis 9:1-3",
-      "significance": "Retoma el mandato de la creación con una nueva relación con la naturaleza."
+  "seo": {
+    "title": "Génesis 9: Pacto con Noé - Arco iris y responsabilidades postdiluvianas",
+    "description": "Dios bendice a Noé, establece el respeto por la vida, sella un pacto universal con el arco iris como señal y narra el episodio de la viña de Noé, de donde surge la bendición para Sem y Jafet y la maldición sobre Canaán.",
+    "keywords": ["génesis 9", "pacto noé", "arco iris", "sangre prohibida", "canaán maldición", "sem jafet bendición", "respeto vida"],
+    "canonical": "https://datos-biblicos.com/genesis/9",
+    "og_image": "https://datos-biblicos.com/images/genesis-9-rainbow-covenant.jpg",
+    "robots": "index, follow"
+  },
+  "source": {
+    "bible_version": "RVR1960",
+    "reference": "Génesis 9:1-29",
+    "cross_references": ["Hechos 15:20", "Romanos 13:4", "1 Pedro 3:20", "Apocalipsis 4:3"],
+    "parallel_accounts": []
+  },
+  "document": {
+    "book": "Génesis",
+    "chapter": 9,
+    "title": "Pacto con Noé",
+    "subtitle": "Arco iris y responsabilidades postdiluvianas",
+    "summary": "Dios bendice a Noé, establece el respeto por la vida, sella un pacto universal con el arco iris como señal y narra el episodio de la viña de Noé, de donde surge la bendición para Sem y Jafet y la maldición sobre Canaán.",
+    "timeline": {
+      "period": "Después del diluvio",
+      "context": "Nuevo orden para la humanidad",
+      "placement": "Primer pacto universal"
     },
-    {
-      "day": 2,
-      "title": "Valor de la vida y la sangre",
-      "icon": "!!",
-      "description": "Se prohíbe comer sangre y se establece la justicia por derramar sangre humana.",
-      "verse": "Porque la vida de la carne en la sangre está.",
-      "reference": "Génesis 9:4-6",
-      "significance": "La vida humana se protege con seriedad y responsabilidad comunitaria."
+    "days": [
+      {
+        "day": 1,
+        "title": "Mandato de multiplicarse",
+        "icon": "++",
+        "description": "Dios bendice a Noé y sus hijos, otorgándoles dominio sobre los animales.",
+        "verse": "Fructificad y multiplicaos, y llenad la tierra.",
+        "reference": "Génesis 9:1-3",
+        "significance": "Retoma el mandato de la creación con una nueva relación con la naturaleza."
+      },
+      {
+        "day": 2,
+        "title": "Valor de la vida y la sangre",
+        "icon": "!!",
+        "description": "Se prohíbe comer sangre y se establece la justicia por derramar sangre humana.",
+        "verse": "Porque la vida de la carne en la sangre está.",
+        "reference": "Génesis 9:4-6",
+        "significance": "La vida humana se protege con seriedad y responsabilidad comunitaria."
+      },
+      {
+        "day": 3,
+        "title": "Promesa sin diluvio",
+        "icon": "::",
+        "description": "Dios promete no destruir de nuevo toda carne con aguas de diluvio.",
+        "verse": "No será más diluvio para destruir la tierra.",
+        "reference": "Génesis 9:8-11",
+        "significance": "La misericordia establece estabilidad para futuras generaciones."
+      },
+      {
+        "day": 4,
+        "title": "Arco iris como señal",
+        "icon": "~~",
+        "description": "El arco iris se coloca en las nubes como recordatorio del pacto eterno.",
+        "verse": "Mi arco he puesto en las nubes.",
+        "reference": "Génesis 9:13-17",
+        "significance": "Dios ata una señal visible a su promesa invisible."
+      },
+      {
+        "day": 5,
+        "title": "La viña de Noé",
+        "icon": "##",
+        "description": "Noé planta una viña, bebe vino y queda descubierto en su tienda.",
+        "verse": "Comenzó Noé a labrar la tierra, y plantó una viña.",
+        "reference": "Génesis 9:18-21",
+        "significance": "Incluso los justos pueden tropezar después de grandes victorias."
+      },
+      {
+        "day": 6,
+        "title": "Maldición y bendiciones",
+        "icon": "[]",
+        "description": "Cam ve la desnudez de su padre; Sem y Jafet la cubren. Canaán es maldecido, Sem es bendecido.",
+        "verse": "Maldito sea Canaán... Bendito por Jehová mi Dios sea Sem.",
+        "reference": "Génesis 9:22-27",
+        "significance": "La honra filial trae bendición; la irreverencia, consecuencias."
+      }
+    ],
+    "interestingFacts": [
+      {
+        "id": "fear-of-man",
+        "title": "Temor en los animales",
+        "summary": "Dios pone el temor y el pavor del hombre sobre toda bestia.",
+        "explanation": "El nuevo orden evita la violencia indiscriminada del hombre hacia los animales y viceversa.",
+        "verse": "El temor y el miedo de vosotros estará sobre todo animal.",
+        "reference": "Génesis 9:2"
+      },
+      {
+        "id": "blood-prohibition",
+        "title": "Prohibición de comer sangre",
+        "summary": "Se establece por primera vez la regulación alimentaria.",
+        "explanation": "Honra la vida que Dios concede y prepara el concepto sacrificial que culmina en Cristo.",
+        "verse": "No comeréis carne con su vida, que es su sangre.",
+        "reference": "Génesis 9:4"
+      },
+      {
+        "id": "rainbow-sign",
+        "title": "Arco en las nubes",
+        "summary": "Dios ata un símbolo visible a su pacto eterno.",
+        "explanation": "Cada arco iris recuerda tanto a Dios como a la humanidad el compromiso de no enviar otro diluvio global.",
+        "verse": "Será por señal del pacto entre mí y la tierra.",
+        "reference": "Génesis 9:13"
+      },
+      {
+        "id": "canaan-curse",
+        "title": "La maldición recae en Canaán",
+        "summary": "Aunque Cam falta, la maldición se pronuncia sobre su hijo.",
+        "explanation": "La profecía anticipa la servidumbre de los cananeos y resalta la responsabilidad generacional.",
+        "verse": "Maldito sea Canaán; siervo de siervos será a sus hermanos.",
+        "reference": "Génesis 9:25"
+      }
+    ],
+    "reflectionQuestions": [
+      {
+        "id": "respect-life",
+        "question": "¿Cómo puedes honrar la vida humana como portadora de la imagen de Dios?",
+        "category": "ética",
+        "hints": [
+          "Justicia",
+          "Valor intrínseco",
+          "Compasión"
+        ]
+      },
+      {
+        "id": "remember-promise",
+        "question": "¿Qué \"arco iris\" te ha dado Dios para recordarte su pacto?",
+        "category": "fe",
+        "hints": [
+          "Señales",
+          "Memoriales",
+          "Testimonios"
+        ]
+      },
+      {
+        "id": "post-victory",
+        "question": "¿Cómo permaneces vigilante después de una gran victoria espiritual?",
+        "category": "discipulado",
+        "hints": [
+          "Humildad",
+          "Sobriedad",
+          "Rendición continua"
+        ]
+      },
+      {
+        "id": "honor-parents",
+        "question": "¿De qué manera muestras honra y cobertura hacia tu familia?",
+        "category": "familia",
+        "hints": [
+          "Respeto",
+          "Discreción",
+          "Servicio"
+        ]
+      }
+    ],
+    "trivia": [
+      {
+        "question": "¿Qué se prohíbe comer en Génesis 9?",
+        "options": [
+          "Frutas del Edén",
+          "Carne con sangre",
+          "Pescado sin escamas"
+        ],
+        "correct": 1,
+        "explanation": "Dios prohíbe comer carne con su sangre porque en la sangre está la vida."
+      },
+      {
+        "question": "¿Cuál es la señal del pacto que Dios establece con Noé?",
+        "options": [
+          "Una estrella",
+          "El arco iris",
+          "Una columna de fuego"
+        ],
+        "correct": 1,
+        "explanation": "El arco iris es la señal visible del pacto eterno."
+      },
+      {
+        "question": "¿Quién recibió la maldición pronunciada por Noé?",
+        "options": [
+          "Cam",
+          "Canaán",
+          "Jafet"
+        ],
+        "correct": 1,
+        "explanation": "La maldición recae sobre Canaán, hijo de Cam."
+      },
+      {
+        "question": "¿Qué oficio emprende Noé después del diluvio?",
+        "options": [
+          "Pastor",
+          "Rey",
+          "Viñador"
+        ],
+        "correct": 2,
+        "explanation": "Noé planta una viña y bebe del fruto de ella."
+      }
+    ],
+    "comparison": {
+      "title": "Vida sin pacto vs vida bajo promesa",
+      "before": {
+        "title": "Temor al juicio repetido",
+        "description": "Incertidumbre sobre el futuro de la tierra.",
+        "elements": [
+          "Trauma",
+          "Inseguridad",
+          "Mundo devastado"
+        ],
+        "verse": "No volveré más a maldecir la tierra.",
+        "reference": "Génesis 8:21"
+      },
+      "after": {
+        "title": "Garantía de estabilidad",
+        "description": "Mandatos claros, señal visible y bendiciones proféticas.",
+        "elements": [
+          "Arco iris",
+          "Valor por la vida",
+          "Destino de las naciones"
+        ],
+        "verse": "Será el arco en las nubes... y me acordaré del pacto perpetuo.",
+        "reference": "Génesis 9:16"
+      }
     },
-    {
-      "day": 3,
-      "title": "Promesa sin diluvio",
-      "icon": "::",
-      "description": "Dios promete no destruir de nuevo toda carne con aguas de diluvio.",
-      "verse": "No será más diluvio para destruir la tierra.",
-      "reference": "Génesis 9:8-11",
-      "significance": "La misericordia establece estabilidad para futuras generaciones."
+    "memorizeVerse": {
+      "text": "Mi arco he puesto en las nubes, el cual será por señal del pacto entre mí y la tierra.",
+      "reference": "Génesis 9:13",
+      "theme": "Pacto eterno"
     },
-    {
-      "day": 4,
-      "title": "Arco iris como señal",
-      "icon": "~~",
-      "description": "El arco iris se coloca en las nubes como recordatorio del pacto eterno.",
-      "verse": "Mi arco he puesto en las nubes.",
-      "reference": "Génesis 9:13-17",
-      "significance": "Dios ata una señal visible a su promesa invisible."
-    },
-    {
-      "day": 5,
-      "title": "La viña de Noé",
-      "icon": "##",
-      "description": "Noé planta una viña, bebe vino y queda descubierto en su tienda.",
-      "verse": "Comenzó Noé a labrar la tierra, y plantó una viña.",
-      "reference": "Génesis 9:18-21",
-      "significance": "Incluso los justos pueden tropezar después de grandes victorias."
-    },
-    {
-      "day": 6,
-      "title": "Maldición y bendiciones",
-      "icon": "[]",
-      "description": "Cam ve la desnudez de su padre; Sem y Jafet la cubren. Canaán es maldecido, Sem es bendecido.",
-      "verse": "Maldito sea Canaán... Bendito por Jehová mi Dios sea Sem.",
-      "reference": "Génesis 9:22-27",
-      "significance": "La honra filial trae bendición; la irreverencia, consecuencias."
-    }
-  ],
-  "interestingFacts": [
-    {
-      "id": "fear-of-man",
-      "title": "Temor en los animales",
-      "summary": "Dios pone el temor y el pavor del hombre sobre toda bestia.",
-      "explanation": "El nuevo orden evita la violencia indiscriminada del hombre hacia los animales y viceversa.",
-      "verse": "El temor y el miedo de vosotros estará sobre todo animal.",
-      "reference": "Génesis 9:2"
-    },
-    {
-      "id": "blood-prohibition",
-      "title": "Prohibición de comer sangre",
-      "summary": "Se establece por primera vez la regulación alimentaria.",
-      "explanation": "Honra la vida que Dios concede y prepara el concepto sacrificial que culmina en Cristo.",
-      "verse": "No comeréis carne con su vida, que es su sangre.",
-      "reference": "Génesis 9:4"
-    },
-    {
-      "id": "rainbow-sign",
-      "title": "Arco en las nubes",
-      "summary": "Dios ata un símbolo visible a su pacto eterno.",
-      "explanation": "Cada arco iris recuerda tanto a Dios como a la humanidad el compromiso de no enviar otro diluvio global.",
-      "verse": "Será por señal del pacto entre mí y la tierra.",
-      "reference": "Génesis 9:13"
-    },
-    {
-      "id": "canaan-curse",
-      "title": "La maldición recae en Canaán",
-      "summary": "Aunque Cam falta, la maldición se pronuncia sobre su hijo.",
-      "explanation": "La profecía anticipa la servidumbre de los cananeos y resalta la responsabilidad generacional.",
-      "verse": "Maldito sea Canaán; siervo de siervos será a sus hermanos.",
-      "reference": "Génesis 9:25"
-    }
-  ],
-  "reflectionQuestions": [
-    {
-      "id": "respect-life",
-      "question": "¿Cómo puedes honrar la vida humana como portadora de la imagen de Dios?",
-      "category": "ética",
-      "hints": [
-        "Justicia",
-        "Valor intrínseco",
-        "Compasión"
-      ]
-    },
-    {
-      "id": "remember-promise",
-      "question": "¿Qué \"arco iris\" te ha dado Dios para recordarte su pacto?",
-      "category": "fe",
-      "hints": [
-        "Señales",
-        "Memoriales",
-        "Testimonios"
-      ]
-    },
-    {
-      "id": "post-victory",
-      "question": "¿Cómo permaneces vigilante después de una gran victoria espiritual?",
-      "category": "discipulado",
-      "hints": [
-        "Humildad",
-        "Sobriedad",
-        "Rendición continua"
-      ]
-    },
-    {
-      "id": "honor-parents",
-      "question": "¿De qué manera muestras honra y cobertura hacia tu familia?",
-      "category": "familia",
-      "hints": [
-        "Respeto",
-        "Discreción",
-        "Servicio"
-      ]
-    }
-  ],
-  "trivia": [
-    {
-      "question": "¿Qué se prohíbe comer en Génesis 9?",
-      "options": [
-        "Frutas del Edén",
-        "Carne con sangre",
-        "Pescado sin escamas"
+    "mainTeaching": "Dios establece un pacto universal que honra la vida humana, entrega la creación al cuidado responsable del hombre y garantiza misericordia continua.",
+    "practicalApplication": [
+      "Protege la vida humana y defiende la justicia donde haya violencia.",
+      "Recuerda los pactos de Dios cada vez que veas señales de su fidelidad.",
+      "Mantente sobrio aun después de experimentar la favor divino.",
+      "Cubre a tu familia con respeto y honra para atraer bendición."
+    ],
+    "extendedContent": {
+      "keyThemes": [
+        {
+          "id": "gen9-theme-pacto",
+          "title": "Pacto universal",
+          "summary": "El primer pacto que incluye a toda la humanidad y la creacion."
+        },
+        {
+          "id": "gen9-theme-vida",
+          "title": "Santidad de la vida",
+          "summary": "La sangre representa la vida y debe ser respetada."
+        },
+        {
+          "id": "gen9-theme-honor",
+          "title": "Honor familiar",
+          "summary": "Las actitudes hacia los padres determinan bendicion o maldicion."
+        }
       ],
-      "correct": 1,
-      "explanation": "Dios prohíbe comer carne con su sangre porque en la sangre está la vida."
-    },
-    {
-      "question": "¿Cuál es la señal del pacto que Dios establece con Noé?",
-      "options": [
-        "Una estrella",
-        "El arco iris",
-        "Una columna de fuego"
+      "characterProfiles": [
+        {
+          "name": "Noe",
+          "role": "Patriarca post-diluviano",
+          "description": "Recibe mandatos, planta vina y pronuncia profecias sobre sus hijos.",
+          "verses": "Genesis 9:1-29"
+        },
+        {
+          "name": "Cam",
+          "role": "Hijo irreverente",
+          "description": "Ve la desnudez de su padre y la divulga en lugar de cubrirla.",
+          "verses": "Genesis 9:22"
+        },
+        {
+          "name": "Sem y Jafet",
+          "role": "Hijos honorables",
+          "description": "Cubren respetuosamente la desnudez paterna y reciben bendicion.",
+          "verses": "Genesis 9:23,26-27"
+        }
       ],
-      "correct": 1,
-      "explanation": "El arco iris es la señal visible del pacto eterno."
-    },
-    {
-      "question": "¿Quién recibió la maldición pronunciada por Noé?",
-      "options": [
-        "Cam",
-        "Canaán",
-        "Jafet"
+      "geography": [
+        {
+          "place": "Vina de Noe",
+          "summary": "Primer cultivo agricola registrado despues del diluvio.",
+          "presentDay": "Agricultura renovada",
+          "verses": "Genesis 9:20"
+        },
+        {
+          "place": "Tierra bajo pacto",
+          "summary": "Toda la superficie terrestre queda bajo la promesa del arco iris.",
+          "presentDay": "Mundo entero",
+          "verses": "Genesis 9:13"
+        }
       ],
-      "correct": 1,
-      "explanation": "La maldición recae sobre Canaán, hijo de Cam."
-    },
-    {
-      "question": "¿Qué oficio emprende Noé después del diluvio?",
-      "options": [
-        "Pastor",
-        "Rey",
-        "Viñador"
+      "gospelConnections": [
+        {
+          "title": "Sangre preciosa",
+          "description": "La prohibicion de derramar sangre apunta a la sangre de Cristo que da vida.",
+          "reference": "1 Pedro 1:19"
+        },
+        {
+          "title": "Pacto eterno",
+          "description": "El arco iris prefigura el nuevo pacto sellado con la sangre de Jesus.",
+          "reference": "Hebreos 13:20"
+        }
       ],
-      "correct": 2,
-      "explanation": "Noé planta una viña y bebe del fruto de ella."
-    }
-  ],
-  "comparison": {
-    "title": "Vida sin pacto vs vida bajo promesa",
-    "before": {
-      "title": "Temor al juicio repetido",
-      "description": "Incertidumbre sobre el futuro de la tierra.",
-      "elements": [
-        "Trauma",
-        "Inseguridad",
-        "Mundo devastado"
+      "outline": [
+        {
+          "section": "1",
+          "title": "Mandatos y prohibiciones",
+          "verses": "9:1-7",
+          "summary": "Bendicion de multiplicarse, dominio sobre animales y respeto por la vida."
+        },
+        {
+          "section": "2",
+          "title": "Pacto del arco iris",
+          "verses": "9:8-17",
+          "summary": "Promesa de no enviar mas diluvios con el arco iris como senal."
+        },
+        {
+          "section": "3",
+          "title": "Incidente de la vina",
+          "verses": "9:18-29",
+          "summary": "Noe se embriaga, Cam lo deshonra y se pronuncian bendiciones y maldiciones."
+        }
       ],
-      "verse": "No volveré más a maldecir la tierra.",
-      "reference": "Génesis 8:21"
-    },
-    "after": {
-      "title": "Garantía de estabilidad",
-      "description": "Mandatos claros, señal visible y bendiciones proféticas.",
-      "elements": [
-        "Arco iris",
-        "Valor por la vida",
-        "Destino de las naciones"
+      "studyInsights": [
+        "La prohibicion de sangre se mantiene en el concilio de Jerusalen (Hechos 15).",
+        "El arco iris aparece tambien en la vision del trono de Dios (Apocalipsis 4:3).",
+        "La maldicion sobre Canaan se cumple historicamente con la conquista israelita.",
+        "Sem es bendecido como ancestro de la linea mesianica."
       ],
-      "verse": "Será el arco en las nubes... y me acordaré del pacto perpetuo.",
-      "reference": "Génesis 9:16"
+      "prayerFocus": "Agradece por los pactos de Dios y pide sabiduria para honrar la vida y la familia."
     }
   },
-  "memorizeVerse": {
-    "text": "Mi arco he puesto en las nubes, el cual será por señal del pacto entre mí y la tierra.",
-    "reference": "Génesis 9:13",
-    "theme": "Pacto eterno"
+  "ui": {
+    "navigation": {
+      "previous": {
+        "chapter": 8,
+        "title": "Fin del diluvio",
+        "slug": "genesis-8-fin-diluvio"
+      },
+      "next": {
+        "chapter": 10,
+        "title": "Tabla de las Naciones",
+        "slug": "genesis-10-tabla-naciones"
+      }
+    },
+    "colors": {
+      "primary": "#9370DB",
+      "secondary": "#BA55D3",
+      "accent": "#DDA0DD",
+      "text": "#4B0082"
+    },
+    "icons": {
+      "chapter": "🌈",
+      "theme": "covenant",
+      "categories": ["pacto", "arco iris", "vida", "bendición"]
+    }
   },
-  "mainTeaching": "Dios establece un pacto universal que honra la vida humana, entrega la creación al cuidado responsable del hombre y garantiza misericordia continua.",
-  "practicalApplication": [
-    "Protege la vida humana y defiende la justicia donde haya violencia.",
-    "Recuerda los pactos de Dios cada vez que veas señales de su fidelidad.",
-    "Mantente sobrio aun después de experimentar la favor divino.",
-    "Cubre a tu familia con respeto y honra para atraer bendición."
-  ]
+  "relations": {
+    "themes": [
+      {
+        "id": "flood-narrative",
+        "chapters": [6, 7, 8, 9],
+        "description": "La historia completa del diluvio"
+      },
+      {
+        "id": "divine-covenants",
+        "chapters": [9, 15, 17],
+        "description": "Pactos principales de Dios"
+      }
+    ],
+    "characters": [
+      {
+        "name": "Noé",
+        "chapters": [5, 6, 7, 8, 9, 10]
+      },
+      {
+        "name": "Sem",
+        "chapters": [6, 7, 8, 9, 10, 11]
+      },
+      {
+        "name": "Cam",
+        "chapters": [6, 7, 8, 9, 10]
+      },
+      {
+        "name": "Jafet",
+        "chapters": [6, 7, 8, 9, 10]
+      },
+      {
+        "name": "Canaán",
+        "chapters": [9, 10]
+      }
+    ],
+    "keywords": [
+      "pacto",
+      "arco iris",
+      "sangre",
+      "bendición",
+      "maldición"
+    ]
+  },
+  "taxonomy": {
+    "book_section": "Primordial History",
+    "literary_genre": "Narrative",
+    "theological_themes": [
+      "Universal Covenant",
+      "Sanctity of Life",
+      "Divine Promises",
+      "Family Honor",
+      "Prophetic Blessing"
+    ],
+    "historical_period": "Post-Flood Era",
+    "geographical_setting": "Renewed Earth"
+  },
+  "index": {
+    "search_terms": [
+      "génesis 9",
+      "pacto noé",
+      "arco iris señal",
+      "prohibición sangre",
+      "canaán maldición",
+      "sem jafet bendición",
+      "vida humana valor",
+      "viña noé",
+      "temor animales",
+      "honor familiar"
+    ],
+    "key_concepts": [
+      "rainbow covenant",
+      "sanctity of life",
+      "blood prohibition",
+      "family honor",
+      "prophetic curse and blessing"
+    ]
+  },
+  "accessibility": {
+    "readingLevel": "intermediate",
+    "language": "es",
+    "audioAvailable": false,
+    "visualAids": [
+      "rainbow-covenant",
+      "family-tree-noah",
+      "life-sanctity-diagram"
+    ]
+  },
+  "analytics": {
+    "readingTime": 9,
+    "difficulty": "intermediate",
+    "popularity": "high",
+    "completionRate": 0,
+    "interactions": {
+      "trivia_attempts": 0,
+      "reflection_responses": 0,
+      "sharing_count": 0
+    }
+  },
+  "contributors": [
+    {
+      "role": "content_creator",
+      "name": "Biblical Content Team",
+      "date": "2025-10-03"
+    }
+  ],
+  "moderation": {
+    "content_warnings": [],
+    "theological_review": "approved",
+    "fact_check_status": "verified",
+    "last_review": "2025-10-03"
+  }
 }
